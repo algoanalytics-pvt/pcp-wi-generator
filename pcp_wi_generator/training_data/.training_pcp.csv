@@ -1,0 +1,67 @@
+PROCESS CONTROL PLAN,,,,,,,,,,,,Format No.: F-DVP-7,,,,,,,,
+,,,,,,,,,,,,Rev. No.: 0,,,,,,,,
+,,,,,,,,,,,,Rev. Date: 11/11/2017,,,,,,,,
+,   Prototype,                      Pre-launch,,,Production,,Key Contact / Phone: Mr. Prafulla Gawade   9552505305,,,Date(Orig.):  01/04/2025,,(Rev.No.):00,Date (Rev.) : …..,,,,,,,
+Process Control Plan Number : SI / PCP / 264747700101/01,,,,,,,,,,Customer Engineering ,,,,,,,,,,
+Part Number / Latest Change Level  :- 264747700101/D/27.01.2025,,,,,,,Core Team :  AAK/SHS/ADZ/AKG/ASI,,,Approval/Date [ if reqd.],,,, --------,,,,,,
+Part Name / Description : COVER ASSY FUEL FILTER,,,,,,,Supplier / Plant Approval ,,,Customer Quality ,, -------,,,,,,,,
+Supplier / Plant : Unit 3,,,,Supplier Code :   S-06222,,,Date                                          --------,,,Approval / Date [ if reqd.],,,,,,,,,,
+Company Name : SHARADA INDUSTRIES.,,,,,,,Other Approval / Date [ if reqd. ]      -----,,,Other Approval / Date [ if reqd] -------,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,*
+,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+Part / ,Process Name,Machine,Characteristic,,,Special,Product / Process 'Specification/   Tolerance,Methods,,,,Error Proofing,Reaction Plan,Corrective Action,,,,,,
+Process,Operation,"Device,", ,Product,Process,Char.,,Evaluation ,Sample,,Control,,,,,,,,,
+Number,Description,Tool for Mfg.,,,,Class.,,Measurement Technique [L.C. ],Size,Freq./ Quant.,Method,,,,,,,,,
+PP-010,"RECEIPT OF CHILD  PARTS (264747703302+264747708201)
+UNIT III SHARADA INDUSTRIES",MANUAL,1,DIMENSIONS,,,To receive material as per drawing the requirement.,SUPPLIER PDI REPORT,5,LOT,LAYOUTS  REPORT/ INCOMING INSPECTION REPORT,.............,Sort / Reject,Sort / Reject & Sent back To Supplier,,,,,,
+,,,2,SURFACE CONDITION,,,"FREE FROM RUST,SCALE,CRACK, BLACK PATCHES,PITTING",VISUAL,100%,LOT,,,,,,,,,,
+PP-20,"SPOT 
+WELDING
+
+To spot weld Part no.
+(264747708201+264747708202)
+
+On spot welding fixture
+UNIT III SHARADA INDUSTRIES","  SPOT WELDING FIXTURE-1
+SPOT WELDING
+GUN-no.90",1,NO OF SPOT,,,12 NOS.,AS PER SPOT PLAN,1,PER SHIFT,"INPROCESS INSPECTION/                 
+1ST PIECE INSPN./ LAST PIECE INSP./
+WORK INSTRUCTION DISPLAY ON M/C-WI-PRD-9/
+(at present, stage wise insp. fixture not required. Fitment of part in next stage welding fixture qualifies the same.).
+","locating pin , clamping , resting pad , stopper",SORT/REJECT,Quarantine the part/assembly & inform Production incharge/Supervisor.,,,,,,
+,,,2,LOCATION OF SPOT,,,AS PER SPOT PLAN,VISUAL,,,,,,,,,,,,
+,,,3,,NUGGET TEST ,,AS PER WI / PRD-2,VISUAL,,,,,,,,,,,,
+,,,4,SPOT WELDING ,CARBON TEST ,,AS PER F-PRD-13,VISUAL,,,,,,,,,,,,
+,,,5,SPOT WELD DIA,,,Ø4±1,VERNIER CALLIPER,,,,,,,,,,,,
+,,,6,Dimension,,,(308)±3,Inspection Fixture,5,PER LOT,,,,,,,,,,
+,,,7,Dimension,,,(296)±3,Inspection Fixture,5,PER LOT,,,,,,,,,,
+,,,8,Dimension,,,(285)±3,Inspection Fixture,5,PER LOT,,,,,,,,,,
+,,,9,Dimension,,,(310)±3,Inspection Fixture,5,PER LOT,,,,,,,,,,
+,,,10,Dimension,,,(310)±3,Inspection Fixture,5,PER LOT,,,,,,,,,,
+,,,11,Spot Welding Parameters, Input Voltage ,,415 V,Visual ,1,PER SHIFT,,,,,,,,,,
+,,,,,Current,,7000 A,,,,,,,,,,,,,
+,,,,,Sqeeze,,15 C/SEC ,,,,,,,,,,,,,
+,,,,,Weld Time,,10 C/SEC,,,,,,,,,,,,,
+,,,,,Hold Time,,10 C/SEC,,,,,,,,,,,,,
+,,,,,Heat,,Min 20% & Max 120%,,,,,,,,,,,,,
+,,,,,Off / Release,,20 C/SEC,,,,,,,,,,,,,
+,,,,,Air pressure,,4 BAR,,,,,,,,,,,,,
+,,,,,Water flow rate ,,4 LPM,,,,,,,,,,,,,
+,,,,,Tip Dia,,Ø 5-6,,,,,,,,,,,,,
+,,,12,,Tip Dressing,,,Buzzer Indicator,Nil, every 1000 spot.,Nugget test+carbon test,Interlock,,,,,,,,
+,,,13,,Tip Changing,,,Buzzer Indicator,Nil, every 3000 spot.,,,,,,,,,,
+,,,14,SURFACE CONDITION,,,"FREE FROM SPATTER, BURR, DEEP SPOT, CRACK & DAMAGE.",VISUAL,100%,PER  LOT,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,
+,PREPAITRED BY NMAE/SIGN,,,,,,,,,,APPROVED BY NAME/SIGN,,,,,,,,,
+,ABHISHEK KUMAR GOND/    ,,,,,,,,,,AMOL KUSURKAR/,,,,,,,,,

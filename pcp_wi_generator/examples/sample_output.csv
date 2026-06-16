@@ -1,0 +1,4 @@
+Step,Process Name,Machine,Detailed Instruction,Quality Check,Reaction Plan
+1,Material Receiving,Vernier Caliper,"Verify cert, measure 3 samples, record lot number.","Dims within +/-0.1mm, cert present","Quarantine, raise NCR"
+2,Surface Preparation,Degreaser DT-01,Set to 60C +/-5C. Immerse 3 min. Blow dry.,Visual: clean dry surface,"Stop, re-clean, call supervisor"
+3,Spot Welding,SPM-01,Load part. Apply 12 spots per pattern. Check electrode force 3.2-3.8 kN.,"Pull test every 50 pcs, nugget 5.0-6.5mm","Stop line, check electrodes"

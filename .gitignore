@@ -1,0 +1,26 @@
+# Testing/temp files
+batch_pcp_check.py
+create_samples.py
+docx_reader.py
+beautiful_pdf_generator.py
+image004 (1).png
+pcp_batch_report_*.xlsx
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment
+
+venv/
+
+# Output folders (generated at runtime)
+outputs/
+{examples,uploads,outputs}/
+
+# Desktop
+desktop.ini
+
+# Unwanted folders
+new/
+jjjj/

@@ -1,0 +1,8 @@
+Process Name,Machine,Tool,Product Characteristic,Process Characteristic,Specification,Control Method,Sample Size,Frequency,Reaction Plan
+Material Receiving,Vernier Caliper / Visual,"Caliper, Micrometer","Material grade, dimensions",Incoming material condition,"Per drawing REV-C, Grade 4.6","Visual + caliper, cert verification",100%,Each lot,"Quarantine lot, raise NCR, notify SQE"
+Surface Preparation,Degreaser Tank DT-01,"Brush, Air Gun",Surface cleanliness,Degrease temperature,"60°C ± 5°C, no visible oil","Thermometer check, visual",1/shift,Each shift,"Stop, re-clean, re-verify temperature"
+Spot Welding,Spot Welding SPM-01,Electrode Tip E-12,Weld nugget diameter,"Weld current, force, time","12 spots, Ø5.0–6.5mm, 3.2–3.8 kN",Pull test + visual every 50 pcs,1/50,Each 50 pcs,"Stop line, check electrodes, 100% pull test"
+Dimensional Inspection,CMM Fixture F-04,CMM Probe,Critical dimensions,CMM measurement,"6 dims per DRG-101, tol ±0.05mm","CMM 100% first-off, then 1/50",100% 1st-off,First-off + random,"Stop, segregate, re-inspect with senior QE"
+Final Assembly,Assembly Station A3,Torque Wrench TW-07,Fastener torque,Torque application,25 Nm ± 2 Nm per TM-07,Torque audit 1/20,1/20,Random,"Loosen, re-torque, record deviation"
+Leak Test,Leak Test Bench LT-02,Pressure Gauge,Leak rate,Test pressure,Max 0.5 mbar/min at 2 bar,100% leak test,100%,Each part,"Scrap or rework, re-test 100%"
+Packaging,Packing Line PL-01,Stretch Wrap Machine,Label correctness,Pack orientation,"Label per std LBL-04, correct orientation",Visual 1/10,1/10,Random,"Relabel, re-inspect 100%"

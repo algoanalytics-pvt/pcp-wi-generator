@@ -36,7 +36,7 @@ export default function ResultCard({ stageLabel, result }) {
     <div style={{ marginBottom: 24 }}>
       {/* Header */}
       <div className="result-header">
-        <span>Sharada Industries — Work Instructions</span>
+        <span>Process Control Plan → Work Instructions</span>
         <span className="result-stage-chip">
           {stageLabel} · {h.part_name || 'Work Instruction'}
         </span>

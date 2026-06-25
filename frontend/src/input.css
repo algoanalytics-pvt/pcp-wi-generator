@@ -1,1 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --color-navy: #0d1b2d;
+  --color-navy-soft: #17263a;
+  --color-accent: #1387c9;
+  --color-accent-strong: #076da9;
+  --color-success: #278b70;
+  --color-danger: #c94b1b;
+  --color-canvas: #eef2f7;
+  --color-ink: #172235;
+  --color-muted: #66758c;
+  --color-surface: #ffffff;
+  --color-surface-2: #f5f7fa;
+  --color-border: #d8e0ea;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #4b5563;
+    border-radius: 99px;
+  }
+}
+
+/* ── Custom animations not in Tailwind core ── */
+@keyframes si-spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes si-pulse-dot {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.25; }
+}
+@keyframes si-fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes si-scale-in {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
+}
+@keyframes si-checkmark {
+  from { stroke-dashoffset: 50; }
+  to   { stroke-dashoffset: 0; }
+}
+
+@layer utilities {
+  .animate-si-spin      { animation: si-spin 0.85s linear infinite; }
+  .animate-si-pulse     { animation: si-pulse-dot 1.2s ease-in-out infinite; }
+  .animate-fade-in      { animation: si-fade-in 0.25s ease-out both; }
+  .animate-scale-in     { animation: si-scale-in 0.2s ease-out both; }
+  .animate-checkmark    { stroke-dasharray: 50; animation: si-checkmark 0.5s ease-out 0.1s both; }
+}

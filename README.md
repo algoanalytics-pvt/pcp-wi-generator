@@ -1,3 +1,4 @@
+cd .\pcp_wi_generator\
 .\venv\Scripts\python.exe -m uvicorn backend.main:app --reload --port 8000
 
 cd  frontend

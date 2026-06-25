@@ -2,10 +2,10 @@ export default function TopBar({ trainingStatus }) {
   const ready = trainingStatus?.ready;
   return (
     <header className="topbar">
-      <div className="topbar-logo">SI</div>
+      <div className="topbar-logo">PCP</div>
       <div>
-        <div className="topbar-name">Sharada Industries</div>
-        <div className="topbar-sub">PCP → Work Instruction Generator</div>
+        <div className="topbar-name">Process Control Plan → Work Instruction Generator</div>
+        <div className="topbar-sub">Convert PCPs to Work Instructions</div>
       </div>
       {trainingStatus && (
         <div

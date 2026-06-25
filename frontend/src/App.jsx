@@ -1,92 +1,123 @@
 import { useEffect, useState } from 'react';
-import TopBar        from './components/TopBar';
-import UploadStep    from './components/UploadStep';
-import SheetList     from './components/SheetList';
-import GenerateStep  from './components/GenerateStep';
-import ResultCard    from './components/ResultCard';
+import AppShell     from './components/layout/AppShell';
+import UploadStep   from './components/steps/UploadStep';
+import ReviewStep   from './components/steps/ReviewStep';
+import GenerateStep from './components/steps/GenerateStep';
+import ResultsStep  from './components/steps/ResultsStep';
+
+// ── Step definitions ──────────────────────────────────────────────────
+const STEPS = [
+  { id: 'upload',   label: 'Upload',   sub: 'Upload PCP' },
+  { id: 'review',   label: 'Review',   sub: 'Review & Configure' },
+  { id: 'generate', label: 'Generate', sub: 'Generate WIs' },
+  { id: 'results',  label: 'Results',  sub: 'View Results' },
+];
 
 export default function App() {
+  // ── Global state ──────────────────────────────────────────────────
   const [trainingStatus, setTrainingStatus] = useState(null);
-  const [uploadData,     setUploadData]     = useState(null);   // result of /api/upload-pcp
+  const [currentStep,    setCurrentStep]    = useState(0);       // 0-3
+  const [uploadData,     setUploadData]     = useState(null);    // /api/upload-pcp response
   const [sessionId,      setSessionId]      = useState('');
-  const [selected,       setSelected]       = useState([]);     // selected sheet keys
-  const [results,        setResults]        = useState(null);   // generation results
+  const [selected,       setSelected]       = useState([]);      // selected sheet keys
+  const [language,       setLanguage]       = useState('english');
+  const [results,        setResults]        = useState(null);    // generation results
 
-  // ── Load training status on mount ────────────────────────────────────
+  // ── Load training status ──────────────────────────────────────────
   useEffect(() => {
     fetch('/api/training-status')
-      .then((r) => r.json())
+      .then(r  => r.json())
       .then(setTrainingStatus)
       .catch(() => setTrainingStatus({ ready: false, errors: ['Backend not reachable'] }));
   }, []);
 
+  // ── Handlers ──────────────────────────────────────────────────────
   const handleUploadSuccess = (data) => {
     setUploadData(data);
     setSessionId(data.session_id);
-    // Auto-select all PCP sheets
-    setSelected(data.pcp_sheets.map((s) => s.key));
+    setSelected(data.pcp_sheets.map(s => s.key));
     setResults(null);
+    // Advance to review step
+    setCurrentStep(1);
   };
 
   const handleResults = (res) => {
     setResults(res);
-    // Scroll to results
-    setTimeout(() => {
-      document.getElementById('results-section')?.scrollIntoView({ behavior: 'smooth' });
-    }, 100);
+    setCurrentStep(3);
   };
 
+  const handleReset = () => {
+    setCurrentStep(0);
+    setUploadData(null);
+    setSessionId('');
+    setSelected([]);
+    setLanguage('english');
+    setResults(null);
+  };
+
+  // ── Completed steps: every step before currentStep ────────────────
+  const completedSteps = new Set(
+    STEPS.slice(0, currentStep).map(s => s.id)
+  );
+
+  // ── Render ────────────────────────────────────────────────────────
   return (
-    <>
-      <TopBar trainingStatus={trainingStatus} />
+    <AppShell
+      steps={STEPS}
+      currentStep={currentStep}
+      completedSteps={completedSteps}
+      trainingStatus={trainingStatus}
+      onReset={handleReset}
+    >
+      {/* Step 0 — Upload */}
+      {currentStep === 0 && (
+        <UploadStep
+          uploadData={uploadData}
+          onUploadSuccess={handleUploadSuccess}
+          onRemove={() => {
+            setUploadData(null);
+            setSessionId('');
+            setSelected([]);
+          }}
+        />
+      )}
 
-      <main className="page-wrap">
-        {/* Step 1 — Upload */}
-        <UploadStep onUploadSuccess={handleUploadSuccess} />
+      {/* Step 1 — Review */}
+      {currentStep === 1 && uploadData && (
+        <ReviewStep
+          uploadData={uploadData}
+          sessionId={sessionId}
+          selected={selected}
+          onSelectionChange={setSelected}
+          language={language}
+          onLanguageChange={setLanguage}
+          onBack={() => setCurrentStep(0)}
+          onContinue={() => setCurrentStep(2)}
+        />
+      )}
 
-        {/* Sheet list */}
-        {uploadData && (
-          <div style={{ marginTop: 20 }}>
-            {uploadData.total_pcp > 0 ? (
-              <SheetList
-                uploadData={uploadData}
-                sessionId={sessionId}
-                selected={selected}
-                onSelectionChange={setSelected}
-              />
-            ) : (
-              <div className="alert alert-warning">
-                ⚠️ No Process Control Plan sheets found. Check that sheets contain
-                "PROCESS CONTROL PLAN" (or "CONTROL PLAN") and "Process Control Plan Number" in header rows.
-              </div>
-            )}
-          </div>
-        )}
-
-        {/* Step 2 — Language & Generate */}
+      {/* Step 2 — Generate */}
+      {currentStep === 2 && (
         <GenerateStep
           sessionId={sessionId}
           selected={selected}
+          language={language}
+          uploadData={uploadData}
           trainingReady={trainingStatus?.ready ?? false}
           onResults={handleResults}
+          onBack={() => setCurrentStep(1)}
         />
+      )}
 
-        {/* Results */}
-        {results && Object.keys(results).length > 0 && (
-          <section id="results-section">
-            <hr className="divider" />
-            <div className="step-label" style={{ marginTop: 0 }}>
-              📥 Results — {Object.keys(results).length} WI{Object.keys(results).length !== 1 ? 's' : ''} generated
-            </div>
-            <div className="alert alert-success">
-              ✅ {Object.keys(results).length} Work Instruction{Object.keys(results).length !== 1 ? 's' : ''} generated successfully!
-            </div>
-            {Object.entries(results).map(([stageLabel, res]) => (
-              <ResultCard key={stageLabel} stageLabel={stageLabel} result={res} />
-            ))}
-          </section>
-        )}
-      </main>
-    </>
+      {/* Step 3 — Results */}
+      {currentStep === 3 && (
+        <ResultsStep
+          results={results}
+          uploadData={uploadData}
+          language={language}
+          onRegenerate={() => setCurrentStep(2)}
+        />
+      )}
+    </AppShell>
   );
 }

@@ -6,19 +6,50 @@ beautiful_pdf_generator.py
 image004 (1).png
 pcp_batch_report_*.xlsx
 
-# Python cache
+# Python cache & artifacts
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
 
-# Environment
-
+# Virtual environments
 venv/
+.venv/
+env/
+.env/
+
+# Environment secrets (DO NOT COMMIT SECRETS)
+.env
+.env.local
+.env.*.local
+*.env
 
 # Output folders (generated at runtime)
 outputs/
 {examples,uploads,outputs}/
 
-# Desktop
+# Node / Frontend (Vite)
+node_modules/
+dist/
+dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & System files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
 desktop.ini
 
 # Unwanted folders

@@ -15,23 +15,51 @@ jobs:
 
       - name: Set up SSH and deploy
         uses: appleboy/ssh-action@v0.1.10
+        env:
+          # Repo secrets -> the remote shell via `envs` below. Passing them by
+          # name (rather than interpolating ${{ secrets.* }} into `script`)
+          # keeps the values out of the ======CMD====== block the action prints.
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TOGETHER_API_KEY: ${{ secrets.TOGETHER_API_KEY }}
         with:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
+          envs: MISTRAL_API_KEY,GROQ_API_KEY,OPENAI_API_KEY,TOGETHER_API_KEY
           # `cd` into the repo's checkout dir on the EC2 host — confirm this
           # matches the actual directory the repo was cloned into (the
           # stock_optimiser box uses stock-cutting-optimiser-v2/, QuoteVault
           # uses QuoteVersionControl/). The branch here must match the
-          # `on: push` branch above. The `.env` holding the LLM provider key
-          # must already exist in that directory — see .env.example.
+          # `on: push` branch above.
           script: |
             cd pcp-wi-generator/
             git pull origin ui
-            # docker-compose fails hard if the env_file is missing. Seed an empty
-            # one so a first deploy onto a fresh host still comes up; an existing
-            # .env (with the real key) is never overwritten. `touch` rather than
-            # `cp .env.example` — .env.example is only a doc file and may not be
-            # present, and a failed cp here would leave .env missing again.
-            [ -f .env ] || touch .env
-            sudo docker-compose up -d --build
+
+            # CI owns .env: it is rewritten from the repo secrets on every
+            # deploy, so a rebuilt host provisions itself and rotating a key is
+            # a GitHub settings change. Unset secrets land as empty values,
+            # which backend/llm_client.py treats as "not configured".
+            #
+            # Guarded on at least one key being present so a missing secret (or
+            # an `envs` hiccup) can't clobber a working .env with blanks. The
+            # `touch` fallback still matters on a fresh host: docker-compose
+            # aborts outright if the env_file does not exist.
+            if [ -n "$MISTRAL_API_KEY$GROQ_API_KEY$OPENAI_API_KEY$TOGETHER_API_KEY" ]; then
+              umask 077
+              {
+                printf 'MISTRAL_API_KEY=%s\n'  "$MISTRAL_API_KEY"
+                printf 'GROQ_API_KEY=%s\n'     "$GROQ_API_KEY"
+                printf 'OPENAI_API_KEY=%s\n'   "$OPENAI_API_KEY"
+                printf 'TOGETHER_API_KEY=%s\n' "$TOGETHER_API_KEY"
+              } > .env
+              echo "wrote .env from repo secrets"
+            else
+              echo "WARNING: no provider secret set — leaving .env untouched"
+              [ -f .env ] || touch .env
+            fi
+
+            # --force-recreate: env_file changes only take effect on a new
+            # container, and `up -d` alone may reuse the running one.
+            sudo docker-compose up -d --build --force-recreate

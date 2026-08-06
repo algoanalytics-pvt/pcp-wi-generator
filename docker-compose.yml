@@ -1,4 +1,3 @@
-version: '3'
 services:
   pcp_wi_generator_web:
     build:

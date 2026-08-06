@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import Button    from '../ui/Button';
 import Card      from '../ui/Card';
 import WIPreview from '../WIPreview';
+import { apiUrl } from '../../api';
 
 function downloadFile(b64, mime, filename) {
   if (!b64) return;
@@ -550,7 +551,7 @@ export default function GenerateStep({
     tick();
 
     try {
-      const res  = await fetch('/api/generate', {
+      const res  = await fetch(apiUrl('/generate'), {
         method:  'POST',
         headers: { 'Content-Type': 'application/json' },
         body:    JSON.stringify({ session_id: sessionId, selected_sheets: selected, language }),

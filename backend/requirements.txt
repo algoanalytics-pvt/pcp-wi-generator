@@ -1,3 +1,17 @@
-fastapi
-uvicorn[standard]
-python-multipart
+# Web layer
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+pydantic==2.10.4
+
+# Config
+python-dotenv==1.0.1
+
+# LLM calls — llm_client.py talks to Mistral/Groq/OpenAI/Together over HTTP
+requests==2.32.3
+
+# Spreadsheet / document I/O
+pandas==2.2.3
+openpyxl==3.1.5
+xlrd==2.0.1          # legacy .xls + merged-cell info (_convert_xls_to_xlsx)
+python-docx==1.1.2   # docx_reader.py / generator.py

@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
 import Card from '../ui/Card';
+import { apiUrl } from '../../api';
 
 const FileDocIcon = () => (
   <svg className="w-12 h-12 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -131,7 +132,7 @@ export default function UploadStep({ onUploadSuccess, onUploadStart, uploadData 
     const form = new FormData();
     form.append('file', file);
     try {
-      const res  = await fetch('/api/upload-pcp', { method: 'POST', body: form });
+      const res  = await fetch(apiUrl('/upload-pcp'), { method: 'POST', body: form });
       const data = await res.json();
       if (!res.ok) throw new Error(data.detail || 'Upload failed');
       onUploadSuccess(data);

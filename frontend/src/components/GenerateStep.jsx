@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { apiUrl } from '../api';
 
 const LANGS = [
   { value: 'english', label: 'English' },
@@ -86,7 +87,7 @@ export default function GenerateStep({
       };
       tick();
 
-      const res  = await fetch('/api/generate', {
+      const res  = await fetch(apiUrl('/generate'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

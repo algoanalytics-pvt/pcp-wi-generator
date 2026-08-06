@@ -24,7 +24,9 @@ from fastapi.middleware.cors import CORSMiddleware
 # pyrefly: ignore [missing-import]
 from fastapi.responses import JSONResponse # pyright: ignore[reportMissingImports]
 # pyrefly: ignore [missing-import]
-from fastapi.responses import StreamingResponse, HTMLResponse   
+from fastapi.responses import StreamingResponse, HTMLResponse, FileResponse
+# pyrefly: ignore [missing-import]
+from fastapi.staticfiles import StaticFiles
 # pyrefly: ignore [missing-import]
 from pydantic import BaseModel
 
@@ -65,6 +67,10 @@ app.add_middleware(
 sessions: dict = {}
 
 TRAINING_DIR = _backend_dir / "training_data"
+
+# Built SPA (copied here by the Dockerfile as backend/static/). Absent in local
+# dev, where Vite serves the frontend on :3000 and proxies /api to this process.
+STATIC_DIR = _backend_dir / "static"
 
 # ── PCP detection constants ───────────────────────────────────────────────────
 _PCP_SHEET_KEYWORDS = [
@@ -436,6 +442,12 @@ def health():
     return {"status": "ok"}
 
 
+@app.get("/health")
+def health_bare():
+    """Unauthenticated health route for the nginx/EC2 health check."""
+    return {"status": "ok"}
+
+
 @app.get("/api/providers")
 def get_providers():
     """Return all providers and their models."""
@@ -756,3 +768,26 @@ def add_non_pcp_as_wi(session_id: str, sheet_name: str):
         return {"status": "ok", "added_sheet": sheet_name, "meta": meta}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Static SPA — MUST stay last. The catch-all below matches every path, so any
+# route declared after it would be unreachable.
+# ─────────────────────────────────────────────────────────────────────────────
+
+if STATIC_DIR.is_dir():
+    _assets_dir = STATIC_DIR / "assets"
+    if _assets_dir.is_dir():
+        app.mount("/assets", StaticFiles(directory=str(_assets_dir)), name="assets")
+
+    @app.get("/{full_path:path}")
+    async def spa(full_path: str):
+        # nginx strips the /pcp_wi_generator prefix, so paths arrive unprefixed.
+        # An unknown /api/* path must stay a JSON 404 rather than silently
+        # falling back to index.html with a 200.
+        if full_path == "api" or full_path.startswith("api/"):
+            raise HTTPException(status_code=404, detail="Not Found")
+        candidate = STATIC_DIR / full_path
+        if full_path and candidate.is_file():
+            return FileResponse(candidate)
+        return FileResponse(STATIC_DIR / "index.html")

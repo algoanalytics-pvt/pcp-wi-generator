@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { apiUrl } from './api';
 import LandingPage  from './components/landing/LandingPage';
 import AppShell     from './components/layout/AppShell';
 import UploadStep   from './components/steps/UploadStep';
@@ -26,7 +27,7 @@ export default function App() {
 
   // ── Load training status ──────────────────────────────────────────
   useEffect(() => {
-    fetch('/api/training-status')
+    fetch(apiUrl('/training-status'))
       .then(r  => r.json())
       .then(setTrainingStatus)
       .catch(() => setTrainingStatus({ ready: false, errors: ['Backend not reachable'] }));

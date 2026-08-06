@@ -1,0 +1,14 @@
+version: '3'
+services:
+  pcp_wi_generator_web:
+    build:
+      context: .
+    container_name: pcp_wi_generator_web
+    image: pcp_wi_generator_web
+    ports:
+      # Host 9274 (9271 invoice_analyser, 9272 stock_optimiser, 9273 quote_vault
+      # are taken) -> container 8000. nginx proxies to 127.0.0.1:9274.
+      - '9274:8000'
+    env_file:
+      - .env
+    restart: always

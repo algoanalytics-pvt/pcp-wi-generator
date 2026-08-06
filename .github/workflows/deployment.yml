@@ -1,0 +1,31 @@
+name: Deploy to EC2
+
+on:
+  push:
+    branches:
+      - ui
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up SSH and deploy
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.EC2_HOST }}
+          username: ${{ secrets.EC2_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          # `cd` into the repo's checkout dir on the EC2 host — confirm this
+          # matches the actual directory the repo was cloned into (the
+          # stock_optimiser box uses stock-cutting-optimiser-v2/, QuoteVault
+          # uses QuoteVersionControl/). The branch here must match the
+          # `on: push` branch above. The `.env` holding the LLM provider key
+          # must already exist in that directory — see .env.example.
+          script: |
+            cd pcp-wi-generator/
+            git pull origin ui
+            sudo docker-compose up -d --build

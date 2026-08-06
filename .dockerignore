@@ -1,0 +1,38 @@
+.git
+.github
+.gitignore
+
+# Docs — not needed in the image
+*.md
+Docker_Ngnix_Proxy.txt
+
+# Sample PCP workbooks used for manual testing
+inputs/
+
+# Secrets never enter the image; they arrive at runtime via env_file.
+# The `**/` forms matter: backend/main.py does load_dotenv(backend/.env,
+# override=True), so a stray backend/.env baked into the image would silently
+# override the values compose injects.
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+backend/outputs/
+backend/static/
+
+# Node artifacts — stage 1 runs its own `npm ci` / build
+frontend/node_modules/
+frontend/dist/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store

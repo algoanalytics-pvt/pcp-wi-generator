@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { apiUrl } from '../api';
 
 function SheetPreview({ sessionId, sheetKey }) {
   const [html,    setHtml]    = useState('');
@@ -9,7 +10,7 @@ function SheetPreview({ sessionId, sheetKey }) {
     if (loaded) return;
     setLoading(true);
     try {
-      const res = await fetch(`/api/sheet-preview/${sessionId}/${encodeURIComponent(sheetKey)}`);
+      const res = await fetch(apiUrl(`/sheet-preview/${sessionId}/${encodeURIComponent(sheetKey)}`));
       const txt = await res.text();
       setHtml(txt);
       setLoaded(true);
@@ -40,7 +41,7 @@ function NonPCPExpander({ sheets, sessionId, onAdded }) {
   const handleAdd = async (sheetName) => {
     setAdding((a) => ({ ...a, [sheetName]: true }));
     try {
-      const res  = await fetch(`/api/add-non-pcp-as-wi/${sessionId}/${encodeURIComponent(sheetName)}`, { method: 'POST' });
+      const res  = await fetch(apiUrl(`/add-non-pcp-as-wi/${sessionId}/${encodeURIComponent(sheetName)}`), { method: 'POST' });
       const data = await res.json();
       if (!res.ok) throw new Error(data.detail);
       onAdded(sheetName, data);

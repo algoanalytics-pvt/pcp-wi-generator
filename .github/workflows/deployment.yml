@@ -28,8 +28,10 @@ jobs:
           script: |
             cd pcp-wi-generator/
             git pull origin ui
-            # docker-compose fails hard if the env_file is missing. Seed a blank
+            # docker-compose fails hard if the env_file is missing. Seed an empty
             # one so a first deploy onto a fresh host still comes up; an existing
-            # .env (with the real key) is never overwritten.
-            [ -f .env ] || cp .env.example .env
+            # .env (with the real key) is never overwritten. `touch` rather than
+            # `cp .env.example` — .env.example is only a doc file and may not be
+            # present, and a failed cp here would leave .env missing again.
+            [ -f .env ] || touch .env
             sudo docker-compose up -d --build

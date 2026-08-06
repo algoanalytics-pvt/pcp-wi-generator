@@ -1,12 +1,9 @@
 """
 backend/main.py — FastAPI backend for PCP → Work Instruction Generator
 
-Exposes all logic from the parent pcp_wi_generator package as REST APIs.
-Does NOT modify any existing files.
-
 Run with:
     uvicorn main:app --reload --port 8000
-(from inside pcp_wi_generator/backend/)
+(from inside backend/)
 """
 
 import os
@@ -31,14 +28,12 @@ from fastapi.responses import StreamingResponse, HTMLResponse
 # pyrefly: ignore [missing-import]
 from pydantic import BaseModel
 
-# ── Add parent dir to path so we can import existing modules ──────────────────
 _backend_dir = Path(__file__).parent.resolve()
-_parent_dir  = _backend_dir.parent.resolve()
-sys.path.insert(0, str(_parent_dir))
+sys.path.insert(0, str(_backend_dir))
 
 # pyrefly: ignore [missing-import]
 from dotenv import load_dotenv
-load_dotenv(dotenv_path=_parent_dir / ".env", override=True)
+load_dotenv(dotenv_path=_backend_dir / ".env", override=True)
 load_dotenv(override=False)
 
 from parser import load_pcp, get_sheet_names, load_pcp_sheet, ensure_unique_columns
@@ -69,7 +64,7 @@ app.add_middleware(
 # }
 sessions: dict = {}
 
-TRAINING_DIR = _parent_dir / "training_data"
+TRAINING_DIR = _backend_dir / "training_data"
 
 # ── PCP detection constants ───────────────────────────────────────────────────
 _PCP_SHEET_KEYWORDS = [
@@ -239,6 +234,21 @@ def _extract_pcp_meta(file_path: str, sheet_name: str) -> dict:
     except Exception:
         pass
     return meta
+
+
+_OPERATION_COLUMN_NAMES = ("process name", "operation", "process")
+
+
+def _row_and_operation_counts(df) -> tuple:
+    """Real counts derived from a parsed PCP block: total data rows, and
+    distinct operations (from a Process Name / Operation column if present)."""
+    row_count = len(df)
+    op_col = next(
+        (c for c in df.columns if str(c).strip().lower() in _OPERATION_COLUMN_NAMES),
+        None,
+    )
+    operation_count = int(df[op_col].dropna().nunique()) if op_col is not None else None
+    return row_count, operation_count
 
 
 def render_sheet_block_html(file_path: str, sheet_name: str, start_row: int, end_row) -> str:
@@ -472,8 +482,12 @@ async def upload_pcp(file: UploadFile = File(...)):
         # CSV — treat as single PCP
         try:
             df = load_pcp(tmp_path)
+            row_count, operation_count = _row_and_operation_counts(df)
             pcp_found[base_name] = {
-                "meta": {"stage_label": base_name, "part_name": "", "part_no": "", "plan_number": ""},
+                "meta": {
+                    "stage_label": base_name, "part_name": "", "part_no": "", "plan_number": "",
+                    "row_count": row_count, "operation_count": operation_count,
+                },
                 "df": df.to_dict(orient="records"),
                 "columns": list(df.columns),
             }
@@ -513,6 +527,7 @@ async def upload_pcp(file: UploadFile = File(...)):
                         block_rows = all_rows[blk["start_row"] - 1: blk["end_row"]]
                         df = pd.DataFrame(block_rows).dropna(how="all").dropna(axis=1, how="all")
                         df.columns = [str(c) for c in df.columns]
+                        row_count, operation_count = _row_and_operation_counts(df)
                         meta = {
                             "stage_label": blk["stage_label"],
                             "plan_number": blk["plan_number"],
@@ -521,6 +536,8 @@ async def upload_pcp(file: UploadFile = File(...)):
                             "sheet_name": sn,
                             "start_row": blk["start_row"],
                             "end_row": blk["end_row"],
+                            "row_count": row_count,
+                            "operation_count": operation_count,
                         }
                         pcp_found[key] = {
                             "meta": meta,
@@ -671,15 +688,22 @@ def generate(req: GenerateRequest):
             doc["wi_number"]  = plan_no
             doc["pcp_number"] = plan_no
 
+        # Inject the real stage number extracted from the PCP (the LLM tends to
+        # just copy "1" from the one-shot example instead of inferring this).
+        m_stage = re.search(r'(\d+)', stage_label)
+        if m_stage:
+            doc = wi_data.get("document") or wi_data.setdefault("document", {})
+            doc["stage_no"] = m_stage.group(1)
+
         # Generate outputs
         safe_label = re.sub(r'[^\w\-]', '_', stage_label)
-        os.makedirs(str(_parent_dir / "outputs"), exist_ok=True)
+        os.makedirs(str(_backend_dir / "outputs"), exist_ok=True)
 
         csv_bytes  = generate_csv_bytes(wi_data) or b""
         xlsx_bytes = None
         xlsx_error = None
         try:
-            xlsx_path = str(_parent_dir / "outputs" / f"WI_{date_str}_{base_name}_{safe_label}.xlsx")
+            xlsx_path = str(_backend_dir / "outputs" / f"WI_{date_str}_{base_name}_{safe_label}.xlsx")
             generate_beautiful_wi(wi_data, xlsx_path)
             with open(xlsx_path, "rb") as f:
                 xlsx_bytes = f.read()
@@ -722,6 +746,7 @@ def add_non_pcp_as_wi(session_id: str, sheet_name: str):
         meta = _extract_pcp_meta(tmp_path, sheet_name)
         if not meta["stage_label"] or meta["stage_label"] == sheet_name:
             meta["stage_label"] = sheet_name
+        meta["row_count"], meta["operation_count"] = _row_and_operation_counts(df)
         sess["pcp_sheets"][sheet_name] = {
             "meta": meta,
             "df": df.to_dict(orient="records"),

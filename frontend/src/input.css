@@ -1,19 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --color-navy: #0d1b2d;
-  --color-navy-soft: #17263a;
-  --color-accent: #1387c9;
-  --color-accent-strong: #076da9;
-  --color-success: #278b70;
-  --color-danger: #c94b1b;
-  --color-canvas: #eef2f7;
-  --color-ink: #172235;
-  --color-muted: #66758c;
+  /* Warm espresso/sienna brand palette — see theme.md */
+  --color-navy: #2c1a0e;        /* sidebar bg (brand-dark) */
+  --color-navy-soft: #3d2717;   /* sidebar hover */
+  --color-accent: #c84b1a;      /* brand red — module accent */
+  --color-accent-strong: #a83e14;
+  --color-success: #5c7a32;     /* warm moss */
+  --color-danger: #c84b1a;      /* brand red */
+  --color-warning: #d4760a;     /* brand orange */
+  --color-info: #8b5e3c;        /* brand brown */
+  --color-canvas: #ffffff;
+  --color-ink: #2c1a0e;
+  --color-muted: #7c6b5b;
   --color-surface: #ffffff;
-  --color-surface-2: #f5f7fa;
-  --color-border: #d8e0ea;
+  --color-surface-2: #faf7f5;
+  --color-border: #e8ddd8;
+
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  --radius-card: 16px;
+  --shadow-soft: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 @layer base {
@@ -40,7 +48,7 @@
     background: transparent;
   }
   ::-webkit-scrollbar-thumb {
-    background: #4b5563;
+    background: #d8c5ba;
     border-radius: 99px;
   }
 }

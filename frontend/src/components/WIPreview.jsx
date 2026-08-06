@@ -24,16 +24,16 @@ export default function WIPreview({ wiData }) {
   return (
     <div className="text-sm">
       {/* Header grid */}
-      <div className="grid grid-cols-3 gap-3 bg-gray-50 rounded-xl p-4 mb-4 border border-gray-100">
+      <div className="grid grid-cols-3 gap-3 bg-surface-2 rounded-xl p-4 mb-4 border border-border">
         {headerFields.map(({ label, value }) => (
           <div key={label}>
-            <p className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">{label}</p>
-            <p className="text-xs text-gray-800 mt-0.5">{value || '—'}</p>
+            <p className="text-[10px] font-bold text-muted uppercase tracking-wider">{label}</p>
+            <p className="text-xs text-ink mt-0.5">{value || '—'}</p>
           </div>
         ))}
         <div className="col-span-3">
-          <p className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">Part Name</p>
-          <p className="text-xs text-gray-800 mt-0.5">{h.part_name || '—'}</p>
+          <p className="text-[10px] font-bold text-muted uppercase tracking-wider">Part Name</p>
+          <p className="text-xs text-ink mt-0.5">{h.part_name || '—'}</p>
         </div>
       </div>
 
@@ -42,16 +42,16 @@ export default function WIPreview({ wiData }) {
         {/* Left column */}
         <div className="space-y-3">
           {/* Process Image placeholder */}
-          <div className="border border-gray-200 rounded-xl p-3">
-            <p className="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2">
+          <div className="border border-border rounded-xl p-3">
+            <p className="text-[10px] font-bold text-muted uppercase tracking-wider mb-2">
               🖼 Process Reference Image
             </p>
-            <div className="h-36 rounded-lg border-2 border-dashed border-gray-200 flex items-center justify-center text-gray-300 text-xs">
+            <div className="h-36 rounded-lg border-2 border-dashed border-border flex items-center justify-center text-muted/50 text-xs">
               Insert part image here
             </div>
           </div>
           {wiData?.process_note && (
-            <div className="flex items-start gap-2 bg-indigo-50 border border-indigo-100 text-indigo-700 text-xs rounded-xl px-3 py-2">
+            <div className="flex items-start gap-2 bg-info/10 border border-info/20 text-info text-xs rounded-xl px-3 py-2">
               <span>📌</span>
               <span>{wiData.process_note}</span>
             </div>
@@ -64,7 +64,7 @@ export default function WIPreview({ wiData }) {
             <Section title="📋 Detailed Work Instructions">
               <ol className="list-decimal list-outside pl-4 space-y-1">
                 {instructions.map((step, i) => (
-                  <li key={i} className="text-gray-700 leading-relaxed">{step}</li>
+                  <li key={i} className="text-ink leading-relaxed">{step}</li>
                 ))}
               </ol>
             </Section>
@@ -73,7 +73,7 @@ export default function WIPreview({ wiData }) {
           {tooling.length > 0 && (
             <Section title="🔧 Tooling / Equipment">
               <ol className="list-decimal list-outside pl-4 space-y-1">
-                {tooling.map((t, i) => <li key={i} className="text-gray-700">{t}</li>)}
+                {tooling.map((t, i) => <li key={i} className="text-ink">{t}</li>)}
               </ol>
             </Section>
           )}
@@ -82,17 +82,17 @@ export default function WIPreview({ wiData }) {
             <Section title="✅ Quality Parameters">
               {incoming.length > 0 && (
                 <>
-                  <p className="text-xs text-gray-400 italic mb-1">Incoming:</p>
+                  <p className="text-xs text-muted italic mb-1">Incoming:</p>
                   <ol className="list-decimal list-outside pl-4 space-y-1 mb-2">
-                    {incoming.map((q, i) => <li key={i} className="text-gray-700">A{i + 1}) {q}</li>)}
+                    {incoming.map((q, i) => <li key={i} className="text-ink">A{i + 1}) {q}</li>)}
                   </ol>
                 </>
               )}
               {finished.length > 0 && (
                 <>
-                  <p className="text-xs text-gray-400 italic mb-1">Finished:</p>
+                  <p className="text-xs text-muted italic mb-1">Finished:</p>
                   <ol className="list-decimal list-outside pl-4 space-y-1">
-                    {finished.map((q, i) => <li key={i} className="text-gray-700">B{i + 1}) {q}</li>)}
+                    {finished.map((q, i) => <li key={i} className="text-ink">B{i + 1}) {q}</li>)}
                   </ol>
                 </>
               )}
@@ -102,7 +102,7 @@ export default function WIPreview({ wiData }) {
           {logistics.length > 0 && (
             <Section title="🚛 Logistics">
               <ul className="list-disc list-outside pl-4 space-y-1">
-                {logistics.map((item, i) => <li key={i} className="text-gray-700">{item}</li>)}
+                {logistics.map((item, i) => <li key={i} className="text-ink">{item}</li>)}
               </ul>
             </Section>
           )}
@@ -115,19 +115,19 @@ export default function WIPreview({ wiData }) {
           <table className="w-full text-xs">
             <thead>
               <tr>
-                <th className="text-left pb-2 border-b-2 border-gray-200 text-gray-500 uppercase tracking-wider font-bold w-40">Defect</th>
-                <th className="text-left pb-2 border-b-2 border-gray-200 text-gray-500 uppercase tracking-wider font-bold">Corrective Action</th>
+                <th className="text-left pb-2 border-b-2 border-border text-muted uppercase tracking-wider font-bold w-40">Defect</th>
+                <th className="text-left pb-2 border-b-2 border-border text-muted uppercase tracking-wider font-bold">Corrective Action</th>
               </tr>
             </thead>
             <tbody>
               {rework.map((rw, i) => (
-                <tr key={i} className="border-b border-gray-100 last:border-0">
+                <tr key={i} className="border-b border-border last:border-0">
                   <td className="py-2 pr-4">
-                    <span className="inline-block bg-orange-50 text-orange-700 rounded-md px-2 py-0.5 text-[11px] font-semibold">
+                    <span className="inline-block bg-warning/10 text-warning rounded-md px-2 py-0.5 text-[11px] font-semibold">
                       {typeof rw === 'object' ? rw.defect : ''}
                     </span>
                   </td>
-                  <td className="py-2 text-gray-700">
+                  <td className="py-2 text-ink">
                     {typeof rw === 'object' ? (rw.rework || rw.action) : String(rw)}
                   </td>
                 </tr>
@@ -144,7 +144,7 @@ export default function WIPreview({ wiData }) {
             <thead>
               <tr>
                 {['Sr.', 'Part No.', 'Part Description', 'Qty'].map(h => (
-                  <th key={h} className="text-left pb-2 border-b-2 border-gray-200 text-gray-500 uppercase tracking-wider font-bold">
+                  <th key={h} className="text-left pb-2 border-b-2 border-border text-muted uppercase tracking-wider font-bold">
                     {h}
                   </th>
                 ))}
@@ -152,11 +152,11 @@ export default function WIPreview({ wiData }) {
             </thead>
             <tbody>
               {parts.map((p, i) => (
-                <tr key={i} className="border-b border-gray-100 last:border-0">
-                  <td className="py-2 pr-4 text-gray-600">{p.sr_no ?? i + 1}</td>
-                  <td className="py-2 pr-4 text-gray-700 font-medium">{p.part_no}</td>
-                  <td className="py-2 pr-4 text-gray-700">{p.part_description || p.description}</td>
-                  <td className="py-2 text-gray-600">{p.qty}</td>
+                <tr key={i} className="border-b border-border last:border-0">
+                  <td className="py-2 pr-4 text-muted">{p.sr_no ?? i + 1}</td>
+                  <td className="py-2 pr-4 text-ink font-medium">{p.part_no}</td>
+                  <td className="py-2 pr-4 text-ink">{p.part_description || p.description}</td>
+                  <td className="py-2 text-muted">{p.qty}</td>
                 </tr>
               ))}
             </tbody>
@@ -165,15 +165,15 @@ export default function WIPreview({ wiData }) {
       )}
 
       {/* Legend */}
-      <div className="mt-4 p-3 border border-gray-100 rounded-xl bg-gray-50">
-        <p className="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2">Footer Legend</p>
+      <div className="mt-4 p-3 border border-border rounded-xl bg-surface-2">
+        <p className="text-[10px] font-bold text-muted uppercase tracking-wider mb-2">Footer Legend</p>
         <div className="flex flex-wrap gap-x-4 gap-y-1.5">
           {[
             "🚫 Don't Twist", "🔩 Specified Torque", "⚠️ Important Point",
             "🔧 Make Adjustment", "🧴 Apply Adhesive", "🛢️ Lubricate with Oil",
             "🟡 Lubricate with Grease", "🔵 Apply Sealant", "⭐ Vital Parts",
           ].map((item) => (
-            <span key={item} className="text-[11px] text-gray-500">{item}</span>
+            <span key={item} className="text-[11px] text-muted">{item}</span>
           ))}
         </div>
       </div>
@@ -183,8 +183,8 @@ export default function WIPreview({ wiData }) {
 
 function Section({ title, children, className = '' }) {
   return (
-    <div className={`border border-gray-200 rounded-xl p-3 ${className}`}>
-      <p className="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">{title}</p>
+    <div className={`border border-border rounded-xl p-3 ${className}`}>
+      <p className="text-[10px] font-bold text-muted uppercase tracking-wider mb-2">{title}</p>
       {children}
     </div>
   );

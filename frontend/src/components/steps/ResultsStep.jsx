@@ -1,8 +1,5 @@
 import { useState } from 'react';
 import WIPreview from '../WIPreview';
-import Badge     from '../ui/Badge';
-import Button    from '../ui/Button';
-import Card      from '../ui/Card';
 
 // ── Helpers ───────────────────────────────────────────────────────────
 function b64ToBlob(b64, mime) {
@@ -12,15 +9,17 @@ function b64ToBlob(b64, mime) {
   return new Blob([bytes], { type: mime });
 }
 
+function downloadFile(b64, mime, filename) {
+  if (!b64) return;
+  const blob = b64ToBlob(b64, mime);
+  const url  = URL.createObjectURL(blob);
+  const a    = Object.assign(document.createElement('a'), { href: url, download: filename });
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
 function DownloadBtn({ b64, mime, filename, label, icon }) {
-  const handleClick = () => {
-    if (!b64) return;
-    const blob = b64ToBlob(b64, mime);
-    const url  = URL.createObjectURL(blob);
-    const a    = Object.assign(document.createElement('a'), { href: url, download: filename });
-    a.click();
-    URL.revokeObjectURL(url);
-  };
+  const handleClick = () => downloadFile(b64, mime, filename);
   return (
     <button
       onClick={handleClick}
@@ -57,7 +56,7 @@ function Toggle({ checked, onChange, label }) {
 }
 
 // ── Single result card ────────────────────────────────────────────────
-function ResultCard({ stageLabel, result }) {
+export function ResultCard({ stageLabel, result }) {
   const [previewOpen, setPreviewOpen] = useState(false);
   const wi     = result.wi_data;
   const h      = wi?.header || wi?.document || {};
@@ -137,47 +136,3 @@ function ResultCard({ stageLabel, result }) {
   );
 }
 
-// ── Main Results step ─────────────────────────────────────────────────
-const RegenerateIcon = () => (
-  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-    <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-  </svg>
-);
-
-export default function ResultsStep({ results, uploadData, language, onRegenerate }) {
-  if (!results || Object.keys(results).length === 0) {
-    return (
-      <Card>
-        <div className="text-center py-10 text-muted text-sm">No results to display.</div>
-      </Card>
-    );
-  }
-
-  const count = Object.keys(results).length;
-
-  return (
-    <div className="space-y-4 animate-fade-in">
-      {/* Results header bar */}
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="w-2 h-2 rounded-full bg-accent" />
-          <h2 className="text-sm font-bold text-ink uppercase tracking-widest">
-            Results — {count} WI{count !== 1 ? 's' : ''} Generated
-          </h2>
-        </div>
-        <button
-          onClick={onRegenerate}
-          className="flex items-center gap-1.5 text-sm text-muted hover:text-ink font-medium transition-colors"
-        >
-          <RegenerateIcon />
-          Regenerate
-        </button>
-      </div>
-
-      {/* Result cards */}
-      {Object.entries(results).map(([stageLabel, res]) => (
-        <ResultCard key={stageLabel} stageLabel={stageLabel} result={res} />
-      ))}
-    </div>
-  );
-}

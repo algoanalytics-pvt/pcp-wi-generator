@@ -1,238 +1,474 @@
-import { useEffect, useState } from 'react';
-import Button from '../ui/Button';
-import Card   from '../ui/Card';
+import { useEffect, useRef, useState } from 'react';
+import Button    from '../ui/Button';
+import Card      from '../ui/Card';
+import WIPreview from '../WIPreview';
 
-// ── Sub-step labels & weights ─────────────────────────────────────────
-const SUB_LABELS  = ['Building prompt…', 'Calling LLM…', 'Parsing response…', 'Building Excel…'];
+function downloadFile(b64, mime, filename) {
+  if (!b64) return;
+  const binary = atob(b64);
+  const bytes  = new Uint8Array(binary.length);
+  for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
+  const blob = new Blob([bytes], { type: mime });
+  const url  = URL.createObjectURL(blob);
+  const a    = Object.assign(document.createElement('a'), { href: url, download: filename });
+  a.click();
+  URL.revokeObjectURL(url);
+}
 
-// ── Spinner ───────────────────────────────────────────────────────────
-function GeneratingSpinner({ current, total, subStep, stageName, pct, selectedSheets }) {
+function formatDuration(ms) {
+  if (ms == null) return '—';
+  const totalSec = Math.round(ms / 1000);
+  const m = Math.floor(totalSec / 60);
+  const s = totalSec % 60;
+  return m > 0 ? `${m}m ${s}s` : `${s}s`;
+}
+
+function estimateFileSize(b64) {
+  if (!b64) return '—';
+  const bytes = Math.round((b64.length * 3) / 4);
+  if (bytes < 1024) return `${bytes} B`;
+  if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
+  return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+}
+
+// ── Icons ─────────────────────────────────────────────────────────────
+const CheckIcon = ({ className = 'w-3.5 h-3.5' }) => (
+  <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+  </svg>
+);
+const BackIcon = () => (
+  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+  </svg>
+);
+const RegenerateIcon = () => (
+  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+  </svg>
+);
+const ClockIcon = ({ className = 'w-3.5 h-3.5' }) => (
+  <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+    <circle cx="12" cy="12" r="9" strokeLinecap="round" strokeLinejoin="round" />
+    <path strokeLinecap="round" strokeLinejoin="round" d="M12 7v5l3 3" />
+  </svg>
+);
+const EyeIcon = ({ className = 'w-4 h-4' }) => (
+  <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z" />
+    <circle cx="12" cy="12" r="3" />
+  </svg>
+);
+const ChevronLeftIcon = () => (
+  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+  </svg>
+);
+const ChevronRightIcon = () => (
+  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+  </svg>
+);
+const DocIcon = ({ className = 'w-5 h-5' }) => (
+  <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+  </svg>
+);
+const LayersIcon = ({ className = 'w-5 h-5' }) => (
+  <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M12 4l8 4-8 4-8-4 8-4zM4 12l8 4 8-4M4 16l8 4 8-4" />
+  </svg>
+);
+const SlidersIcon = ({ className = 'w-5 h-5' }) => (
+  <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M6 6a2 2 0 100-4 2 2 0 000 4zm4 4h10M10 10a2 2 0 11-4 0 2 2 0 014 0zm4 8h6m-6 0a2 2 0 11-4 0 2 2 0 014 0z" />
+  </svg>
+);
+const DownloadIcon = ({ className = 'w-5 h-5' }) => (
+  <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" />
+  </svg>
+);
+const ArrowRightIcon = ({ className = 'w-4 h-4' }) => (
+  <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+  </svg>
+);
+const ShieldCheckIcon = ({ className = 'w-5 h-5' }) => (
+  <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M12 3c3 0 6 1.5 6 1.5v6c0 4-2.5 7-6 8.5-3.5-1.5-6-4.5-6-8.5v-6S9 3 12 3z" />
+  </svg>
+);
+
+// ── Compact toolbar button (Preview / CSV / Excel) ─────────────────────
+function ToolbarButton({ icon, label, onClick, disabled }) {
   return (
-    <Card>
-      <div className="p-6 md:p-8 space-y-8 animate-scale-in">
-        {/* Header */}
-        <div className="text-center space-y-1">
-          <h3 className="text-lg font-bold text-ink">Generating Work Instructions</h3>
-          <p className="text-xs text-muted">Please do not close or refresh this page. Generating files from AI model.</p>
-        </div>
-
-        {/* Progress Display */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-8 py-4">
-          {/* Circular Progress Ring */}
-          <div className="relative w-28 h-28 flex-shrink-0">
-            {/* SVG Circle background & progress */}
-            <svg className="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
-              <circle
-                className="text-surface-2"
-                strokeWidth="8"
-                stroke="currentColor"
-                fill="transparent"
-                r="38"
-                cx="50"
-                cy="50"
-              />
-              <circle
-                className="text-accent transition-all duration-300 ease-out"
-                strokeWidth="8"
-                strokeDasharray={2 * Math.PI * 38}
-                strokeDashoffset={2 * Math.PI * 38 * (1 - pct / 100)}
-                strokeLinecap="round"
-                stroke="currentColor"
-                fill="transparent"
-                r="38"
-                cx="50"
-                cy="50"
-              />
-            </svg>
-            <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <span className="text-2xl font-extrabold text-accent tracking-tight">{pct}%</span>
-              <span className="text-[10px] font-bold text-muted uppercase tracking-wider">Overall</span>
-            </div>
-          </div>
-
-          {/* Details / Sub-step indicator */}
-          <div className="flex-1 space-y-4 w-full">
-            {/* Linear Progress Bar */}
-            <div className="space-y-1.5">
-              <div className="flex justify-between items-center text-xs">
-                <span className="font-semibold text-ink">Overall Progress</span>
-                <span className="font-bold text-accent">{pct}%</span>
-              </div>
-              <div className="h-2 w-full bg-surface-2 rounded-full overflow-hidden">
-                <div
-                  className="h-full bg-gradient-to-r from-accent to-accent-strong transition-all duration-300 ease-out rounded-full shadow-[0_0_8px_rgba(19,135,201,0.25)]"
-                  style={{ width: `${pct}%` }}
-                />
-              </div>
-            </div>
-
-            {/* Sub-step indicator */}
-            <div className="bg-accent/5 border border-accent/10 rounded-xl p-3.5 flex items-start gap-3">
-              <div className="w-5 h-5 rounded-full bg-accent/10 flex items-center justify-center text-accent mt-0.5 animate-pulse">
-                <svg className="w-3.5 h-3.5 animate-spin" fill="none" viewBox="0 0 24 24">
-                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-                </svg>
-              </div>
-              <div>
-                <p className="text-xs font-semibold text-muted uppercase tracking-wider">Current Action</p>
-                <p className="text-sm font-bold text-ink mt-0.5">{SUB_LABELS[subStep] ?? 'Working…'}</p>
-                <p className="text-xs text-accent font-medium mt-0.5">
-                  Sheet: <span className="underline font-semibold">{stageName}</span>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Sheet progress checklist */}
-        {selectedSheets && selectedSheets.length > 0 && (
-          <div className="border-t border-border pt-6">
-            <p className="text-[10px] font-bold text-muted uppercase tracking-wider mb-3">Sheet Processing Queue</p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {selectedSheets.map((sheetName, i) => {
-                const state = i < current - 1 ? 'done' : i === current - 1 ? 'active' : 'pending';
-
-                return (
-                  <div
-                    key={sheetName}
-                    className={`flex items-center gap-3 p-3 rounded-xl border transition-all duration-300 ${
-                      state === 'done'
-                        ? 'bg-success/5 border-success/20 text-success'
-                        : state === 'active'
-                        ? 'bg-accent/5 border-accent/20 text-ink shadow-sm shadow-accent/5'
-                        : 'bg-surface-2/50 border-border/80 text-muted'
-                    }`}
-                  >
-                    {/* Status Indicator */}
-                    <div
-                      className={`w-6 h-6 rounded-full flex items-center justify-center flex-shrink-0 transition-colors ${
-                        state === 'done'
-                          ? 'bg-success text-white'
-                          : state === 'active'
-                          ? 'bg-accent text-white shadow-md shadow-accent/10'
-                          : 'bg-border text-muted'
-                      }`}
-                    >
-                      {state === 'done' ? (
-                        <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-                        </svg>
-                      ) : state === 'active' ? (
-                        <div className="w-1.5 h-1.5 rounded-full bg-white animate-ping" />
-                      ) : (
-                        <span className="text-[10px] font-bold">{i + 1}</span>
-                      )}
-                    </div>
-
-                    {/* Sheet Name and details */}
-                    <div className="min-w-0 flex-1">
-                      <p className={`text-xs font-bold truncate ${state === 'pending' ? 'text-muted' : 'text-ink'}`}>
-                        {sheetName}
-                      </p>
-                      <p className="text-[10px] text-muted truncate">
-                        {state === 'done' ? (
-                          <span className="text-success font-semibold">Done</span>
-                        ) : state === 'active' ? (
-                          <span className="text-accent font-semibold animate-pulse">{SUB_LABELS[subStep] ?? 'Processing…'}</span>
-                        ) : (
-                          <span>Queued</span>
-                        )}
-                      </p>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        )}
-      </div>
-    </Card>
+    <button
+      onClick={onClick}
+      disabled={disabled}
+      className="flex items-center gap-1.5 text-sm font-semibold text-accent hover:text-accent-strong px-3.5 py-2 rounded-lg border border-accent bg-surface hover:bg-accent/5 transition-all disabled:opacity-40 disabled:cursor-not-allowed"
+    >
+      {icon}
+      {label}
+    </button>
   );
 }
 
-// ── Success screen ────────────────────────────────────────────────────
-function GenerationSuccess({ uploadData, language, selected, onViewResults, onBack }) {
-  const langLabel = { english: 'English', hindi: 'Hindi (हिंदी)', marathi: 'Marathi (मराठी)' }[language] ?? language;
-  const fileName  = uploadData?.file_name || 'Uploaded file';
+// ── Stat pill shown in the top status banner ───────────────────────────
+function StatPill({ icon, value, label }) {
+  return (
+    <div className="flex items-center gap-3 bg-surface border border-border rounded-xl px-4 py-3 min-w-[150px]">
+      <div className="w-10 h-10 rounded-lg bg-surface-2 flex items-center justify-center text-accent flex-shrink-0">
+        {icon}
+      </div>
+      <div className="min-w-0">
+        <p className="text-xl font-bold text-ink leading-tight truncate">{value}</p>
+        <p className="text-sm text-muted leading-tight truncate">{label}</p>
+      </div>
+    </div>
+  );
+}
+
+// ── Live preview: the actual generated Work Instruction document, with
+//    paging across the generated sheets ────────────────────────────────
+function LivePreviewPanel({ result, activeIdx, total, onPrev, onNext }) {
+  return (
+    <div className="animate-fade-in">
+      <div className="rounded-xl border border-border p-4">
+        <WIPreview wiData={result.wi_data} />
+      </div>
+
+      <div className="flex items-center justify-between mt-3 px-1">
+        <button
+          onClick={onPrev}
+          disabled={activeIdx <= 0}
+          className="w-7 h-7 flex items-center justify-center rounded-lg text-muted hover:text-ink hover:bg-surface-2 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+        >
+          <ChevronLeftIcon />
+        </button>
+        <span className="text-xs font-medium text-muted">{activeIdx + 1} / {total}</span>
+        <button
+          onClick={onNext}
+          disabled={activeIdx >= total - 1}
+          className="w-7 h-7 flex items-center justify-center rounded-lg text-muted hover:text-ink hover:bg-surface-2 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+        >
+          <ChevronRightIcon />
+        </button>
+      </div>
+    </div>
+  );
+}
+
+// ── Placeholder shown while no sheet has finished yet ───────────────────
+function PreviewSkeleton() {
+  return (
+    <div className="rounded-xl border border-dashed border-border p-6 flex flex-col items-center justify-center text-center gap-2 min-h-[180px]">
+      <div className="w-8 h-8 rounded-full border-2 border-accent/30 border-t-accent animate-spin" />
+      <p className="text-xs text-muted">Preview will appear here once a sheet finishes generating</p>
+    </div>
+  );
+}
+
+// ── One row in the "All Results" list ──────────────────────────────────
+function ResultRow({ stageLabel, result, onPreview }) {
+  const wi     = result.wi_data;
+  const h      = wi?.header || wi?.document || {};
+  const prefix = result.file_prefix || 'WI';
+
+  return (
+    <div className="flex items-center gap-4 py-5 flex-wrap border-b border-border last:border-0">
+      <div className="w-12 h-12 rounded-xl bg-accent/10 text-accent flex items-center justify-center flex-shrink-0">
+        <DocIcon className="w-5 h-5" />
+      </div>
+
+      <div className="min-w-0 flex-1 basis-[240px]">
+        <div className="flex items-center gap-2 flex-wrap">
+          <p className="text-base font-bold text-ink truncate">
+            Work Instruction - {h.part_name || stageLabel}
+          </p>
+          <span className="text-xs font-bold text-success bg-success/10 px-2 py-0.5 rounded-full flex-shrink-0">
+            Generated
+          </span>
+        </div>
+        <p className="text-sm text-muted truncate mt-0.5">{h.stage_name || stageLabel}</p>
+      </div>
+
+      <div className="hidden md:flex items-center gap-6 text-sm flex-shrink-0">
+        <div>
+          <p className="text-xs text-muted">Part No.</p>
+          <p className="font-semibold text-ink mt-0.5">{h.part_no || '—'}</p>
+        </div>
+        <div>
+          <p className="text-xs text-muted">Stage</p>
+          <p className="font-semibold text-ink mt-0.5">{h.stage_no || '—'}</p>
+        </div>
+        <div>
+          <p className="text-xs text-muted">File Size</p>
+          <p className="font-semibold text-ink mt-0.5">{estimateFileSize(result.xlsx_b64 || result.csv_b64)}</p>
+        </div>
+      </div>
+
+      <div className="flex items-center gap-2 ml-auto flex-shrink-0">
+        <ToolbarButton icon={<EyeIcon />} label="Preview" onClick={onPreview} />
+        <ToolbarButton
+          icon={<DocIcon className="w-4 h-4" />}
+          label="Excel"
+          disabled={!result.xlsx_b64}
+          onClick={() => downloadFile(
+            result.xlsx_b64,
+            'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+            `${prefix}.xlsx`
+          )}
+        />
+        <ToolbarButton
+          icon={<DownloadIcon className="w-4 h-4" />}
+          label="CSV"
+          disabled={!result.csv_b64}
+          onClick={() => downloadFile(result.csv_b64, 'text/csv', `${prefix}.csv`)}
+        />
+      </div>
+    </div>
+  );
+}
+
+// ── Generating / Done — single linear view, no tabs or duplicate CTAs ──
+function GenerateResultsView({ selected, phase, spinner, results, error, onBack, onRegenerate }) {
+  const [activeIdx, setActiveIdx] = useState(0);
+  const [previewOpen, setPreviewOpen] = useState(false);
+  const [elapsedMs, setElapsedMs] = useState(null);
+  const startRef = useRef(null);
+
+  useEffect(() => {
+    if (phase === 'generating' && startRef.current == null) {
+      startRef.current = performance.now();
+    }
+    if (phase === 'done' && startRef.current != null && elapsedMs == null) {
+      setElapsedMs(performance.now() - startRef.current);
+    }
+  }, [phase, elapsedMs]);
+
+  const total     = selected.length;
+  const pct       = phase === 'done' ? 100 : (spinner?.pct ?? 0);
+  const stageName = spinner?.stageName ?? '';
+
+  const resultEntries = results ? Object.entries(results) : [];
+
+  const activeSheetName = selected[activeIdx];
+  const activeEntry = (results && activeSheetName && results[activeSheetName])
+    ? [activeSheetName, results[activeSheetName]]
+    : resultEntries[activeIdx];
+  const [, activeResult] = activeEntry || [];
 
   return (
     <div className="space-y-4 animate-fade-in">
-      {/* Summary card */}
-      <Card>
-        <p className="text-xs font-bold text-muted uppercase tracking-widest mb-4">Generation Summary</p>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-          {/* Box 1: SOURCE */}
-          <div className="flex items-center gap-3.5 p-4 rounded-xl border border-border bg-surface-2/50">
-            <div className="w-10 h-10 rounded-lg bg-accent/10 text-accent flex items-center justify-center shrink-0">
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-              </svg>
+      {/* Status banner: icon + title/subtitle (left), stat pills or progress (right) */}
+      <Card className={phase === 'done' ? 'bg-success/5 border-success/20' : ''}>
+        <div className="flex items-center gap-6 flex-wrap">
+          <div className="flex items-center gap-4 flex-1 min-w-[240px]">
+            <div className={`w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0 ${
+              phase === 'done' ? 'bg-success text-white' : 'bg-accent text-white'
+            }`}>
+              {phase === 'done'
+                ? <CheckIcon className="w-8 h-8" />
+                : <div className="w-4 h-4 rounded-full bg-white animate-ping" />}
             </div>
             <div className="min-w-0">
-              <p className="text-[10px] font-bold text-muted uppercase tracking-widest leading-none">SOURCE</p>
-              <p className="text-xs font-bold text-ink truncate mt-1.5" title={fileName}>{fileName}</p>
+              <p className="text-xl font-bold text-ink truncate">
+                {phase === 'done' ? 'Work Instruction generated successfully!' : 'Generating Work Instruction…'}
+              </p>
+              <p className="text-sm text-muted mt-0.5 truncate">
+                {phase === 'done'
+                  ? 'Your document is ready to preview and download.'
+                  : `Processing: ${stageName || '—'}. Almost done, please don't close this window.`}
+              </p>
             </div>
           </div>
 
-          {/* Box 2: LANGUAGE */}
-          <div className="flex items-center gap-3.5 p-4 rounded-xl border border-border bg-surface-2/50">
-            <div className="w-10 h-10 rounded-lg bg-accent/10 text-accent flex items-center justify-center shrink-0">
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
-              </svg>
+          {phase === 'done' ? (
+            <div className="flex items-center gap-3 flex-wrap">
+              <StatPill
+                icon={<DocIcon />}
+                value={resultEntries.length}
+                label={resultEntries.length === 1 ? 'Work Instruction' : 'Work Instructions'}
+              />
+              <StatPill icon={<LayersIcon />} value={total} label="Sheets Processed" />
+              <StatPill icon={<ClockIcon className="w-5 h-5" />} value={formatDuration(elapsedMs)} label="Generation Time" />
+              <StatPill icon={<ShieldCheckIcon />} value="100%" label="Completed" />
             </div>
-            <div className="min-w-0">
-              <p className="text-[10px] font-bold text-muted uppercase tracking-widest leading-none">LANGUAGE</p>
-              <p className="text-xs font-bold text-ink truncate mt-1.5">{langLabel}</p>
+          ) : (
+            <div className="flex items-center gap-3 flex-1 min-w-[180px]">
+              <div className="flex-1 h-2.5 rounded-full bg-surface-2 overflow-hidden">
+                <div
+                  className="h-full rounded-full bg-accent transition-all duration-300 ease-out"
+                  style={{ width: `${pct}%` }}
+                />
+              </div>
+              <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-accent/10 text-accent flex-shrink-0">
+                {pct}%
+              </span>
             </div>
-          </div>
-
-          {/* Box 3: OUTPUT */}
-          <div className="flex items-center gap-3.5 p-4 rounded-xl border border-border bg-surface-2/50">
-            <div className="w-10 h-10 rounded-lg bg-accent/10 text-accent flex items-center justify-center shrink-0">
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-            </div>
-            <div className="min-w-0">
-              <p className="text-[10px] font-bold text-muted uppercase tracking-widest leading-none">OUTPUT</p>
-              <p className="text-xs font-bold text-ink truncate mt-1.5">{selected.length} Work Instruction{selected.length !== 1 ? 's' : ''}</p>
-            </div>
-          </div>
+          )}
         </div>
       </Card>
 
-      {/* Complete card */}
-      <Card>
-        <div className="flex flex-col items-center py-10 gap-4">
-          {/* Animated check */}
-          <div className="w-20 h-20 rounded-full bg-success/10 flex items-center justify-center">
-            <svg className="w-10 h-10 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" className="animate-checkmark" />
-            </svg>
+      {phase === 'done' ? (
+        <>
+          {/* Output Options — Preview & Download */}
+          <Card>
+            <div className="flex items-center gap-2">
+              <SlidersIcon className="w-5 h-5 text-ink" />
+              <p className="text-base font-bold text-ink">Output Options</p>
+            </div>
+            <p className="text-sm text-muted mt-1 mb-5">
+              Choose how you want to view or download your Work Instruction.
+            </p>
+
+            <div className="grid sm:grid-cols-2 gap-4">
+              {/* Preview card */}
+              <div className="rounded-xl border border-border p-5 flex flex-col">
+                <div className="flex items-center gap-3 mb-2 flex-wrap">
+                  <div className="w-11 h-11 rounded-xl bg-accent/10 text-accent flex items-center justify-center flex-shrink-0">
+                    <EyeIcon />
+                  </div>
+                  <p className="font-bold text-ink text-base">Preview Work Instruction</p>
+                  <span className="text-[10px] font-bold text-muted bg-surface-2 border border-border px-2 py-0.5 rounded-full">
+                    Optional
+                  </span>
+                </div>
+                <p className="text-sm text-muted mb-4">
+                  Open an interactive preview to review the document before downloading.
+                </p>
+                <Button
+                  variant="secondary"
+                  size="md"
+                  className="mt-auto self-start"
+                  onClick={() => setPreviewOpen(o => !o)}
+                >
+                  {previewOpen ? 'Hide Preview' : 'Preview'}
+                  <ArrowRightIcon />
+                </Button>
+              </div>
+
+              {/* Download card */}
+              <div className="rounded-xl border border-border p-5 flex flex-col">
+                <div className="flex items-center gap-3 mb-2">
+                  <div className="w-11 h-11 rounded-xl bg-accent/10 text-accent flex items-center justify-center flex-shrink-0">
+                    <DownloadIcon />
+                  </div>
+                  <p className="font-bold text-ink text-base">Download Work Instruction</p>
+                </div>
+                <p className="text-sm text-muted mb-4">
+                  Download the generated Work Instruction in your preferred format.
+                </p>
+                <div className="flex items-center gap-2 mt-auto">
+                  <Button
+                    variant="secondary"
+                    size="md"
+                    disabled={!activeResult?.xlsx_b64}
+                    onClick={() => downloadFile(
+                      activeResult.xlsx_b64,
+                      'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+                      `${activeResult.file_prefix || 'WI'}.xlsx`
+                    )}
+                  >
+                    <DocIcon className="w-4 h-4" />
+                    Download Excel
+                  </Button>
+                  <Button
+                    variant="secondary"
+                    size="md"
+                    disabled={!activeResult?.csv_b64}
+                    onClick={() => downloadFile(activeResult.csv_b64, 'text/csv', `${activeResult.file_prefix || 'WI'}.csv`)}
+                  >
+                    <DocIcon className="w-4 h-4" />
+                    Download CSV
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </Card>
+
+          {previewOpen && (
+            <Card>
+              <div className="flex items-center gap-2 mb-4">
+                <span className="w-1.5 h-1.5 rounded-full bg-success" />
+                <p className="text-base font-bold text-ink">Live Preview</p>
+              </div>
+              {activeResult ? (
+                <LivePreviewPanel
+                  result={activeResult}
+                  activeIdx={activeIdx}
+                  total={resultEntries.length || total}
+                  onPrev={() => setActiveIdx(i => Math.max(0, i - 1))}
+                  onNext={() => setActiveIdx(i => Math.min((resultEntries.length || total) - 1, i + 1))}
+                />
+              ) : (
+                <PreviewSkeleton />
+              )}
+            </Card>
+          )}
+
+          {error && (
+            <div className="flex items-start gap-2 bg-danger/10 border border-danger/25 text-danger text-sm rounded-xl px-4 py-3 whitespace-pre-wrap">
+              <span>⚠️</span>
+              <span>{error}</span>
+            </div>
+          )}
+
+          {resultEntries.length > 0 && (
+            <div className="flex items-start gap-2 bg-info/5 border border-info/20 text-ink text-sm rounded-xl px-4 py-3">
+              <span className="text-info flex-shrink-0">ℹ</span>
+              <span>
+                You can always download the file{resultEntries.length > 1 ? 's' : ''} again from the{' '}
+                <strong>All Results</strong> section below.
+              </span>
+            </div>
+          )}
+
+          {/* Full results list */}
+          {resultEntries.length > 0 && (
+            <Card>
+              <p className="text-base font-bold text-ink mb-1">All Results</p>
+              <div>
+                {resultEntries.map(([stageLabel, res], i) => (
+                  <ResultRow
+                    key={stageLabel}
+                    stageLabel={stageLabel}
+                    result={res}
+                    onPreview={() => { setActiveIdx(i); setPreviewOpen(true); }}
+                  />
+                ))}
+              </div>
+            </Card>
+          )}
+        </>
+      ) : (
+        error && (
+          <div className="flex items-start gap-2 bg-danger/10 border border-danger/25 text-danger text-sm rounded-xl px-4 py-3 whitespace-pre-wrap">
+            <span>⚠️</span>
+            <span>{error}</span>
           </div>
-          <div className="text-center">
-            <h2 className="text-xl font-bold text-ink">Generation Complete</h2>
-            <p className="text-sm text-muted mt-1">Your work instructions are ready</p>
-          </div>
-          <div className="flex items-center gap-4 mt-2">
-            <Button variant="ghost" size="md" onClick={onBack}>
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-              </svg>
-              Modify Settings
+        )
+      )}
+
+      <div className="flex items-center justify-between pt-2">
+        <Button variant="ghost" size="md" onClick={onBack}>
+          <BackIcon />
+          Modify Settings
+        </Button>
+        {phase === 'done' && (
+          <div className="flex items-center gap-3">
+            <Button variant="secondary" size="md" onClick={onRegenerate}>
+              <RegenerateIcon />
+              Generate Again
             </Button>
-            <Button variant="primary" size="md" onClick={onViewResults}>
-              View Results
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
+            <Button variant="accent" size="md" onClick={onBack}>
+              <CheckIcon />
+              Done
             </Button>
           </div>
-        </div>
-      </Card>
+        )}
+      </div>
     </div>
   );
 }
@@ -240,15 +476,18 @@ function GenerationSuccess({ uploadData, language, selected, onViewResults, onBa
 // ── Main component ────────────────────────────────────────────────────
 export default function GenerateStep({
   sessionId, selected, language, trainingReady,
-  uploadData, onResults, onBack,
+  onBack, onPhaseChange,
 }) {
   const [phase,   setPhase]   = useState('idle');   // idle | generating | done | error
   const [spinner, setSpinner] = useState(null);
   const [error,   setError]   = useState('');
   const [results, setResults] = useState(null);
+  const started = useRef(false);
 
-  const langLabel = { english: 'English', hindi: 'Hindi (हिंदी)', marathi: 'Marathi (मराठी)' }[language] ?? language;
-  const fileName  = uploadData?.file_name || 'Uploaded file';
+  useEffect(() => {
+    onPhaseChange?.(phase);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase]);
 
   const canGenerate = trainingReady && sessionId && selected.length > 0;
 
@@ -264,7 +503,7 @@ export default function GenerateStep({
 
     let done = false;
     let currentPct = 0;
-    
+
     // Scale interval based on number of sheets: roughly 6 seconds simulated per sheet
     const baseInterval = Math.max(50, Math.floor((selected.length * 6000) / 100));
 
@@ -284,7 +523,7 @@ export default function GenerateStep({
           if (Math.random() > 0.3) increment = 1;
           else increment = 0;
         }
-        
+
         currentPct = Math.min(currentPct + increment, 99);
       }
 
@@ -344,100 +583,65 @@ export default function GenerateStep({
     }
   };
 
-  // ── Generating spinner ─────────────────────────────────────
-  if (phase === 'generating' && spinner) {
-    return <GeneratingSpinner {...spinner} selectedSheets={selected} />;
-  }
+  // Generation starts the moment this step mounts — no extra confirmation click.
+  useEffect(() => {
+    if (canGenerate && !started.current) {
+      started.current = true;
+      handleGenerate();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [canGenerate]);
 
-  // ── Done / Success ─────────────────────────────────────────
-  if (phase === 'done') {
+  // ── Combined generating / done view (linear, no tabs) ──────
+  if (phase === 'generating' || phase === 'done') {
     return (
-      <GenerationSuccess
-        uploadData={uploadData}
-        language={language}
+      <GenerateResultsView
         selected={selected}
-        onViewResults={() => onResults(results)}
-        onBack={() => setPhase('idle')}
+        phase={phase}
+        spinner={spinner}
+        results={results}
+        error={error}
+        onBack={onBack}
+        onRegenerate={() => { setResults(null); setError(''); handleGenerate(); }}
       />
     );
   }
 
-  // ── Idle / pre-generation ──────────────────────────────────
+  // ── Error — allow retry without leaving the step ────────────
+  if (phase === 'error') {
+    return (
+      <div className="space-y-4 animate-fade-in">
+        <Card>
+          <p className="text-xs font-bold text-danger uppercase tracking-widest mb-3">Generation Failed</p>
+          <p className="text-sm text-ink whitespace-pre-wrap">{error}</p>
+        </Card>
+        <div className="flex items-center justify-between pt-2">
+          <Button variant="ghost" size="md" onClick={onBack}>
+            <BackIcon />
+            Modify Settings
+          </Button>
+          <Button variant="accent" size="md" onClick={handleGenerate}>
+            Retry
+          </Button>
+        </div>
+      </div>
+    );
+  }
+
+  // ── Idle — only reached when prerequisites are missing ──────
   return (
     <div className="space-y-4">
-      {/* Summary */}
       <Card>
-        <p className="text-xs font-bold text-gray-500 uppercase tracking-widest mb-4">Generation Summary</p>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
-          {/* Box 1: SOURCE */}
-          <div className="flex items-center gap-3.5 p-4 rounded-xl border border-gray-100 bg-gray-50/50">
-            <div className="w-10 h-10 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center shrink-0">
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-              </svg>
-            </div>
-            <div className="min-w-0">
-              <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest leading-none">SOURCE</p>
-              <p className="text-xs font-bold text-gray-800 truncate mt-1.5" title={fileName}>{fileName}</p>
-            </div>
-          </div>
-
-          {/* Box 2: LANGUAGE */}
-          <div className="flex items-center gap-3.5 p-4 rounded-xl border border-gray-100 bg-gray-50/50">
-            <div className="w-10 h-10 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center shrink-0">
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
-              </svg>
-            </div>
-            <div className="min-w-0">
-              <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest leading-none">LANGUAGE</p>
-              <p className="text-xs font-bold text-gray-800 truncate mt-1.5">{langLabel}</p>
-            </div>
-          </div>
-
-          {/* Box 3: OUTPUT */}
-          <div className="flex items-center gap-3.5 p-4 rounded-xl border border-gray-100 bg-gray-50/50">
-            <div className="w-10 h-10 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center shrink-0">
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-            </div>
-            <div className="min-w-0">
-              <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest leading-none">OUTPUT</p>
-              <p className="text-xs font-bold text-gray-800 truncate mt-1.5">{selected.length} Work Instruction{selected.length !== 1 ? 's' : ''}</p>
-            </div>
-          </div>
+        <p className="text-xs font-bold text-muted uppercase tracking-widest mb-4">Cannot Generate Yet</p>
+        <div className="flex items-start gap-2 bg-warning/10 border border-warning/25 text-warning text-sm rounded-xl px-4 py-3">
+          <span>⚠️</span>
+          <span>Still needed: {missing.join(', ')}</span>
         </div>
-
-        {missing.length > 0 && (
-          <div className="flex items-start gap-2 bg-amber-50 border border-amber-200 text-amber-700 text-sm rounded-xl px-4 py-3 mb-4">
-            <span>⚠️</span>
-            <span>Still needed: {missing.join(', ')}</span>
-          </div>
-        )}
-
-        {error && (
-          <div className="flex items-start gap-2 bg-red-50 border border-red-200 text-red-600 text-sm rounded-xl px-4 py-3 mb-4 whitespace-pre-wrap">
-            <span>⚠️</span>
-            <span>{error}</span>
-          </div>
-        )}
       </Card>
-
-      {/* Navigation */}
       <div className="flex items-center justify-between pt-2">
         <Button variant="ghost" size="md" onClick={onBack}>
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-          </svg>
+          <BackIcon />
           Back
-        </Button>
-        <Button variant="primary" size="md" disabled={!canGenerate} onClick={handleGenerate}>
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-          </svg>
-          Generate {selected.length > 0 ? `${selected.length} WI${selected.length !== 1 ? 's' : ''}` : 'WIs'}
         </Button>
       </div>
     </div>

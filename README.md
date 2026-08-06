@@ -1,7 +1,8 @@
-cd .\pcp_wi_generator\
-.\venv\Scripts\python.exe -m uvicorn backend.main:app --reload --port 8000
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload --port 8000
 
-cd  frontend
+cd frontend
 npm run dev
 
 cd frontend

@@ -3,6 +3,12 @@ import Button from '../ui/Button';
 import Card   from '../ui/Card';
 import Badge  from '../ui/Badge';
 
+const EyeOffIcon = () => (
+  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.878 9.878L3 3m6.878 6.878L21 21" />
+  </svg>
+);
+
 // ── Sheet Preview (lazy-loaded HTML table) ────────────────────────────
 function SheetPreview({ sessionId, sheetKey }) {
   const [html,    setHtml]    = useState('');
@@ -24,24 +30,23 @@ function SheetPreview({ sessionId, sheetKey }) {
   };
 
   return (
-    <div className="mt-2 overflow-auto max-h-72 border border-gray-200 rounded-xl bg-white p-2 text-xs">
+    <div className="mt-2 overflow-auto max-h-72 border border-border rounded-xl bg-surface p-2 text-xs">
       {!loaded && !loading && (
         <button
           onClick={load}
-          className="text-indigo-600 text-xs font-medium hover:underline"
+          className="text-accent text-xs font-medium hover:underline"
         >
           Load preview
         </button>
       )}
-      {loading && <span className="text-gray-400 text-xs">Loading…</span>}
+      {loading && <span className="text-muted text-xs">Loading…</span>}
       {loaded  && <div dangerouslySetInnerHTML={{ __html: html }} />}
     </div>
   );
 }
 
-// ── Non-PCP expander ──────────────────────────────────────────────────
+// ── Non-PCP panel (shown when "Manage Hidden Sheets" is toggled) ──────
 function HiddenSheetsPanel({ sheets, sessionId, onAdded }) {
-  const [open,   setOpen]   = useState(false);
   const [adding, setAdding] = useState({});
 
   if (!sheets || sheets.length === 0) return null;
@@ -61,48 +66,24 @@ function HiddenSheetsPanel({ sheets, sessionId, onAdded }) {
   };
 
   return (
-    <Card padding={false} className="mb-4 overflow-hidden">
-      <button
-        className="w-full flex items-center justify-between px-5 py-3.5 hover:bg-surface-2 transition-colors"
-        onClick={() => setOpen(o => !o)}
-      >
-        <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center shrink-0">
-            <svg className="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
-            </svg>
-          </div>
-          <div className="text-left">
-            <p className="text-sm font-semibold text-ink">Hidden Sheets</p>
-            <p className="text-xs text-muted">{sheets.length} not added to queue</p>
-          </div>
+    <div className="border-b border-border px-5 py-3 space-y-2 bg-surface-2/40">
+      <p className="text-xs font-bold text-muted uppercase tracking-widest mb-1">
+        Hidden / Non-PCP Sheets
+      </p>
+      {sheets.map(({ sheet_name }) => (
+        <div key={sheet_name} className="flex items-center justify-between py-1.5">
+          <span className="text-sm font-medium text-ink">{sheet_name}</span>
+          <Button
+            variant="secondary"
+            size="sm"
+            disabled={adding[sheet_name]}
+            onClick={() => handleAdd(sheet_name)}
+          >
+            {adding[sheet_name] ? '…' : '+ Add as WI'}
+          </Button>
         </div>
-        <svg
-          className={`w-4 h-4 text-muted transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
-          fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-        </svg>
-      </button>
-
-      {open && (
-        <div className="border-t border-border px-5 py-3 space-y-2">
-          {sheets.map(({ sheet_name }) => (
-            <div key={sheet_name} className="flex items-center justify-between py-1.5">
-              <span className="text-sm font-medium text-ink">{sheet_name}</span>
-              <Button
-                variant="secondary"
-                size="sm"
-                disabled={adding[sheet_name]}
-                onClick={() => handleAdd(sheet_name)}
-              >
-                {adding[sheet_name] ? '…' : '+ Add as WI'}
-              </Button>
-            </div>
-          ))}
-        </div>
-      )}
-    </Card>
+      ))}
+    </div>
   );
 }
 
@@ -116,12 +97,13 @@ const LANGS = [
 // ── Main component ────────────────────────────────────────────────────
 export default function ReviewStep({
   uploadData, sessionId, selected, onSelectionChange,
-  language, onLanguageChange, onBack, onContinue,
+  language, onLanguageChange, onContinue,
 }) {
   const [excluded,   setExcluded]   = useState(new Set());
   const [previewing, setPreviewing] = useState(new Set());
   const [sheets, setSheets]         = useState(uploadData?.pcp_sheets || []);
   const [nonPcp, setNonPcp]         = useState(uploadData?.non_pcp_sheets || []);
+  const [hiddenOpen, setHiddenOpen] = useState(false);
 
   const toggleExclude = (key) => {
     setExcluded(prev => {
@@ -152,34 +134,65 @@ export default function ReviewStep({
   };
 
   const activeSelected = selected.filter(k => !excluded.has(k));
+  const allIncluded    = sheets.length > 0 && sheets.every(({ key }) => !excluded.has(key));
+
+  const selectAll = () => {
+    setExcluded(new Set());
+    onSelectionChange(sheets.map(s => s.key));
+  };
+  const clearAll = () => onSelectionChange([]);
+  const toggleIncludeAll = () => (allIncluded ? clearAll() : selectAll());
 
   return (
     <div className="space-y-4">
-      {/* Hidden sheets */}
-      <HiddenSheetsPanel sheets={nonPcp} sessionId={sessionId} onAdded={handleNonPcpAdded} />
+    <div className="grid lg:grid-cols-4 gap-6 items-start">
+      <div className="lg:col-span-3 space-y-4">
 
-      {/* Queued WIs */}
+      {/* Review table */}
       <Card padding={false} className="overflow-hidden">
         {/* Section header */}
-        <div className="flex items-center justify-between px-5 py-4 border-b border-border">
+        <div className="flex items-center justify-between gap-3 flex-wrap px-5 py-4 border-b border-border">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-lg bg-accent/10 flex items-center justify-center">
-              <svg className="w-4 h-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-              </svg>
-            </div>
-            <div>
-              <p className="text-xs font-bold text-muted uppercase tracking-widest">Queued Work Instructions</p>
-              <p className="text-xs text-muted mt-0.5">{activeSelected.length} active WI(s)</p>
-            </div>
+            <h3 className="text-lg font-bold text-ink">Review Detected Sheets</h3>
+            <Badge variant="success">{sheets.length} valid sheets found</Badge>
           </div>
-          {activeSelected.length > 0 && (
-            <Badge variant="success">✓ {activeSelected.length} ready</Badge>
-          )}
-          {activeSelected.length === 0 && (
-            <Badge variant="warning">⚠ None selected</Badge>
+          {nonPcp.length > 0 && (
+            <button
+              onClick={() => setHiddenOpen(o => !o)}
+              className={`flex items-center gap-1.5 text-sm font-semibold px-3 py-1.5 rounded-lg border transition-colors ${
+                hiddenOpen
+                  ? 'text-accent border-accent/40 bg-accent/10'
+                  : 'text-accent border-accent/30 bg-accent/5 hover:bg-accent/10'
+              }`}
+            >
+              <EyeOffIcon />
+              Manage Hidden Sheets ({nonPcp.length})
+            </button>
           )}
         </div>
+
+        {/* Hidden sheets */}
+        {hiddenOpen && (
+          <HiddenSheetsPanel sheets={nonPcp} sessionId={sessionId} onAdded={handleNonPcpAdded} />
+        )}
+
+        {/* Column headings */}
+        {sheets.length > 0 && (
+          <div className="hidden md:flex items-center gap-3 px-5 py-2.5 bg-surface-2/60 border-b border-border text-xs font-bold text-muted uppercase tracking-wider">
+            <input
+              type="checkbox"
+              checked={allIncluded}
+              onChange={toggleIncludeAll}
+              className="w-4 h-4 accent-accent cursor-pointer shrink-0"
+            />
+            <span className="flex-1">Sheet Name</span>
+            <span className="w-20 text-center shrink-0">Detected As</span>
+            <span className="w-20 text-center shrink-0">Operations</span>
+            <span className="w-16 text-center shrink-0">Rows</span>
+            <span className="w-16 text-center shrink-0">Include</span>
+            <span className="w-7 shrink-0" />
+          </div>
+        )}
 
         {/* Sheet rows */}
         {sheets.length === 0 && (
@@ -188,11 +201,14 @@ export default function ReviewStep({
           </div>
         )}
         {sheets.map(({ key, meta }) => {
-          const isExcluded  = excluded.has(key);
-          const isSelected  = selected.includes(key) && !isExcluded;
+          const isExcluded   = excluded.has(key);
+          const isSelected   = selected.includes(key) && !isExcluded;
           const isPreviewing = previewing.has(key);
-          const stageLabel  = meta?.stage_label || key;
-          const planNo      = meta?.plan_number  || '';
+          const stageLabel   = meta?.stage_label || key;
+          const planNo       = meta?.plan_number  || '';
+          const detectedAs   = meta?.sheet_name ? 'Stage' : 'Sheet';
+          const operations   = meta?.operation_count ?? '—';
+          const rows         = meta?.row_count ?? '—';
 
           return (
             <div key={key} className={`border-b border-border last:border-0 transition-colors ${isExcluded ? 'bg-surface-2/60' : ''}`}>
@@ -203,49 +219,63 @@ export default function ReviewStep({
                   checked={isSelected}
                   disabled={isExcluded}
                   onChange={() => toggleSelect(key)}
-                  className="w-4 h-4 accent-accent cursor-pointer disabled:cursor-not-allowed"
+                  className="w-4 h-4 accent-accent cursor-pointer disabled:cursor-not-allowed shrink-0"
                 />
 
                 {/* Info */}
-                <div className="flex-1 min-w-0">
-                  <div className={`flex items-center gap-2 flex-wrap ${isExcluded ? 'opacity-40' : ''}`}>
-                    <span className="inline-flex items-center px-2 py-0.5 rounded-md bg-accent/10 text-accent text-[11px] font-bold">
-                      {stageLabel}
-                    </span>
-                    <span className="text-sm font-semibold text-ink truncate">{key}</span>
-                    {planNo && <span className="text-xs text-muted truncate">{planNo.slice(0, 50)}</span>}
-                  </div>
+                <div className={`flex-1 min-w-0 flex items-center gap-2 flex-wrap ${isExcluded ? 'opacity-40' : ''}`}>
+                  <span className="inline-flex items-center px-2 py-0.5 rounded-md bg-accent/10 text-accent text-xs font-bold shrink-0">
+                    {stageLabel}
+                  </span>
+                  <span className="text-base font-semibold text-ink truncate">{key}</span>
+                  {planNo && <span className="text-sm text-muted truncate hidden lg:inline">{planNo.slice(0, 50)}</span>}
                 </div>
 
-                {/* Preview btn */}
+                {/* Detected As */}
+                <span className="w-20 shrink-0 hidden md:flex justify-center">
+                  <Badge variant="info">{detectedAs}</Badge>
+                </span>
+
+                {/* Operations */}
+                <span className="w-20 shrink-0 hidden md:block text-center text-base text-muted">
+                  {operations}
+                </span>
+
+                {/* Rows */}
+                <span className="w-16 shrink-0 hidden md:block text-center text-base text-muted">
+                  {rows}
+                </span>
+
+                {/* Include toggle */}
+                <button
+                  type="button"
+                  role="switch"
+                  title={isExcluded ? 'Excluded — click to include' : 'Included — click to exclude'}
+                  aria-checked={!isExcluded}
+                  onClick={() => toggleExclude(key)}
+                  className={`relative w-9 h-5 rounded-full shrink-0 transition-colors ${!isExcluded ? 'bg-success' : 'bg-border'}`}
+                >
+                  <span
+                    className={`absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform ${
+                      !isExcluded ? 'translate-x-4' : 'translate-x-0'
+                    }`}
+                  />
+                </button>
+
+                {/* Expand / preview */}
                 <button
                   title="Toggle preview"
                   disabled={isExcluded}
                   onClick={() => togglePreview(key)}
-                  className={`p-1.5 rounded-lg transition-colors disabled:opacity-30 ${
+                  className={`p-1.5 rounded-lg transition-colors disabled:opacity-30 shrink-0 ${
                     isPreviewing ? 'bg-accent/20 text-accent' : 'text-muted hover:text-accent hover:bg-accent/5'
                   }`}
                 >
-                  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                  </svg>
-                </button>
-
-                {/* Exclude/Restore btn */}
-                <button
-                  title={isExcluded ? 'Restore' : 'Exclude'}
-                  onClick={() => toggleExclude(key)}
-                  className={`p-1.5 rounded-lg transition-colors ${
-                    isExcluded ? 'text-accent hover:bg-accent/5' : 'text-muted hover:text-danger hover:bg-danger/10'
-                  }`}
-                >
-                  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-                    {isExcluded ? (
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
-                    ) : (
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-                    )}
+                  <svg
+                    className={`w-3.5 h-3.5 transition-transform duration-200 ${isPreviewing ? 'rotate-180' : ''}`}
+                    fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                   </svg>
                 </button>
               </div>
@@ -260,58 +290,75 @@ export default function ReviewStep({
           );
         })}
 
-        {/* Queued summary */}
-        {activeSelected.length > 0 && (
-          <div className="px-5 py-3 bg-accent/5 border-t border-border">
-            <p className="text-xs text-accent font-medium">
-              ⓘ {activeSelected.length} WI(s) queued: {activeSelected.slice(0, 6).join(' · ')}{activeSelected.length > 6 ? ' …' : ''}
-            </p>
+        {/* Footer */}
+        {sheets.length > 0 && (
+          <div className="flex items-center justify-between gap-3 flex-wrap px-5 py-3 border-t border-border">
+            <span className="text-sm text-muted">
+              Showing {sheets.length} of {sheets.length} sheets
+            </span>
+            <div className="flex items-center gap-4">
+              <button onClick={selectAll} className="text-sm text-accent font-semibold hover:underline">
+                Select All
+              </button>
+              <button onClick={clearAll} className="text-sm text-muted font-semibold hover:underline">
+                Clear All
+              </button>
+            </div>
           </div>
         )}
       </Card>
+      </div>
 
-      {/* Language selector */}
-      <Card>
-        <div className="flex items-center gap-2 mb-4">
-          <svg className="w-4 h-4 text-muted" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
-          </svg>
-          <h3 className="text-sm font-semibold text-ink">Instruction Language</h3>
-        </div>
-        <div className="flex gap-8 flex-wrap mt-2 pl-1">
-          {LANGS.map(lang => (
-            <label key={lang.value} className="flex items-center gap-2 cursor-pointer group">
-              <input
-                type="radio"
-                name="language"
-                value={lang.value}
-                checked={language === lang.value}
-                onChange={() => onLanguageChange(lang.value)}
-                className="w-4 h-4 accent-accent"
-              />
-              <span className={`text-sm transition-colors ${language === lang.value ? 'text-accent font-semibold' : 'text-muted group-hover:text-ink'}`}>
-                {lang.label}
-              </span>
-            </label>
-          ))}
-        </div>
-      </Card>
+      {/* Right column: language + summary */}
+      <div className="space-y-4">
+        <Card>
+          <div className="flex items-center gap-2 mb-4">
+            <svg className="w-4 h-4 text-muted" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
+            </svg>
+            <h3 className="text-base font-semibold text-ink">Instruction Language</h3>
+          </div>
+          <div className="flex flex-col gap-3">
+            {LANGS.map(lang => (
+              <label
+                key={lang.value}
+                className={`flex items-center gap-2.5 cursor-pointer rounded-xl border px-3.5 py-2.5 transition-colors ${
+                  language === lang.value ? 'border-accent bg-accent/5' : 'border-border hover:bg-surface-2'
+                }`}
+              >
+                <input
+                  type="radio"
+                  name="language"
+                  value={lang.value}
+                  checked={language === lang.value}
+                  onChange={() => onLanguageChange(lang.value)}
+                  className="w-4 h-4 accent-accent"
+                />
+                <span className={`text-base ${language === lang.value ? 'text-accent font-semibold' : 'text-ink'}`}>
+                  {lang.label}
+                </span>
+              </label>
+            ))}
+          </div>
+        </Card>
+      </div>
+      </div>
 
       {/* Navigation */}
       <div className="flex items-center justify-between pt-2">
-        <Button variant="ghost" size="md" onClick={onBack}>
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+        <p className="text-sm text-muted flex items-center gap-1.5">
+          <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
           </svg>
-          Back
-        </Button>
+          Your data is secure and never shared.
+        </p>
         <Button
-          variant="primary"
+          variant="accent"
           size="md"
           disabled={activeSelected.length === 0}
           onClick={onContinue}
         >
-          Continue
+          Continue to Generate
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>

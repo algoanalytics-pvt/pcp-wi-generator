@@ -5,6 +5,9 @@ import AppShell     from './components/layout/AppShell';
 import UploadStep   from './components/steps/UploadStep';
 import ReviewStep   from './components/steps/ReviewStep';
 import GenerateStep from './components/steps/GenerateStep';
+import { loadGA } from './ga';
+
+const APP_NAME = 'PCP WI Generator';
 
 // ── Step definitions ──────────────────────────────────────────────────
 const STEPS = [
@@ -31,6 +34,11 @@ export default function App() {
       .then(r  => r.json())
       .then(setTrainingStatus)
       .catch(() => setTrainingStatus({ ready: false, errors: ['Backend not reachable'] }));
+  }, []);
+
+  // ── Google Analytics ────────────────────────────────────────────────
+  useEffect(() => {
+    loadGA(APP_NAME);
   }, []);
 
   // ── Handlers ──────────────────────────────────────────────────────

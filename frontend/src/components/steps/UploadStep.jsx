@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react';
 import Card from '../ui/Card';
 import { apiUrl } from '../../api';
+import { trackEvent } from '../../ga';
 
 const FileDocIcon = () => (
   <svg className="w-12 h-12 text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
@@ -135,6 +136,10 @@ export default function UploadStep({ onUploadSuccess, onUploadStart, uploadData 
       const res  = await fetch(apiUrl('/upload-pcp'), { method: 'POST', body: form });
       const data = await res.json();
       if (!res.ok) throw new Error(data.detail || 'Upload failed');
+      trackEvent('file_uploaded', {
+        app_name: 'PCP WI Generator',
+        file_type: file.name.split('.').pop(),
+      });
       onUploadSuccess(data);
     } catch (e) {
       setError(e.message);

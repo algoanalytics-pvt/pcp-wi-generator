@@ -3,9 +3,14 @@ import Button    from '../ui/Button';
 import Card      from '../ui/Card';
 import WIPreview from '../WIPreview';
 import { apiUrl } from '../../api';
+import { trackEvent } from '../../ga';
 
-function downloadFile(b64, mime, filename) {
+function downloadFile(b64, mime, filename, format) {
   if (!b64) return;
+  trackEvent('file_downloaded', {
+    app_name: 'PCP WI Generator',
+    format,
+  });
   const binary = atob(b64);
   const bytes  = new Uint8Array(binary.length);
   for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
@@ -218,14 +223,15 @@ function ResultRow({ stageLabel, result, onPreview }) {
           onClick={() => downloadFile(
             result.xlsx_b64,
             'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-            `${prefix}.xlsx`
+            `${prefix}.xlsx`,
+            'xlsx'
           )}
         />
         <ToolbarButton
           icon={<DownloadIcon className="w-4 h-4" />}
           label="CSV"
           disabled={!result.csv_b64}
-          onClick={() => downloadFile(result.csv_b64, 'text/csv', `${prefix}.csv`)}
+          onClick={() => downloadFile(result.csv_b64, 'text/csv', `${prefix}.csv`, 'csv')}
         />
       </div>
     </div>
@@ -369,7 +375,8 @@ function GenerateResultsView({ selected, phase, spinner, results, error, onBack,
                     onClick={() => downloadFile(
                       activeResult.xlsx_b64,
                       'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-                      `${activeResult.file_prefix || 'WI'}.xlsx`
+                      `${activeResult.file_prefix || 'WI'}.xlsx`,
+                      'xlsx'
                     )}
                   >
                     <DocIcon className="w-4 h-4" />
@@ -379,7 +386,7 @@ function GenerateResultsView({ selected, phase, spinner, results, error, onBack,
                     variant="secondary"
                     size="md"
                     disabled={!activeResult?.csv_b64}
-                    onClick={() => downloadFile(activeResult.csv_b64, 'text/csv', `${activeResult.file_prefix || 'WI'}.csv`)}
+                    onClick={() => downloadFile(activeResult.csv_b64, 'text/csv', `${activeResult.file_prefix || 'WI'}.csv`, 'csv')}
                   >
                     <DocIcon className="w-4 h-4" />
                     Download CSV
@@ -501,6 +508,11 @@ export default function GenerateStep({
     setPhase('generating');
     setError('');
     setSpinner({ current: 1, total: selected.length, subStep: 0, stageName: selected[0], pct: 0 });
+    trackEvent('generation_run', {
+      app_name: 'PCP WI Generator',
+      sheets_count: selected.length,
+      language,
+    });
 
     let done = false;
     let currentPct = 0;

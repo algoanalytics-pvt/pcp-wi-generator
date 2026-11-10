@@ -1,0 +1,839 @@
+{
+ "model": "Luna-5.6",
+ "stage": "01",
+ "verdicts": {
+  "H1": {
+   "verdict": "MATCH",
+   "evidence": "SHARADA INDUSTRIES",
+   "note": ""
+  },
+  "H2": {
+   "verdict": "MATCH",
+   "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+   "note": ""
+  },
+  "H3": {
+   "verdict": "MATCH",
+   "evidence": "Doc No.: SI / PCP /544283753302/01",
+   "note": ""
+  },
+  "H4": {
+   "verdict": "MATCH",
+   "evidence": "Rev: 00",
+   "note": ""
+  },
+  "H5": {
+   "verdict": "MATCH",
+   "evidence": "Date: 09/05/18",
+   "note": ""
+  },
+  "H6": {
+   "verdict": "CONTRADICTED",
+   "evidence": "UNIT-II / BRACKET SUCTION PIPE",
+   "note": "Golden UNIT-3 (the PPAP says UNIT-II)."
+  },
+  "H7": {
+   "verdict": "CONTRADICTED",
+   "evidence": "1-15",
+   "note": "Golden Stage No. is 'Multiple Stages'; '1-15' is an operation-number range."
+  },
+  "H8": {
+   "verdict": "PARTIAL",
+   "evidence": "BRACKET SUCTION PIPE",
+   "note": "'MANUFACTURING' dropped."
+  },
+  "H9": {
+   "verdict": "MATCH",
+   "evidence": "Shearing Machine",
+   "note": ""
+  },
+  "H10": {
+   "verdict": "MATCH",
+   "evidence": "150 Ton Power Press with Blanking Tool",
+   "note": "Header says 'Power Presses'; tonnage in tooling."
+  },
+  "H11": {
+   "verdict": "MATCH",
+   "evidence": "200 Ton Power Press with Piercing Tool",
+   "note": ""
+  },
+  "H12": {
+   "verdict": "MATCH",
+   "evidence": "250 Ton Power Press with Forming-I Tool",
+   "note": ""
+  },
+  "H13": {
+   "verdict": "MATCH",
+   "evidence": "50 Ton Power Press with Forming-II Tool",
+   "note": ""
+  },
+  "H14": {
+   "verdict": "MATCH",
+   "evidence": "100 Ton Power Press with Forming-III Tool",
+   "note": ""
+  },
+  "H15": {
+   "verdict": "MATCH",
+   "evidence": "Projection Welding Machine",
+   "note": ""
+  },
+  "H16": {
+   "verdict": "PARTIAL",
+   "evidence": "स्वीकृत प्लेटिंग सेटअप",
+   "note": "Not in the machine list ('Manual Inspection' instead); only 'approved plating setup' in step 25."
+  },
+  "H17": {
+   "verdict": "MATCH",
+   "evidence": "544283753302",
+   "note": ""
+  },
+  "H18": {
+   "verdict": "MATCH",
+   "evidence": null,
+   "note": "Cycle time blank in both."
+  },
+  "H19": {
+   "verdict": "MATCH",
+   "evidence": "BRACKET SUCTION PIPE",
+   "note": ""
+  },
+  "H20": {
+   "verdict": "MATCH",
+   "evidence": "544283753302",
+   "note": ""
+  },
+  "H21": {
+   "verdict": "MATCH",
+   "evidence": "00",
+   "note": ""
+  },
+  "H22": {
+   "verdict": "MATCH",
+   "evidence": "09/05/18",
+   "note": ""
+  },
+  "H23": {
+   "verdict": "MATCH",
+   "evidence": "—",
+   "note": ""
+  },
+  "H24": {
+   "verdict": "MATCH",
+   "evidence": "544283753302",
+   "note": ""
+  },
+  "H25": {
+   "verdict": "MATCH",
+   "evidence": "BRACKET SUCTION PIPE",
+   "note": ""
+  },
+  "H26": {
+   "verdict": "MATCH",
+   "evidence": "1",
+   "note": ""
+  },
+  "S1": {
+   "verdict": "PARTIAL",
+   "evidence": "प्राप्त कच्चे माल को स्वीकृत सामग्री प्रमाणपत्र और लॉट पहचान के साथ प्राप्त करें।",
+   "note": "Receipt with lot identification; designated place / arranging lot-wise dropped."
+  },
+  "S2": {
+   "verdict": "MATCH",
+   "evidence": "जंग, स्केल, क्रैक, ब्लैक पैच तथा पिटिंग वाली शीट को अलग करें।",
+   "note": ""
+  },
+  "S3": {
+   "verdict": "MATCH",
+   "evidence": "माइक्रोमीटर से शीट की मोटाई जांचें; मोटाई 2.00 मिमी होनी चाहिए।",
+   "note": ""
+  },
+  "S4": {
+   "verdict": "MATCH",
+   "evidence": "सामग्री विनिर्देश D513",
+   "note": ""
+  },
+  "S5": {
+   "verdict": "PARTIAL",
+   "evidence": "रासायनिक, यांत्रिक और भौतिक मानकों को संबंधित गुणवत्ता दस्तावेज के अनुसार सत्यापित करें।",
+   "note": "'Related quality document' instead of the lab test report."
+  },
+  "S6a": {
+   "verdict": "MATCH",
+   "evidence": "लंबाई 1250 मिमी तथा चौड़ाई 187 मिमी के अनुसार काटें।",
+   "note": ""
+  },
+  "S6b": {
+   "verdict": "MATCH",
+   "evidence": "लंबाई 1250 मिमी तथा चौड़ाई 187 मिमी के अनुसार काटें।",
+   "note": ""
+  },
+  "S7": {
+   "verdict": "MATCH",
+   "evidence": "शीयर की गई शीट की मोटाई 2 मिमी ... जांचें।",
+   "note": "Micrometer not named in the step."
+  },
+  "S8a": {
+   "verdict": "MATCH",
+   "evidence": "ब्लैंकिंग के लिए 150 टन पावर प्रेस पर निर्धारित टूल लगाएं",
+   "note": ""
+  },
+  "S8b": {
+   "verdict": "MATCH",
+   "evidence": "शट हाइट 450 मिमी",
+   "note": ""
+  },
+  "S8c": {
+   "verdict": "MATCH",
+   "evidence": "स्ट्रोक लंबाई 130 मिमी",
+   "note": ""
+  },
+  "S9a": {
+   "verdict": "MATCH",
+   "evidence": "ब्लैंकिंग के बाद आयाम 172 मिमी, 36 मिमी, 25 मिमी, 64 मिमी और 20 मिमी जांचें तथा R1 रेडियस की पुष्टि करें।",
+   "note": ""
+  },
+  "S9b": {
+   "verdict": "MATCH",
+   "evidence": "ब्लैंकिंग के बाद आयाम 172 मिमी, 36 मिमी, 25 मिमी, 64 मिमी और 20 मिमी जांचें तथा R1 रेडियस की पुष्टि करें।",
+   "note": ""
+  },
+  "S9c": {
+   "verdict": "MATCH",
+   "evidence": "ब्लैंकिंग के बाद आयाम 172 मिमी, 36 मिमी, 25 मिमी, 64 मिमी और 20 मिमी जांचें तथा R1 रेडियस की पुष्टि करें।",
+   "note": ""
+  },
+  "S9d": {
+   "verdict": "MATCH",
+   "evidence": "ब्लैंकिंग के बाद आयाम 172 मिमी, 36 मिमी, 25 मिमी, 64 मिमी और 20 मिमी जांचें तथा R1 रेडियस की पुष्टि करें।",
+   "note": ""
+  },
+  "S9e": {
+   "verdict": "MATCH",
+   "evidence": "ब्लैंकिंग के बाद आयाम 172 मिमी, 36 मिमी, 25 मिमी, 64 मिमी और 20 मिमी जांचें तथा R1 रेडियस की पुष्टि करें।",
+   "note": ""
+  },
+  "S9f": {
+   "verdict": "MATCH",
+   "evidence": "ब्लैंकिंग के बाद आयाम 172 मिमी, 36 मिमी, 25 मिमी, 64 मिमी और 20 मिमी जांचें तथा R1 रेडियस की पुष्टि करें।",
+   "note": ""
+  },
+  "S10": {
+   "verdict": "MATCH",
+   "evidence": "बर, चिप ऑफ और अनियमित ब्लैंक कट नहीं होना चाहिए।",
+   "note": ""
+  },
+  "S11a": {
+   "verdict": "MATCH",
+   "evidence": "पियर्सिंग के लिए 200 टन पावर प्रेस पर निर्धारित टूल लगाएं",
+   "note": ""
+  },
+  "S11b": {
+   "verdict": "MATCH",
+   "evidence": "शट हाइट 510 मिमी",
+   "note": ""
+  },
+  "S11c": {
+   "verdict": "MATCH",
+   "evidence": "स्ट्रोक लंबाई 140 मिमी",
+   "note": ""
+  },
+  "S12a": {
+   "verdict": "MATCH",
+   "evidence": "पियर्सिंग के बाद छेदों का व्यास 8 मिमी, 11.5 मिमी और 18 मिमी",
+   "note": ""
+  },
+  "S12b": {
+   "verdict": "MATCH",
+   "evidence": "पियर्सिंग के बाद छेदों का व्यास 8 मिमी, 11.5 मिमी और 18 मिमी",
+   "note": ""
+  },
+  "S12c": {
+   "verdict": "MATCH",
+   "evidence": "पियर्सिंग के बाद छेदों का व्यास 8 मिमी, 11.5 मिमी और 18 मिमी",
+   "note": ""
+  },
+  "S12d": {
+   "verdict": "MATCH",
+   "evidence": "संबंधित आयाम 15 मिमी, 8 मिमी, 46 मिमी और 10 मिमी जांचें।",
+   "note": ""
+  },
+  "S12e": {
+   "verdict": "MATCH",
+   "evidence": "संबंधित आयाम 15 मिमी, 8 मिमी, 46 मिमी और 10 मिमी जांचें।",
+   "note": ""
+  },
+  "S12f": {
+   "verdict": "MATCH",
+   "evidence": "संबंधित आयाम 15 मिमी, 8 मिमी, 46 मिमी और 10 मिमी जांचें।",
+   "note": ""
+  },
+  "S12g": {
+   "verdict": "MATCH",
+   "evidence": "संबंधित आयाम 15 मिमी, 8 मिमी, 46 मिमी और 10 मिमी जांचें।",
+   "note": ""
+  },
+  "S13": {
+   "verdict": "MATCH",
+   "evidence": "स्लॉट, ओब्लॉन्ग होल, डेंट, डैमेज या थिनिंग नहीं होना चाहिए।",
+   "note": ""
+  },
+  "S14a": {
+   "verdict": "MATCH",
+   "evidence": "फॉर्मिंग-I के लिए 250 टन पावर प्रेस पर",
+   "note": ""
+  },
+  "S14b": {
+   "verdict": "MATCH",
+   "evidence": "शट हाइट 550 मिमी",
+   "note": ""
+  },
+  "S14c": {
+   "verdict": "MATCH",
+   "evidence": "स्ट्रोक लंबाई 165 मिमी",
+   "note": ""
+  },
+  "S15a": {
+   "verdict": "MATCH",
+   "evidence": "आयाम 30 मिमी, 15 मिमी, R4 रेडियस, 81.8 मिमी और 7 मिमी जांचें।",
+   "note": ""
+  },
+  "S15b": {
+   "verdict": "MATCH",
+   "evidence": "आयाम 30 मिमी, 15 मिमी, R4 रेडियस, 81.8 मिमी और 7 मिमी जांचें।",
+   "note": ""
+  },
+  "S15c": {
+   "verdict": "MATCH",
+   "evidence": "आयाम 30 मिमी, 15 मिमी, R4 रेडियस, 81.8 मिमी और 7 मिमी जांचें।",
+   "note": ""
+  },
+  "S15d": {
+   "verdict": "MATCH",
+   "evidence": "आयाम 30 मिमी, 15 मिमी, R4 रेडियस, 81.8 मिमी और 7 मिमी जांचें।",
+   "note": ""
+  },
+  "S15e": {
+   "verdict": "MATCH",
+   "evidence": "आयाम 30 मिमी, 15 मिमी, R4 रेडियस, 81.8 मिमी और 7 मिमी जांचें।",
+   "note": ""
+  },
+  "S16a": {
+   "verdict": "MATCH",
+   "evidence": "फॉर्मिंग-II के लिए 50 टन पावर प्रेस पर",
+   "note": ""
+  },
+  "S16b": {
+   "verdict": "MATCH",
+   "evidence": "शट हाइट 310 मिमी",
+   "note": ""
+  },
+  "S16c": {
+   "verdict": "MATCH",
+   "evidence": "स्ट्रोक लंबाई 65 मिमी",
+   "note": ""
+  },
+  "S17a": {
+   "verdict": "MATCH",
+   "evidence": "फॉर्मिंग-II के बाद आयाम 35.2 मिमी और कोण 119.2 डिग्री जांचें",
+   "note": ""
+  },
+  "S17b": {
+   "verdict": "MATCH",
+   "evidence": "फॉर्मिंग-II के बाद आयाम 35.2 मिमी और कोण 119.2 डिग्री जांचें",
+   "note": ""
+  },
+  "S18": {
+   "verdict": "MATCH",
+   "evidence": "स्कोरिंग, डेंट, डैमेज, थिनिंग, छेद या ओब्लॉन्ग आकार नहीं होना चाहिए।",
+   "note": ""
+  },
+  "S19a": {
+   "verdict": "MATCH",
+   "evidence": "फॉर्मिंग-III के लिए 100 टन पावर प्रेस पर",
+   "note": ""
+  },
+  "S19b": {
+   "verdict": "MATCH",
+   "evidence": "शट हाइट 400 मिमी",
+   "note": ""
+  },
+  "S19c": {
+   "verdict": "MATCH",
+   "evidence": "स्ट्रोक लंबाई 140 मिमी",
+   "note": ""
+  },
+  "S20a": {
+   "verdict": "MATCH",
+   "evidence": "फॉर्मिंग-III के बाद आयाम 24.6 मिमी, 69.9 मिमी, 124.6 मिमी और कोण 99 डिग्री जांचें",
+   "note": ""
+  },
+  "S20b": {
+   "verdict": "MATCH",
+   "evidence": "फॉर्मिंग-III के बाद आयाम 24.6 मिमी, 69.9 मिमी, 124.6 मिमी और कोण 99 डिग्री जांचें",
+   "note": ""
+  },
+  "S20c": {
+   "verdict": "MATCH",
+   "evidence": "फॉर्मिंग-III के बाद आयाम 24.6 मिमी, 69.9 मिमी, 124.6 मिमी और कोण 99 डिग्री जांचें",
+   "note": ""
+  },
+  "S20d": {
+   "verdict": "MATCH",
+   "evidence": "फॉर्मिंग-III के बाद आयाम 24.6 मिमी, 69.9 मिमी, 124.6 मिमी और कोण 99 डिग्री जांचें",
+   "note": ""
+  },
+  "S21": {
+   "verdict": "MATCH",
+   "evidence": "सतह पर स्कोरिंग, डेंट, डैमेज या थिनिंग नहीं होना चाहिए।",
+   "note": ""
+  },
+  "S22a": {
+   "verdict": "MATCH",
+   "evidence": "M6 वेल्ड नट प्रोजेक्शन मशीन पर ... नट वेल्ड करें।",
+   "note": ""
+  },
+  "S22b": {
+   "verdict": "MATCH",
+   "evidence": "करंट 160 से 180 एम्पियर सेट करके",
+   "note": ""
+  },
+  "S23": {
+   "verdict": "MATCH",
+   "evidence": "टॉर्क रेंच से 1.55 किलोग्राम-मीटर टॉर्क पर परीक्षण करें।",
+   "note": ""
+  },
+  "S24": {
+   "verdict": "MATCH",
+   "evidence": "निरीक्षण गुणवत्ता गेट गुणवत्ता योजना तथा कार्य निर्देश के अनुसार करें।",
+   "note": "Step 22, before plating."
+  },
+  "S25": {
+   "verdict": "MATCH",
+   "evidence": "तैयार पार्ट को यूनिट-II से SN प्लेटिंग के लिए ... भेजें।",
+   "note": ""
+  },
+  "S26a": {
+   "verdict": "MATCH",
+   "evidence": "जिंक प्लेटिंग और ट्रिवेलेंट येलो पैसिवेशन प्रक्रिया",
+   "note": ""
+  },
+  "S26b": {
+   "verdict": "MATCH",
+   "evidence": "प्लेटिंग की मोटाई न्यूनतम 8 माइक्रोन",
+   "note": ""
+  },
+  "S27": {
+   "verdict": "MATCH",
+   "evidence": "कोटिंग दोषों से मुक्त होने की पुष्टि करें।",
+   "note": ""
+  },
+  "S28": {
+   "verdict": "MATCH",
+   "evidence": "प्लेटिंग के बाद पार्ट को SN से F2 तक ... भेजें।",
+   "note": ""
+  },
+  "S29": {
+   "verdict": "MATCH",
+   "evidence": "F2 में गुणवत्ता गेट गुणवत्ता योजना के अनुसार अंतिम निरीक्षण करें।",
+   "note": ""
+  },
+  "S30": {
+   "verdict": "MATCH",
+   "evidence": "केवल जंग और डेंट से मुक्त स्वीकृत पार्ट को निर्धारित भंडारण क्षेत्र में रखें।",
+   "note": ""
+  },
+  "S31": {
+   "verdict": "MATCH",
+   "evidence": "हस्ताक्षरित लॉजिस्टिक शीट और पैकिंग मानकों के अनुसार प्रत्येक लॉट की पैकिंग एवं डिस्पैच करें।",
+   "note": ""
+  },
+  "T1": {
+   "verdict": "MATCH",
+   "evidence": "Shearing Machine",
+   "note": ""
+  },
+  "T2": {
+   "verdict": "MATCH",
+   "evidence": "150 Ton Power Press with Blanking Tool",
+   "note": ""
+  },
+  "T3": {
+   "verdict": "MATCH",
+   "evidence": "200 Ton Power Press with Piercing Tool",
+   "note": ""
+  },
+  "T4": {
+   "verdict": "MATCH",
+   "evidence": "250 Ton Power Press with Forming-I Tool",
+   "note": ""
+  },
+  "T5": {
+   "verdict": "MATCH",
+   "evidence": "50 Ton Power Press with Forming-II Tool",
+   "note": ""
+  },
+  "T6": {
+   "verdict": "MATCH",
+   "evidence": "100 Ton Power Press with Forming-III Tool",
+   "note": ""
+  },
+  "T7": {
+   "verdict": "MATCH",
+   "evidence": "M6 वेल्ड नट प्रोजेक्शन मशीन पर",
+   "note": "Tooling 13 'Projection Welding Machine'."
+  },
+  "T8": {
+   "verdict": "MATCH",
+   "evidence": "जिंक प्लेटिंग और ट्रिवेलेंट येलो पैसिवेशन प्रक्रिया को स्वीकृत प्लेटिंग सेटअप ... कराएं।",
+   "note": "Called 'plating setup', bound to the zinc + passivation step."
+  },
+  "T9a": {
+   "verdict": "MATCH",
+   "evidence": "Micrometer, Least Count 0.001 mm",
+   "note": ""
+  },
+  "T9b": {
+   "verdict": "MATCH",
+   "evidence": "Micrometer, Least Count 0.001 mm",
+   "note": ""
+  },
+  "T10": {
+   "verdict": "MATCH",
+   "evidence": "Vernier Caliper",
+   "note": ""
+  },
+  "T11": {
+   "verdict": "MATCH",
+   "evidence": "Height Gauge",
+   "note": ""
+  },
+  "T12": {
+   "verdict": "MATCH",
+   "evidence": "Radius Gauge",
+   "note": ""
+  },
+  "T13": {
+   "verdict": "MATCH",
+   "evidence": "Torque Wrench",
+   "note": ""
+  },
+  "T14": {
+   "verdict": "MATCH",
+   "evidence": "Panel Checker",
+   "note": ""
+  },
+  "QI1": {
+   "verdict": "MATCH",
+   "evidence": "सामग्री की सतह जंग, स्केल, क्रैक, ब्लैक पैच और पिटिंग से मुक्त होनी चाहिए।",
+   "note": ""
+  },
+  "QI2": {
+   "verdict": "PARTIAL",
+   "evidence": "शीट की मोटाई 2.00 मिमी होनी चाहिए।",
+   "note": "Tolerance ±0.1 dropped."
+  },
+  "QI3": {
+   "verdict": "MATCH",
+   "evidence": "सामग्री विनिर्देश D513 के अनुरूप होना चाहिए।",
+   "note": ""
+  },
+  "QI4": {
+   "verdict": "PARTIAL",
+   "evidence": "रासायनिक, यांत्रिक और भौतिक सामग्री मानक F-QAD/SI/RMQP के अनुसार होने चाहिए।",
+   "note": "RMQP instead of the lab test report."
+  },
+  "QF1": {
+   "verdict": "MATCH",
+   "evidence": "... आयाम ... होने चाहिए।",
+   "note": "Every operation's dimensions listed (finished QC 1-9)."
+  },
+  "QF2": {
+   "verdict": "MATCH",
+   "evidence": "बर, चिप ऑफ और असमान कट से मुक्त ... स्लॉट, ओब्लॉन्ग होल, डेंट, डैमेज और थिनिंग नहीं",
+   "note": "Finished QC 3 and 6."
+  },
+  "QF3a": {
+   "verdict": "MATCH",
+   "evidence": "पियर्सिंग के बाद छेदों के व्यास 8 मिमी, 11.5 मिमी और 18 मिमी होने चाहिए।",
+   "note": ""
+  },
+  "QF3b": {
+   "verdict": "MATCH",
+   "evidence": "पियर्सिंग के बाद छेदों के व्यास 8 मिमी, 11.5 मिमी और 18 मिमी होने चाहिए।",
+   "note": ""
+  },
+  "QF3c": {
+   "verdict": "MATCH",
+   "evidence": "पियर्सिंग के बाद छेदों के व्यास 8 मिमी, 11.5 मिमी और 18 मिमी होने चाहिए।",
+   "note": ""
+  },
+  "QF4": {
+   "verdict": "MATCH",
+   "evidence": "वेल्ड नट टॉर्क 1.55 किलोग्राम-मीटर होना चाहिए।",
+   "note": ""
+  },
+  "QF5": {
+   "verdict": "MATCH",
+   "evidence": "कोटिंग की मोटाई न्यूनतम 8 माइक्रोन होनी चाहिए।",
+   "note": ""
+  },
+  "QF6": {
+   "verdict": "MATCH",
+   "evidence": "प्लेटेड पार्ट कोटिंग दोष, जंग और डेंट से मुक्त होना चाहिए।",
+   "note": ""
+  },
+  "QF7": {
+   "verdict": "MATCH",
+   "evidence": "पैकिंग हस्ताक्षरित लॉजिस्टिक शीट और स्वीकृत पैकिंग मानकों के अनुसार होनी चाहिए।",
+   "note": ""
+  },
+  "R1": {
+   "verdict": "CONTRADICTED",
+   "evidence": "कोटिंग दोष या जंग | दोषयुक्त पार्ट को क्वारंटीन कर सप्लायर को वापस भेजें",
+   "note": "Rust is quarantined and returned to the supplier instead of cleaned with rust remover; no raw-material rust/scale/pitting row."
+  },
+  "R2": {
+   "verdict": "CONTRADICTED",
+   "evidence": "शीट मोटाई अस्वीकृत | ... क्वारंटीन करें और स्वीकृत 2.00 मिमी शीट से बदलें।",
+   "note": "Golden re-cuts the sheet; generated replaces it."
+  },
+  "R3": {
+   "verdict": "MATCH",
+   "evidence": "गलत आयाम या कोण | प्रेस टूल, लाइनर और स्टॉपर की सेटिंग जांचकर पार्ट को अनुमोदित टूल में दोबारा फॉर्म करें।",
+   "note": ""
+  },
+  "R4": {
+   "verdict": "MATCH",
+   "evidence": "बर या चिप ऑफ | बर हटाने के लिए उपयुक्त डिबरिंग टूल का उपयोग करें",
+   "note": "Deburring tool rather than grinding/filing; same action."
+  },
+  "R5": {
+   "verdict": "MATCH",
+   "evidence": "गलत छेद का व्यास | पियर्सिंग टूल और स्टॉपर की स्थिति सुधारें",
+   "note": ""
+  },
+  "R6": {
+   "verdict": "MATCH",
+   "evidence": "वेल्ड नट ढीला या मिसिंग | ... दोबारा प्रोजेक्शन वेल्ड करें और 1.55 किलोग्राम-मीटर टॉर्क से सत्यापित करें।",
+   "note": ""
+  },
+  "R7": {
+   "verdict": "MATCH",
+   "evidence": "कोटिंग मोटाई कम | ... प्लेटिंग सप्लायर को वापस भेजें और न्यूनतम 8 माइक्रोन कोटिंग प्राप्त होने के बाद पुनः निरीक्षण करें।",
+   "note": "Re-coating at the plater and thickness re-check."
+  },
+  "R8": {
+   "verdict": "PARTIAL",
+   "evidence": "कोटिंग दोष या जंग | ... सप्लायर को वापस भेजें; स्वीकृत प्लेटिंग और पासिवेशन के बाद ही उपयोग करें।",
+   "note": "Re-plating implied; cleaning step dropped."
+  },
+  "R9": {
+   "verdict": "CONTRADICTED",
+   "evidence": "डेंट, डैमेज या थिनिंग | ... री-फॉर्म करें, अन्यथा पार्ट को रिजेक्ट करें।",
+   "note": "Golden repairs with a plastic mallet; generated re-forms or rejects."
+  },
+  "L1": {
+   "verdict": "MATCH",
+   "evidence": "🚫 Don't Twist",
+   "note": ""
+  },
+  "L2": {
+   "verdict": "MATCH",
+   "evidence": "🔩 Spec. Torque",
+   "note": ""
+  },
+  "L3": {
+   "verdict": "MATCH",
+   "evidence": "⚠️ Important",
+   "note": ""
+  },
+  "L4": {
+   "verdict": "MATCH",
+   "evidence": "🔧 Adjustment",
+   "note": ""
+  },
+  "L5": {
+   "verdict": "MATCH",
+   "evidence": "🧴 Apply Adhesive",
+   "note": ""
+  },
+  "L6": {
+   "verdict": "MATCH",
+   "evidence": "🛢️ Lubricate Oil",
+   "note": ""
+  },
+  "L7": {
+   "verdict": "MATCH",
+   "evidence": "🟡 Lub. Grease",
+   "note": ""
+  },
+  "L8": {
+   "verdict": "MATCH",
+   "evidence": "🔵 Apply Sealant",
+   "note": ""
+  },
+  "L9": {
+   "verdict": "MATCH",
+   "evidence": "⭐ Vital Parts",
+   "note": ""
+  }
+ },
+ "extra_content": [
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "मशीन सेटिंग पैरामीटर शीट WP-PRD-17 के अनुसार",
+   "note": "New document reference (step 7).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "शट हाइट 450 मिमी, अधिकतम शट हाइट 450 मिमी, न्यूनतम शट हाइट 320 मिमी",
+   "note": "New max/min shut-height limits for blanking (min 320 mm).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "शट हाइट 510 मिमी, अधिकतम शट हाइट 510 मिमी, न्यूनतम शट हाइट 370 मिमी",
+   "note": "New max/min shut-height limits for piercing (min 370 mm).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "शट हाइट 550 मिमी, अधिकतम शट हाइट 550 मिमी, न्यूनतम शट हाइट 385 मिमी",
+   "note": "New max/min shut-height limits for Forming I (min 385 mm).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "शट हाइट 310 मिमी, अधिकतम शट हाइट 310 मिमी, न्यूनतम शट हाइट 245 मिमी",
+   "note": "New max/min shut-height limits for Forming II (min 245 mm).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "शट हाइट 400 मिमी, अधिकतम शट हाइट 400 मिमी, न्यूनतम शट हाइट 260 मिमी",
+   "note": "New max/min shut-height limits for Forming III (min 260 mm).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "ब्लैंकिंग टूल का आकार 560 x 380 x 300 मिमी और बॉटम लाइनर का आकार 125 x 55 x 560 मिमी",
+   "note": "New blanking tool and liner sizes (step 8, tooling 2-3).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Piercing Tool, Tool Size 300 x 220 x 250 mm / Piercing Bottom Liner 120 x 50 x 450 mm",
+   "note": "New piercing tool and liner sizes.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "540 x 340 x 230 मिमी टूल, 63 x 25 x 360 मिमी टॉप लाइनर और 160 x 135 x 740 मिमी बॉटम लाइनर",
+   "note": "New Forming I tool and liner sizes (step 15, tooling 6-8).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Forming-II Tool, Tool Size 260 x 325 x 250 mm / Forming-II Bottom Liner 35 x 60 x 360 mm",
+   "note": "New Forming II tool and liner sizes.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Forming-III Tool, Tool Size 325 x 250 x 260 mm / Forming-III Bottom Liner 400 x 90 x 50 mm",
+   "note": "New Forming III tool and liner sizes.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "प्रथम पीस, प्रत्येक घंटे का एक पीस और अंतिम पीस का निरीक्षण",
+   "note": "New first-piece / hourly / last-piece inspection frequency.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "F-QAD/SI/RMQP के अनुसार",
+   "note": "New document reference (QI 4).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "प्रत्येक लॉट के लिए 3 x 50 x 300 मिमी आकार के 2 नमूने प्रयोगशाला परीक्षण हेतु",
+   "note": "New lab-sample size and quantity (QI 5).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "FeZn8Cr III Y जिंक प्लेटिंग",
+   "note": "New coating specification code (step 25, finished QC 13).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "DFT मीटर या एडहेसिव टेप टेस्ट से जांचें",
+   "note": "New instrument and test method (also tooling 22).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Measuring Tape",
+   "note": "Instrument not named in the golden.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "B.P. Gauge",
+   "note": "Instrument not named in the golden.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "गलत पैकिंग या पहचान | ... दोबारा पैक करें तथा VD और SCM से हस्ताक्षर करवाएं।",
+   "note": "New rework row with a sign-off.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "गलत लंबाई या चौड़ाई | स्टॉपर और शीयरिंग टूल की सेटिंग जांचकर पार्ट को ... दोबारा काटें।",
+   "note": "New rework row (re-cut wrong length/width).",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "H4: ... Manual Inspection",
+   "note": "Machine field lists 'Manual Inspection'.",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "छेद या ओब्लॉन्ग आकार नहीं होना चाहिए",
+   "note": "Extra hole/oblong criterion after Forming II (also finished QC 10).",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "अस्वीकृत पार्ट को अलग करें।",
+   "note": "Extra sort/reject reaction (step 23).",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "हस्ताक्षरित लॉजिस्टिक शीट",
+   "note": "Extra sign-off requirement.",
+   "in_ppap": true
+  },
+  {
+   "type": "BENIGN_ADDITION",
+   "evidence": "शीट को शीयरिंग मशीन पर सही स्थिति में रखें",
+   "note": "Generic loading guidance.",
+   "in_ppap": null
+  }
+ ],
+ "sequence_issues": [],
+ "language": {
+  "verdict": "COMPLIANT",
+  "note": "Step, quality and rework text is Hindi Devanagari with English/transliterated technical terms; tooling list and headers are English."
+ },
+ "summary": "Every press operation, setting, dimension, weld-nut current and torque, plating step and packing step is present and correctly bound, and the part list, revision and dates are correct. It fails on the header (UNIT-II instead of UNIT-3, Stage No. '1-15') and on many PPAP-derived extras: min shut heights, tool and liner sizes, WP-PRD-17, RMQP, FeZn8Cr III Y, hourly sampling, DFT meter, measuring tape and B.P. gauge. Rework rejects or re-forms dents instead of using a plastic mallet, replaces off-thickness sheet instead of re-cutting it, and returns rusted parts to the supplier."
+}

@@ -1,0 +1,761 @@
+{
+ "model": "mistral-small-latest",
+ "stage": "01",
+ "verdicts": {
+  "H1": {
+   "verdict": "MATCH",
+   "evidence": "SHARADA INDUSTRIES",
+   "note": ""
+  },
+  "H2": {
+   "verdict": "MATCH",
+   "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+   "note": ""
+  },
+  "H3": {
+   "verdict": "MATCH",
+   "evidence": "Doc No.: SI / PCP /544283753302/01",
+   "note": ""
+  },
+  "H4": {
+   "verdict": "MATCH",
+   "evidence": "Rev: 0",
+   "note": "0 = 00."
+  },
+  "H5": {
+   "verdict": "MATCH",
+   "evidence": "Date: 09/5/18",
+   "note": ""
+  },
+  "H6": {
+   "verdict": "MATCH",
+   "evidence": "UNIT-3 / BRACKET SUCTION PIPE",
+   "note": ""
+  },
+  "H7": {
+   "verdict": "CONTRADICTED",
+   "evidence": "RM RECEIPT",
+   "note": "Golden Stage No. is 'Multiple Stages'."
+  },
+  "H8": {
+   "verdict": "CONTRADICTED",
+   "evidence": "RAW MATERIAL RECEIPT",
+   "note": "Stage name narrowed to raw-material receipt."
+  },
+  "H9": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Machine field says 'Manual Inspection'; no machine named anywhere."
+  },
+  "H10": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Machine field says 'Manual Inspection'; no machine named anywhere."
+  },
+  "H11": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Machine field says 'Manual Inspection'; no machine named anywhere."
+  },
+  "H12": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Machine field says 'Manual Inspection'; no machine named anywhere."
+  },
+  "H13": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Machine field says 'Manual Inspection'; no machine named anywhere."
+  },
+  "H14": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Machine field says 'Manual Inspection'; no machine named anywhere."
+  },
+  "H15": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Machine field says 'Manual Inspection'; no machine named anywhere."
+  },
+  "H16": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Machine field says 'Manual Inspection'; no machine named anywhere."
+  },
+  "H17": {
+   "verdict": "MATCH",
+   "evidence": "544283753302",
+   "note": ""
+  },
+  "H18": {
+   "verdict": "MATCH",
+   "evidence": null,
+   "note": "Cycle time blank in both."
+  },
+  "H19": {
+   "verdict": "MATCH",
+   "evidence": "BRACKET SUCTION PIPE",
+   "note": ""
+  },
+  "H20": {
+   "verdict": "MATCH",
+   "evidence": "544283753302",
+   "note": ""
+  },
+  "H21": {
+   "verdict": "MATCH",
+   "evidence": "0",
+   "note": "0 = 00."
+  },
+  "H22": {
+   "verdict": "MATCH",
+   "evidence": "09/5/18",
+   "note": ""
+  },
+  "H23": {
+   "verdict": "MATCH",
+   "evidence": "—",
+   "note": ""
+  },
+  "H24": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Part-list table is empty."
+  },
+  "H25": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Part-list table is empty."
+  },
+  "H26": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Part-list table is empty."
+  },
+  "S1": {
+   "verdict": "PARTIAL",
+   "evidence": "Verify raw material delivery documents against purchase order.",
+   "note": "Receipt of raw material covered; designated place and lot-wise arrangement dropped."
+  },
+  "S2": {
+   "verdict": "MATCH",
+   "evidence": "Inspect surface condition for rust, scale, cracks, black patches, and pitting (100% visual check).",
+   "note": ""
+  },
+  "S3": {
+   "verdict": "MATCH",
+   "evidence": "Measure sheet thickness using micrometer (2.00 mm ± tolerance as per drawing).",
+   "note": ""
+  },
+  "S4": {
+   "verdict": "MATCH",
+   "evidence": "Check supplier code S-06220 and material specification D513.",
+   "note": ""
+  },
+  "S5": {
+   "verdict": "PARTIAL",
+   "evidence": "Verify chemical composition as per F-QAD/SI/RMQP using lab test certificate. / Check mechanical and physical properties as per applicable standards.",
+   "note": "Chemical via lab certificate; mechanical/physical 'as per applicable standards' instead of the lab test report."
+  },
+  "S6a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S6b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S8a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S8b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S8c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S9a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S9b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S9c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S9d": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S9e": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S9f": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S10": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S11a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S11b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S11c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S12a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S12b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S12c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S12d": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S12e": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S12f": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S12g": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S13": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI covers raw-material receipt only."
+  },
+  "S14a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S14b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S14c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S15a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S15b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S15c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S15d": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S15e": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S16a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S16b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S16c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S17a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S17b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S18": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S19a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S19b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S19c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S20a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S20b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S20c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S20d": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S21": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S22a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No welding, inspection, plating, storage or packing."
+  },
+  "S22b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No welding, inspection, plating, storage or packing."
+  },
+  "S23": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No welding, inspection, plating, storage or packing."
+  },
+  "S24": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No welding, inspection, plating, storage or packing."
+  },
+  "S25": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No welding, inspection, plating, storage or packing."
+  },
+  "S26a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No welding, inspection, plating, storage or packing."
+  },
+  "S26b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No welding, inspection, plating, storage or packing."
+  },
+  "S27": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No welding, inspection, plating, storage or packing."
+  },
+  "S28": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No welding, inspection, plating, storage or packing."
+  },
+  "S29": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No welding, inspection, plating, storage or packing."
+  },
+  "S30": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No welding, inspection, plating, storage or packing."
+  },
+  "S31": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No welding, inspection, plating, storage or packing."
+  },
+  "T1": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T2": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T3": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T4": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T5": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T6": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T8": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T9a": {
+   "verdict": "MATCH",
+   "evidence": "Micrometer [LC=0.001mm]",
+   "note": ""
+  },
+  "T9b": {
+   "verdict": "MATCH",
+   "evidence": "Micrometer [LC=0.001mm]",
+   "note": ""
+  },
+  "T10": {
+   "verdict": "MATCH",
+   "evidence": "Vernier Caliper",
+   "note": ""
+  },
+  "T11": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T12": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T13": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T14": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QI1": {
+   "verdict": "MATCH",
+   "evidence": "Surface must be free from rust, scale, cracks, black patches, and pitting.",
+   "note": ""
+  },
+  "QI2": {
+   "verdict": "PARTIAL",
+   "evidence": "Sheet thickness must be 2.00 mm ± tolerance as per drawing.",
+   "note": "Tolerance ±0.1 not stated."
+  },
+  "QI3": {
+   "verdict": "MATCH",
+   "evidence": "Material specification must be D513.",
+   "note": ""
+  },
+  "QI4": {
+   "verdict": "PARTIAL",
+   "evidence": "Chemical composition must meet F-QAD/SI/RMQP requirements. / Mechanical and physical properties must comply with standards.",
+   "note": "Lab test report not named; RMQP / 'standards' instead."
+  },
+  "QF1": {
+   "verdict": "MATCH",
+   "evidence": "All dimensions must meet drawing specifications.",
+   "note": ""
+  },
+  "QF2": {
+   "verdict": "PARTIAL",
+   "evidence": "No thinning or damage to material during shearing/blanking operations.",
+   "note": "Thinning and damage only; burr, chip off, blank cut, dent dropped."
+  },
+  "QF3a": {
+   "verdict": "PARTIAL",
+   "evidence": "All dimensions must meet drawing specifications.",
+   "note": "Generic 'all dimensions' line, no hole values."
+  },
+  "QF3b": {
+   "verdict": "PARTIAL",
+   "evidence": "All dimensions must meet drawing specifications.",
+   "note": "Generic 'all dimensions' line, no hole values."
+  },
+  "QF3c": {
+   "verdict": "PARTIAL",
+   "evidence": "All dimensions must meet drawing specifications.",
+   "note": "Generic 'all dimensions' line, no hole values."
+  },
+  "QF4": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QF5": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QF6": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QF7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R1": {
+   "verdict": "PARTIAL",
+   "evidence": "Rust or Scale | Clean affected area with rust remover and apply anti-rust coating as per standard procedure.",
+   "note": "Pitting dropped."
+  },
+  "R2": {
+   "verdict": "CONTRADICTED",
+   "evidence": "Incorrect Thickness | Reject material if thickness is out of specification; do not process further.",
+   "note": "Golden sends the sheet for re-cutting; generated rejects it."
+  },
+  "R3": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R4": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R5": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R6": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R8": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R9": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "L1": {
+   "verdict": "MATCH",
+   "evidence": "🚫 Don't Twist",
+   "note": ""
+  },
+  "L2": {
+   "verdict": "MATCH",
+   "evidence": "🔩 Spec. Torque",
+   "note": ""
+  },
+  "L3": {
+   "verdict": "MATCH",
+   "evidence": "⚠️ Important",
+   "note": ""
+  },
+  "L4": {
+   "verdict": "MATCH",
+   "evidence": "🔧 Adjustment",
+   "note": ""
+  },
+  "L5": {
+   "verdict": "MATCH",
+   "evidence": "🧴 Apply Adhesive",
+   "note": ""
+  },
+  "L6": {
+   "verdict": "MATCH",
+   "evidence": "🛢️ Lubricate Oil",
+   "note": ""
+  },
+  "L7": {
+   "verdict": "MATCH",
+   "evidence": "🟡 Lub. Grease",
+   "note": ""
+  },
+  "L8": {
+   "verdict": "MATCH",
+   "evidence": "🔵 Apply Sealant",
+   "note": ""
+  },
+  "L9": {
+   "verdict": "MATCH",
+   "evidence": "⭐ Vital Parts",
+   "note": ""
+  }
+ },
+ "extra_content": [
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Check supplier code S-06220",
+   "note": "New code to verify, not in the golden.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "(100% visual check)",
+   "note": "New inspection frequency.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Verify chemical composition as per F-QAD/SI/RMQP using lab test certificate.",
+   "note": "New document reference (also QI 4).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Record inspection results in supplier PDI report.",
+   "note": "New document reference.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Laboratory Test Equipment",
+   "note": "New equipment item.",
+   "in_ppap": false
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Chemical Non-Conformance | Segregate and return to supplier with rejection note; do not use in production.",
+   "note": "New rework row.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Surface Defects | If minor, clean and re-inspect; if severe, reject and return to supplier.",
+   "note": "New rework row with a reject/return action.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Mechanical Property Non-Conformance | Quarantine material and inform quality engineer; do not proceed with processing.",
+   "note": "New rework row.",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "Segregate non-conforming material and initiate sorting/rejection process.",
+   "note": "Extra reaction step.",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "H4: Manual Inspection",
+   "note": "Machine field filled with 'Manual Inspection'.",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "Visual Inspection Tools",
+   "note": "Vague tooling item.",
+   "in_ppap": false
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "Surface condition must remain free from defects after processing.",
+   "note": "Extra generic finished-QC criterion.",
+   "in_ppap": false
+  }
+ ],
+ "sequence_issues": [],
+ "language": {
+  "verdict": "NON_COMPLIANT",
+  "note": "All step, quality and rework text is in English."
+ },
+ "summary": "The WI is a raw-material receipt instruction only: shearing, blanking, piercing, all three forming operations, weld-nut projection, plating, storage and packing are missing, so none of the press settings or part dimensions are given. Stage No. and stage name are 'RM RECEIPT' / 'RAW MATERIAL RECEIPT', no machines are listed, and thickness deviation is rejected instead of re-cut."
+}

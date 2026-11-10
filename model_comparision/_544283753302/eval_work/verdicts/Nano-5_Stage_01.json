@@ -1,0 +1,779 @@
+{
+ "model": "Nano-5",
+ "stage": "01",
+ "verdicts": {
+  "H1": {
+   "verdict": "MATCH",
+   "evidence": "SHARADA INDUSTRIES",
+   "note": ""
+  },
+  "H2": {
+   "verdict": "MATCH",
+   "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+   "note": ""
+  },
+  "H3": {
+   "verdict": "MATCH",
+   "evidence": "Doc No.: SI / PCP /544283753302/01",
+   "note": ""
+  },
+  "H4": {
+   "verdict": "CONTRADICTED",
+   "evidence": "Rev: 01",
+   "note": "Golden Rev 00."
+  },
+  "H5": {
+   "verdict": "MATCH",
+   "evidence": "Date: 09/05/18",
+   "note": ""
+  },
+  "H6": {
+   "verdict": "MATCH",
+   "evidence": "UNIT III / BRACKET SUCTION PIPE",
+   "note": "III = 3."
+  },
+  "H7": {
+   "verdict": "CONTRADICTED",
+   "evidence": "1",
+   "note": "Golden Stage No. is 'Multiple Stages'."
+  },
+  "H8": {
+   "verdict": "PARTIAL",
+   "evidence": "BRACKET SUCTION PIPE",
+   "note": "'MANUFACTURING' dropped."
+  },
+  "H9": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Machine field holds the supplier code 'S-06220'; no machine named anywhere."
+  },
+  "H10": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Machine field holds the supplier code 'S-06220'; no machine named anywhere."
+  },
+  "H11": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Machine field holds the supplier code 'S-06220'; no machine named anywhere."
+  },
+  "H12": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Machine field holds the supplier code 'S-06220'; no machine named anywhere."
+  },
+  "H13": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Machine field holds the supplier code 'S-06220'; no machine named anywhere."
+  },
+  "H14": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Machine field holds the supplier code 'S-06220'; no machine named anywhere."
+  },
+  "H15": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Machine field holds the supplier code 'S-06220'; no machine named anywhere."
+  },
+  "H16": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Machine field holds the supplier code 'S-06220'; no machine named anywhere."
+  },
+  "H17": {
+   "verdict": "MATCH",
+   "evidence": "544283753302",
+   "note": ""
+  },
+  "H18": {
+   "verdict": "MATCH",
+   "evidence": null,
+   "note": "Cycle time blank in both."
+  },
+  "H19": {
+   "verdict": "MATCH",
+   "evidence": "BRACKET SUCTION PIPE",
+   "note": ""
+  },
+  "H20": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Drawing No. field is blank."
+  },
+  "H21": {
+   "verdict": "CONTRADICTED",
+   "evidence": "01",
+   "note": "Golden drawing revision 00."
+  },
+  "H22": {
+   "verdict": "MATCH",
+   "evidence": "09/05/18",
+   "note": ""
+  },
+  "H23": {
+   "verdict": "MATCH",
+   "evidence": "—",
+   "note": ""
+  },
+  "H24": {
+   "verdict": "MATCH",
+   "evidence": "544283753302",
+   "note": ""
+  },
+  "H25": {
+   "verdict": "MATCH",
+   "evidence": "BRACKET SUCTION PIPE",
+   "note": ""
+  },
+  "H26": {
+   "verdict": "MATCH",
+   "evidence": "1",
+   "note": ""
+  },
+  "S1": {
+   "verdict": "PARTIAL",
+   "evidence": "Collect all necessary parts and place them in the work area.",
+   "note": "Generic 'parts' wording; also 'mark as Lot Ready' in step 5. Raw material and lot-wise arrangement not stated."
+  },
+  "S2": {
+   "verdict": "PARTIAL",
+   "evidence": "ensure metal surfaces are free from rust and defects.",
+   "note": "Only rust named; scale, crack, black spots, pitting dropped."
+  },
+  "S3": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No thickness, D513 or lab-property check."
+  },
+  "S4": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No thickness, D513 or lab-property check."
+  },
+  "S5": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No thickness, D513 or lab-property check."
+  },
+  "S6a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No shearing or blanking operation."
+  },
+  "S6b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No shearing or blanking operation."
+  },
+  "S7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No shearing or blanking operation."
+  },
+  "S8a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No shearing or blanking operation."
+  },
+  "S8b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No shearing or blanking operation."
+  },
+  "S8c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No shearing or blanking operation."
+  },
+  "S9a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No shearing or blanking operation."
+  },
+  "S9b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No shearing or blanking operation."
+  },
+  "S9c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No shearing or blanking operation."
+  },
+  "S9d": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No shearing or blanking operation."
+  },
+  "S9e": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No shearing or blanking operation."
+  },
+  "S9f": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No shearing or blanking operation."
+  },
+  "S10": {
+   "verdict": "PARTIAL",
+   "evidence": "Inspect parts for burrs, surface finish and proper stamping as per drawing requirements.",
+   "note": "Only burr named; not tied to blanking."
+  },
+  "S11a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No piercing operation."
+  },
+  "S11b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No piercing operation."
+  },
+  "S11c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No piercing operation."
+  },
+  "S12a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No piercing operation."
+  },
+  "S12b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No piercing operation."
+  },
+  "S12c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No piercing operation."
+  },
+  "S12d": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No piercing operation."
+  },
+  "S12e": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No piercing operation."
+  },
+  "S12f": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No piercing operation."
+  },
+  "S12g": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No piercing operation."
+  },
+  "S13": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No piercing operation."
+  },
+  "S14a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S14b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S14c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S15a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S15b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S15c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S15d": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S15e": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S16a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S16b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S16c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S17a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S17b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S18": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S19a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S19b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S19c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S20a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S20b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S20c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S20d": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S21": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S22a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Generic 'assemble / weld' and spot welding; no M6 weld nut projection or current."
+  },
+  "S22b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Generic 'assemble / weld' and spot welding; no M6 weld nut projection or current."
+  },
+  "S23": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S24": {
+   "verdict": "PARTIAL",
+   "evidence": "Finalize inspection and confirm readiness for next process/Stage.",
+   "note": "Final inspection present, quality-gate / quality-plan reference dropped."
+  },
+  "S25": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No plating, post-plating inspection, storage or packing; WI ends with hand-off to next stage."
+  },
+  "S26a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No plating, post-plating inspection, storage or packing; WI ends with hand-off to next stage."
+  },
+  "S26b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No plating, post-plating inspection, storage or packing; WI ends with hand-off to next stage."
+  },
+  "S27": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No plating, post-plating inspection, storage or packing; WI ends with hand-off to next stage."
+  },
+  "S28": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No plating, post-plating inspection, storage or packing; WI ends with hand-off to next stage."
+  },
+  "S29": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No plating, post-plating inspection, storage or packing; WI ends with hand-off to next stage."
+  },
+  "S30": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No plating, post-plating inspection, storage or packing; WI ends with hand-off to next stage."
+  },
+  "S31": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No plating, post-plating inspection, storage or packing; WI ends with hand-off to next stage."
+  },
+  "T1": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Tooling list holds approval-box text and the supplier code, no equipment."
+  },
+  "T2": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Tooling list holds approval-box text and the supplier code, no equipment."
+  },
+  "T3": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Tooling list holds approval-box text and the supplier code, no equipment."
+  },
+  "T4": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Tooling list holds approval-box text and the supplier code, no equipment."
+  },
+  "T5": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Tooling list holds approval-box text and the supplier code, no equipment."
+  },
+  "T6": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Tooling list holds approval-box text and the supplier code, no equipment."
+  },
+  "T7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Tooling list holds approval-box text and the supplier code, no equipment."
+  },
+  "T8": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Tooling list holds approval-box text and the supplier code, no equipment."
+  },
+  "T9a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Tooling list holds approval-box text and the supplier code, no equipment."
+  },
+  "T9b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Tooling list holds approval-box text and the supplier code, no equipment."
+  },
+  "T10": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Tooling list holds approval-box text and the supplier code, no equipment."
+  },
+  "T11": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Tooling list holds approval-box text and the supplier code, no equipment."
+  },
+  "T12": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Tooling list holds approval-box text and the supplier code, no equipment."
+  },
+  "T13": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Tooling list holds approval-box text and the supplier code, no equipment."
+  },
+  "T14": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Tooling list holds approval-box text and the supplier code, no equipment."
+  },
+  "QI1": {
+   "verdict": "PARTIAL",
+   "evidence": "ensure metal surfaces are free from rust and defects.",
+   "note": "Step 6; only rust named."
+  },
+  "QI2": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QI3": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QI4": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QF1": {
+   "verdict": "MATCH",
+   "evidence": "Hole diameters and dimensions within specified tolerances",
+   "note": ""
+  },
+  "QF2": {
+   "verdict": "PARTIAL",
+   "evidence": "No rust, burrs or damages on critical surfaces",
+   "note": "Burr and damage only; chip off, blank cut, dent, thinning dropped."
+  },
+  "QF3a": {
+   "verdict": "PARTIAL",
+   "evidence": "Hole diameters and dimensions within specified tolerances",
+   "note": "Generic; no values."
+  },
+  "QF3b": {
+   "verdict": "PARTIAL",
+   "evidence": "Hole diameters and dimensions within specified tolerances",
+   "note": "Generic; no values."
+  },
+  "QF3c": {
+   "verdict": "PARTIAL",
+   "evidence": "Hole diameters and dimensions within specified tolerances",
+   "note": "Generic; no values."
+  },
+  "QF4": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QF5": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QF6": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QF7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R1": {
+   "verdict": "PARTIAL",
+   "evidence": "Rust or Corrosion | Treat with rust remover and apply appropriate coating per control plan",
+   "note": "Defect narrowed to rust (scale, pitting dropped)."
+  },
+  "R2": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R3": {
+   "verdict": "CONTRADICTED",
+   "evidence": "Dimensional Misbehavior | Re-measure and rework to required dimensions using approved gauges",
+   "note": "Golden action is to check stopper adjustment and reset the machine; generated reworks the part."
+  },
+  "R4": {
+   "verdict": "MATCH",
+   "evidence": "Surface Condition Defect | Rework to remove burrs and restore surface finish to specification",
+   "note": "Generalised defect; action (remove burr) matches."
+  },
+  "R5": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R6": {
+   "verdict": "PARTIAL",
+   "evidence": "Nonconforming Welds | Rework welds using approved parameters and verify with inspection plan",
+   "note": "Generic welds; re-projection of the weld nut and torque check not stated."
+  },
+  "R7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R8": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R9": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "L1": {
+   "verdict": "MATCH",
+   "evidence": "🚫 Don't Twist",
+   "note": ""
+  },
+  "L2": {
+   "verdict": "MATCH",
+   "evidence": "🔩 Spec. Torque",
+   "note": ""
+  },
+  "L3": {
+   "verdict": "MATCH",
+   "evidence": "⚠️ Important",
+   "note": ""
+  },
+  "L4": {
+   "verdict": "MATCH",
+   "evidence": "🔧 Adjustment",
+   "note": ""
+  },
+  "L5": {
+   "verdict": "MATCH",
+   "evidence": "🧴 Apply Adhesive",
+   "note": ""
+  },
+  "L6": {
+   "verdict": "MATCH",
+   "evidence": "🛢️ Lubricate Oil",
+   "note": ""
+  },
+  "L7": {
+   "verdict": "MATCH",
+   "evidence": "🟡 Lub. Grease",
+   "note": ""
+  },
+  "L8": {
+   "verdict": "MATCH",
+   "evidence": "🔵 Apply Sealant",
+   "note": ""
+  },
+  "L9": {
+   "verdict": "MATCH",
+   "evidence": "⭐ Vital Parts",
+   "note": ""
+  }
+ },
+ "extra_content": [
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "H4: S-06220",
+   "note": "Supplier code entered as the machine/equipment (also tooling 3, QI 1-2).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Part Number / Latest Change Level : 544283753302/NR/14.03.2020",
+   "note": "New change level and date (14.03.2020) that the golden does not use.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Prepare fixture and ensure supplier / plant approval is in place.",
+   "note": "New fixture step; the golden has no fixture.",
+   "in_ppap": false
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Receive from Supplier as per SI RMQP and mark as Lot Ready for inspection.",
+   "note": "New document reference (SI RMQP).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Assemble / weld bracket suction pipe components on the designated operation station",
+   "note": "Different process (component assembly/welding) not in the golden.",
+   "in_ppap": false
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Perform required spot welding operations with the specified tooling",
+   "note": "New spot-welding operation; the golden has projection welding only.",
+   "in_ppap": false
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "document results on WI PRD-2 reference.",
+   "note": "New document reference.",
+   "in_ppap": false
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "2 | SUPPLIER / PLANT APPROVAL DOCUMENTATION | 1",
+   "note": "New part-list entry copied from the PPAP approval box.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Incorrect Assembly | Disassemble and reassemble bracket suction pipe with correct orientation and torque",
+   "note": "New rework row.",
+   "in_ppap": false
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Missing Feature | Fabricate or locate missing feature as per drawing and re-inspect",
+   "note": "New rework row.",
+   "in_ppap": false
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "Supplier / Plant Approval | Date -------- | Other Approval / Date [ if reqd ] | Customer Engineering | N/A",
+   "note": "PPAP approval-box text placed in tooling and incoming QC.",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "Ensure Customer Quality check has been considered and ready.",
+   "note": "Sign-off text, not in the golden.",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "Set up and align supplier / plant according to approval dates and product specification.",
+   "note": "Meaningless setup step built from approval-box text.",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "Proper alignment and fit of suction pipe bracket / All surfaces free from burrs and flash",
+   "note": "Extra finished-QC criteria (alignment, flash).",
+   "in_ppap": false
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "sort and reject or quarantine as per quality plan and inform responsible personnel.",
+   "note": "Extra reaction-plan step.",
+   "in_ppap": true
+  }
+ ],
+ "sequence_issues": [],
+ "language": {
+  "verdict": "NON_COMPLIANT",
+  "note": "All step, quality and rework text is in English."
+ },
+ "summary": "The WI contains none of the press-shop process: no shearing, blanking, piercing, forming, projection welding, plating, storage or packing, and no single golden setting or dimension. Instead it describes a generic assembly/spot-welding job, puts the supplier code S-06220 in the machine and tooling fields, leaves the Drawing No. blank and gives revision 01 instead of 00."
+}

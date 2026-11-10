@@ -1,0 +1,49 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP /544283753302/01
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 0 | Date: 09/5/18
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / BRACKET SUCTION PIPE | C4: RM RECEIPT | E4: RAW MATERIAL RECEIPT | H4: Manual Inspection | K4: 544283753302
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: BRACKET SUCTION PIPE | E6: 544283753302 | H6: 0 | J6: 09/5/18 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Verify raw material delivery documents against purchase order.
+E9: 2 | F9: Check supplier code S-06220 and material specification D513.
+E10: 3 | F10: Inspect surface condition for rust, scale, cracks, black patches, and pitting (100% visual check).
+E11: 4 | F11: Measure sheet thickness using micrometer (2.00 mm ± tolerance as per drawing).
+E12: 5 | F12: Verify chemical composition as per F-QAD/SI/RMQP using lab test certificate.
+E13: 6 | F13: Check mechanical and physical properties as per applicable standards.
+E14: 7 | F14: Record inspection results in supplier PDI report.
+E15: 8 | F15: Segregate non-conforming material and initiate sorting/rejection process.
+E16: TOOLING / EQUIPMENT
+E17: 1) | F17: Micrometer [LC=0.001mm]
+E18: 2) | F18: Vernier Caliper
+E19: 3) | F19: Laboratory Test Equipment
+E20: 4) | F20: Visual Inspection Tools
+E21: QUALITY PARAMETERS
+E22: A) Incoming Quality Checks
+E23: 1. | F23: Surface must be free from rust, scale, cracks, black patches, and pitting.
+E24: 2. | F24: Sheet thickness must be 2.00 mm ± tolerance as per drawing.
+E25: 3. | F25: Material specification must be D513.
+E26: 4. | F26: Chemical composition must meet F-QAD/SI/RMQP requirements.
+E27: 5. | F27: Mechanical and physical properties must comply with standards.
+E28: B) Finished Quality Checks
+E29: 1. | F29: All dimensions must meet drawing specifications.
+E30: 2. | F30: Surface condition must remain free from defects after processing.
+E31: 3. | F31: No thinning or damage to material during shearing/blanking operations.
+A34: SR. | B34: PART NO. | E34: PART DESCRIPTION | N34: QTY
+A36: REWORK INSTRUCTIONS
+A37: NO. | B37: DEFECT TYPE | F37: ACTION
+A38: 1 | B38: Rust or Scale | F38: Clean affected area with rust remover and apply anti-rust coating as per standard procedure.
+A39: 2 | B39: Incorrect Thickness | F39: Reject material if thickness is out of specification; do not process further.
+A40: 3 | B40: Chemical Non-Conformance | F40: Segregate and return to supplier with rejection note; do not use in production.
+A41: 4 | B41: Surface Defects | F41: If minor, clean and re-inspect; if severe, reject and return to supplier.
+A42: 5 | B42: Mechanical Property Non-Conformance | F42: Quarantine material and inform quality engineer; do not proceed with processing.
+A44: LEGEND
+A45: 🚫 Don't Twist | B45: 🔩 Spec. Torque | D45: ⚠️ Important | E45: 🔧 Adjustment | G45: 🧴 Apply Adhesive | I45: 🛢️ Lubricate Oil | K45: 🟡 Lub. Grease | L45: 🔵 Apply Sealant | N45: ⭐ Vital Parts

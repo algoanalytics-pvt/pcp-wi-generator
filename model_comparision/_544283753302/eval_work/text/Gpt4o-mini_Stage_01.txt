@@ -1,0 +1,56 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP /544283753302/01
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 01 | Date: 09/05/18
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / BRACKET SUCTION PIPE | C4: 1 | E4: BRACKET SUCTION PIPE | H4: Power Press | K4: 544283753302
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: BRACKET SUCTION PIPE | E6: 544283753302 | H6: 01 | J6: 09/05/18 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Ensure all loose parts are collected and placed together.
+E9: 2 | F9: Verify all assembly parts are loaded on the fixture.
+E10: 3 | F10: Clamp the fixture securely.
+E11: 4 | F11: Perform surface condition checks for rust, scale, crack, black patches, and pitting.
+E12: 5 | F12: Check sheet thickness using a micrometer.
+E13: 6 | F13: Verify material specifications as per D513.
+E14: 7 | F14: Conduct raw material parameter checks as per F-QAD/SI/RMQP.
+E15: 8 | F15: Perform shearing operation and check length and width.
+E16: 9 | F16: Check shut height settings on the power press.
+E17: 10 | F17: Conduct piercing operation and check hole diameters.
+E18: 11 | F18: Inspect dimensions and angles as per specifications.
+E19: 12 | F19: Ensure surface condition is free from burr, chip off, and blank cut.
+E20: 13 | F20: Conduct forming operations and check shut heights.
+E21: 14 | F21: Inspect dimensions and ensure no scoring, dent, damage, or thinning.
+E22: TOOLING / EQUIPMENT
+E23: 1) | F23: Power Press 250 Ton
+E24: 2) | F24: Power Press 200 Ton
+E25: 3) | F25: Power Press 50 Ton
+E26: 4) | F26: Power Press 100 Ton
+E27: QUALITY PARAMETERS
+E28: A) Incoming Quality Checks
+E29: 1. | F29: Assembly must have no cracks, damage, or rust anywhere.
+E30: 2. | F30: No wrinkles on pressed parts.
+E31: B) Finished Quality Checks
+E32: 1. | F32: Total dimensions must meet specifications.
+E33: 2. | F33: No deep spots allowed.
+E34: 3. | F34: No burrs at spot locations.
+E35: 4. | F35: Weld nuts and studs must not be missing.
+E36: 5. | F36: No loose parts missing.
+A39: SR. | B39: PART NO. | E39: PART DESCRIPTION | N39: QTY
+A41: REWORK INSTRUCTIONS
+A42: NO. | B42: DEFECT TYPE | F42: ACTION
+A43: 1 | B43: Spot Missing | F43: Missing spots must be done properly (ref: control plan and drawing).
+A44: 2 | B44: Welding Missing | F44: Welding must be done properly (ref: control plan and drawing).
+A45: 3 | B45: Part Missing | F45: All parts must be welded properly (ref: control plan and drawing).
+A46: 4 | B46: Nut Missing | F46: All nuts must be welded properly (ref: control plan and drawing).
+A47: 5 | B47: Dent or Damage | F47: Use plastic mallet to rework dents or damage.
+A48: 6 | B48: Rust | F48: Clean rusted area with rust remover and apply anti-rust coating.
+A49: 7 | B49: Part Shift | F49: Remove misplaced part using spot cutter and chisel, reposition correctly.
+A51: LEGEND
+A52: 🚫 Don't Twist | B52: 🔩 Spec. Torque | D52: ⚠️ Important | E52: 🔧 Adjustment | G52: 🧴 Apply Adhesive | I52: 🛢️ Lubricate Oil | K52: 🟡 Lub. Grease | L52: 🔵 Apply Sealant | N52: ⭐ Vital Parts

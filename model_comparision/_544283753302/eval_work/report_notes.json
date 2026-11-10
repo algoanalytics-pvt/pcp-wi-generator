@@ -1,0 +1,99 @@
+{
+ "part_name": "BRACKET SUCTION PIPE",
+ "summary_bullets": [
+  "<b>No model passes the judge.</b> Luna-5.6 comes closest: its critical recall (0.974) clears the 0.95 gate, but it fails on one contradicted critical fact (Stage No. “1-15”) and 20 critical additions.",
+  "<b>Luna-5.6 leads (0.904, recall 0.974), with Luna-6 second (0.837, recall 0.910).</b> Both write the full process, from incoming to packing, with every press, shut height, stroke, dimension, weld current, torque and coating value correctly bound. The other three score 0.361 or less, with recall of 0.154 or less.",
+  "<b>Luna-6 costs $0.004451 per WI</b>, slightly less than gpt-4o-mini ($0.004564) and mistral-small ($0.005208) and less than half of Luna-5.6 ($0.00993). Luna-5.6's 0.067 lead costs 2.2× as much.",
+  "<b>The weaker models do not extract the process at all.</b> gpt-4o-mini gives an outline without values and copies the prompt's welding example. mistral-small stops at raw-material receipt. Nano-5 writes a generic assembly / spot-welding WI. The Luna models fail only on header fields and on extra content, and all 32 of their critical additions are real PPAP data.",
+  "<b>The golden itself contains values that are not in the PPAP:</b> line area “UNIT-3” (the PPAP says UNIT-II everywhere), Stage No. “Multiple Stages”, and the plastic-mallet, rust-remover, rust-preventive and grinding/filing rework actions. The Luna models are marked wrong for reading UNIT-II from the source, and no model could have derived the golden Stage No."
+ ],
+ "models": {
+  "Luna-5.6": {
+   "right": "The most complete WI: steps 0.989, tooling 1.00, finished QC 1.00. Every operation from incoming to packing is present with the golden values on the right press, and the revision (00), dates and part-list row are correct. It is the only model above the 0.95 recall gate.",
+   "wrong": [
+    "Stage No. given as “1-15” instead of “Multiple Stages”. This is its only contradicted critical fact.",
+    "Rework scores 0.611. Dents are re-formed or rejected instead of fixed with a plastic mallet, off-thickness sheet is replaced instead of re-cut, and rust is quarantined and returned to the supplier (3 contradicted rows).",
+    "20 critical additions, all of them in the PPAP: min shut heights 320/370/385/245/260 mm, tool and liner sizes for all five presses, the WP-PRD-17 and F-QAD/SI/RMQP references, FeZn8Cr III Y, first-piece/hourly/last-piece sampling, 2 lab samples of 3 x 50 x 300 mm, DFT meter, measuring tape, B.P. gauge, and two new rework rows.",
+    "Line area UNIT-II instead of the golden UNIT-3 (the PPAP says UNIT-II), and the ±0.1 mm thickness tolerance is dropped.",
+    "It used 3,671 of its 4,000 max_tokens. The output is complete, but a longer stage would be at risk of truncation."
+   ]
+  },
+  "Luna-6": {
+   "right": "Every operation is present and bound to the right press, with all golden shut heights, strokes, dimensions, weld current, torque, coating thickness and packing rules (steps 0.980). Revision and dates are correct, and it costs less than half as much as Luna-5.6.",
+   "wrong": [
+    "Stage No. given as the operation codes “PP-010 to PP-150”. This is its only contradicted critical fact.",
+    "Critical recall is 0.910 because the part-list table is empty (3 facts), hole Ø18 appears only as a “related dimension”, the micrometer least count is missing and the ±0.1 mm tolerance is dropped.",
+    "Rework scores 0.389. Surface defects are rejected and returned to the supplier instead of cleaned with rust remover, there are no thickness, burr or dent rows, and the weld-nut and plating rows are vague.",
+    "12 critical additions, all of them in the PPAP: min shut heights for all five presses, WP-PRD-17, RMQP, FeZn8Cr III Y, hourly sampling, DFT meter, measuring tape and bevel protractor.",
+    "Line area “SHARADA INDUSTRIES / UNIT II” instead of UNIT-3."
+   ]
+  },
+  "Gpt4o-mini": {
+   "right": "Doc No., dates, part number and drawing number are correct; the incoming surface check and D513 match; and the outline follows the golden order up to forming. Its UNIT-3 line area matches the golden, but that value is not in the PPAP.",
+   "wrong": [
+    "Revision 01 instead of 00 for both the document and the drawing (2 contradicted critical facts), plus Stage No. “1”.",
+    "It gives an outline only: no blanking, projection welding, plating, inspection, storage or packing, and no shut heights, strokes, cut sizes or dimensions anywhere (critical recall 0.154).",
+    "The prompt's welding example leaks in as fixture loading and clamping steps and as spot-, weld-, part- and nut-missing and part-shift rework rows (spot cutter and chisel). 7 of its 8 critical additions are not in the PPAP.",
+    "The output is in English although the run language was Hindi."
+   ]
+  },
+  "mistral-small-latest": {
+   "right": "Raw-material receipt is complete: surface criteria, 2.00 mm thickness by micrometer, D513, and the micrometer least count of 0.001 mm. Revision 0, dates and line area match the golden.",
+   "wrong": [
+    "It treated the stage as raw-material receipt only (Stage No. “RM RECEIPT”, stage name “RAW MATERIAL RECEIPT”). Everything from shearing to packing is missing: 92 of 135 facts, and steps score 0.057.",
+    "No machine is listed anywhere, and the part-list table is empty.",
+    "Thickness deviation is rejected instead of sent for re-cutting.",
+    "8 critical additions, 7 of them in the PPAP: supplier code S-06220, a 100% visual check, the PDI report and RMQP references, and three reject/return rework rows. “Laboratory Test Equipment” is not in the PPAP.",
+    "The output is in English."
+   ]
+  },
+  "Nano-5": {
+   "right": "Doc No., dates, part number, part name and the part-list row are correct, and the burr rework row matches.",
+   "wrong": [
+    "There is no press-shop content: 95 of 135 facts are missing, steps score 0.023 and tooling 0. It describes a generic assembly and spot-welding job instead.",
+    "The supplier code S-06220 is entered as the machine and in tooling, the Drawing No. is blank, and the revision is 01 for both document and drawing (2 contradicted critical facts). Stage No. is “1”.",
+    "10 critical additions, 6 of them not in the PPAP: fixture preparation, assembly/welding and spot-welding steps, a “WI PRD-2” reference, and two new rework rows.",
+    "The output is in English."
+   ]
+  }
+ },
+ "root_causes": [
+  {
+   "title": "The weaker models do not extract the stage's process from the PPAP",
+   "html": "<p>The golden covers all 15 control-plan operations (PP-010 to PP-150) in one WI. Only the Luna models reproduce them. The others each fail in a different way:</p><table><tr><th>Model</th><th>Operations present</th><th>What it wrote instead</th><th>Completion tokens</th></tr><tr><td>gpt-4o-mini</td><td>Incoming, shearing, piercing, generic “forming”, all without values</td><td>Welding-example fixture steps and rework rows</td><td>700</td></tr><tr><td>mistral-small</td><td>Raw-material receipt only</td><td>Document, PDI and supplier-return steps</td><td>729</td></tr><tr><td>Nano-5</td><td>None</td><td>Generic assembly / spot welding, approval-box text</td><td>903</td></tr></table><p class=note>None of these is a token-limit effect: gpt-4o-mini and mistral-small had 16,000 max_tokens and Nano-5 had 4,000. mistral-small also took a single operation on 289661208202 (PP-030 only).</p>"
+  },
+  {
+   "title": "The prompt's filled-in example still leaks into the output",
+   "html": "<p>The welding example in <code>pcp_wi_generator/prompt_builder.py</code> reappears here. gpt-4o-mini opens with “Ensure all loose parts are collected”, “Verify all assembly parts are loaded on the fixture” and “Clamp the fixture securely”, and adds spot / weld / part / nut-missing and part-shift rework rows. Nano-5 adds a fixture and spot welding. None of this is in the PPAP, which has no welding apart from the M6 nut projection.</p><p>“UNIT-3” appears in gpt-4o-mini, mistral-small and Nano-5 (as “UNIT III”), and also <b>in the golden</b>. The PPAP says UNIT-II in all 10 places it names the unit, so the golden's line area most likely came from the same example.</p>"
+  },
+  {
+   "title": "Header Stage No. and revision have no clear source",
+   "html": "<p><b>Stage No.:</b> the golden says “Multiple Stages”, which is not in the PPAP. The five models gave five different answers: “1”, “1”, “RM RECEIPT”, “PP-010 to PP-150” and “1-15”. For both Luna models this is the only contradicted critical fact.</p><p><b>Revision:</b> the golden uses the control plan's Rev 0 and date 09/5/18. The PPAP also carries the quality plan's Rev 01, the “/01” doc-number suffix and the part change level NR/14.03.2020. gpt-4o-mini and Nano-5 took 01. The three others took 0/00 and are correct.</p>"
+  },
+  {
+   "title": "The judge penalises detail that the PPAP supports",
+   "html": "<p>Critical additions found in the PPAP: <b>Luna-5.6 20 of 20, Luna-6 12 of 12</b>, mistral-small 7 of 8, Nano-5 4 of 10, gpt-4o-mini 1 of 8. The Luna models' additions are control-plan data the golden leaves out: min shut heights, tool and liner sizes, WP-PRD-17, FeZn8Cr III Y, DFT meter and per-hour sampling. Invented content is concentrated in gpt-4o-mini and Nano-5.</p>"
+  },
+  {
+   "title": "Golden rework rows cannot be derived from the PPAP",
+   "html": "<p>“Plastic mallet”, “rust remover”, “rust preventive” and “grinding or filing” appear nowhere in the PPAP. The PPAP reaction plans say “Sort / Reject”, “Sort / Reject &amp; Sent back To Supplier” and “Resharpening / Replacement of stopper/Tool”. Models that follow the PPAP, like Luna-6 rejecting surface defects or Luna-5.6 returning rusted parts to the supplier, are marked CONTRADICTED. gpt-4o-mini gets the plastic-mallet row right only because it copies the example. Rework is the lowest-scoring section for both Luna models.</p>"
+  }
+ ],
+ "recommendations": [
+  "<b>Replace the filled-in welding example in <code>prompt_builder.py</code></b> with placeholders or a press-shop example, and tell the model never to copy example values. The same leakage showed up on 289661208202.",
+  "<b>Tell the generator to cover every control-plan operation that belongs to the stage</b>, listing them before writing steps. mistral-small stopped at raw-material receipt here and at a single operation on 289661208202.",
+  "<b>Fix the header rules:</b> agree with the golden author what Stage No. should hold when one WI covers all operations (“Multiple Stages”?), and say which revision to use (the control plan's, here Rev 0 and 09/5/18). Then put both rules in the prompt.",
+  "<b>Correct or confirm the golden:</b> line area UNIT-3 vs the PPAP's UNIT-II, and the rework actions that are not in the PPAP. As it stands, the golden rewards copying the example.",
+  "<b>Add a source-supported class to the judge</b> (e.g. <code>SOURCE_SUPPORTED_ADDITION</code>) for extra content that is traceable to the PPAP, so that it does not trip the hallucination gate. On this part, that alone would remove all 32 of the Luna models' critical additions.",
+  "<b>Keep testing Luna-5.6 and Luna-6 only.</b> Luna-5.6 has led on 5 of the 6 stage-WIs scored so far (this part and the four stages of 290058600101), and Luna-6 on one (289661208202), at less than half the cost. If Luna-5.6 is kept, raise its max_tokens above 4,000. Decide after re-running with the fixed prompt; this report covers one WI per model."
+ ],
+ "judgement_calls": [
+  "Stage No. “1-15” (Luna-5.6) and “PP-010 to PP-150” (Luna-6) are scored CONTRADICTED against “Multiple Stages”, under the runbook rule for operation codes. Accepting them would still leave both models failing on PPAP-backed critical additions.",
+  "Line area UNIT-II (Luna-5.6, Luna-6) is CONTRADICTED against the golden's UNIT-3, even though the PPAP supports UNIT-II, because the judge scores against the golden only. The fact is MINOR, so the effect is small.",
+  "“0” is accepted as revision “00”, and “09/5/18” as “09/05/18”.",
+  "The golden's “as per lab test report” check is PARTIAL wherever a model cites F-QAD/SI/RMQP or “approved criteria” instead. The RMQP reference itself is listed as a critical addition.",
+  "gpt-4o-mini's single generic “forming operations” block is credited once, to Forming I. Its Forming II and III settings and dimensions are MISSING.",
+  "Returning low-coating or defective plated parts to the plater is PARTIAL (Luna-6) unless the row also states re-coating and a thickness re-check (Luna-5.6, MATCH)."
+ ],
+ "limits": "This covers one part, one stage and one generation per model. Treat the ranking as indicative until it is repeated on more WIs."
+}

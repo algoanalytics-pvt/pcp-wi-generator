@@ -1,0 +1,61 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP /544283753302/01
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 01 | Date: 09/05/18
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT III / BRACKET SUCTION PIPE | C4: 1 | E4: BRACKET SUCTION PIPE | H4: S-06220 | K4: 544283753302
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: BRACKET SUCTION PIPE | H6: 01 | J6: 09/05/18 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Collect all necessary parts and place them in the work area.
+E9: 2 | F9: Verify Part Name / Description : BRACKET SUCTION PIPE, and Part Number / Latest Change Level : 544283753302/NR/14.03.2020.
+E10: 3 | F10: Prepare fixture and ensure supplier / plant approval is in place.
+E11: 4 | F11: Ensure Customer Quality check has been considered and ready.
+E12: 5 | F12: Receive from Supplier as per SI RMQP and mark as Lot Ready for inspection.
+E13: 6 | F13: Perform surface condition inspection and ensure metal surfaces are free from rust and defects.
+E14: 7 | F14: Set up and align supplier / plant according to approval dates and product specification.
+E15: 8 | F15: Inspect parts for burrs, surface finish and proper stamping as per drawing requirements.
+E16: 9 | F16: Record measurements for Key features and verify tools and gauges are within tolerance.
+E17: 10 | F17: If any nonconformity is found, sort and reject or quarantine as per quality plan and inform responsible personnel.
+E18: 11 | F18: Assemble / weld bracket suction pipe components on the designated operation station using approved process parameters.
+E19: 12 | F19: Perform required spot welding operations with the specified tooling and ensure correct joint quality.
+E20: 13 | F20: Conduct intermediate inspections after major operations and document results on WI PRD-2 reference.
+E21: 14 | F21: If any deviation is observed, rework according to rework instructions and re-verify.
+E22: 15 | F22: Finalize inspection and confirm readiness for next process/Stage.
+E23: TOOLING / EQUIPMENT
+E24: 1) | F24: Supplier / Plant Approval
+E25: 2) | F25: Date                          --------
+E26: 3) | F26: S-06220
+E27: 4) | F27: Other Approval / Date [ if reqd ] -------
+E28: QUALITY PARAMETERS
+E29: A) Incoming Quality Checks
+E30: 1. | F30: SHARADA INDUSTRIES / S-06220
+E31: 2. | F31: S-06220
+E32: 3. | F32: Other Approval / Date [ if reqd ] -------
+E33: 4. | F33: Customer Engineering
+E34: 5. | F34: N/A
+E35: B) Finished Quality Checks
+E36: 1. | F36: BRACKET SUCTION PIPE surface condition free from defects
+E37: 2. | F37: No rust, burrs or damages on critical surfaces
+E38: 3. | F38: Hole diameters and dimensions within specified tolerances
+E39: 4. | F39: All surfaces free from burrs and flash
+E40: 5. | F40: Proper alignment and fit of suction pipe bracket
+A43: SR. | B43: PART NO. | E43: PART DESCRIPTION | N43: QTY
+A44: 1 | B44: 544283753302 | E44: BRACKET SUCTION PIPE | N44: 1
+A45: 2 | E45: SUPPLIER / PLANT APPROVAL DOCUMENTATION | N45: 1
+A47: REWORK INSTRUCTIONS
+A48: NO. | B48: DEFECT TYPE | F48: ACTION
+A49: 1 | B49: Surface Condition Defect | F49: Rework to remove burrs and restore surface finish to specification
+A50: 2 | B50: Rust or Corrosion | F50: Treat with rust remover and apply appropriate coating per control plan
+A51: 3 | B51: Dimensional Misbehavior | F51: Re-measure and rework to required dimensions using approved gauges
+A52: 4 | B52: Incorrect Assembly | F52: Disassemble and reassemble bracket suction pipe with correct orientation and torque
+A53: 5 | B53: Nonconforming Welds | F53: Rework welds using approved parameters and verify with inspection plan
+A54: 6 | B54: Missing Feature | F54: Fabricate or locate missing feature as per drawing and re-inspect
+A56: LEGEND
+A57: 🚫 Don't Twist | B57: 🔩 Spec. Torque | D57: ⚠️ Important | E57: 🔧 Adjustment | G57: 🧴 Apply Adhesive | I57: 🛢️ Lubricate Oil | K57: 🟡 Lub. Grease | L57: 🔵 Apply Sealant | N57: ⭐ Vital Parts

@@ -1,0 +1,761 @@
+{
+ "model": "Gpt4o-mini",
+ "stage": "01",
+ "verdicts": {
+  "H1": {
+   "verdict": "MATCH",
+   "evidence": "SHARADA INDUSTRIES",
+   "note": ""
+  },
+  "H2": {
+   "verdict": "MATCH",
+   "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+   "note": ""
+  },
+  "H3": {
+   "verdict": "MATCH",
+   "evidence": "Doc No.: SI / PCP /544283753302/01",
+   "note": ""
+  },
+  "H4": {
+   "verdict": "CONTRADICTED",
+   "evidence": "Rev: 01",
+   "note": "Golden Rev 00."
+  },
+  "H5": {
+   "verdict": "MATCH",
+   "evidence": "Date: 09/05/18",
+   "note": ""
+  },
+  "H6": {
+   "verdict": "MATCH",
+   "evidence": "UNIT-3 / BRACKET SUCTION PIPE",
+   "note": ""
+  },
+  "H7": {
+   "verdict": "CONTRADICTED",
+   "evidence": "1",
+   "note": "Golden Stage No. is 'Multiple Stages'."
+  },
+  "H8": {
+   "verdict": "PARTIAL",
+   "evidence": "BRACKET SUCTION PIPE",
+   "note": "'MANUFACTURING' dropped."
+  },
+  "H9": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Header lists only 'Power Press'; no shearing machine named anywhere."
+  },
+  "H10": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No 150 T press anywhere."
+  },
+  "H11": {
+   "verdict": "MATCH",
+   "evidence": "Power Press 200 Ton",
+   "note": "Tooling list."
+  },
+  "H12": {
+   "verdict": "MATCH",
+   "evidence": "Power Press 250 Ton",
+   "note": "Tooling list."
+  },
+  "H13": {
+   "verdict": "MATCH",
+   "evidence": "Power Press 50 Ton",
+   "note": "Tooling list."
+  },
+  "H14": {
+   "verdict": "MATCH",
+   "evidence": "Power Press 100 Ton",
+   "note": "Tooling list."
+  },
+  "H15": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "H16": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "H17": {
+   "verdict": "MATCH",
+   "evidence": "544283753302",
+   "note": ""
+  },
+  "H18": {
+   "verdict": "MATCH",
+   "evidence": null,
+   "note": "Cycle time blank in both."
+  },
+  "H19": {
+   "verdict": "MATCH",
+   "evidence": "BRACKET SUCTION PIPE",
+   "note": ""
+  },
+  "H20": {
+   "verdict": "MATCH",
+   "evidence": "544283753302",
+   "note": ""
+  },
+  "H21": {
+   "verdict": "CONTRADICTED",
+   "evidence": "01",
+   "note": "Golden drawing revision 00."
+  },
+  "H22": {
+   "verdict": "MATCH",
+   "evidence": "09/05/18",
+   "note": ""
+  },
+  "H23": {
+   "verdict": "MATCH",
+   "evidence": "—",
+   "note": ""
+  },
+  "H24": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Part-list table is empty."
+  },
+  "H25": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Part-list table is empty."
+  },
+  "H26": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Part-list table is empty."
+  },
+  "S1": {
+   "verdict": "PARTIAL",
+   "evidence": "Ensure all loose parts are collected and placed together.",
+   "note": "'Loose parts' (assembly wording from the prompt example) instead of receiving raw material lot-wise."
+  },
+  "S2": {
+   "verdict": "MATCH",
+   "evidence": "Perform surface condition checks for rust, scale, crack, black patches, and pitting.",
+   "note": ""
+  },
+  "S3": {
+   "verdict": "PARTIAL",
+   "evidence": "Check sheet thickness using a micrometer.",
+   "note": "Value 2.00 mm missing."
+  },
+  "S4": {
+   "verdict": "MATCH",
+   "evidence": "Verify material specifications as per D513.",
+   "note": ""
+  },
+  "S5": {
+   "verdict": "PARTIAL",
+   "evidence": "Conduct raw material parameter checks as per F-QAD/SI/RMQP.",
+   "note": "Generic parameter check; chemical/mechanical/physical properties and lab test report not named."
+  },
+  "S6a": {
+   "verdict": "PARTIAL",
+   "evidence": "Perform shearing operation and check length and width.",
+   "note": "Check named without the 1250 / 187 mm values."
+  },
+  "S6b": {
+   "verdict": "PARTIAL",
+   "evidence": "Perform shearing operation and check length and width.",
+   "note": "Check named without the 1250 / 187 mm values."
+  },
+  "S7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Thickness is checked only at incoming."
+  },
+  "S8a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Blanking is never named as an operation."
+  },
+  "S8b": {
+   "verdict": "PARTIAL",
+   "evidence": "Check shut height settings on the power press.",
+   "note": "Generic shut-height check with no value or operation; credited once to the first press operation (blanking)."
+  },
+  "S8c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No blanking operation in the generated WI."
+  },
+  "S9a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No blanking operation in the generated WI."
+  },
+  "S9b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No blanking operation in the generated WI."
+  },
+  "S9c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No blanking operation in the generated WI."
+  },
+  "S9d": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No blanking operation in the generated WI."
+  },
+  "S9e": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No blanking operation in the generated WI."
+  },
+  "S9f": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No blanking operation in the generated WI."
+  },
+  "S10": {
+   "verdict": "PARTIAL",
+   "evidence": "Ensure surface condition is free from burr, chip off, and blank cut.",
+   "note": "Criterion present but not tied to blanking (sits after piercing)."
+  },
+  "S11a": {
+   "verdict": "PARTIAL",
+   "evidence": "Conduct piercing operation and check hole diameters.",
+   "note": "Piercing named and a 200 Ton press listed in tooling, but the press is never bound to piercing."
+  },
+  "S11b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Generic shut-height check already credited to blanking; no stroke anywhere."
+  },
+  "S11c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Generic shut-height check already credited to blanking; no stroke anywhere."
+  },
+  "S12a": {
+   "verdict": "PARTIAL",
+   "evidence": "Conduct piercing operation and check hole diameters.",
+   "note": "Check named without values."
+  },
+  "S12b": {
+   "verdict": "PARTIAL",
+   "evidence": "Conduct piercing operation and check hole diameters.",
+   "note": "Check named without values."
+  },
+  "S12c": {
+   "verdict": "PARTIAL",
+   "evidence": "Conduct piercing operation and check hole diameters.",
+   "note": "Check named without values."
+  },
+  "S12d": {
+   "verdict": "PARTIAL",
+   "evidence": "Inspect dimensions and angles as per specifications.",
+   "note": "Generic dimension check right after piercing; no values."
+  },
+  "S12e": {
+   "verdict": "PARTIAL",
+   "evidence": "Inspect dimensions and angles as per specifications.",
+   "note": "Generic dimension check right after piercing; no values."
+  },
+  "S12f": {
+   "verdict": "PARTIAL",
+   "evidence": "Inspect dimensions and angles as per specifications.",
+   "note": "Generic dimension check right after piercing; no values."
+  },
+  "S12g": {
+   "verdict": "PARTIAL",
+   "evidence": "Inspect dimensions and angles as per specifications.",
+   "note": "Generic dimension check right after piercing; no values."
+  },
+  "S13": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No piercing surface criterion (slot, oblong, ...)."
+  },
+  "S14a": {
+   "verdict": "PARTIAL",
+   "evidence": "Conduct forming operations and check shut heights.",
+   "note": "Generic 'forming operations' credited to Forming I; 250 Ton press listed in tooling but not bound."
+  },
+  "S14b": {
+   "verdict": "PARTIAL",
+   "evidence": "Conduct forming operations and check shut heights.",
+   "note": "Check named without 550 mm."
+  },
+  "S14c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No stroke length anywhere."
+  },
+  "S15a": {
+   "verdict": "PARTIAL",
+   "evidence": "Inspect dimensions and ensure no scoring, dent, damage, or thinning.",
+   "note": "Generic dimension check after forming; no values."
+  },
+  "S15b": {
+   "verdict": "PARTIAL",
+   "evidence": "Inspect dimensions and ensure no scoring, dent, damage, or thinning.",
+   "note": "Generic dimension check after forming; no values."
+  },
+  "S15c": {
+   "verdict": "PARTIAL",
+   "evidence": "Inspect dimensions and ensure no scoring, dent, damage, or thinning.",
+   "note": "Generic dimension check after forming; no values."
+  },
+  "S15d": {
+   "verdict": "PARTIAL",
+   "evidence": "Inspect dimensions and ensure no scoring, dent, damage, or thinning.",
+   "note": "Generic dimension check after forming; no values."
+  },
+  "S15e": {
+   "verdict": "PARTIAL",
+   "evidence": "Inspect dimensions and ensure no scoring, dent, damage, or thinning.",
+   "note": "Generic dimension check after forming; no values."
+  },
+  "S16a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Forming II not present as an operation; the generic forming block is credited to Forming I."
+  },
+  "S16b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Forming II not present as an operation; the generic forming block is credited to Forming I."
+  },
+  "S16c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Forming II not present as an operation; the generic forming block is credited to Forming I."
+  },
+  "S17a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Forming II not present as an operation; the generic forming block is credited to Forming I."
+  },
+  "S17b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Forming II not present as an operation; the generic forming block is credited to Forming I."
+  },
+  "S18": {
+   "verdict": "PARTIAL",
+   "evidence": "ensure no scoring, dent, damage, or thinning.",
+   "note": "Criterion matches Forming II/III wording but is not tied to an operation; credited once to Forming II."
+  },
+  "S19a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Forming III not present as an operation."
+  },
+  "S19b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Forming III not present as an operation."
+  },
+  "S19c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Forming III not present as an operation."
+  },
+  "S20a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Forming III not present as an operation."
+  },
+  "S20b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Forming III not present as an operation."
+  },
+  "S20c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Forming III not present as an operation."
+  },
+  "S20d": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Forming III not present as an operation."
+  },
+  "S21": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Forming III not present as an operation."
+  },
+  "S22a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No projection welding or torque check."
+  },
+  "S22b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No projection welding or torque check."
+  },
+  "S23": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No projection welding or torque check."
+  },
+  "S24": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI stops after forming: no inspection, plating, storage or packing."
+  },
+  "S25": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI stops after forming: no inspection, plating, storage or packing."
+  },
+  "S26a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI stops after forming: no inspection, plating, storage or packing."
+  },
+  "S26b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI stops after forming: no inspection, plating, storage or packing."
+  },
+  "S27": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI stops after forming: no inspection, plating, storage or packing."
+  },
+  "S28": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI stops after forming: no inspection, plating, storage or packing."
+  },
+  "S29": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI stops after forming: no inspection, plating, storage or packing."
+  },
+  "S30": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI stops after forming: no inspection, plating, storage or packing."
+  },
+  "S31": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "WI stops after forming: no inspection, plating, storage or packing."
+  },
+  "T1": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T2": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T3": {
+   "verdict": "PARTIAL",
+   "evidence": "Power Press 200 Ton",
+   "note": "Listed without its operation."
+  },
+  "T4": {
+   "verdict": "PARTIAL",
+   "evidence": "Power Press 250 Ton",
+   "note": "Listed without its operation."
+  },
+  "T5": {
+   "verdict": "PARTIAL",
+   "evidence": "Power Press 50 Ton",
+   "note": "Listed without its operation."
+  },
+  "T6": {
+   "verdict": "PARTIAL",
+   "evidence": "Power Press 100 Ton",
+   "note": "Listed without its operation."
+  },
+  "T7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T8": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T9a": {
+   "verdict": "MATCH",
+   "evidence": "Check sheet thickness using a micrometer.",
+   "note": "Named in step 5, not in tooling."
+  },
+  "T9b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T10": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T11": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T12": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T13": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T14": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QI1": {
+   "verdict": "MATCH",
+   "evidence": "Perform surface condition checks for rust, scale, crack, black patches, and pitting.",
+   "note": "Found in step 4; QI 1 itself only says cracks, damage, rust."
+  },
+  "QI2": {
+   "verdict": "PARTIAL",
+   "evidence": "Check sheet thickness using a micrometer.",
+   "note": "No value or tolerance."
+  },
+  "QI3": {
+   "verdict": "MATCH",
+   "evidence": "Verify material specifications as per D513.",
+   "note": "Step 6."
+  },
+  "QI4": {
+   "verdict": "PARTIAL",
+   "evidence": "Conduct raw material parameter checks as per F-QAD/SI/RMQP.",
+   "note": "Lab test report not named."
+  },
+  "QF1": {
+   "verdict": "MATCH",
+   "evidence": "Total dimensions must meet specifications.",
+   "note": ""
+  },
+  "QF2": {
+   "verdict": "MATCH",
+   "evidence": "free from burr, chip off, and blank cut ... no scoring, dent, damage, or thinning",
+   "note": "Found across steps 12 and 14."
+  },
+  "QF3a": {
+   "verdict": "PARTIAL",
+   "evidence": "check hole diameters",
+   "note": "Generic; no values."
+  },
+  "QF3b": {
+   "verdict": "PARTIAL",
+   "evidence": "check hole diameters",
+   "note": "Generic; no values."
+  },
+  "QF3c": {
+   "verdict": "PARTIAL",
+   "evidence": "check hole diameters",
+   "note": "Generic; no values."
+  },
+  "QF4": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "'Weld nuts and studs must not be missing' is not a torque check."
+  },
+  "QF5": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QF6": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QF7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R1": {
+   "verdict": "PARTIAL",
+   "evidence": "Rust | Clean rusted area with rust remover and apply anti-rust coating.",
+   "note": "Defect narrowed to rust only (scale, pitting dropped)."
+  },
+  "R2": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R3": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R4": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R5": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R6": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "'Nut Missing' row is a different defect (missing nut, not low torque)."
+  },
+  "R7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R8": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R9": {
+   "verdict": "MATCH",
+   "evidence": "Dent or Damage | Use plastic mallet to rework dents or damage.",
+   "note": ""
+  },
+  "L1": {
+   "verdict": "MATCH",
+   "evidence": "🚫 Don't Twist",
+   "note": ""
+  },
+  "L2": {
+   "verdict": "MATCH",
+   "evidence": "🔩 Spec. Torque",
+   "note": ""
+  },
+  "L3": {
+   "verdict": "MATCH",
+   "evidence": "⚠️ Important",
+   "note": ""
+  },
+  "L4": {
+   "verdict": "MATCH",
+   "evidence": "🔧 Adjustment",
+   "note": ""
+  },
+  "L5": {
+   "verdict": "MATCH",
+   "evidence": "🧴 Apply Adhesive",
+   "note": ""
+  },
+  "L6": {
+   "verdict": "MATCH",
+   "evidence": "🛢️ Lubricate Oil",
+   "note": ""
+  },
+  "L7": {
+   "verdict": "MATCH",
+   "evidence": "🟡 Lub. Grease",
+   "note": ""
+  },
+  "L8": {
+   "verdict": "MATCH",
+   "evidence": "🔵 Apply Sealant",
+   "note": ""
+  },
+  "L9": {
+   "verdict": "MATCH",
+   "evidence": "⭐ Vital Parts",
+   "note": ""
+  }
+ },
+ "extra_content": [
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Verify all assembly parts are loaded on the fixture.",
+   "note": "New process step from the prompt's welding example; the golden has no fixture loading.",
+   "in_ppap": false
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Clamp the fixture securely.",
+   "note": "New fixture-clamping step from the prompt's welding example.",
+   "in_ppap": false
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Conduct raw material parameter checks as per F-QAD/SI/RMQP.",
+   "note": "New document reference; the golden says 'as per lab test report'.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Spot Missing | Missing spots must be done properly (ref: control plan and drawing).",
+   "note": "New spot-welding rework row; no spot welding in the golden.",
+   "in_ppap": false
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Welding Missing | Welding must be done properly (ref: control plan and drawing).",
+   "note": "New welding rework row.",
+   "in_ppap": false
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Part Missing | All parts must be welded properly (ref: control plan and drawing).",
+   "note": "New assembly rework row.",
+   "in_ppap": false
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Nut Missing | All nuts must be welded properly (ref: control plan and drawing).",
+   "note": "New rework row (missing nut); the golden's nut row is about low torque.",
+   "in_ppap": false
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Part Shift | Remove misplaced part using spot cutter and chisel, reposition correctly.",
+   "note": "New rework row with new tools (spot cutter, chisel).",
+   "in_ppap": false
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "No wrinkles on pressed parts.",
+   "note": "Extra incoming criterion.",
+   "in_ppap": false
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "No deep spots allowed. / No burrs at spot locations.",
+   "note": "Spot-weld acceptance criteria from the prompt example.",
+   "in_ppap": false
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "Weld nuts and studs must not be missing.",
+   "note": "Studs do not exist in the golden.",
+   "in_ppap": false
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "No loose parts missing.",
+   "note": "Assembly criterion from the prompt example.",
+   "in_ppap": false
+  }
+ ],
+ "sequence_issues": [],
+ "language": {
+  "verdict": "NON_COMPLIANT",
+  "note": "All step, quality and rework text is in English."
+ },
+ "summary": "The WI covers only incoming checks, shearing, piercing and an undifferentiated 'forming' step, with almost no values: no shut heights, strokes, cut sizes or dimensions, no blanking, projection welding, torque, plating, inspection, storage or packing. Header revision is 01 instead of 00 and Stage No. is '1'. The prompt's welding example leaks in as fixture loading/clamping steps and spot-weld, part-missing and part-shift rework rows."
+}

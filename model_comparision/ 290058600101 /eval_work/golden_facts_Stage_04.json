@@ -1,0 +1,686 @@
+[
+  {
+    "id": "H1",
+    "section": "H",
+    "order": null,
+    "criticality": "MINOR",
+    "fact": "Company name is SHARADA INDUSTRIES",
+    "golden_quote": "SHARADA INDUSTRIES",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H2",
+    "section": "H",
+    "order": null,
+    "criticality": "MINOR",
+    "fact": "Company address is Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+    "golden_quote": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H3",
+    "section": "H",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "Doc No. is SI / PCP /'290058600101/04",
+    "golden_quote": "Doc No.: SI / PCP /'290058600101/04",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H4",
+    "section": "H",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "Document revision is 00",
+    "golden_quote": "Rev: 00",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H5",
+    "section": "H",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "Document date is 11/11/17",
+    "golden_quote": "Date: 11/11/17",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H6",
+    "section": "H",
+    "order": null,
+    "criticality": "MINOR",
+    "fact": "Factory / line area is UNIT-3 / CLAMP JACK",
+    "golden_quote": "UNIT-3 / CLAMP JACK",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H7",
+    "section": "H",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "Stage No. is 1-5",
+    "golden_quote": "1-5",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H8",
+    "section": "H",
+    "order": null,
+    "criticality": "MINOR",
+    "fact": "Stage name is CLAMP JACK MANUFACTURING",
+    "golden_quote": "CLAMP JACK MANUFACTURING",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H9",
+    "section": "H",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "Machine list includes SHEARING M/C",
+    "golden_quote": "SHEARING M/C",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H10",
+    "section": "H",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "Machine list includes PRESS 150 TON",
+    "golden_quote": "PRESS 150 TON",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H11",
+    "section": "H",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "Part No. is 290058604001",
+    "golden_quote": "290058604001",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H12",
+    "section": "H",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "Cycle time is BLANK",
+    "golden_quote": "(blank)",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H13",
+    "section": "H",
+    "order": null,
+    "criticality": "MINOR",
+    "fact": "Part name is CLAMP JACK",
+    "golden_quote": "CLAMP JACK",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H14",
+    "section": "H",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "Drawing No. is 290058604001",
+    "golden_quote": "290058604001",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H15",
+    "section": "H",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "Drawing revision is 00",
+    "golden_quote": "Revision | 00",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H16",
+    "section": "H",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "Revision date is 11/11/17",
+    "golden_quote": "Rev Date | 11/11/17",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H17",
+    "section": "H",
+    "order": null,
+    "criticality": "MINOR",
+    "fact": "Modification is BLANK",
+    "golden_quote": "—",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H18",
+    "section": "H",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "Part list row 1: part no 290058604001",
+    "golden_quote": "1 | 290058604001",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H19",
+    "section": "H",
+    "order": null,
+    "criticality": "MINOR",
+    "fact": "Part list row 1: description CLAMP JACK",
+    "golden_quote": "CLAMP JACK",
+    "area": "Header & part list"
+  },
+  {
+    "id": "H20",
+    "section": "H",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "Part list row 1: quantity 1 (CLAMP JACK)",
+    "golden_quote": "CLAMP JACK | QTY 1",
+    "area": "Header & part list"
+  },
+  {
+    "id": "S1a",
+    "section": "S",
+    "order": 1,
+    "criticality": "MAJOR",
+    "fact": "Receive raw material",
+    "golden_quote": "कच्चे माल की प्राप्ति करें",
+    "area": "Incoming material"
+  },
+  {
+    "id": "S1b",
+    "section": "S",
+    "order": 1,
+    "criticality": "MAJOR",
+    "fact": "Visually inspect raw material: no rust, scale, crack, black spots or pitting",
+    "golden_quote": "दृश्य निरीक्षण करें कि उसमें जंग, स्केल, क्रैक, काले धब्बे या पिटिंग नहीं होनी चाहिए",
+    "area": "Incoming material"
+  },
+  {
+    "id": "S2",
+    "section": "S",
+    "order": 2,
+    "criticality": "CRITICAL",
+    "fact": "Sheet thickness is 3 mm, checked with micrometer",
+    "golden_quote": "शीट की मोटाई 3 मिमी माइक्रोमीटर से जांचें",
+    "area": "Incoming material"
+  },
+  {
+    "id": "S3",
+    "section": "S",
+    "order": 3,
+    "criticality": "CRITICAL",
+    "fact": "Material specification is FE410",
+    "golden_quote": "सामग्री की विशिष्टता FE410 सुनिश्चित करें",
+    "area": "Incoming material"
+  },
+  {
+    "id": "S4",
+    "section": "S",
+    "order": 4,
+    "criticality": "MAJOR",
+    "fact": "Check chemical, mechanical and physical properties per lab report",
+    "golden_quote": "रासायनिक, यांत्रिक और भौतिक गुणों की जांच प्रयोगशाला रिपोर्ट के अनुसार करें",
+    "area": "Incoming material"
+  },
+  {
+    "id": "S5a",
+    "section": "S",
+    "order": 5,
+    "criticality": "CRITICAL",
+    "fact": "Shearing blank length is 1250 mm (shearing machine)",
+    "golden_quote": "लंबाई 1250 मिमी",
+    "area": "Shearing"
+  },
+  {
+    "id": "S5b",
+    "section": "S",
+    "order": 5,
+    "criticality": "CRITICAL",
+    "fact": "Shearing blank width is 140 mm (shearing machine)",
+    "golden_quote": "चौड़ाई 140 मिमी",
+    "area": "Shearing"
+  },
+  {
+    "id": "S6",
+    "section": "S",
+    "order": 6,
+    "criticality": "MAJOR",
+    "fact": "After cutting, check length and width with measuring tape",
+    "golden_quote": "कटिंग के बाद माप टेप से लंबाई और चौड़ाई की जांच करें",
+    "area": "Shearing"
+  },
+  {
+    "id": "S7",
+    "section": "S",
+    "order": 7,
+    "criticality": "CRITICAL",
+    "fact": "Blanking is done on the 150 T press",
+    "golden_quote": "ब्लैंकिंग प्रक्रिया के लिए 150 टन प्रेस मशीन का उपयोग करें",
+    "area": "Blanking (150 T)"
+  },
+  {
+    "id": "S8a",
+    "section": "S",
+    "order": 8,
+    "criticality": "CRITICAL",
+    "fact": "After blanking, dimension 16 mm checked with vernier caliper",
+    "golden_quote": "16 मिमी",
+    "area": "Blanking (150 T)"
+  },
+  {
+    "id": "S8b",
+    "section": "S",
+    "order": 8,
+    "criticality": "CRITICAL",
+    "fact": "After blanking, dimension 72 mm checked with vernier caliper",
+    "golden_quote": "72 मिमी",
+    "area": "Blanking (150 T)"
+  },
+  {
+    "id": "S8c",
+    "section": "S",
+    "order": 8,
+    "criticality": "CRITICAL",
+    "fact": "After blanking, dimension 52 mm checked with vernier caliper",
+    "golden_quote": "52 मिमी",
+    "area": "Blanking (150 T)"
+  },
+  {
+    "id": "S8d",
+    "section": "S",
+    "order": 8,
+    "criticality": "CRITICAL",
+    "fact": "After blanking, dimension 129.5 mm checked with vernier caliper",
+    "golden_quote": "129.5 मिमी",
+    "area": "Blanking (150 T)"
+  },
+  {
+    "id": "S9",
+    "section": "S",
+    "order": 9,
+    "criticality": "CRITICAL",
+    "fact": "During piercing, check hole 10.5 mm",
+    "golden_quote": "पियर्सिंग प्रक्रिया के दौरान 10.5 मिमी के होल की जांच करें",
+    "area": "Piercing (150 T)"
+  },
+  {
+    "id": "S10a",
+    "section": "S",
+    "order": 10,
+    "criticality": "CRITICAL",
+    "fact": "Forming dimension 13 mm",
+    "golden_quote": "13 मिमी",
+    "area": "Forming (150 T)"
+  },
+  {
+    "id": "S10b",
+    "section": "S",
+    "order": 10,
+    "criticality": "CRITICAL",
+    "fact": "Forming dimension 115 mm",
+    "golden_quote": "115 मिमी",
+    "area": "Forming (150 T)"
+  },
+  {
+    "id": "S10c",
+    "section": "S",
+    "order": 10,
+    "criticality": "CRITICAL",
+    "fact": "Forming dimension 109 mm",
+    "golden_quote": "109 मिमी",
+    "area": "Forming (150 T)"
+  },
+  {
+    "id": "S10d",
+    "section": "S",
+    "order": 10,
+    "criticality": "CRITICAL",
+    "fact": "Forming dimension 47.5 ±1 mm",
+    "golden_quote": "47.5±1 मिमी",
+    "area": "Forming (150 T)"
+  },
+  {
+    "id": "S10e",
+    "section": "S",
+    "order": 10,
+    "criticality": "CRITICAL",
+    "fact": "Forming angle 90 ±1°",
+    "golden_quote": "कोण (90±1°)",
+    "area": "Forming (150 T)"
+  },
+  {
+    "id": "S11",
+    "section": "S",
+    "order": 11,
+    "criticality": "CRITICAL",
+    "fact": "Radius R3 checked with R gauge",
+    "golden_quote": "सभी रेडियस (R3) को R गेज से जांचें",
+    "area": "Forming (150 T)"
+  },
+  {
+    "id": "S12",
+    "section": "S",
+    "order": 12,
+    "criticality": "MAJOR",
+    "fact": "Final inspection: check all dimensions on the panel checker",
+    "golden_quote": "अंतिम निरीक्षण के दौरान सभी आयामों की पैनल चेकर से जांच करें",
+    "area": "Final inspection & storage"
+  },
+  {
+    "id": "S13",
+    "section": "S",
+    "order": 13,
+    "criticality": "MAJOR",
+    "fact": "Part surface: no burr, scoring or tool marks",
+    "golden_quote": "पार्ट की सतह पर बुर्र, स्कोरिंग और टूल मार्क्स नहीं होने चाहिए",
+    "area": "Final inspection & storage"
+  },
+  {
+    "id": "S14",
+    "section": "S",
+    "order": 14,
+    "criticality": "MAJOR",
+    "fact": "Store parts free from rust and dent properly",
+    "golden_quote": "जंग और डेंट से मुक्त पार्ट्स को उचित तरीके से स्टोर करें",
+    "area": "Final inspection & storage"
+  },
+  {
+    "id": "T1",
+    "section": "T",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "SHEARING M/C",
+    "golden_quote": "SHEARING M/C",
+    "area": "Shearing"
+  },
+  {
+    "id": "T2a",
+    "section": "T",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "PRESS 150 TON used for Blanking",
+    "golden_quote": "PRESS 150 TON (BLANKING, PIERCING, FORMING)",
+    "area": "Blanking (150 T)"
+  },
+  {
+    "id": "T2b",
+    "section": "T",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "PRESS 150 TON used for Piercing",
+    "golden_quote": "PRESS 150 TON (BLANKING, PIERCING, FORMING)",
+    "area": "Piercing (150 T)"
+  },
+  {
+    "id": "T2c",
+    "section": "T",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "PRESS 150 TON used for Forming",
+    "golden_quote": "PRESS 150 TON (BLANKING, PIERCING, FORMING)",
+    "area": "Forming (150 T)"
+  },
+  {
+    "id": "T3",
+    "section": "T",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "Vernier Caliper",
+    "golden_quote": "VERNIER CALIPER",
+    "area": "Gauges & instruments"
+  },
+  {
+    "id": "T4",
+    "section": "T",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "Micrometer",
+    "golden_quote": "MICROMETER",
+    "area": "Incoming material"
+  },
+  {
+    "id": "T5",
+    "section": "T",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "R Gauge",
+    "golden_quote": "R GAUGE",
+    "area": "Gauges & instruments"
+  },
+  {
+    "id": "T6",
+    "section": "T",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "Angle Gauge",
+    "golden_quote": "ANGLE GAUGE",
+    "area": "Gauges & instruments"
+  },
+  {
+    "id": "T7",
+    "section": "T",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "Height Gauge",
+    "golden_quote": "H. GAUGE",
+    "area": "Gauges & instruments"
+  },
+  {
+    "id": "T8",
+    "section": "T",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "Panel Checker",
+    "golden_quote": "PANEL CHECKER",
+    "area": "Final inspection & storage"
+  },
+  {
+    "id": "QI1",
+    "section": "QI",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "Raw material: no rust, scale, crack, black spots or pitting",
+    "golden_quote": "कच्चे माल में जंग, स्केल, क्रैक, काले धब्बे या पिटिंग नहीं होनी चाहिए",
+    "area": "Incoming material"
+  },
+  {
+    "id": "QI2",
+    "section": "QI",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "Sheet thickness 3 mm",
+    "golden_quote": "शीट की मोटाई 3 मिमी होनी चाहिए",
+    "area": "Incoming material"
+  },
+  {
+    "id": "QI3",
+    "section": "QI",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "Material specification FE410",
+    "golden_quote": "सामग्री की विशिष्टता FE410 होनी चाहिए",
+    "area": "Incoming material"
+  },
+  {
+    "id": "QI4",
+    "section": "QI",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "Chemical, mechanical, physical properties per lab report",
+    "golden_quote": "रासायनिक, यांत्रिक और भौतिक गुण प्रयोगशाला रिपोर्ट के अनुसार होने चाहिए",
+    "area": "Incoming material"
+  },
+  {
+    "id": "QF1",
+    "section": "QF",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "All dimensions as per drawing",
+    "golden_quote": "सभी आयाम ड्राइंग के अनुसार होने चाहिए",
+    "area": "Final inspection & storage"
+  },
+  {
+    "id": "QF2",
+    "section": "QF",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "No burr, scoring or tool marks on part surface",
+    "golden_quote": "पार्ट की सतह पर बुर्र, स्कोरिंग और टूल मार्क्स नहीं होने चाहिए",
+    "area": "Final inspection & storage"
+  },
+  {
+    "id": "QF3",
+    "section": "QF",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "Angle 90 ±1°",
+    "golden_quote": "कोण 90±1° के अनुसार होना चाहिए",
+    "area": "Forming (150 T)"
+  },
+  {
+    "id": "QF4",
+    "section": "QF",
+    "order": null,
+    "criticality": "CRITICAL",
+    "fact": "Radius R3",
+    "golden_quote": "रेडियस R3 के अनुसार होना चाहिए",
+    "area": "Forming (150 T)"
+  },
+  {
+    "id": "QF5",
+    "section": "QF",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "Part free from rust and dent",
+    "golden_quote": "पार्ट जंग और डेंट से मुक्त होना चाहिए",
+    "area": "Final inspection & storage"
+  },
+  {
+    "id": "R1",
+    "section": "R",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "Rust or scale → clean with rust remover and apply rust preventive",
+    "golden_quote": "जंग या स्केल | जंग लगे हुए हिस्से को जंग रिमूवर से साफ करें और जंगरोधक का उपयोग करें",
+    "area": "Rework"
+  },
+  {
+    "id": "R2",
+    "section": "R",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "Burr or tool marks → remove burr with grinder or file",
+    "golden_quote": "बुर्र या टूल मार्क्स | बुर्र को ग्राइंडर या फाइल की सहायता से हटाएं",
+    "area": "Rework"
+  },
+  {
+    "id": "R3",
+    "section": "R",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "Wrong dimension → segregate parts and reprocess",
+    "golden_quote": "गलत आयाम | गलत आयाम वाले पार्ट्स को अलग करें और पुनः प्रोसेस करें",
+    "area": "Rework"
+  },
+  {
+    "id": "R4",
+    "section": "R",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "Dent or damage → correct with plastic mallet",
+    "golden_quote": "डेंट या डैमेज | डेंट या डैमेज वाले हिस्से को प्लास्टिक मॅलेट से ठीक करें",
+    "area": "Rework"
+  },
+  {
+    "id": "R5",
+    "section": "R",
+    "order": null,
+    "criticality": "MAJOR",
+    "fact": "Radius or angle deviation → correct by re-forming",
+    "golden_quote": "रेडियस या कोण में गड़बड़ी | रेडियस या कोण को पुनः फॉर्मिंग प्रक्रिया द्वारा ठीक करें",
+    "area": "Rework"
+  },
+  {
+    "id": "L1",
+    "section": "L",
+    "order": null,
+    "criticality": "MINOR",
+    "fact": "Legend item 🚫 Don't Twist",
+    "golden_quote": "🚫 Don't Twist",
+    "area": "Legend"
+  },
+  {
+    "id": "L2",
+    "section": "L",
+    "order": null,
+    "criticality": "MINOR",
+    "fact": "Legend item 🔩 Spec. Torque",
+    "golden_quote": "🔩 Spec. Torque",
+    "area": "Legend"
+  },
+  {
+    "id": "L3",
+    "section": "L",
+    "order": null,
+    "criticality": "MINOR",
+    "fact": "Legend item ⚠️ Important",
+    "golden_quote": "⚠️ Important",
+    "area": "Legend"
+  },
+  {
+    "id": "L4",
+    "section": "L",
+    "order": null,
+    "criticality": "MINOR",
+    "fact": "Legend item 🔧 Adjustment",
+    "golden_quote": "🔧 Adjustment",
+    "area": "Legend"
+  },
+  {
+    "id": "L5",
+    "section": "L",
+    "order": null,
+    "criticality": "MINOR",
+    "fact": "Legend item 🧴 Apply Adhesive",
+    "golden_quote": "🧴 Apply Adhesive",
+    "area": "Legend"
+  },
+  {
+    "id": "L6",
+    "section": "L",
+    "order": null,
+    "criticality": "MINOR",
+    "fact": "Legend item 🛢️ Lubricate Oil",
+    "golden_quote": "🛢️ Lubricate Oil",
+    "area": "Legend"
+  },
+  {
+    "id": "L7",
+    "section": "L",
+    "order": null,
+    "criticality": "MINOR",
+    "fact": "Legend item 🟡 Lub. Grease",
+    "golden_quote": "🟡 Lub. Grease",
+    "area": "Legend"
+  },
+  {
+    "id": "L8",
+    "section": "L",
+    "order": null,
+    "criticality": "MINOR",
+    "fact": "Legend item 🔵 Apply Sealant",
+    "golden_quote": "🔵 Apply Sealant",
+    "area": "Legend"
+  },
+  {
+    "id": "L9",
+    "section": "L",
+    "order": null,
+    "criticality": "MINOR",
+    "fact": "Legend item ⭐ Vital Parts",
+    "golden_quote": "⭐ Vital Parts",
+    "area": "Legend"
+  }
+]

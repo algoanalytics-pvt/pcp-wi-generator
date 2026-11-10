@@ -1,0 +1,119 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP /'290058600101/02
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 01 | Date: 11/11/17
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / BRACKET JACK MTG | C4: 1 | E4: BRACKET JACK MTG | H4: Spot Welding Guns | K4: 290058600101
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: BRACKET JACK MTG | E6: 290058600101 | H6: 01 | J6: 11/11/17 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Prototype
+E9: 2 | F9: Pre-launch
+E10: 3 | F10: Date(Orig.): 10.12.2022
+E11: 4 | F11: Process Control Plan Number : SI / PCP /'290058600101/02
+E12: 5 | F12: Part Number / Latest Change Level  : 290058604004/A/06.10.2022
+E13: 6 | F13: Part Name / Description : BRACKET JACK MTG
+E14: 7 | F14: Supplier / Plant Approval /
+E15: 8 | F15: Supplier Code : S-06220
+E16: 9 | F16: Other Approval / Date [ if reqd. ]      -----
+E17: 10 | F17: S-06220
+E18: 11 | F18: SHARADA INDUSTRIES.
+E19: 12 | F19: S-06220
+E20: 13 | F20: Part /
+E21: 14 | F21: Process Name
+E22: 15 | F22: Machine
+E23: 16 | F23: Characteristic
+E24: 17 | F24: Special
+E25: 18 | F25: Product / Process 'Specification/   Tolerance
+E26: 19 | F26: Methods
+E27: 20 | F27: Process
+E28: 21 | F28: Operation
+E29: 22 | F29: Device,
+E30: 23 | F30: Product
+E31: 24 | F31: Process
+E32: 25 | F32: Char.
+E33: 26 | F33: nan
+E34: 27 | F34: Evaluation
+E35: 28 | F35: Sample
+E36: 29 | F36: Control
+E37: 30 | F37: Format No.: F-DVP-7
+E38: 31 | F38: Reaction Plan
+E39: 32 | F39: Corrective Action
+E40: 33 | F40: PP-010
+E41: 34 | F41: R M RECEIPT
+E42: 35 | F42: SURFACE CONDITION
+E43: 36 | F43: VISUAL
+E44: 37 | F44: 1
+E45: 38 | F45: LOT
+E46: 39 | F46: As PER SI/RMQP
+E47: 40 | F47: .............
+E48: 41 | F48: Sort / Reject
+E49: 42 | F49: Sort / Reject & Sent back To Supplier
+E50: 43 | F50: PP-020
+E51: 44 | F51: SHEARING
+E52: 45 | F52: SHEARING M/C
+E53: 46 | F53: 1
+E54: 47 | F54: LENGTH
+E55: 48 | F55: nan
+E56: 49 | F56: 1250
+E57: 50 | F57: M. Tape
+E58: 51 | F58: 5
+E59: 52 | F59: PER LOT
+E60: 53 | F60: In-Process Inspection
+E61: 54 | F61: ---
+E62: 55 | F62: Sort / Reject
+E63: 56 | F63: Resharpening / Replacement of stopper/Tool
+E64: 57 | F64: nan
+E65: 58 | F65: nan
+E66: 59 | F66: nan
+E67: 60 | F67: PP-030
+E68: 61 | F68: BLANKING
+E69: 62 | F69: PRESS
+E70: 63 | F70: 150 TON
+E71: 64 | F71: 1
+E72: 65 | F72: DIMENSION
+E73: 66 | F73: nan
+E74: 67 | F74: nan
+E75: 68 | F75: 146.5
+E76: 69 | F76: V. CALIPER
+E77: 70 | F77: 10
+E78: 71 | F78: PER HR
+E79: 72 | F79: 1ST PIECE INSPN- 1 PC/hr - LAST PIECE INSPProduction Plan As per
+E80: 73 | F80: RG-PRD-01
+E81: 74 | F81: Capacity Planing
+E82: 75 | F82: CHECK STOPPER ADJUSTMENT.
+E83: 76 | F83: SORT/REJECT
+E84: 77 | F84: Rejected parts should be kept in rejection bin
+E85: TOOLING / EQUIPMENT
+E86: 1) | F86: Stage 1 Welding Fixture (Fixture No. 290058600101)
+E87: 2) | F87: Spot Welding Gun - 1 no. (Gun No. 90)
+E88: QUALITY PARAMETERS
+E89: A) Incoming Quality Checks
+E90: 1. | F90: Assembly must have no cracks, damage, or rust anywhere.
+E91: 2. | F91: No wrinkles on pressed parts.
+E92: B) Finished Quality Checks
+E93: 1. | F93: Total 12 spots as per control plan and spot plan.
+E94: 2. | F94: No deep spots allowed.
+E95: 3. | F95: No burrs at spot locations.
+E96: 4. | F96: Weld nuts and studs must not be missing.
+E97: 5. | F97: No loose parts missing.
+A100: SR. | B100: PART NO. | E100: PART DESCRIPTION | N100: QTY
+A101: 1 | B101: 290058600101 | E101: BRACKET JACK MTG | N101: 1
+A102: 2 | B102: 290058600102 | E102: BRACKET JACK PLATE | N102: 1
+A104: REWORK INSTRUCTIONS
+A105: NO. | B105: DEFECT TYPE | F105: ACTION
+A106: 1 | B106: Spot Missing | F106: Missing spots must be done properly (ref: control plan and drawing).
+A107: 2 | B107: Welding Missing | F107: Welding must be done properly (ref: control plan and drawing).
+A108: 3 | B108: Part Missing | F108: All parts must be welded properly (ref: control plan and drawing).
+A109: 4 | B109: Nut Missing | F109: All nuts must be welded properly (ref: control plan and drawing).
+A110: 5 | B110: Dent or Damage | F110: Use plastic mallet to rework dents or damage.
+A111: 6 | B111: Rust | F111: Clean rusted area with rust remover and apply anti-rust coating.
+A112: 7 | B112: Part Shift | F112: Remove misplaced part using spot cutter and chisel, reposition correctly.
+A114: LEGEND
+A115: 🚫 Don't Twist | B115: 🔩 Spec. Torque | D115: ⚠️ Important | E115: 🔧 Adjustment | G115: 🧴 Apply Adhesive | I115: 🛢️ Lubricate Oil | K115: 🟡 Lub. Grease | L115: 🔵 Apply Sealant | N115: ⭐ Vital Parts

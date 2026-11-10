@@ -1,0 +1,674 @@
+{
+  "model": "Gpt4o-mini",
+  "stage": "01",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / PCP /'290058600101/01",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Rev: 01",
+      "note": "Golden Rev 02; 01 matches neither the golden nor the PCP revision (02)."
+    },
+    "H5": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Date: 11/11/17",
+      "note": "Golden 13/10/2025; 11/11/17 is the PCP form's own revision date."
+    },
+    "H6": {
+      "verdict": "MATCH",
+      "evidence": "UNIT-3 / BKT ASSY JACK MTG",
+      "note": ""
+    },
+    "H7": {
+      "verdict": "MATCH",
+      "evidence": "C4: 1",
+      "note": ""
+    },
+    "H8": {
+      "verdict": "MATCH",
+      "evidence": "BKT ASSY JACK MTG",
+      "note": ""
+    },
+    "H9": {
+      "verdict": "MATCH",
+      "evidence": "Projection Weld Machine",
+      "note": ""
+    },
+    "H10": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Header lists only the projection weld machine; welding machine not named anywhere."
+    },
+    "H11": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Welding fixture not named anywhere."
+    },
+    "H12": {
+      "verdict": "MATCH",
+      "evidence": "290058600101",
+      "note": ""
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Cycle time left blank."
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "BKT ASSY JACK MTG",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "MATCH",
+      "evidence": "E6: 290058600101",
+      "note": ""
+    },
+    "H16": {
+      "verdict": "CONTRADICTED",
+      "evidence": "H6: 01",
+      "note": "Golden drawing revision 02."
+    },
+    "H17": {
+      "verdict": "CONTRADICTED",
+      "evidence": "J6: 11/11/17",
+      "note": "Golden revision date 13/10/2025."
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "L6: —",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "MATCH",
+      "evidence": "290058604001 | E43: Clamp JACK",
+      "note": ""
+    },
+    "H20": {
+      "verdict": "MATCH",
+      "evidence": "Clamp JACK",
+      "note": ""
+    },
+    "H21": {
+      "verdict": "MATCH",
+      "evidence": "Clamp JACK | N43: 1",
+      "note": ""
+    },
+    "H22": {
+      "verdict": "MATCH",
+      "evidence": "290058604002 | E42: Foam Packing",
+      "note": ""
+    },
+    "H23": {
+      "verdict": "MATCH",
+      "evidence": "Foam Packing",
+      "note": ""
+    },
+    "H24": {
+      "verdict": "MATCH",
+      "evidence": "Foam Packing | N42: 1",
+      "note": ""
+    },
+    "H25": {
+      "verdict": "MATCH",
+      "evidence": "290058604003 | E44: Bracket jack mtg front",
+      "note": ""
+    },
+    "H26": {
+      "verdict": "MATCH",
+      "evidence": "Bracket jack mtg front",
+      "note": ""
+    },
+    "H27": {
+      "verdict": "MATCH",
+      "evidence": "Bracket jack mtg front | N44: 1",
+      "note": ""
+    },
+    "H28": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "290058604004 row missing from part list."
+    },
+    "H29": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H30": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H31": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "M8 hex weld nut row missing from part list."
+    },
+    "H32": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H33": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S1": {
+      "verdict": "PARTIAL",
+      "evidence": "Receive material as per drawing requirement.",
+      "note": "No instruction to keep parts in one place."
+    },
+    "S2": {
+      "verdict": "MATCH",
+      "evidence": "Ensure surface condition is free from dent, damage, rust, and peel off.",
+      "note": ""
+    },
+    "S3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No foam packing check; foam appears only in the part list and a pasting step."
+    },
+    "S4a": {
+      "verdict": "MATCH",
+      "evidence": "Perform projection welding on sub-assembly 1 to hex weld nut M8 and clamp jack.",
+      "note": ""
+    },
+    "S4b": {
+      "verdict": "MATCH",
+      "evidence": "290058604001 | E43: Clamp JACK",
+      "note": "Part number only in the part list, bound by the name Clamp Jack."
+    },
+    "S5a": {
+      "verdict": "MATCH",
+      "evidence": "Check voltage parameters between 180-220 V.",
+      "note": ""
+    },
+    "S5b": {
+      "verdict": "MATCH",
+      "evidence": "Verify pressure between 15-20 KG/CM².",
+      "note": ""
+    },
+    "S6": {
+      "verdict": "PARTIAL",
+      "evidence": "Inspect M8 hex weld nut for proper projection.",
+      "note": "Nut count not checked."
+    },
+    "S7a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Second projection weld (Bracket Jack Mtg) not present."
+    },
+    "S7b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S8a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Single projection-weld settings block credited to the Clamp Jack weld."
+    },
+    "S8b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S9": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S10a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No CO2 tack welding operation."
+    },
+    "S10b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S11a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S11b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S11c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S11d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S12": {
+      "verdict": "MATCH",
+      "evidence": "Ensure welding quality is free from spatters, blow holes, and porosity.",
+      "note": "Single generic weld-quality step (after projection welding) credited once here."
+    },
+    "S13a": {
+      "verdict": "MATCH",
+      "evidence": "Total tack welding to assembly must be 6 nos.",
+      "note": "Found only in finished QC."
+    },
+    "S13b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Tacks on M8 nut not stated."
+    },
+    "S14a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S14b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S14c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S15": {
+      "verdict": "MATCH",
+      "evidence": "Perform full welding to final assembly.",
+      "note": ""
+    },
+    "S16a": {
+      "verdict": "PARTIAL",
+      "evidence": "Check voltage parameters between 120-160 AMP.",
+      "note": "Correct value and unit but labelled voltage, not current."
+    },
+    "S16b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Full-weld voltage 20-30 V absent."
+    },
+    "S16c": {
+      "verdict": "MATCH",
+      "evidence": "Inspect gas flow rate between 10-15 IPM.",
+      "note": ""
+    },
+    "S16d": {
+      "verdict": "MATCH",
+      "evidence": "Verify wire feed rate between 30-60 M/MIN.",
+      "note": ""
+    },
+    "S17": {
+      "verdict": "MATCH",
+      "evidence": "Inspect welding length of 180 mm.",
+      "note": ""
+    },
+    "S18a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S18b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S18c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S19": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S20": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No weld-quality check after full welding (the one generic check is credited to S12)."
+    },
+    "S21a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No coating operation."
+    },
+    "S21b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S22": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S23a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No tapping operation; manual drilling machine only in tooling."
+    },
+    "S23b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S24": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S25a": {
+      "verdict": "MATCH",
+      "evidence": "Conduct foam pasting as per visual check.",
+      "note": ""
+    },
+    "S25b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Hole-position check not mentioned."
+    },
+    "S26": {
+      "verdict": "MATCH",
+      "evidence": "Perform final inspection as per quality plan.",
+      "note": ""
+    },
+    "S27": {
+      "verdict": "MATCH",
+      "evidence": "Ensure parts are stored without rust and dent.",
+      "note": ""
+    },
+    "S28": {
+      "verdict": "PARTIAL",
+      "evidence": "Pack as per signed logistic sheet and packing standards.",
+      "note": "No dispatch instruction."
+    },
+    "T1": {
+      "verdict": "MATCH",
+      "evidence": "Projection Weld Machine",
+      "note": ""
+    },
+    "T2a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T2b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T3": {
+      "verdict": "MATCH",
+      "evidence": "Manual Drilling Machine",
+      "note": ""
+    },
+    "T4a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T4b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI1": {
+      "verdict": "MATCH",
+      "evidence": "Receive material as per drawing requirement.",
+      "note": "Dimension inspection in step 2."
+    },
+    "QI2": {
+      "verdict": "MATCH",
+      "evidence": "Surface condition must be free from dent, damage, rust, and peel off.",
+      "note": ""
+    },
+    "QI3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF1a": {
+      "verdict": "MATCH",
+      "evidence": "Check voltage parameters between 180-220 V.",
+      "note": "Found in steps only."
+    },
+    "QF1b": {
+      "verdict": "MATCH",
+      "evidence": "Verify pressure between 15-20 KG/CM².",
+      "note": "Found in steps only."
+    },
+    "QF2": {
+      "verdict": "PARTIAL",
+      "evidence": "Inspect M8 hex weld nut for proper projection.",
+      "note": "No count or location."
+    },
+    "QF3": {
+      "verdict": "MATCH",
+      "evidence": "Welding must be free from spatters, blow holes, and porosity.",
+      "note": ""
+    },
+    "QF4a": {
+      "verdict": "MATCH",
+      "evidence": "Total tack welding to assembly must be 6 nos.",
+      "note": ""
+    },
+    "QF4b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF5a": {
+      "verdict": "PARTIAL",
+      "evidence": "Final assembly must meet all dimensional requirements.",
+      "note": "Generic; no values."
+    },
+    "QF5b": {
+      "verdict": "PARTIAL",
+      "evidence": "Final assembly must meet all dimensional requirements.",
+      "note": "Generic; no values."
+    },
+    "QF5c": {
+      "verdict": "PARTIAL",
+      "evidence": "Final assembly must meet all dimensional requirements.",
+      "note": "Generic; no values."
+    },
+    "QF5d": {
+      "verdict": "PARTIAL",
+      "evidence": "Final assembly must meet all dimensional requirements.",
+      "note": "Generic; no values."
+    },
+    "QF5e": {
+      "verdict": "PARTIAL",
+      "evidence": "Final assembly must meet all dimensional requirements.",
+      "note": "Generic; no values."
+    },
+    "QF6": {
+      "verdict": "MATCH",
+      "evidence": "Inspect welding length of 180 mm.",
+      "note": "Found in steps."
+    },
+    "QF7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF8a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF8b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF9": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF10a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF10b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF11": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R1": {
+      "verdict": "MATCH",
+      "evidence": "Dimensional Defect | F50: Adjust dimensions as per drawing specifications.",
+      "note": ""
+    },
+    "R2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R3": {
+      "verdict": "PARTIAL",
+      "evidence": "Welding Quality Defect | F49: Rework the welds to ensure they are free from defects.",
+      "note": "Action vague; grinding not specified."
+    },
+    "R4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R8": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R9": {
+      "verdict": "PARTIAL",
+      "evidence": "Surface Condition Defect | F48: Rework the surface to remove any dents or rust.",
+      "note": "Action vague; rust remover and plastic mallet not named."
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Ensure wire size is 0.8.",
+      "note": "New welding wire size.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Check wire brand as per AWS 70 S 6.",
+      "note": "New welding wire material spec.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Inspect dimensions as per supplier PDI report.",
+      "note": "New document reference (supplier PDI report).",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Assembly must have no cracks, damage, or rust anywhere.",
+      "note": "Extra incoming acceptance criterion (cracks).",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Perform visual inspection for surface condition.",
+      "note": "Extra non-numeric inspection step after full welding.",
+      "in_ppap": null
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "NON_COMPLIANT",
+    "note": "All step, quality and rework text is in English."
+  },
+  "summary": "Only the Clamp Jack projection weld and the full weld are described: the second projection weld, the CO2 tack welding, all dimensions, coating and tapping are missing. The header carries Rev 01 and date 11/11/17 (the PCP form's date) instead of Rev 02 / 13/10/2025, full-weld current is labelled as voltage, and it adds a 0.8 wire size and AWS 70 S 6 wire grade. The text is in English, not Hindi."
+}

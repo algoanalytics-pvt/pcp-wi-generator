@@ -1,0 +1,548 @@
+{
+  "model": "Nano-5",
+  "stage": "03",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / PCP /'290058600101/03",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Rev: 01",
+      "note": "Golden revision is 00."
+    },
+    "H5": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Date: 11/11/17",
+      "note": "PPAP form date used instead of 10.12.2021."
+    },
+    "H6": {
+      "verdict": "MATCH",
+      "evidence": "UNIT-3 / BKT JACK MTG FRONT",
+      "note": ""
+    },
+    "H7": {
+      "verdict": "MATCH",
+      "evidence": "1",
+      "note": ""
+    },
+    "H8": {
+      "verdict": "MATCH",
+      "evidence": "BKT JACK MTG FRONT",
+      "note": ""
+    },
+    "H9": {
+      "verdict": "MATCH",
+      "evidence": "SHEARING M/C - 1 no.",
+      "note": "Header machine field holds S-06220; shearing machine is in steps and tooling."
+    },
+    "H10": {
+      "verdict": "MATCH",
+      "evidence": "PRESS\n 150 TON",
+      "note": "Header machine field holds S-06220; the press appears in the step table only."
+    },
+    "H11": {
+      "verdict": "MATCH",
+      "evidence": "290058604003",
+      "note": ""
+    },
+    "H12": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Cycle time left blank, as in the golden."
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": "BKT JACK MTG FRONT",
+      "note": ""
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "290058604003",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Revision | 01",
+      "note": "Golden drawing revision is 00."
+    },
+    "H16": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Rev Date | 11/11/17",
+      "note": "PPAP form date instead of 10.12.2021."
+    },
+    "H17": {
+      "verdict": "MATCH",
+      "evidence": "—",
+      "note": ""
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "1 | 290058604003",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "MATCH",
+      "evidence": "BKT JACK MTG FRONT",
+      "note": ""
+    },
+    "H20": {
+      "verdict": "MATCH",
+      "evidence": "BKT JACK MTG FRONT | QTY 1",
+      "note": ""
+    },
+    "S1": {
+      "verdict": "PARTIAL",
+      "evidence": "R M RECEIPT",
+      "note": "Bare operation label from a dumped table; no instruction."
+    },
+    "S2": {
+      "verdict": "MATCH",
+      "evidence": "RUST,SCALE,CRACK,BLACK PATCHES,PITTING",
+      "note": "Under 'SURFACE CONDITION', 'VISUAL'."
+    },
+    "S3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No sheet thickness anywhere."
+    },
+    "S4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "FE410 not mentioned."
+    },
+    "S5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S6a": {
+      "verdict": "MATCH",
+      "evidence": "1250",
+      "note": "Under SHEARING / LENGTH / M. Tape."
+    },
+    "S6b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Width 194 mm not given."
+    },
+    "S7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S8": {
+      "verdict": "MATCH",
+      "evidence": "PRESS\n 150 TON",
+      "note": "Cell under PP-030 BLANKING."
+    },
+    "S9a": {
+      "verdict": "MATCH",
+      "evidence": "52.75",
+      "note": "With H.GAUGE under BLANKING."
+    },
+    "S9b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S9c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S9d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S9e": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S9f": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S10a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S10b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S10c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S11": {
+      "verdict": "MATCH",
+      "evidence": "PRESS\n 150  TON",
+      "note": "Cell under PP-040 FORMING."
+    },
+    "S12a": {
+      "verdict": "MATCH",
+      "evidence": "135",
+      "note": "With V.CALIPER under FORMING."
+    },
+    "S12b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S13": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S14": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S15": {
+      "verdict": "MATCH",
+      "evidence": "PRESS\n 150  TON",
+      "note": "Cell under PP-050 RESTRIKE."
+    },
+    "S16": {
+      "verdict": "MATCH",
+      "evidence": "85  ± 1 ̊",
+      "note": "Next cell: BEVEL PROTECTOR."
+    },
+    "S17": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No panel checker."
+    },
+    "S18": {
+      "verdict": "PARTIAL",
+      "evidence": "Rework using appropriate finishing to remove burrs and scoring; ensure visual pass.",
+      "note": "Only implied by a rework row; tool marks dropped."
+    },
+    "S19": {
+      "verdict": "MATCH",
+      "evidence": "INSPECTION AS PER QUALITY PLAN.",
+      "note": ""
+    },
+    "S20": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No storage step."
+    },
+    "T1": {
+      "verdict": "MATCH",
+      "evidence": "SHEARING M/C - 1 no.",
+      "note": ""
+    },
+    "T2a": {
+      "verdict": "MATCH",
+      "evidence": "PRESS\n 150 TON",
+      "note": "Bound to BLANKING in the step table only; not in the tooling list."
+    },
+    "T2b": {
+      "verdict": "MATCH",
+      "evidence": "PRESS\n 150  TON",
+      "note": "Bound to FORMING in the step table only."
+    },
+    "T2c": {
+      "verdict": "MATCH",
+      "evidence": "PRESS\n 150  TON",
+      "note": "Bound to RESTRIKE in the step table only."
+    },
+    "T3a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T3b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T4": {
+      "verdict": "MATCH",
+      "evidence": "M. Tape",
+      "note": "Step table only."
+    },
+    "T5": {
+      "verdict": "MATCH",
+      "evidence": "V.CALIPER",
+      "note": "Step table only."
+    },
+    "T6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T8": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T9": {
+      "verdict": "MATCH",
+      "evidence": "H.GAUGE",
+      "note": "Step table only."
+    },
+    "QI1": {
+      "verdict": "MATCH",
+      "evidence": "Rust, scale, cracks, black patches, and pitting must be absent on surfaces.",
+      "note": "Listed under finished checks; incoming check gives only cracks, damage, rust."
+    },
+    "QI2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF1": {
+      "verdict": "MATCH",
+      "evidence": "All dimensions as Per drawing specification.",
+      "note": ""
+    },
+    "QF2a": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions as Per drawing specification.",
+      "note": "Generic; 90° not given anywhere."
+    },
+    "QF2b": {
+      "verdict": "MATCH",
+      "evidence": "85  ± 1 ̊",
+      "note": "Found in the restrike step."
+    },
+    "QF3a": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions as Per drawing specification.",
+      "note": "Generic; radius not given anywhere."
+    },
+    "QF3b": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions as Per drawing specification.",
+      "note": "Generic; radius not given anywhere."
+    },
+    "QF3c": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions as Per drawing specification.",
+      "note": "Generic; radius not given anywhere."
+    },
+    "QF3d": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions as Per drawing specification.",
+      "note": "Generic; radius not given anywhere."
+    },
+    "QF4": {
+      "verdict": "PARTIAL",
+      "evidence": "Rework using appropriate finishing to remove burrs and scoring; ensure visual pass.",
+      "note": "Only implied by a rework row; tool marks dropped."
+    },
+    "QF5": {
+      "verdict": "PARTIAL",
+      "evidence": "No rust and corrosion on critical mating surfaces.",
+      "note": "Dent dropped; limited to mating surfaces."
+    },
+    "R1": {
+      "verdict": "PARTIAL",
+      "evidence": "Rust/Surface Contamination | Clean rusted areas with rust remover and apply anti-corrosion coating",
+      "note": "Scale and crack not covered."
+    },
+    "R2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R3": {
+      "verdict": "MATCH",
+      "evidence": "Dimensional Deviation | Rework with correct tooling to meet specified dimension; re-check with V. Caliper.",
+      "note": ""
+    },
+    "R4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R6": {
+      "verdict": "MATCH",
+      "evidence": "Surface Defects | Rework using appropriate finishing to remove burrs and scoring",
+      "note": "Grinder/file generalised to finishing."
+    },
+    "R7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Stage 1 Welding Fixture (Fixture No. 290058604003)",
+      "note": "Welding fixture in a press stage, with an invented fixture number.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "BKT JACK MTG FRONT - PARTS KIT",
+      "note": "New part-list entry.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Incorrect Assembly | Reassemble parts correctly as per control plan; document rework in QA log.",
+      "note": "New rework row (assembly) in a press stage.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Part Number / Latest Change Level  : 290058604003/A/06.10.2022",
+      "note": "New change level and date in the step list.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "As PER SI/RMQP",
+      "note": "New document reference (also 'Total 1st piece inspection as per SI/RMQP.').",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "PER HR",
+      "note": "New sampling frequencies: 1 per LOT at receipt, 5 PER LOT at shearing, 10 PER HR at each press, 1 LOT at inspection.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "1ST PIECE INSPN- 1 PC/hr - LAST PIECE INSPProduction Plan As per RG-PRD-01",
+      "note": "New inspection frequency and document reference.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Final Inspection/ Layout frequency for Assy part should be once in year",
+      "note": "New final-inspection frequency.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "100% application of RPO.100% handling in bins and trolleys.",
+      "note": "New process step (RPO) and handling spec.",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Process Control Plan Number : SI / PCP /'290058600101/03",
+      "note": "Steps 1-29 are header and column labels of the PCP table ('Supplier / Plant Approval', 'nan', 'Methods'...), not instructions.",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "S-06220",
+      "note": "Supplier code in the header machine field and step 7.",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Stop the production, inform to supervisor, sort the ok parts and reject not ok part",
+      "note": "Reaction-plan text in steps, incl. 'Sort / Reject & Sent back To Supplier' and 'Resharpening / Replacement of stopper/Tool'.",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "No wrinkles on pressed parts.",
+      "note": "Extra acceptance criterion (also 'Assembly must have no cracks, damage, or rust anywhere.').",
+      "in_ppap": false
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "CHECK STOPPER ADJUSTMENT.",
+      "note": "Generic set-up.",
+      "in_ppap": true
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "NON_COMPLIANT",
+    "note": "Body text is English; the step list is raw PCP table cells."
+  },
+  "summary": "The step list is a raw dump of PCP table cells ('nan', column headings, 'Supplier / Plant Approval') that an operator cannot follow. Only one value per operation survives (1250, 52.75, 135, 85 ± 1°): thickness, FE410, width 194, most blanking dimensions, all radii and the 90° angle are missing. The header has the wrong revision (01) and date (11/11/17), and the WI adds a welding fixture, a parts-kit part-list row and an assembly rework row that do not belong to this press stage."
+}

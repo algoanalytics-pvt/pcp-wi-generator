@@ -1,0 +1,40 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP /'290058600101/02
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 01 | Date: 11/11/17
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / BRACKET JACK MTG | C4: 1 | E4: BRACKET JACK MTG | H4: Press 150 Ton | K4: 290058604004
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: BRACKET JACK MTG | E6: 290058604004 | H6: 01 | J6: 11/11/17 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Collect all loose parts and place them together.
+E9: 2 | F9: Verify all assembly parts are loaded on fixture.
+E10: 3 | F10: Clamp the fixture.
+E11: 4 | F11: Perform shearing as per control plan.
+E12: 5 | F12: Unclamp the fixture.
+E13: 6 | F13: Inspect the completed assembly.
+E14: 7 | F14: Verify all dimensions as per control plan.
+E15: TOOLING / EQUIPMENT
+E16: 1) | F16: Shearing Machine 150 Ton
+E17: 2) | F17: Press 150 Ton
+E18: QUALITY PARAMETERS
+E19: A) Incoming Quality Checks
+E20: 1. | F20: Surface must be free from rust, scale, crack, black patches, pitting.
+E21: 2. | F21: Sheet thickness must be 2 mm as per micrometer.
+E22: B) Finished Quality Checks
+E23: 1. | F23: Dimensions must be 146.5 mm as per control plan.
+E24: 2. | F24: No burrs or tool marks on the part surface.
+E25: 3. | F25: All other dimensions must be checked as per panel checker.
+A28: SR. | B28: PART NO. | E28: PART DESCRIPTION | N28: QTY
+A30: REWORK INSTRUCTIONS
+A31: NO. | B31: DEFECT TYPE | F31: ACTION
+A32: 1 | B32: Surface Condition | F32: Surface must be free from burr and tool marks.
+A33: 2 | B33: Dimension | F33: Rework dimensions to meet specifications.
+A35: LEGEND
+A36: 🚫 Don't Twist | B36: 🔩 Spec. Torque | D36: ⚠️ Important | E36: 🔧 Adjustment | G36: 🧴 Apply Adhesive | I36: 🛢️ Lubricate Oil | K36: 🟡 Lub. Grease | L36: 🔵 Apply Sealant | N36: ⭐ Vital Parts

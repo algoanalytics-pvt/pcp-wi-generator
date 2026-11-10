@@ -1,0 +1,49 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / 289661208202/01
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 01 | Date: 11/11/17
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / CROSSMEMBER LH 2DR XENON CAB | C4: 1 | E4: CROSSMEMBER LH 2DR XENON CAB | H4: Welding & Checking Fixtures | K4: 289661208202
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: CROSSMEMBER LH 2DR XENON CAB | E6: 289661208202 | H6: 01 | J6: 11/11/17 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Collect all loose parts and place them together.
+E9: 2 | F9: Verify all assembly parts are loaded on fixture (Fixture No. S-06221).
+E10: 3 | F10: Clamp the fixture.
+E11: 4 | F11: Perform 12 spots as per control plan.
+E12: 5 | F12: Unclamp the fixture.
+E13: 6 | F13: Inspect the completed assembly.
+E14: 7 | F14: Verify total 12 spots are complete on both sub-assemblies and pass to Stage 2.
+E15: TOOLING / EQUIPMENT
+E16: 1) | F16: Stage 1 Welding Fixture (Fixture No. S-06221)
+E17: 2) | F17: Spot Welding Gun - 1 no. (Gun No. 90)
+E18: QUALITY PARAMETERS
+E19: A) Incoming Quality Checks
+E20: 1. | F20: Assembly must have no cracks, damage, or rust anywhere.
+E21: 2. | F21: No wrinkles on pressed parts.
+E22: B) Finished Quality Checks
+E23: 1. | F23: Total 12 spots as per control plan and spot plan.
+E24: 2. | F24: No deep spots allowed.
+E25: 3. | F25: No burrs at spot locations.
+E26: 4. | F26: Weld nuts and studs must not be missing.
+E27: 5. | F27: No loose parts missing.
+A30: SR. | B30: PART NO. | E30: PART DESCRIPTION | N30: QTY
+A31: 1 | B31: 289661208202 | E31: CROSSMEMBER LH 2DR XENON CAB | N31: 1
+A32: 2 | B32: 289661208202/01 | E32: Attachment for Crossmember | N32: 1
+A34: REWORK INSTRUCTIONS
+A35: NO. | B35: DEFECT TYPE | F35: ACTION
+A36: 1 | B36: Spot Missing | F36: Missing spots must be done properly (ref: control plan and drawing).
+A37: 2 | B37: Welding Missing | F37: Welding must be done properly (ref: control plan and drawing).
+A38: 3 | B38: Part Missing | F38: All parts must be welded properly (ref: control plan and drawing).
+A39: 4 | B39: Nut Missing | F39: All nuts must be welded properly (ref: control plan and drawing).
+A40: 5 | B40: Dent or Damage | F40: Use plastic mallet to rework dents or damage.
+A41: 6 | B41: Rust | F41: Clean rusted area with rust remover and apply anti-rust coating.
+A42: 7 | B42: Part Shift | F42: Remove misplaced part using spot cutter and chisel, reposition correctly.
+A44: LEGEND
+A45: 🚫 Don't Twist | B45: 🔩 Spec. Torque | D45: ⚠️ Important | E45: 🔧 Adjustment | G45: 🧴 Apply Adhesive | I45: 🛢️ Lubricate Oil | K45: 🟡 Lub. Grease | L45: 🔵 Apply Sealant | N45: ⭐ Vital Parts

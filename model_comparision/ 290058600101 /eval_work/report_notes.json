@@ -1,0 +1,94 @@
+{
+  "part_name": "BKT ASSY JACK MTG",
+  "summary_bullets": [
+    "<b>No model passes the judge on any stage (0 of 20 WIs).</b> Every WI fails at least one gate: a contradicted critical fact, a critical hallucination, or critical recall below 0.95.",
+    "<b>Luna-5.6 leads (overall 0.930, critical recall 0.948), with Luna-6 second (0.883, 0.943).</b> Both reproduce every golden operation and process value in all four stages: the welding parameters, press bindings, dimensions, angles, radii, coating and tapping values. <b>Every critical fact they contradict is a header field</b> (stage number, dates, revision). mistral-small is a distant third (0.665), and gpt-4o-mini (0.442) and Nano-5 (0.322) are not usable.",
+    "<b>Luna-6 costs about the same as gpt-4o-mini</b> ($0.0038 vs $0.0036 per WI). Luna-5.6 costs twice as much ($0.0077) for +0.047 overall. Nano-5 is the cheapest ($0.0016), but its output can't be used.",
+    "<b>The weak models copy the generator prompt's spot-welding example or dump raw PCP cells instead of writing a WI.</b> Two examples: gpt-4o-mini's “Clamp the fixture” steps and Nano-5's “Gun No. 90”. For the Luna models the opposite happens: 84 of their 85 critical hallucinations are real PPAP data that the golden leaves out.",
+    "<b>The golden has problems of its own that every model is penalised for.</b> “UNIT-3” is not in the PPAP; it comes from the prompt example. The golden Stage No. values “Multiple” (Stage 02) and “1-5” (Stage 04) follow no rule, so all five models contradict them. Stages 03 and 04 also take their header dates from different PPAP fields. Read the pass/fail gates with this in mind: if PPAP-backed additions were exempt, Luna-5.6's Stage 01 would pass."
+  ],
+  "models": {
+    "Luna-5.6": {
+      "right": "Every golden operation is present in all four stages, with correct values on the right machine. Steps average 0.98, finished QC 0.99 and tooling 1.00. Stage 01 (the welded assembly) has no contradicted critical fact and a critical recall of 0.957; of all 20 WIs, it is the only one that fails <i>only</i> on PPAP-backed additions.",
+      "wrong": [
+        "<b>Header fields.</b> Stage 03 dates are 11/11/17 (the PPAP form date) instead of 10.12.2021. Stage 04 revision is 01 instead of 00, which matches the prompt example. Stage No. is “1” where the golden has “Multiple” (Stage 02) and “1-5” (Stage 04).",
+        "<b>39 critical additions, 38 of them found in the PPAP:</b> 0.8 mm AWS 70S-6 wire, the SS 7265/7651 coating standards, 80 RPM tapping speed, press shut heights and strokes for Stages 03–04, and sampling frequencies. The only invented items are the Blanking, Forming and Restrike tool entries in Stage 03.",
+        "<b>Rework averages 0.70.</b> The missing-emboss row (Stage 02) and the thickness row (Stage 03) are absent, and several rows sort or reject parts instead of repairing them.",
+        "<b>Stage 01 weld details.</b> Tacks on the nut are given as 3 per nut instead of the golden's 6 (PARTIAL), and there is no weld-quality check after the second projection weld."
+      ]
+    },
+    "Luna-6": {
+      "right": "Like Luna-5.6, every operation and process value is correct in all four stages (steps 0.99, finished QC 0.99, tooling 1.00). The header revision and dates are right in Stages 01, 02 and 04. All 46 of its critical additions are real PPAP data; nothing is invented.",
+      "wrong": [
+        "<b>Stage No. is written as PCP operation codes in every stage</b> (“PP-010 to PP-110”, “PP-010 to PP-090”, “PP-010 to PP-070”). In Stages 01, 02 and 04 this is the only contradicted critical fact.",
+        "<b>Rework scores 0.38, the lowest of the three leading models.</b> It rejects parts where the golden re-coats them (Stage 01), deburrs or reprocesses them (Stage 02), or re-forms them (Stage 04). The burr, thickness and radius rows are missing in some stages.",
+        "<b>46 critical additions:</b> the SI/QP/585888210155, PDI, RG-PRD-01 and F-QAD/SI/RMQP references, 1-per-lot and 5-per-shift sampling, the wire spec, 80 RPM, press settings, RPO and a yearly layout inspection.",
+        "<b>Stage 03:</b> both dates are 11/11/17, and the part-list table is empty."
+      ]
+    },
+    "mistral-small-latest": {
+      "right": "Stage 02 scores close to the leaders (0.928, recall 0.977), with every press binding and value correct. Stage 03 has all three press operations with the correct angles. The header revision and dates are correct in Stages 01 and 02.",
+      "wrong": [
+        "<b>Stage 04 covers raw-material receipt only.</b> Shearing, blanking, piercing, forming and the tooling list are missing. The machine field says “None”, and the part list shows the assembly number.",
+        "<b>Stage 01 has the operator fit the foam packing at step 2, before welding</b> (CONTRADICTED). The second projection weld and the full-weld current, voltage, gas and wire-feed values are missing.",
+        "<b>Invented rework rows.</b> Stage 01 has four rows translated from the prompt's spot-welding example (Spot Missing, Nut Missing, Part Shift and so on). Stage 02 invents drilling rework rows and a drilling fixture. Stage 04 invents a ±0.001 mm thickness tolerance.",
+        "<b>Stages 02 and 03 are in English.</b> Stage 03 rejects rusty material instead of cleaning it, and drops 183.5 mm and the radii R5, R2 and R3."
+      ]
+    },
+    "Gpt4o-mini": {
+      "right": "The Doc No., part numbers and incoming-material checks are mostly right. It adds little: 9 critical additions across the four stages.",
+      "wrong": [
+        "<b>Most operations are missing.</b> Stage 01 has no tack welding, second projection weld, coating or tapping. Stage 02 has no blanking, piercing or forming, Stage 03 no forming or restrike, and Stage 04 no piercing or forming.",
+        "<b>Where an operation exists, its values are often replaced</b> by a bare “measure” instruction (Stage 03). Stage 01 labels the full-weld current as a voltage.",
+        "<b>Prompt example copied:</b> Stages 02 and 03 open with the fixture steps from the welding example (“Collect all loose parts”, “Clamp the fixture”). Stage 03 adds “Weld nuts and studs must not be missing”.",
+        "<b>Header and format.</b> The revision is 01 and the date 11/11/17 where the golden differs. Output is in English in every stage, and the part lists are empty or wrong."
+      ]
+    },
+    "Nano-5": {
+      "right": "The Doc No. is correct in every stage. Beyond that, these WIs contain little an operator could use.",
+      "wrong": [
+        "<b>Stages 01–03 are raw dumps of PCP table cells</b> (column headers, “nan”, supplier-approval text). Stage 01 has 143 “steps”.",
+        "<b>Wrong process.</b> Stage 04 describes mounting the part on an invented “SPIRAL CLAMPING FIXTURE” instead of making it. In Stage 02 the machines, tooling, QC and rework describe spot welding (Gun No. 90, 12 spots).",
+        "<b>Wrong identifiers.</b> Stage 02 gives the assembly number 290058600101 as the Part No., the Drawing No. and in the part list. Stage 01's rework table is the prompt example copied verbatim.",
+        "<b>17 of its 45 critical additions are in neither the golden nor the PPAP</b>, the most invented content of any model. The output is in English, and the revision is 01 and the date 11/11/17 where the golden differs."
+      ]
+    }
+  },
+  "root_causes": [
+    {
+      "title": "The prompt's filled-in welding example leaks into the output",
+      "html": "<p>The <code>_SCHEMA_EXAMPLE</code> in <code>pcp_wi_generator/prompt_builder.py</code> (from line 48) is a complete spot-welding WI for COVER ASSY FUEL FILTER. Weaker models copy it instead of extracting from the PPAP. This happened on 289661208202 too.</p><div class=keep><table><tr><th>Value in output</th><th>Models (stages)</th><th>In the PPAP?</th></tr><tr><td>“Collect all loose parts”, “Clamp / Unclamp the fixture”</td><td>gpt-4o-mini (02, 03); mistral-small (01, Hindi translation)</td><td>No</td></tr><tr><td>Rework rows Spot Missing, Nut Missing, Part Shift (spot cutter, chisel)</td><td>Nano-5 (01, verbatim); mistral-small (01, translated)</td><td>No</td></tr><tr><td>Spot Welding Gun No. 90, 12 spots, “Weld nuts and studs must not be missing”</td><td>Nano-5 (02); gpt-4o-mini (03)</td><td>No</td></tr><tr><td>“Stage 1 … Fixture (Fixture No. …)” in a press stage</td><td>Nano-5 (03, 04)</td><td>No</td></tr><tr><td>Revision “01”</td><td>gpt-4o-mini, Nano-5 (01, 03, 04); Luna-5.6 (04)</td><td>Only where the PCP block says 01 (Stage 02)</td></tr><tr><td>“UNIT-3” line area</td><td>gpt-4o-mini, mistral-small, Nano-5, <b>and the golden</b></td><td>No (PPAP has UNIT-II and UNIT-III)</td></tr></table></div>"
+    },
+    {
+      "title": "Header revision and date: the PPAP has three candidates, and the golden mixes them",
+      "html": "<p>Each PCP block in the PPAP holds the part revision (Rev.No.), an original date, a revision date (blank for two of the four parts), and the PCP form's own “Rev. Date: 11/11/17”. The form date also appears 153 times in the PPAP and matches the prompt example.</p><div class=keep><table><tr><th>Stage</th><th>Golden</th><th>PCP block</th><th>Models</th></tr><tr><td>01</td><td>02 / 13/10/2025</td><td>Rev 02, Date(Rev) 13.10.2025</td><td>Luna ×2, mistral correct; gpt-4o-mini and Nano-5 give 01 / 11/11/17</td></tr><tr><td>02</td><td>01 / 13.10.2025</td><td>Rev 01, Date(Rev) 13.10.2025</td><td>Luna ×2, mistral correct; gpt-4o-mini and Nano-5 give 11/11/17</td></tr><tr><td>03</td><td>00 / 10.12.2021</td><td>Rev 00, Date(Orig) 10.12.2021, Date(Rev) blank</td><td>All five give 11/11/17</td></tr><tr><td>04</td><td>00 / <b>11/11/17</b></td><td>Rev 00, Date(Orig) 10.12.2022, Date(Rev) blank</td><td>All five give 11/11/17; three give Rev 01</td></tr></table></div><p>Stage 03 of the golden uses the original date, but Stage 04 uses the form date, so the same model behaviour is CONTRADICTED in one stage and a MATCH in the next. Stage No. has the same problem. The golden's values are “1”, “Multiple”, “1” and “1-5”, while Luna-6 and mistral-small write PCP operation codes (“PP-010 to PP-090”). All five models contradict Stage No. in Stages 02 and 04.</p>"
+    },
+    {
+      "title": "The judge penalises detail that the PPAP supports",
+      "html": "<p>The judge scores only against the golden, so real PPAP data counts as a critical hallucination: welding wire spec, coating standards, tapping speed, press shut heights and strokes, form references and sampling frequencies.</p><table><tr><th>Model</th><th>Critical hallucinations</th><th>Found in PPAP</th><th>Not found</th></tr><tr><td>Luna-6</td><td>46</td><td>46</td><td>0</td></tr><tr><td>Luna-5.6</td><td>39</td><td>38</td><td>1</td></tr><tr><td>mistral-small</td><td>25</td><td>18</td><td>7</td></tr><tr><td>Nano-5</td><td>45</td><td>28</td><td>17</td></tr><tr><td>gpt-4o-mini</td><td>9</td><td>4</td><td>5</td></tr></table><p>The genuinely invented additions are few and come from the weaker models: welding content in press stages, the spiral clamping fixture, drilling rework, and a ±0.001 mm tolerance.</p>"
+    },
+    {
+      "title": "Golden rework rows cannot be derived from the PPAP",
+      "html": "<p>“Plastic mallet” and “rust remover” appear nowhere in the PPAP, yet the golden uses them in every stage. Rework (weight 0.15) is the weakest section for every model: Luna-5.6 averages 0.70, mistral-small 0.46, Luna-6 0.38, gpt-4o-mini 0.22 and Nano-5 0.21. The score mostly measures whether a model reproduces house wording, not whether it read the source.</p>"
+    },
+    {
+      "title": "Token limits do not explain the weak outputs",
+      "html": "<p>Luna-5.6 and Nano-5 ran with <code>max_tokens</code> 4,000, the others with 16,000. The average completion per WI was 586 tokens for gpt-4o-mini, 1,293 for Nano-5, 1,331 for mistral-small, 2,810 for Luna-5.6 and 3,352 for Luna-6. Nano-5 is far below its limit, and Luna-5.6, the model closest to its limit, produced the most complete WIs. The weak results come from the prompt and the model, not from truncation.</p>"
+    }
+  ],
+  "recommendations": [
+    "<b>Replace the filled-in example in <code>prompt_builder.py</code></b> with placeholders, or with a neutral press-shop example, and tell the model never to copy example values. This is the top action across both evaluated parts.",
+    "<b>Add explicit header rules to the prompt:</b> take the revision and date from the part's own PCP block (Rev.No. and Date(Rev), falling back to Date(Orig)), never from the form's “Rev. Date”. Set Stage No. to the WI stage number, not PCP operation codes, and spell out the factory/line area format.",
+    "<b>Review the golden for 290058600101 before relying on these scores:</b> “UNIT-3” (not in the PPAP), Stage No. “Multiple” and “1-5”, the Stage 04 date 11/11/17 against the PCP's 10.12.2022, and the plastic-mallet and rust-remover rework rows. After any fix, update <code>golden_facts_Stage_NN.json</code> and the affected verdicts, then rerun <code>score.py</code>.",
+    "<b>Add a source-supported class to the judge</b> (e.g. <code>SOURCE_SUPPORTED_ADDITION</code>) for extras traced to the PPAP, and keep the hallucination gate only for content found in neither the golden nor the PPAP. With that change, Luna-5.6's Stage 01 would pass.",
+    "<b>Keep testing Luna-6 and Luna-5.6 only.</b> Their order has flipped between parts: on 289661208202 Luna-6 led with 0.873 against 0.853, and here Luna-5.6 leads with 0.930 against 0.883. The gap between them is within the variation seen so far. Luna-6 costs half as much. Drop gpt-4o-mini and Nano-5. These results come from two parts and five WIs per model, one generation each."
+  ],
+  "judgement_calls": [
+    "Golden facts were taken as written, even where they look wrong (UNIT-3, Stage No. “Multiple” or “1-5”, the Stage 04 date 11/11/17), because the judge prompt forbids correcting the golden.",
+    "A correct stage name with extra text appended is PARTIAL. Operations given in place of the stage name are CONTRADICTED. Revision “0” against “00” is a MATCH.",
+    "A rework row that rejects a part where the golden repairs it is CONTRADICTED. A row that keeps the repair but drops the golden's “or reject” option, or gives a vague action, is PARTIAL.",
+    "In Stage 01, “3 tacks per nut” against the golden's “6 tacks on M8 nut” is PARTIAL. A machine named only in the steps or tooling list, but not in the header machine list, is PARTIAL for the header fact.",
+    "Content not in the golden counts as a hallucination even when the PPAP supports it, as the judge prompt requires (see the root cause on PPAP-supported detail)."
+  ],
+  "limits": "Four stages of one part, one generation per model. Together with 289661208202 this makes two parts, so treat the ranking as indicative."
+}

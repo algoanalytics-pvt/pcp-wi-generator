@@ -1,0 +1,56 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP /'290058600101/04
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 01 | Date: 11/11/17
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / CLAMP JACK | C4: 1 | E4: CLAMP JACK | H4: SPIRAL CLAMPING FIXTURE | K4: 290058604001
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: CLAMP JACK | E6: 290058604001 | H6: 01 | J6: 11/11/17 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: PROCESS CONTROL PLAN: Validate PCP is available and read key fields before starting
+E9: 2 | F9: Prototype / Pre-launch / Production status verified as required
+E10: 3 | F10: Identify and verify Fixture details: Fixing parts on Fixture
+E11: 4 | F11: Prepare all required assemblies and components for clamp jack
+E12: 5 | F12: Mount clamp jack on Fixture and secure firmly
+E13: 6 | F13: Follow PCP step for material and process setup as per SI / PCP / 290058600101/04
+E14: 7 | F14: Record part number and change level: 290058604001 / A / 06.10.2022
+E15: 8 | F15: Confirm Core Team: KAP / VG / AK / VK / AS / PG / KM / SG / AG
+E16: 9 | F16: Confirm Supplier / Plant Approval status and Customer Quality requirements
+E17: 10 | F17: Document Part Name / Description: CLAMP JACK and Supplier/Plant approvals
+E18: 11 | F18: Capture Supplier Code: S-06220 and ensure date stamps as required
+E19: 12 | F19: Prepare Stage 1 operations: Part / Process Name, Machine, Characteristic, Methods, and limits as per PCP
+E20: 13 | F20: Execute initial process steps: Process Name - CLAMP JACK, Machine - SPCLAMP FIXTURE-1, Characteristic - Clamp position, Methods - as per WI
+E21: 14 | F21: Perform in-process checks and confirm correct alignment and fixture engagement
+E22: 15 | F22: Record any deviations and initiate containment actions as per control plan
+E23: 16 | F23: Move to next stage only after visual and measurement checks pass
+E24: 17 | F24: Ensure all approvals and signatures are documented on the PCP header
+E25: TOOLING / EQUIPMENT
+E26: 1) | F26: Stage 1 Clamp Jack Fixture (Fixture No. 290058604001)
+E27: 2) | F27: Clamp Jack Tooling Set
+E28: 3) | F28: Coordinate Measuring Equipment (if required)
+E29: QUALITY PARAMETERS
+E30: A) Incoming Quality Checks
+E31: 1. | F31: Part must arrive free from rust, dents, cracks or damage
+E32: 2. | F32: Surface finish acceptable with no deep scratches or burrs
+E33: B) Finished Quality Checks
+E34: 1. | F34: Clamp jack securely mounted with correct alignment
+E35: 2. | F35: No loosening of fasteners after clamping
+E36: 3. | F36: All mating surfaces free from burrs and scratches
+E37: 4. | F37: Documentation and approvals completed as per PCP
+A40: SR. | B40: PART NO. | E40: PART DESCRIPTION | N40: QTY
+A41: 1 | B41: 290058604001 | E41: CLAMP JACK | N41: 1
+A43: REWORK INSTRUCTIONS
+A44: NO. | B44: DEFECT TYPE | F44: ACTION
+A45: 1 | B45: Misaligned Clamp | F45: Realign clamp jack to specified orientation and re-tighten fixtures
+A46: 2 | B46: Loose Fasteners | F46: Tighten all fasteners to specified torque and recheck seating
+A47: 3 | B47: Surface Burr | F47: Perform deburring and inspect again to ensure surface is burr free
+A48: 4 | B48: Missing Approval | F48: Obtain required customer quality approvals and update PCP accordingly
+A49: 5 | B49: Fixture Damage | F49: Inspect fixture, replace damaged components, retighten and verify alignment
+A51: LEGEND
+A52: 🚫 Don't Twist | B52: 🔩 Spec. Torque | D52: ⚠️ Important | E52: 🔧 Adjustment | G52: 🧴 Apply Adhesive | I52: 🛢️ Lubricate Oil | K52: 🟡 Lub. Grease | L52: 🔵 Apply Sealant | N52: ⭐ Vital Parts

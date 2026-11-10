@@ -1,0 +1,53 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP /'290058600101/03
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 01 | Date: 11/11/17
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: SHARADA INDUSTRIES. | C4: 1 | E4: BKT JACK MTG FRONT | H4: SHEARING M/C | K4: 290058604003
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: BKT JACK MTG FRONT | E6: 290058604003 | H6: 01 | J6: 11/11/17 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Collect all loose parts and place them together.
+E9: 2 | F9: Verify all assembly parts are loaded on fixture.
+E10: 3 | F10: Clamp the fixture.
+E11: 4 | F11: Perform visual inspection for rust, scale, crack, black patches, and pitting.
+E12: 5 | F12: Measure sheet thickness using micrometer.
+E13: 6 | F13: Check material specification as per FE410.
+E14: 7 | F14: Verify raw material parameters as per quality plan.
+E15: 8 | F15: Perform shearing operation and measure length.
+E16: 9 | F16: Check width using measuring tape.
+E17: 10 | F17: Measure thickness using micrometer.
+E18: 11 | F18: Perform blanking operation and measure dimension.
+E19: 12 | F19: Check shut height before starting production.
+E20: 13 | F20: Measure stroke length.
+E21: 14 | F21: Verify dimensions using vernier caliper.
+E22: 15 | F22: Check radius using radius gauge.
+E23: 16 | F23: Perform inspection as per quality plan.
+E24: 17 | F24: Ensure parts are free from burr, scoring, and tool marks.
+E25: TOOLING / EQUIPMENT
+E26: 1) | F26: SHEARING M/C
+E27: 2) | F27: PRESS 150 TON
+E28: QUALITY PARAMETERS
+E29: A) Incoming Quality Checks
+E30: 1. | F30: Assembly must have no cracks, damage, or rust anywhere.
+E31: 2. | F31: No wrinkles on pressed parts.
+E32: B) Finished Quality Checks
+E33: 1. | F33: Total dimensions must be as per drawing specification.
+E34: 2. | F34: No deep spots allowed.
+E35: 3. | F35: No burrs at spot locations.
+E36: 4. | F36: Weld nuts and studs must not be missing.
+E37: 5. | F37: No loose parts missing.
+A40: SR. | B40: PART NO. | E40: PART DESCRIPTION | N40: QTY
+A42: REWORK INSTRUCTIONS
+A43: NO. | B43: DEFECT TYPE | F43: ACTION
+A44: 1 | B44: Rust | F44: Clean rusted area with rust remover and apply anti-rust coating.
+A45: 2 | B45: Dimension Error | F45: Adjust dimensions as per drawing specification.
+A46: 3 | B46: Surface Condition | F46: Ensure surface is free from burr, scoring, and tool marks.
+A48: LEGEND
+A49: 🚫 Don't Twist | B49: 🔩 Spec. Torque | D49: ⚠️ Important | E49: 🔧 Adjustment | G49: 🧴 Apply Adhesive | I49: 🛢️ Lubricate Oil | K49: 🟡 Lub. Grease | L49: 🔵 Apply Sealant | N49: ⭐ Vital Parts

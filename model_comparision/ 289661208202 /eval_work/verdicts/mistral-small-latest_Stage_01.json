@@ -1,0 +1,643 @@
+{
+  "model": "mistral-small-latest",
+  "stage": "01",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / 289661208202/01",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "MATCH",
+      "evidence": "Rev: 01",
+      "note": ""
+    },
+    "H5": {
+      "verdict": "MATCH",
+      "evidence": "Date: 22.02.20",
+      "note": "Same date, two-digit year."
+    },
+    "H6": {
+      "verdict": "CONTRADICTED",
+      "evidence": "UNIT-3 / CROSSMEMBER LH 2DR XENON CAB",
+      "note": "Wrong unit (UNIT-3 vs UNIT-II)."
+    },
+    "H7": {
+      "verdict": "CONTRADICTED",
+      "evidence": "PP-030",
+      "note": "Gives the draw operation code instead of stage 1."
+    },
+    "H8": {
+      "verdict": "CONTRADICTED",
+      "evidence": "DRAW",
+      "note": "Stage named after a single operation."
+    },
+    "H9": {
+      "verdict": "MATCH",
+      "evidence": "Shearing Machine",
+      "note": "Missing from header machine field but listed in tooling."
+    },
+    "H10": {
+      "verdict": "MATCH",
+      "evidence": "Power Press 800 Ton (M/C-5) 289661208202/01",
+      "note": ""
+    },
+    "H11": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No 500 Ton press anywhere in generated WI."
+    },
+    "H12": {
+      "verdict": "MATCH",
+      "evidence": "289661208202",
+      "note": ""
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Generated also leaves cycle time blank."
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "CROSSMEMBER LH 2DR XENON CAB",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "CONTRADICTED",
+      "evidence": "289661208202/01",
+      "note": "Drawing number has the doc-number suffix '/01' appended."
+    },
+    "H16": {
+      "verdict": "MATCH",
+      "evidence": "Revision | H6: 01",
+      "note": ""
+    },
+    "H17": {
+      "verdict": "MATCH",
+      "evidence": "Rev Date | J6: 22.02.20",
+      "note": "Same date, two-digit year."
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "—",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "MATCH",
+      "evidence": "1 | B51: 289661208202",
+      "note": ""
+    },
+    "H20": {
+      "verdict": "MATCH",
+      "evidence": "CROSSMEMBER LH 2DR XENON CAB",
+      "note": ""
+    },
+    "H21": {
+      "verdict": "MATCH",
+      "evidence": "N51: 1",
+      "note": ""
+    },
+    "S1a": {
+      "verdict": "MATCH",
+      "evidence": "सभी कच्चे माल को प्राप्त करें और उन्हें साफ स्थान पर रखें।",
+      "note": ""
+    },
+    "S1b": {
+      "verdict": "MATCH",
+      "evidence": "सामग्री की सतह की स्थिति की जांच करें - जंग, स्केल, क्रैक, ब्लैक पैचेज, पिटिंग से मुक्त होना चाहिए।",
+      "note": ""
+    },
+    "S2": {
+      "verdict": "MATCH",
+      "evidence": "शीट की मोटाई 1.5 मिमी की जांच करें।",
+      "note": "Micrometer is in the tooling list."
+    },
+    "S3": {
+      "verdict": "PARTIAL",
+      "evidence": "कच्चे माल के पैरामीटर नियंत्रण योजना SI/RMQP/1 के अनुसार हों।",
+      "note": "Document number truncated: 'F-QAD/' prefix dropped."
+    },
+    "S4": {
+      "verdict": "MATCH",
+      "evidence": "हाइड्रोलिक ऑयल लेवल 100-130 मिमी के बीच सुनिश्चित करें।",
+      "note": ""
+    },
+    "S5": {
+      "verdict": "MATCH",
+      "evidence": "एयर प्रेशर 3-5 kg/cm2 रखें।",
+      "note": ""
+    },
+    "S6a": {
+      "verdict": "MATCH",
+      "evidence": "शीट की लंबाई 670 मिमी, चौड़ाई 200 मिमी, मोटाई 1.5 मिमी की जांच करें।",
+      "note": ""
+    },
+    "S6b": {
+      "verdict": "MATCH",
+      "evidence": "चौड़ाई 200 मिमी",
+      "note": ""
+    },
+    "S7": {
+      "verdict": "MATCH",
+      "evidence": "मोटाई 1.5 मिमी की जांच करें।",
+      "note": ""
+    },
+    "S8a": {
+      "verdict": "MATCH",
+      "evidence": "पावर प्रेस 800 टन (M/C-5) पर डाई सेट करें।",
+      "note": "Stage name is DRAW."
+    },
+    "S8b": {
+      "verdict": "MATCH",
+      "evidence": "शट हाइट 1285 मिमी सेट करें।",
+      "note": ""
+    },
+    "S9a": {
+      "verdict": "MATCH",
+      "evidence": "काउंटर बैलेंस प्रेशर 5-7 बार रखें।",
+      "note": ""
+    },
+    "S9b": {
+      "verdict": "MATCH",
+      "evidence": "कुशन प्रेशर 1-3 बार रखें।",
+      "note": ""
+    },
+    "S9c": {
+      "verdict": "MATCH",
+      "evidence": "क्लच एंड ब्रेक प्रेशर 6.5-7 Kg/Cm2 रखें।",
+      "note": ""
+    },
+    "S10": {
+      "verdict": "PARTIAL",
+      "evidence": "स्ट्रोक लेंथ 350 रखें।",
+      "note": "Unit (mm) dropped."
+    },
+    "S11a": {
+      "verdict": "MATCH",
+      "evidence": "आयाम 38.5 मिमी (H.GAUGE) की जांच करें।",
+      "note": ""
+    },
+    "S11b": {
+      "verdict": "MATCH",
+      "evidence": "आयाम 21.5 मिमी (H.GAUGE) की जांच करें।",
+      "note": ""
+    },
+    "S12a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "S12b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "S13a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "S13b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "S14": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "S15a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "S15b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "S15c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "S15d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "S15e": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "S15f": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "S15g": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "S15h": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "S15i": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "S16a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "800 T press is used only for draw; no restrike operation."
+    },
+    "S16b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No restrike stage in the generated WI."
+    },
+    "S17a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No restrike stage in the generated WI."
+    },
+    "S17b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No restrike stage in the generated WI."
+    },
+    "S18": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No restrike stage in the generated WI."
+    },
+    "S19a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No restrike stage in the generated WI."
+    },
+    "S19b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No restrike stage in the generated WI."
+    },
+    "S19c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No restrike stage in the generated WI."
+    },
+    "S19d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No restrike stage in the generated WI."
+    },
+    "S20": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No panel checker anywhere."
+    },
+    "S21": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Rust is only checked on incoming material; no finished-part rust/dent step."
+    },
+    "S22": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Ends with 'send to next station'; no packing or dispatch."
+    },
+    "T1": {
+      "verdict": "MATCH",
+      "evidence": "Shearing Machine",
+      "note": ""
+    },
+    "T2a": {
+      "verdict": "MATCH",
+      "evidence": "Power Press 800 Ton (M/C-5)",
+      "note": "Draw die set on this press in step 10."
+    },
+    "T2b": {
+      "verdict": "MATCH",
+      "evidence": "पावर प्रेस 800 टन (M/C-5) पर डाई सेट करें।",
+      "note": "Called 'die'; stage is DRAW."
+    },
+    "T2c": {
+      "verdict": "MATCH",
+      "evidence": "टूल साइज 650x670x1200 रखें।",
+      "note": ""
+    },
+    "T3a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T3b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T3c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T4a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press only tied to draw."
+    },
+    "T4b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T4c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI1": {
+      "verdict": "MATCH",
+      "evidence": "सामग्री में जंग, स्केल, क्रैक, ब्लैक पैचेज, पिटिंग नहीं होना चाहिए।",
+      "note": ""
+    },
+    "QI2": {
+      "verdict": "MATCH",
+      "evidence": "शीट की मोटाई 1.5 मिमी ±0.05 मिमी होनी चाहिए।",
+      "note": "Nominal matches; the added ±0.05 tolerance is listed as a hallucination."
+    },
+    "QI3": {
+      "verdict": "PARTIAL",
+      "evidence": "कच्चे माल के पैरामीटर नियंत्रण योजना SI/RMQP/1 के अनुसार हों।",
+      "note": "Not in incoming QC; the step gives a truncated document number."
+    },
+    "QF1a": {
+      "verdict": "MATCH",
+      "evidence": "आयाम 38.5 मिमी और 21.5 मिमी H.GAUGE के अनुसार होना चाहिए।",
+      "note": ""
+    },
+    "QF1b": {
+      "verdict": "MATCH",
+      "evidence": "आयाम 38.5 मिमी और 21.5 मिमी H.GAUGE के अनुसार होना चाहिए।",
+      "note": ""
+    },
+    "QF2a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "QF2b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "QF2c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "QF2d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "QF2e": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "QF2f": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "QF2g": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim & piercing stage in the generated WI."
+    },
+    "QF3a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No restrike stage in the generated WI."
+    },
+    "QF3b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No restrike stage in the generated WI."
+    },
+    "QF3c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No restrike stage in the generated WI."
+    },
+    "QF3d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No restrike stage in the generated WI."
+    },
+    "QF4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R1": {
+      "verdict": "PARTIAL",
+      "evidence": "शीट पर जंग | जंग लगे हिस्से को रस्ट रिमूवर से साफ करें और एंटी-रस्ट कोटिंग लगाएं।",
+      "note": "Rust action matches; scale (clean + sand) and crack (cut out, replace sheet) are split into rows with different actions."
+    },
+    "R2": {
+      "verdict": "PARTIAL",
+      "evidence": "शीट की मोटाई गलत | माइक्रोमीटर से मोटाई की पुनः जांच करें और आवश्यक सुधार करें।",
+      "note": "Micrometer recheck matches; 'use correct-thickness sheet' becomes a vague 'necessary correction'."
+    },
+    "R3": {
+      "verdict": "CONTRADICTED",
+      "evidence": "शीट की लंबाई/चौड़ाई गलत | शीट को पुनः काटें और आवश्यक आयाम प्राप्त करें।",
+      "note": "Golden fixes the tool; generated recuts the sheet."
+    },
+    "R4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R5": {
+      "verdict": "MATCH",
+      "evidence": "शीट पर डेंट | प्लास्टिक मॅलेट का उपयोग करके डेंट को ठीक करें।",
+      "note": ""
+    },
+    "R6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "सामग्री विनिर्देश D 513 के अनुसार होनी चाहिए।",
+      "note": "New material spec (step 4, QI 3). Not in the golden; it comes from the source PPAP.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "मैक्स शट हाइट 1285 मिमी और मिन शट हाइट 795 मिमी सुनिश्चित करें।",
+      "note": "New min shut height 795 mm.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "कुशन पिन DIA-38 (38X175)-14 nos. का उपयोग करें।",
+      "note": "New cushion pin spec.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "लाइनर (टॉप) 140x200x1100 (2) का उपयोग करें।",
+      "note": "New top liner spec.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "शीट की मोटाई 1.5 मिमी ±0.05 मिमी होनी चाहिए।",
+      "note": "Invented tolerance ±0.05 mm (QI 2, QF 1). The golden gives no tolerance.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "शीट की लंबाई 670 मिमी ±1, चौड़ाई 200 मिमी ±1",
+      "note": "Invented ±1 tolerance on length and width.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "पहली पीस निरीक्षण करें ... प्रत्येक घंटे पर आयाम 21.5 मिमी (H.GAUGE) की जांच करें।",
+      "note": "New first-piece inspection step and hourly frequency.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Micrometer [LC=0.001mm]",
+      "note": "Least count is not in the golden.",
+      "in_ppap": null
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "ड्रॉ प्रक्रिया में कोई क्रैक या डैमेज नहीं होना चाहिए।",
+      "note": "Extra finished-quality criterion.",
+      "in_ppap": null
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "शीट पर कोई रिंकल्स नहीं होने चाहिए।",
+      "note": "Extra finished-quality criterion (wrinkles).",
+      "in_ppap": null
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "पूर्ण हुई शीट को अगले स्टेशन पर भेजें।",
+      "note": "Golden ends with packing and dispatch, not hand-off to the next station.",
+      "in_ppap": null
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Power Press 800 Ton (M/C-5) 289661208202/01",
+      "note": "Doc number appended to the header machine field.",
+      "in_ppap": null
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "शियरिंग मशीन पर शीट को फीड करें।",
+      "note": "Generic operating step.",
+      "in_ppap": null
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "H.GAUGE (38.5 & 21.5) | M.TAPE",
+      "note": "Instruments named in the golden steps.",
+      "in_ppap": null
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "COMPLIANT",
+    "note": "Step, quality and rework text is in Hindi Devanagari with मिमी and transliterated technical terms. A few English abbreviations (H.GAUGE, nos.) are acceptable."
+  },
+  "summary": "The generated WI treats Stage 1 as the draw operation only (PP-030 / DRAW). Shearing and draw are complete and correct, but the trim & piercing (500 T) and restrike stages, all their settings and dimensions, the panel checker inspection, and packing/dispatch are missing. It also invents tolerances (thickness ±0.05 mm, length/width ±1 mm), a min shut height of 795 mm, D 513, and cushion pin and liner specs. The stage number, stage name, unit and drawing number are wrong, and the RMQP document number is truncated."
+}

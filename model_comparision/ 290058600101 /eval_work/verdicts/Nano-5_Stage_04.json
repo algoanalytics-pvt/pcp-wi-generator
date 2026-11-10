@@ -1,0 +1,460 @@
+{
+  "model": "Nano-5",
+  "stage": "04",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / PCP /'290058600101/04",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Rev: 01",
+      "note": "Golden 00; 01 matches the prompt example, PPAP PCP says Rev. No.: 0."
+    },
+    "H5": {
+      "verdict": "MATCH",
+      "evidence": "Date: 11/11/17",
+      "note": ""
+    },
+    "H6": {
+      "verdict": "MATCH",
+      "evidence": "UNIT-3 / CLAMP JACK",
+      "note": ""
+    },
+    "H7": {
+      "verdict": "CONTRADICTED",
+      "evidence": "1",
+      "note": "Golden stage no. is 1-5."
+    },
+    "H8": {
+      "verdict": "PARTIAL",
+      "evidence": "CLAMP JACK",
+      "note": "'MANUFACTURING' dropped."
+    },
+    "H9": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Machine list is 'SPIRAL CLAMPING FIXTURE'; no shearing machine anywhere."
+    },
+    "H10": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No press anywhere."
+    },
+    "H11": {
+      "verdict": "MATCH",
+      "evidence": "290058604001",
+      "note": ""
+    },
+    "H12": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Cycle time field left blank, as in golden."
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": "CLAMP JACK",
+      "note": ""
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "290058604001",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Revision | 01",
+      "note": "Golden 00."
+    },
+    "H16": {
+      "verdict": "MATCH",
+      "evidence": "Rev Date | 11/11/17",
+      "note": ""
+    },
+    "H17": {
+      "verdict": "MATCH",
+      "evidence": "—",
+      "note": ""
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "290058604001",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "MATCH",
+      "evidence": "CLAMP JACK",
+      "note": ""
+    },
+    "H20": {
+      "verdict": "MATCH",
+      "evidence": "1",
+      "note": ""
+    },
+    "S1a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No raw-material receipt; WI describes fixture assembly."
+    },
+    "S1b": {
+      "verdict": "PARTIAL",
+      "evidence": "Part must arrive free from rust, dents, cracks or damage",
+      "note": "In QI; scale, black spots and pitting missing."
+    },
+    "S2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S5a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S5b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking operation."
+    },
+    "S8a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking operation."
+    },
+    "S8b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking operation."
+    },
+    "S8c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking operation."
+    },
+    "S8d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking operation."
+    },
+    "S9": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No piercing operation."
+    },
+    "S10a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming operation."
+    },
+    "S10b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming operation."
+    },
+    "S10c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming operation."
+    },
+    "S10d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming operation."
+    },
+    "S10e": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming operation."
+    },
+    "S11": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming operation."
+    },
+    "S12": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Only 'visual and measurement checks pass'; no panel checker or quality plan."
+    },
+    "S13": {
+      "verdict": "PARTIAL",
+      "evidence": "All mating surfaces free from burrs and scratches",
+      "note": "Burr present; tool marks missing."
+    },
+    "S14": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T1": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T2a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T2b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T2c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T8": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI1": {
+      "verdict": "PARTIAL",
+      "evidence": "Part must arrive free from rust, dents, cracks or damage",
+      "note": "Scale, black spots and pitting missing."
+    },
+    "QI2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF1": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF2": {
+      "verdict": "PARTIAL",
+      "evidence": "All mating surfaces free from burrs and scratches",
+      "note": "Tool marks missing."
+    },
+    "QF3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Rust/dent only as an incoming condition, not for the finished part."
+    },
+    "R1": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R2": {
+      "verdict": "PARTIAL",
+      "evidence": "Surface Burr | Perform deburring and inspect again to ensure surface is burr free",
+      "note": "Tool marks dropped; grinder/file not named."
+    },
+    "R3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "SPIRAL CLAMPING FIXTURE",
+      "note": "Invented machine (also 'SPCLAMP FIXTURE-1' in step 13).",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Mount clamp jack on Fixture and secure firmly",
+      "note": "A different process altogether: fixture clamping/alignment instead of shearing-blanking-piercing-forming (steps 3-5, 12-14).",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Stage 1 Clamp Jack Fixture (Fixture No. 290058604001)",
+      "note": "Invented fixture and fixture number; mirrors the prompt example 'Stage 1 Welding Fixture (Fixture No. …)'.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Clamp Jack Tooling Set",
+      "note": "Invented tooling item.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Coordinate Measuring Equipment (if required)",
+      "note": "New instrument.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "PROCESS CONTROL PLAN: Validate PCP is available and read key fields before starting",
+      "note": "New admin process steps (steps 1-2, 6-11, 17) built from PCP header fields.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Record part number and change level: 290058604001 / A / 06.10.2022",
+      "note": "New change level / date; also supplier code S-06220 and core team initials.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "No loosening of fasteners after clamping",
+      "note": "New acceptance criterion and rework row 'Loose Fasteners → tighten to specified torque'.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Misaligned Clamp | Realign clamp jack to specified orientation and re-tighten fixtures",
+      "note": "New rework rows (also 'Missing Approval', 'Fixture Damage').",
+      "in_ppap": false
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Record any deviations and initiate containment actions as per control plan",
+      "note": "Generic containment text.",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Documentation and approvals completed as per PCP",
+      "note": "Sign-off criterion (also step 17).",
+      "in_ppap": true
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "NON_COMPLIANT",
+    "note": "Step, quality and rework text is entirely English."
+  },
+  "summary": "The WI describes mounting the clamp jack on an invented 'SPIRAL CLAMPING FIXTURE' instead of making it: no shearing, blanking, piercing or forming, no thickness, material, dimensions, angle or radius, and no correct tooling. Header revision is 01 instead of 00, half the steps are PCP paperwork, and the text is English."
+}

@@ -1,0 +1,776 @@
+{
+  "model": "Nano-5",
+  "stage": "01",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / PCP /'290058600101/01",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Rev: 01",
+      "note": "Golden Rev 02."
+    },
+    "H5": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Date: 11/11/17",
+      "note": "Golden 13/10/2025; 11/11/17 is the PCP form's own revision date."
+    },
+    "H6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Factory / line area row is empty."
+    },
+    "H7": {
+      "verdict": "MATCH",
+      "evidence": "C4: 1",
+      "note": ""
+    },
+    "H8": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Stage name empty."
+    },
+    "H9": {
+      "verdict": "PARTIAL",
+      "evidence": "PROJECTION WELD M/C",
+      "note": "Named only in the step list; header machine field empty."
+    },
+    "H10": {
+      "verdict": "PARTIAL",
+      "evidence": "WELDING  M/C   &  WELDING FIXTURE",
+      "note": "Named only in the step list; header machine field empty."
+    },
+    "H11": {
+      "verdict": "PARTIAL",
+      "evidence": "WELDING  M/C   &  WELDING FIXTURE",
+      "note": "Named only in the step list; header machine field empty."
+    },
+    "H12": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Part Number / Latest Change Level  : 290058600101/A/06.10.2022",
+      "note": "Header part-no field empty; part number given with change-level suffix (also in part list)."
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Cycle time left blank."
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "Part Name / Description : BKT ASSY JACK MTG",
+      "note": "Only in step text; header field empty."
+    },
+    "H15": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Drawing No. field empty."
+    },
+    "H16": {
+      "verdict": "CONTRADICTED",
+      "evidence": "H6: 01",
+      "note": "Golden drawing revision 02."
+    },
+    "H17": {
+      "verdict": "CONTRADICTED",
+      "evidence": "J6: 11/11/17",
+      "note": "Golden revision date 13/10/2025."
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "L6: —",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Part list holds only the parent assembly; child-part rows missing."
+    },
+    "H20": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H21": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H22": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H23": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H24": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H25": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H26": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H27": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H28": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H29": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H30": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H31": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H32": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H33": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S1": {
+      "verdict": "PARTIAL",
+      "evidence": "To receive material as per drawing the requirement.",
+      "note": "No instruction to keep parts in one place."
+    },
+    "S2": {
+      "verdict": "MATCH",
+      "evidence": "FREE FROM DENT,DAMAGE RUST,PEEL OFF.",
+      "note": ""
+    },
+    "S3": {
+      "verdict": "MATCH",
+      "evidence": "Foam Packing-290058604002",
+      "note": "'As per drawing' in the next row."
+    },
+    "S4a": {
+      "verdict": "MATCH",
+      "evidence": "PROJECTION WELD TO HEX WELD NUT M8 AND  290058604001 (Clamp JACK)",
+      "note": "Machine PROJECTION WELD M/C in next row."
+    },
+    "S4b": {
+      "verdict": "MATCH",
+      "evidence": "290058604001 (Clamp JACK)",
+      "note": ""
+    },
+    "S5a": {
+      "verdict": "MATCH",
+      "evidence": "180-220 V",
+      "note": ""
+    },
+    "S5b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Projection weld pressure omitted."
+    },
+    "S6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No nut-count or weld-quality check after sub-assembly 1."
+    },
+    "S7a": {
+      "verdict": "PARTIAL",
+      "evidence": "PROJECTION WELD TO HEX WELD NUT M8 AND  290058604004 (Bracket jack mtg fronT)",
+      "note": "Correct part number but named 'Bracket jack mtg front' and labelled SUB ASSY 1."
+    },
+    "S7b": {
+      "verdict": "MATCH",
+      "evidence": "290058604004",
+      "note": ""
+    },
+    "S8a": {
+      "verdict": "MATCH",
+      "evidence": "180-220 V",
+      "note": "Second voltage row under PP-030."
+    },
+    "S8b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S9": {
+      "verdict": "PARTIAL",
+      "evidence": "Welding Quality | To be project properly",
+      "note": "Weld quality only; nut count not checked."
+    },
+    "S10a": {
+      "verdict": "MATCH",
+      "evidence": "CO2 TACK WELD TO  SUB ASSY 1 + SUB ASSY 2 + 290058604003 (Bracket jack mtg fronT)",
+      "note": ""
+    },
+    "S10b": {
+      "verdict": "MATCH",
+      "evidence": "290058604003 (Bracket jack mtg fronT)",
+      "note": ""
+    },
+    "S11a": {
+      "verdict": "MATCH",
+      "evidence": "160-220 AMP",
+      "note": ""
+    },
+    "S11b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Only current given for tack welding."
+    },
+    "S11c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S11d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S12": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S13a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S13b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S14a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S14b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S14c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S15": {
+      "verdict": "MATCH",
+      "evidence": "FULL WELDING TO FINAL ASSY",
+      "note": "Machine WELDING M/C in next row."
+    },
+    "S16a": {
+      "verdict": "MATCH",
+      "evidence": "120-160 AMP",
+      "note": ""
+    },
+    "S16b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Only current given for full welding."
+    },
+    "S16c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S16d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S17": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S18a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S18b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S18c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S19": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S20": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S21a": {
+      "verdict": "MATCH",
+      "evidence": "CED COATED AS PER SS 7265 DFT MINIMUM 25 MICRO",
+      "note": ""
+    },
+    "S21b": {
+      "verdict": "MATCH",
+      "evidence": "BLACK EPOXY PLOYSTER POWDER COATING MIN 50 MICRONS",
+      "note": ""
+    },
+    "S22": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "'Maintenance of Proper Coating Specifications' is not a defect check."
+    },
+    "S23a": {
+      "verdict": "MATCH",
+      "evidence": "TAPPING | Manual Drilling machine",
+      "note": "Manual drilling machine is the golden tooling machine."
+    },
+    "S23b": {
+      "verdict": "MATCH",
+      "evidence": "M8 ×1.25",
+      "note": ""
+    },
+    "S24": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Tapping depth 17 mm omitted."
+    },
+    "S25a": {
+      "verdict": "MATCH",
+      "evidence": "Remove white paper and just past foam to bkt",
+      "note": ""
+    },
+    "S25b": {
+      "verdict": "MATCH",
+      "evidence": "Foam hole and bkt hole position should match",
+      "note": ""
+    },
+    "S26": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S27": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S28": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T1": {
+      "verdict": "PARTIAL",
+      "evidence": "PROJECTION WELD M/C",
+      "note": "Tooling list empty; named only in steps."
+    },
+    "T2a": {
+      "verdict": "PARTIAL",
+      "evidence": "WELDING  M/C   &  WELDING FIXTURE",
+      "note": "Tooling list empty; named only in steps."
+    },
+    "T2b": {
+      "verdict": "PARTIAL",
+      "evidence": "WELDING  M/C   &  WELDING FIXTURE",
+      "note": "Tooling list empty; named only in steps."
+    },
+    "T3": {
+      "verdict": "PARTIAL",
+      "evidence": "Manual Drilling machine",
+      "note": "Tooling list empty; named only in steps."
+    },
+    "T4a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T4b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI1": {
+      "verdict": "MATCH",
+      "evidence": "To receive material as per drawing the requirement.",
+      "note": "No QC section; found in steps with DIMENSIONS."
+    },
+    "QI2": {
+      "verdict": "MATCH",
+      "evidence": "FREE FROM DENT,DAMAGE RUST,PEEL OFF.",
+      "note": "Found in steps."
+    },
+    "QI3": {
+      "verdict": "MATCH",
+      "evidence": "As per drawing",
+      "note": "Foam packing row in steps."
+    },
+    "QF1a": {
+      "verdict": "MATCH",
+      "evidence": "180-220 V",
+      "note": "Found in steps."
+    },
+    "QF1b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF4a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF4b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF5a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF5b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF5c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF5d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF5e": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF8a": {
+      "verdict": "MATCH",
+      "evidence": "CED COATED AS PER SS 7265 DFT MINIMUM 25 MICRO",
+      "note": "Found in steps."
+    },
+    "QF8b": {
+      "verdict": "MATCH",
+      "evidence": "BLACK EPOXY PLOYSTER POWDER COATING MIN 50 MICRONS",
+      "note": "Found in steps."
+    },
+    "QF9": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF10a": {
+      "verdict": "MATCH",
+      "evidence": "M8 ×1.25",
+      "note": "Found in steps."
+    },
+    "QF10b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF11": {
+      "verdict": "MATCH",
+      "evidence": "Foam hole and bkt hole position should match",
+      "note": "Found in steps."
+    },
+    "R1": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R4": {
+      "verdict": "MATCH",
+      "evidence": "Welding Missing | F161: Welding must be done properly (ref: control plan and drawing)",
+      "note": "Generalised defect covers too few tack welds; action matches."
+    },
+    "R5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R8": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R9": {
+      "verdict": "MATCH",
+      "evidence": "Rust | F165: Clean rusted area with rust remover and apply anti-rust coating",
+      "note": "Dent row 5 uses plastic mallet."
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Part Number / Latest Change Level  : 290058600101/A/06.10.2022",
+      "note": "Parent assembly with change level added as the only part-list entry (B156).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Supplier Code : S-06220",
+      "note": "New supplier code (also step 12).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Date(Orig.): 10.12.2022",
+      "note": "New PCP origination date.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "SUPPLIER PDI REPORT",
+      "note": "New document reference (steps 15, 23).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "INCOMING INSPECTION REPORT SI/QP/585888210155",
+      "note": "New document reference.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "1 | LOT ... 10 | LOT ... 1 | PER SHIFT ... 5 | PER SHIFT",
+      "note": "New sample sizes and frequencies throughout the step list (lot, per shift, per lot).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "V.caliper",
+      "note": "New instrument for the foam packing check.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "BC-PC 20",
+      "note": "New coating code.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "SS 7265 ... SS ;7651",
+      "note": "New coating standards.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Supplier TC & incoming inspection",
+      "note": "New document reference (supplier test certificate).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Spot Missing | F160: Missing spots must be done properly",
+      "note": "New rework row; verbatim from the prompt's filled-in welding example.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Part Missing | F162: All parts must be welded properly",
+      "note": "New rework row; verbatim from the prompt example.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Nut Missing | F163: All nuts must be welded properly",
+      "note": "New rework row; verbatim from the prompt example.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Part Shift | F166: Remove misplaced part using spot cutter and chisel",
+      "note": "New rework row and tools (spot cutter, chisel); verbatim from the prompt example.",
+      "in_ppap": false
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Core Team : KAP/PVB/SSP/VSJ/VB/LS",
+      "note": "PCP header text dumped into the steps (with 'Process Control Plan', 'Customer Engineering', approval lines).",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "PP-010",
+      "note": "PCP operation codes in the step list (PP-010 to PP-080).",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Sort and inform to supervisor",
+      "note": "PCP reaction-plan text in steps (also 'Rework the job and use it', 'Sort / Reject & Sent Back to Supplier').",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "VISUAL N M/C DISPLAY",
+      "note": "Evaluation-method text from the PCP.",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "nan",
+      "note": "Empty-cell artefacts in the steps (steps 127, 134, 141-143).",
+      "in_ppap": null
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "Internal thread gauge",
+      "note": "Thread gauge already named in golden rework row 7.",
+      "in_ppap": true
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "In welding fixture  pins are made considering hex weld nut dia. ... Four Dowels added in Welding Fixture.",
+      "note": "Fixture pins and dowels.",
+      "in_ppap": true
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "Before & after threading seperate location has been defined.",
+      "note": "Segregation handling.",
+      "in_ppap": true
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "NON_COMPLIANT",
+    "note": "Body text is English PCP cell text copied row by row, not Hindi instructions."
+  },
+  "summary": "This is not a usable work instruction: the PCP sheet has been dumped cell by cell into 143 'steps', the header has no line area, stage name, machines or drawing number, and the part list holds only 290058600101/A/06.10.2022 instead of the five child parts. Revision and date are wrong (01, 11/11/17), most welding parameters, all dimensions, tack counts, weld length, tapping depth, final inspection, storage and packing are missing, and the rework table is copied verbatim from the prompt's welding example."
+}

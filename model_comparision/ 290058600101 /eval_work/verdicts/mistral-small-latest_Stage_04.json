@@ -1,0 +1,418 @@
+{
+  "model": "mistral-small-latest",
+  "stage": "04",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / PCP /'290058600101/04",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "MATCH",
+      "evidence": "Rev: 0",
+      "note": "0 vs 00."
+    },
+    "H5": {
+      "verdict": "MATCH",
+      "evidence": "Date: 11/11/17",
+      "note": ""
+    },
+    "H6": {
+      "verdict": "MATCH",
+      "evidence": "UNIT-3 / CLAMP JACK",
+      "note": ""
+    },
+    "H7": {
+      "verdict": "CONTRADICTED",
+      "evidence": "1",
+      "note": "Golden stage no. is 1-5."
+    },
+    "H8": {
+      "verdict": "CONTRADICTED",
+      "evidence": "RM RECEIPT",
+      "note": "First PCP operation instead of stage name."
+    },
+    "H9": {
+      "verdict": "CONTRADICTED",
+      "evidence": "None",
+      "note": "Machine field says None."
+    },
+    "H10": {
+      "verdict": "CONTRADICTED",
+      "evidence": "None",
+      "note": "Machine field says None."
+    },
+    "H11": {
+      "verdict": "MATCH",
+      "evidence": "290058604001",
+      "note": ""
+    },
+    "H12": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Cycle time field left blank, as in golden."
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": "CLAMP JACK",
+      "note": ""
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "290058604001",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "MATCH",
+      "evidence": "Revision | 0",
+      "note": "0 vs 00."
+    },
+    "H16": {
+      "verdict": "MATCH",
+      "evidence": "Rev Date | 11/11/17",
+      "note": ""
+    },
+    "H17": {
+      "verdict": "MATCH",
+      "evidence": "—",
+      "note": ""
+    },
+    "H18": {
+      "verdict": "CONTRADICTED",
+      "evidence": "290058600101",
+      "note": "Assembly part no. instead of 290058604001."
+    },
+    "H19": {
+      "verdict": "CONTRADICTED",
+      "evidence": "शीट मेटल (3 मिमी मोटाई)",
+      "note": "Raw material instead of CLAMP JACK."
+    },
+    "H20": {
+      "verdict": "MATCH",
+      "evidence": "1",
+      "note": ""
+    },
+    "S1a": {
+      "verdict": "MATCH",
+      "evidence": "रॉ मटेरियल प्राप्त करें और इसकी स्थिति की जांच करें।",
+      "note": ""
+    },
+    "S1b": {
+      "verdict": "MATCH",
+      "evidence": "जंग, स्केल, क्रैक, ब्लैक पैचेज, पिटिंग से मुक्त होना चाहिए।",
+      "note": ""
+    },
+    "S2": {
+      "verdict": "MATCH",
+      "evidence": "शीट की मोटाई 3 मिमी की जांच करें माइक्रोमीटर द्वारा।",
+      "note": ""
+    },
+    "S3": {
+      "verdict": "MATCH",
+      "evidence": "मटेरियल स्पेसिफिकेशन FE410 के अनुसार होना चाहिए।",
+      "note": ""
+    },
+    "S4": {
+      "verdict": "PARTIAL",
+      "evidence": "रासायनिक और यांत्रिक गुणों की पुष्टि करें।",
+      "note": "Physical properties and lab report dropped."
+    },
+    "S5a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No shearing."
+    },
+    "S5b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No shearing."
+    },
+    "S6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No shearing."
+    },
+    "S7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking."
+    },
+    "S8a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking."
+    },
+    "S8b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking."
+    },
+    "S8c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking."
+    },
+    "S8d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking."
+    },
+    "S9": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No piercing."
+    },
+    "S10a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming."
+    },
+    "S10b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming."
+    },
+    "S10c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming."
+    },
+    "S10d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming."
+    },
+    "S10e": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming."
+    },
+    "S11": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming."
+    },
+    "S12": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S13": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S14": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Only raw material storage ('मटेरियल को निर्दिष्ट स्थान पर स्टोर करें'), not finished parts."
+    },
+    "T1": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T2a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T2b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T2c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T4": {
+      "verdict": "MATCH",
+      "evidence": "माइक्रोमीटर द्वारा",
+      "note": "Named in step 3; no tooling list."
+    },
+    "T5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T8": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI1": {
+      "verdict": "MATCH",
+      "evidence": "सतह पर जंग, स्केल, क्रैक, ब्लैक पैचेज, पिटिंग नहीं होना चाहिए।",
+      "note": ""
+    },
+    "QI2": {
+      "verdict": "MATCH",
+      "evidence": "शीट की मोटाई 3 मिमी ±0.001 मिमी होनी चाहिए।",
+      "note": "Tolerance added; listed as extra."
+    },
+    "QI3": {
+      "verdict": "MATCH",
+      "evidence": "मटेरियल स्पेसिफिकेशन FE410 के अनुसार होना चाहिए।",
+      "note": ""
+    },
+    "QI4": {
+      "verdict": "PARTIAL",
+      "evidence": "रासायनिक और यांत्रिक गुण नियंत्रण योजना के अनुसार हों।",
+      "note": "Physical dropped; control plan instead of lab report."
+    },
+    "QF1": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R1": {
+      "verdict": "PARTIAL",
+      "evidence": "जंग लगा हुआ | जंग लगे हुए हिस्से को घिसकर साफ करें और जंगरोधक का उपयोग करें।",
+      "note": "Scale dropped; rubbing instead of rust remover."
+    },
+    "R2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "शीट की मोटाई 3 मिमी ±0.001 मिमी होनी चाहिए।",
+      "note": "New tolerance (micrometer least count turned into a tolerance).",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "मोटाई में अंतर होने पर मटेरियल को अस्वीकार करें और आपूर्तिकर्ता को वापस भेजें।",
+      "note": "New rework row (thickness variation).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "मटेरियल स्पेसिफिकेशन में अंतर होने पर अस्वीकार करें और आपूर्तिकर्ता को वापस भेजें।",
+      "note": "New rework row (material spec variation).",
+      "in_ppap": true
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "मटेरियल को निर्दिष्ट स्थान पर स्टोर करें।",
+      "note": "Generic handling.",
+      "in_ppap": null
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "COMPLIANT",
+    "note": "Hindi Devanagari body text with transliterated terms; English headers."
+  },
+  "summary": "Only raw-material receipt is covered: shearing, blanking, piercing, forming, final inspection and storage are all missing, as is the tooling list. The header machine field says 'None', the stage name is 'RM RECEIPT', and the part list shows the assembly number with 'sheet metal' instead of the clamp jack."
+}

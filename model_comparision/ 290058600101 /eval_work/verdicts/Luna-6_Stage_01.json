@@ -1,0 +1,758 @@
+{
+  "model": "Luna-6",
+  "stage": "01",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / PCP /'290058600101/01",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "MATCH",
+      "evidence": "Rev: 02",
+      "note": ""
+    },
+    "H5": {
+      "verdict": "MATCH",
+      "evidence": "Date: 13.10.2025",
+      "note": "Same date, dot separators."
+    },
+    "H6": {
+      "verdict": "PARTIAL",
+      "evidence": "SHARADA INDUSTRIES / BKT ASSY JACK MTG",
+      "note": "UNIT-3 replaced by the company name."
+    },
+    "H7": {
+      "verdict": "CONTRADICTED",
+      "evidence": "C4: PP-010 to PP-110",
+      "note": "PCP operation codes instead of stage 1."
+    },
+    "H8": {
+      "verdict": "MATCH",
+      "evidence": "BKT ASSY JACK MTG",
+      "note": ""
+    },
+    "H9": {
+      "verdict": "MATCH",
+      "evidence": "Projection Welding Machine",
+      "note": ""
+    },
+    "H10": {
+      "verdict": "MATCH",
+      "evidence": "CO2 Welding Machine and Fixture",
+      "note": ""
+    },
+    "H11": {
+      "verdict": "MATCH",
+      "evidence": "CO2 Welding Machine and Fixture",
+      "note": ""
+    },
+    "H12": {
+      "verdict": "MATCH",
+      "evidence": "290058600101",
+      "note": ""
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Cycle time left blank."
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "BKT ASSY JACK MTG",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "MATCH",
+      "evidence": "E6: 290058600101",
+      "note": ""
+    },
+    "H16": {
+      "verdict": "MATCH",
+      "evidence": "H6: 02",
+      "note": ""
+    },
+    "H17": {
+      "verdict": "MATCH",
+      "evidence": "J6: 13.10.2025",
+      "note": ""
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "L6: —",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "MATCH",
+      "evidence": "290058604001 | E56: Clamp JACK",
+      "note": ""
+    },
+    "H20": {
+      "verdict": "MATCH",
+      "evidence": "Clamp JACK",
+      "note": ""
+    },
+    "H21": {
+      "verdict": "MATCH",
+      "evidence": "Clamp JACK | N56: 1",
+      "note": ""
+    },
+    "H22": {
+      "verdict": "MATCH",
+      "evidence": "290058604002 | E60: Foam Packing",
+      "note": ""
+    },
+    "H23": {
+      "verdict": "MATCH",
+      "evidence": "Foam Packing",
+      "note": ""
+    },
+    "H24": {
+      "verdict": "MATCH",
+      "evidence": "Foam Packing | N60: 1",
+      "note": ""
+    },
+    "H25": {
+      "verdict": "MATCH",
+      "evidence": "290058604003 | E58: Front Bracket Jack Mounting",
+      "note": ""
+    },
+    "H26": {
+      "verdict": "MATCH",
+      "evidence": "Front Bracket Jack Mounting",
+      "note": ""
+    },
+    "H27": {
+      "verdict": "MATCH",
+      "evidence": "Front Bracket Jack Mounting | N58: 1",
+      "note": ""
+    },
+    "H28": {
+      "verdict": "MATCH",
+      "evidence": "290058604004 | E57: Bracket Jack Mounting",
+      "note": ""
+    },
+    "H29": {
+      "verdict": "MATCH",
+      "evidence": "Bracket Jack Mounting",
+      "note": ""
+    },
+    "H30": {
+      "verdict": "MATCH",
+      "evidence": "Bracket Jack Mounting | N57: 1",
+      "note": ""
+    },
+    "H31": {
+      "verdict": "PARTIAL",
+      "evidence": "B59: Not specified | E59: M8 Hex Weld Nut",
+      "note": "Part-no column 'Not specified'; nut identifier in description."
+    },
+    "H32": {
+      "verdict": "MATCH",
+      "evidence": "M8 Hex Weld Nut",
+      "note": ""
+    },
+    "H33": {
+      "verdict": "MATCH",
+      "evidence": "M8 Hex Weld Nut | N59: 2",
+      "note": ""
+    },
+    "S1": {
+      "verdict": "PARTIAL",
+      "evidence": "प्राप्त सामग्री को ड्रॉइंग और सप्लायर PDI रिपोर्ट के अनुसार जाँचें।",
+      "note": "No instruction to keep parts in one place."
+    },
+    "S2": {
+      "verdict": "MATCH",
+      "evidence": "पार्ट पर डेंट, क्षति, जंग या कोटिंग उखड़ने की जाँच करें।",
+      "note": ""
+    },
+    "S3": {
+      "verdict": "MATCH",
+      "evidence": "फोम पैकिंग पार्ट नंबर 290058604002 को ड्रॉइंग के अनुसार वर्नियर कैलिपर से जाँचें।",
+      "note": ""
+    },
+    "S4a": {
+      "verdict": "MATCH",
+      "evidence": "पार्ट नंबर 290058604001 (Clamp JACK) पर एक M8 हेक्स वेल्ड नट लगाकर प्रोजेक्शन वेल्डिंग मशीन में वेल्ड करें।",
+      "note": ""
+    },
+    "S4b": {
+      "verdict": "MATCH",
+      "evidence": "पार्ट नंबर 290058604001 (Clamp JACK)",
+      "note": ""
+    },
+    "S5a": {
+      "verdict": "MATCH",
+      "evidence": "मशीन वोल्टेज 180–220 V",
+      "note": ""
+    },
+    "S5b": {
+      "verdict": "MATCH",
+      "evidence": "प्रेशर 15–20 kg/cm² रखें।",
+      "note": ""
+    },
+    "S6": {
+      "verdict": "MATCH",
+      "evidence": "सब-असेंबली 1 में M8 नट की उपस्थिति और वेल्डिंग गुणवत्ता जाँचें।",
+      "note": "Presence rather than count."
+    },
+    "S7a": {
+      "verdict": "MATCH",
+      "evidence": "पार्ट नंबर 290058604004 (Bracket jack mounting) पर एक M8 हेक्स वेल्ड नट लगाकर प्रोजेक्शन वेल्डिंग मशीन में वेल्ड करें।",
+      "note": ""
+    },
+    "S7b": {
+      "verdict": "MATCH",
+      "evidence": "पार्ट नंबर 290058604004 (Bracket jack mounting)",
+      "note": ""
+    },
+    "S8a": {
+      "verdict": "MATCH",
+      "evidence": "मशीन वोल्टेज 180–220 V",
+      "note": "Step 5."
+    },
+    "S8b": {
+      "verdict": "MATCH",
+      "evidence": "प्रेशर 15–20 kg/cm² रखें।",
+      "note": "Step 5."
+    },
+    "S9": {
+      "verdict": "MATCH",
+      "evidence": "सब-असेंबली 2 में M8 नट की उपस्थिति और वेल्डिंग गुणवत्ता जाँचें।",
+      "note": ""
+    },
+    "S10a": {
+      "verdict": "MATCH",
+      "evidence": "सब-असेंबली 1, सब-असेंबली 2 और पार्ट नंबर 290058604003 (Front bracket jack mounting) को CO2 वेल्डिंग फिक्स्चर में",
+      "note": "CO2 tack welding in step 8."
+    },
+    "S10b": {
+      "verdict": "MATCH",
+      "evidence": "पार्ट नंबर 290058604003 (Front bracket jack mounting)",
+      "note": ""
+    },
+    "S11a": {
+      "verdict": "MATCH",
+      "evidence": "CO2 टैक वेल्डिंग के लिए करंट 160–220 A",
+      "note": ""
+    },
+    "S11b": {
+      "verdict": "MATCH",
+      "evidence": "वोल्टेज 20–30 V",
+      "note": ""
+    },
+    "S11c": {
+      "verdict": "MATCH",
+      "evidence": "गैस प्रवाह 10–15 IPM",
+      "note": ""
+    },
+    "S11d": {
+      "verdict": "MATCH",
+      "evidence": "वायर फीड 30–60 m/min रखें।",
+      "note": ""
+    },
+    "S12": {
+      "verdict": "MATCH",
+      "evidence": "वेल्डिंग छींटे, ब्लो होल और पोरोसिटी नहीं होनी चाहिए।",
+      "note": ""
+    },
+    "S13a": {
+      "verdict": "MATCH",
+      "evidence": "असेंबली पर 6 टैक वेल्ड करें",
+      "note": ""
+    },
+    "S13b": {
+      "verdict": "PARTIAL",
+      "evidence": "दोनों M8 नटों पर 3-3 टैक वेल्ड करें।",
+      "note": "Given as 3 per nut (6 total over two nuts) rather than 6 tacks on M8 nut."
+    },
+    "S14a": {
+      "verdict": "MATCH",
+      "evidence": "मुख्य आयाम 132 ±2 mm",
+      "note": ""
+    },
+    "S14b": {
+      "verdict": "MATCH",
+      "evidence": "45 ±2 mm",
+      "note": ""
+    },
+    "S14c": {
+      "verdict": "MATCH",
+      "evidence": "208 ±2 mm जाँचें।",
+      "note": "Parentheses dropped."
+    },
+    "S15": {
+      "verdict": "MATCH",
+      "evidence": "फाइनल असेंबली की पूर्ण CO2 वेल्डिंग करें।",
+      "note": ""
+    },
+    "S16a": {
+      "verdict": "MATCH",
+      "evidence": "करंट 120–160 A",
+      "note": ""
+    },
+    "S16b": {
+      "verdict": "MATCH",
+      "evidence": "वोल्टेज 20–30 V",
+      "note": "Step 11."
+    },
+    "S16c": {
+      "verdict": "MATCH",
+      "evidence": "गैस प्रवाह 10–15 IPM",
+      "note": "Step 11."
+    },
+    "S16d": {
+      "verdict": "MATCH",
+      "evidence": "वायर फीड 30–60 m/min रखें।",
+      "note": "Step 11."
+    },
+    "S17": {
+      "verdict": "MATCH",
+      "evidence": "फाइनल असेंबली में 180 mm वेल्डिंग लंबाई सुनिश्चित करें।",
+      "note": ""
+    },
+    "S18a": {
+      "verdict": "MATCH",
+      "evidence": "आयाम 208 ±2 mm",
+      "note": ""
+    },
+    "S18b": {
+      "verdict": "MATCH",
+      "evidence": "30 ±2 mm",
+      "note": ""
+    },
+    "S18c": {
+      "verdict": "MATCH",
+      "evidence": "87.5 ±2 mm जाँचें।",
+      "note": ""
+    },
+    "S19": {
+      "verdict": "MATCH",
+      "evidence": "दोनों M8 हेक्स वेल्ड नटों पर 3-3 टैक",
+      "note": ""
+    },
+    "S20": {
+      "verdict": "MATCH",
+      "evidence": "फाइनल वेल्डिंग लंबाई 180 mm होनी चाहिए। वेल्डिंग छींटे, ब्लो होल और पोरोसिटी नहीं होने चाहिए।",
+      "note": "Step 12 checks weld quality; defects named in finished QC 6 for the final weld."
+    },
+    "S21a": {
+      "verdict": "MATCH",
+      "evidence": "CED कोटिंग SS 7265 के अनुसार, न्यूनतम 25 माइक्रोन",
+      "note": ""
+    },
+    "S21b": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैक एपॉक्सी पॉलिएस्टर पाउडर कोटिंग SS 7651 के अनुसार, न्यूनतम 50 माइक्रोन",
+      "note": ""
+    },
+    "S22": {
+      "verdict": "MATCH",
+      "evidence": "कोटिंग दोषमुक्त हो।",
+      "note": "Found in finished QC 9."
+    },
+    "S23a": {
+      "verdict": "MATCH",
+      "evidence": "कोटिंग के बाद मैनुअल ड्रिलिंग मशीन से M8 × 1.25 टैपिंग करें।",
+      "note": "Manual drilling machine is the golden tooling machine."
+    },
+    "S23b": {
+      "verdict": "MATCH",
+      "evidence": "M8 × 1.25 टैपिंग करें।",
+      "note": ""
+    },
+    "S24": {
+      "verdict": "MATCH",
+      "evidence": "टैपिंग गहराई 17 mm रखें।",
+      "note": ""
+    },
+    "S25a": {
+      "verdict": "MATCH",
+      "evidence": "फोम को ब्रैकेट पर चिपकाएँ।",
+      "note": ""
+    },
+    "S25b": {
+      "verdict": "MATCH",
+      "evidence": "फोम का छेद और ब्रैकेट का छेद एक-दूसरे के साथ सही स्थिति में होना चाहिए।",
+      "note": ""
+    },
+    "S26": {
+      "verdict": "MATCH",
+      "evidence": "क्वालिटी प्लान के अनुसार अंतिम निरीक्षण करें।",
+      "note": ""
+    },
+    "S27": {
+      "verdict": "MATCH",
+      "evidence": "तैयार पार्ट को जंग और डेंट से बचाकर बिन या ट्रॉली में रखें।",
+      "note": ""
+    },
+    "S28": {
+      "verdict": "MATCH",
+      "evidence": "पैकिंग को हस्ताक्षरित लॉजिस्टिक्स शीट और पैकिंग मानक के अनुसार करें तथा प्रत्येक लॉट की पैकिंग जाँचकर डिस्पैच करें।",
+      "note": ""
+    },
+    "T1": {
+      "verdict": "MATCH",
+      "evidence": "Projection Welding Machine",
+      "note": ""
+    },
+    "T2a": {
+      "verdict": "MATCH",
+      "evidence": "CO2 Welding Machine",
+      "note": ""
+    },
+    "T2b": {
+      "verdict": "MATCH",
+      "evidence": "Welding Fixture with Locating Pins and Dowels",
+      "note": ""
+    },
+    "T3": {
+      "verdict": "MATCH",
+      "evidence": "Manual Drilling Machine",
+      "note": ""
+    },
+    "T4a": {
+      "verdict": "MATCH",
+      "evidence": "DFT Meter and Adhesive Tape",
+      "note": ""
+    },
+    "T4b": {
+      "verdict": "MATCH",
+      "evidence": "DFT Meter and Adhesive Tape",
+      "note": ""
+    },
+    "QI1": {
+      "verdict": "MATCH",
+      "evidence": "ड्रॉइंग के अनुसार सामग्री प्राप्त करें",
+      "note": ""
+    },
+    "QI2": {
+      "verdict": "MATCH",
+      "evidence": "पार्ट पर डेंट, क्षति, जंग या कोटिंग उखड़ी हुई नहीं होनी चाहिए।",
+      "note": ""
+    },
+    "QI3": {
+      "verdict": "MATCH",
+      "evidence": "फोम पैकिंग पार्ट नंबर 290058604002 ड्रॉइंग के अनुसार होना चाहिए",
+      "note": ""
+    },
+    "QF1a": {
+      "verdict": "MATCH",
+      "evidence": "प्रोजेक्शन वेल्डिंग पैरामीटर: वोल्टेज 180–220 V",
+      "note": ""
+    },
+    "QF1b": {
+      "verdict": "MATCH",
+      "evidence": "प्रेशर 15–20 kg/cm²।",
+      "note": ""
+    },
+    "QF2": {
+      "verdict": "MATCH",
+      "evidence": "दोनों सब-असेंबली में एक-एक M8 हेक्स वेल्ड नट सही तरह से वेल्ड होना चाहिए।",
+      "note": ""
+    },
+    "QF3": {
+      "verdict": "MATCH",
+      "evidence": "वेल्डिंग छींटे, ब्लो होल और पोरोसिटी नहीं होने चाहिए।",
+      "note": ""
+    },
+    "QF4a": {
+      "verdict": "MATCH",
+      "evidence": "असेंबली पर 6 टैक वेल्ड",
+      "note": ""
+    },
+    "QF4b": {
+      "verdict": "PARTIAL",
+      "evidence": "प्रत्येक M8 नट पर 3 टैक वेल्ड होने चाहिए।",
+      "note": "3 per nut rather than 6 on M8 nut."
+    },
+    "QF5a": {
+      "verdict": "MATCH",
+      "evidence": "आयाम: 132 ±2 mm",
+      "note": ""
+    },
+    "QF5b": {
+      "verdict": "MATCH",
+      "evidence": "45 ±2 mm",
+      "note": ""
+    },
+    "QF5c": {
+      "verdict": "MATCH",
+      "evidence": "208 ±2 mm",
+      "note": ""
+    },
+    "QF5d": {
+      "verdict": "MATCH",
+      "evidence": "30 ±2 mm",
+      "note": ""
+    },
+    "QF5e": {
+      "verdict": "MATCH",
+      "evidence": "87.5 ±2 mm।",
+      "note": ""
+    },
+    "QF6": {
+      "verdict": "MATCH",
+      "evidence": "फाइनल वेल्डिंग लंबाई 180 mm होनी चाहिए।",
+      "note": ""
+    },
+    "QF7": {
+      "verdict": "MATCH",
+      "evidence": "प्रत्येक पर 3 टैक वेल्ड हों।",
+      "note": ""
+    },
+    "QF8a": {
+      "verdict": "MATCH",
+      "evidence": "CED कोटिंग SS 7265 के अनुसार न्यूनतम 25 माइक्रोन",
+      "note": ""
+    },
+    "QF8b": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैक एपॉक्सी पॉलिएस्टर पाउडर कोटिंग SS 7651 के अनुसार न्यूनतम 50 माइक्रोन होनी चाहिए।",
+      "note": ""
+    },
+    "QF9": {
+      "verdict": "MATCH",
+      "evidence": "कोटिंग दोषमुक्त हो।",
+      "note": ""
+    },
+    "QF10a": {
+      "verdict": "MATCH",
+      "evidence": "टैपिंग M8 × 1.25 हो",
+      "note": ""
+    },
+    "QF10b": {
+      "verdict": "MATCH",
+      "evidence": "टैपिंग गहराई 17 mm हो",
+      "note": ""
+    },
+    "QF11": {
+      "verdict": "MATCH",
+      "evidence": "फोम और ब्रैकेट के छेदों की स्थिति एक-दूसरे से मेल खानी चाहिए।",
+      "note": ""
+    },
+    "R1": {
+      "verdict": "PARTIAL",
+      "evidence": "वेल्डिंग लंबाई, टैक या आयाम में कमी | F69: पार्ट को छाँटकर आवश्यक वेल्ड या सुधार करें",
+      "note": "Action vague ('necessary correction'), not 'correct as per drawing'."
+    },
+    "R2": {
+      "verdict": "PARTIAL",
+      "evidence": "प्रोजेक्शन वेल्डिंग पैरामीटर या वेल्डिंग गुणवत्ता दोष | F66: ... पुनः कार्य संभव हो तो अनुमोदित तरीके से सुधारें; अन्यथा अस्वीकृत",
+      "note": "Vague action; no parameter correction and re-weld."
+    },
+    "R3": {
+      "verdict": "PARTIAL",
+      "evidence": "वेल्डिंग छींटे, ब्लो होल या पोरोसिटी | F68: असेंबली को अलग करें और अनुमोदित वेल्डिंग प्रक्रिया के अनुसार पुनः कार्य करें।",
+      "note": "Vague action; grinding not specified; reject allowed."
+    },
+    "R4": {
+      "verdict": "MATCH",
+      "evidence": "वेल्डिंग लंबाई, टैक या आयाम में कमी | F69: पार्ट को छाँटकर आवश्यक वेल्ड या सुधार करें",
+      "note": ""
+    },
+    "R5": {
+      "verdict": "CONTRADICTED",
+      "evidence": "कोटिंग की मोटाई या गुणवत्ता दोष | F70: दोषपूर्ण पार्ट छाँटकर अस्वीकृत करें और सप्लायर को वापस भेजें।",
+      "note": "Rejects and returns to supplier instead of re-coating."
+    },
+    "R6": {
+      "verdict": "CONTRADICTED",
+      "evidence": "कोटिंग की मोटाई या गुणवत्ता दोष | F70: दोषपूर्ण पार्ट छाँटकर अस्वीकृत करें और सप्लायर को वापस भेजें।",
+      "note": "Rejects instead of cleaning and re-coating."
+    },
+    "R7": {
+      "verdict": "MATCH",
+      "evidence": "थ्रेड दोष या टैपिंग गहराई में कमी | F71: पार्ट को छाँटकर पुनः टैपिंग करें और आंतरिक थ्रेड गेज से दोबारा जाँचें।",
+      "note": ""
+    },
+    "R8": {
+      "verdict": "MATCH",
+      "evidence": "फोम का छेद और ब्रैकेट का छेद मेल न खाना | F72: फोम को सही स्थिति में पुनः चिपकाएँ",
+      "note": ""
+    },
+    "R9": {
+      "verdict": "PARTIAL",
+      "evidence": "अंतिम निरीक्षण में दोष या जंग/डेंट | F73: ... दोषपूर्ण पार्ट अलग करें और पुनः कार्य करें; पुनः कार्य संभव न होने पर अस्वीकृत करें।",
+      "note": "Vague action; no rust remover or plastic mallet."
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "इनकमिंग निरीक्षण रिपोर्ट SI/QP/585888210155 में परिणाम दर्ज करें।",
+      "note": "New document reference (also incoming QC 1).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "ड्रॉइंग और सप्लायर PDI रिपोर्ट के अनुसार जाँचें।",
+      "note": "New document reference (supplier PDI report; also incoming QC 1).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "प्रत्येक लॉट से 1 पीस का आयामी निरीक्षण करें",
+      "note": "New incoming sampling frequency.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "प्रथम पीस निरीक्षण करें और शिफ्ट में 5 पीस की जाँच दर्ज करें।",
+      "note": "New in-process frequency (steps 4, 6; first piece per lot also in step 9).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "फोम पैकिंग पार्ट नंबर 290058604002 को ड्रॉइंग के अनुसार वर्नियर कैलिपर से जाँचें।",
+      "note": "New instrument for the foam check; vernier, height gauge and micrometer also added to tooling.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "0.8 mm वायर",
+      "note": "New wire size (steps 8, 11; finished QC 3, 5).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "ग्रेड AWS 70 S 6 का उपयोग करें।",
+      "note": "New welding wire grade (steps 8, 11; finished QC 3, 5).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "CED कोटिंग SS 7265 के अनुसार ... पाउडर कोटिंग SS 7651 के अनुसार",
+      "note": "New coating standards (also finished QC 9).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "सप्लायर टेस्ट सर्टिफिकेट और प्राप्त कोटिंग की जाँच करें।",
+      "note": "New document reference (supplier test certificate).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "गति 80 RPM",
+      "note": "New tapping speed.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "एक M8 हेक्स वेल्ड नट लगाकर",
+      "note": "New nut count per sub-assembly (steps 3, 5; finished QC 2 'एक-एक').",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "आयाम या सामग्री में गैर-अनुरूपता | F64: ... गैर-अनुरूप पार्ट सप्लायर को वापस भेजें।",
+      "note": "New rework row (incoming nonconformity, return to supplier).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "गलत स्थिति में लगा पार्ट या फिक्स्चर में फिट न होना",
+      "note": "New rework row (part mis-located / fixture fit).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "पैकिंग मानक से भिन्न | F74: ... VD और SCM से अनुमोदन प्राप्त करें।",
+      "note": "New rework row (packing) with VD/SCM approval.",
+      "in_ppap": true
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "आंतरिक थ्रेड गेज से थ्रेड जाँचें",
+      "note": "Thread gauge already named in golden rework row 7.",
+      "in_ppap": true
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "वेल्ड नट फिक्स्चर पिन पर ठीक से बैठा है और सभी पार्ट डॉवेल पर सही तरह से लोकेट हुए हैं",
+      "note": "Locate on fixture pins and dowels.",
+      "in_ppap": true
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "फोम पार्ट से सफेद रिलीज पेपर हटाकर",
+      "note": "Remove release paper before pasting.",
+      "in_ppap": true
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "टैपिंग से पहले तथा बाद के पार्ट अलग निर्धारित स्थानों पर रखें।",
+      "note": "Segregation handling.",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "निरीक्षण रिकॉर्ड पूरा करें और दोषपूर्ण पार्ट अलग करें।",
+      "note": "Extra record-keeping / disposition.",
+      "in_ppap": null
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "COMPLIANT",
+    "note": "Hindi Devanagari body text with English/transliterated technical terms and English headers; Arabic numerals and mm are acceptable."
+  },
+  "summary": "All operations, welding parameters, dimensions, coating and tapping values match the golden and the header revision and dates are correct. It fails on the header stage number (PP-010 to PP-110 instead of 1) and on many PPAP-sourced additions not in the golden: SI/QP/585888210155 and PDI references, 1-per-lot and 5-per-shift sampling, 0.8 mm AWS 70 S 6 wire, SS 7265/7651, 80 RPM and vernier checks. Coating rework rejects parts instead of re-coating."
+}

@@ -1,0 +1,709 @@
+{
+  "model": "Luna-5.6",
+  "stage": "01",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / 289661208202/01",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Rev: 00",
+      "note": "Revision 00 instead of 01 (00 is the PCP/PFD form revision in the PPAP)."
+    },
+    "H5": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Date: 11/11/17",
+      "note": "Different date (11/11/17 is the PCP/PFD form date in the PPAP)."
+    },
+    "H6": {
+      "verdict": "PARTIAL",
+      "evidence": "SHARADA INDUSTRIES / SI UNIT-II",
+      "note": "Unit is correct; the line area shows the company name instead of the part line."
+    },
+    "H7": {
+      "verdict": "MATCH",
+      "evidence": "1",
+      "note": ""
+    },
+    "H8": {
+      "verdict": "MATCH",
+      "evidence": "CROSSMEMBER LH 2DR XENON CAB",
+      "note": ""
+    },
+    "H9": {
+      "verdict": "MATCH",
+      "evidence": "Shearing Machine",
+      "note": ""
+    },
+    "H10": {
+      "verdict": "MATCH",
+      "evidence": "Power Press 800 Ton, Machine No. 5",
+      "note": ""
+    },
+    "H11": {
+      "verdict": "MATCH",
+      "evidence": "Power Press 500 Ton, Machine No. 5",
+      "note": ""
+    },
+    "H12": {
+      "verdict": "MATCH",
+      "evidence": "289661208202",
+      "note": ""
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Generated also leaves cycle time blank."
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "CROSSMEMBER LH 2DR XENON CAB",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "MATCH",
+      "evidence": "289661208202",
+      "note": ""
+    },
+    "H16": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Revision | H6: 00",
+      "note": "Revision 00 instead of 01."
+    },
+    "H17": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Rev Date | J6: 11/11/17",
+      "note": "Different revision date."
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "—",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "MATCH",
+      "evidence": "1 | B84: 289661208202",
+      "note": ""
+    },
+    "H20": {
+      "verdict": "MATCH",
+      "evidence": "CROSSMEMBER LH 2DR XENON CAB",
+      "note": "Gives the full part name."
+    },
+    "H21": {
+      "verdict": "MATCH",
+      "evidence": "N84: 1",
+      "note": ""
+    },
+    "S1a": {
+      "verdict": "MATCH",
+      "evidence": "प्राप्त कच्चे माल को निर्धारित स्थान पर रखें",
+      "note": ""
+    },
+    "S1b": {
+      "verdict": "MATCH",
+      "evidence": "शीट की सतह पर जंग, स्केल, क्रैक, ब्लैक पैच और पिटिंग नहीं होनी चाहिए",
+      "note": ""
+    },
+    "S2": {
+      "verdict": "MATCH",
+      "evidence": "माइक्रोमीटर से शीट की मोटाई जांचें; मोटाई 1.5 mm होनी चाहिए।",
+      "note": ""
+    },
+    "S3": {
+      "verdict": "MATCH",
+      "evidence": "कच्चे माल के पैरामीटर F-QAD/SI/RMQP/1 के अनुसार सत्यापित करें।",
+      "note": ""
+    },
+    "S4": {
+      "verdict": "MATCH",
+      "evidence": "हाइड्रोलिक ऑयल स्तर गेज से जांचें; स्तर 100-130 mm के बीच होना चाहिए।",
+      "note": ""
+    },
+    "S5": {
+      "verdict": "MATCH",
+      "evidence": "एयर प्रेशर गेज से जांचें; प्रेशर 3-5 kg/cm² के बीच होना चाहिए।",
+      "note": ""
+    },
+    "S6a": {
+      "verdict": "MATCH",
+      "evidence": "शीट को 670 mm लंबाई और 200 mm चौड़ाई में काटें।",
+      "note": ""
+    },
+    "S6b": {
+      "verdict": "MATCH",
+      "evidence": "कटे हुए शीट की लंबाई और चौड़ाई माप टेप से जांचें",
+      "note": ""
+    },
+    "S7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No thickness check after shearing; the only thickness check (step 3) is on incoming sheet."
+    },
+    "S8a": {
+      "verdict": "MATCH",
+      "evidence": "पावर प्रेस 800 टन, मशीन नं. 5 पर ड्रॉ टूल लगाएं",
+      "note": ""
+    },
+    "S8b": {
+      "verdict": "MATCH",
+      "evidence": "शट हाइट 1285 mm सेट करें।",
+      "note": "Measuring tape not mentioned."
+    },
+    "S9a": {
+      "verdict": "MATCH",
+      "evidence": "काउंटर बैलेंस प्रेशर 5-7 bar",
+      "note": ""
+    },
+    "S9b": {
+      "verdict": "MATCH",
+      "evidence": "कुशन प्रेशर 1-3 bar",
+      "note": ""
+    },
+    "S9c": {
+      "verdict": "MATCH",
+      "evidence": "क्लच एवं ब्रेक प्रेशर 6.5-7 kg/cm² सेट करें।",
+      "note": ""
+    },
+    "S10": {
+      "verdict": "MATCH",
+      "evidence": "स्ट्रोक लंबाई 350 mm",
+      "note": ""
+    },
+    "S11a": {
+      "verdict": "MATCH",
+      "evidence": "ड्रॉ पार्ट की ऊंचाई 38.5 mm और 21.5 mm हाइट गेज से प्रति घंटे जांचें।",
+      "note": ""
+    },
+    "S11b": {
+      "verdict": "MATCH",
+      "evidence": "ड्रॉ पार्ट की ऊंचाई 38.5 mm और 21.5 mm हाइट गेज से",
+      "note": ""
+    },
+    "S12a": {
+      "verdict": "MATCH",
+      "evidence": "ट्रिम एवं पियर्सिंग ऑपरेशन के लिए पावर प्रेस 500 टन, मशीन नं. 5",
+      "note": ""
+    },
+    "S12b": {
+      "verdict": "MATCH",
+      "evidence": "ट्रिम-पियर्सिंग मशीन की शट हाइट 1420 mm सेट करें",
+      "note": ""
+    },
+    "S13a": {
+      "verdict": "MATCH",
+      "evidence": "ट्रिम-पियर्सिंग मशीन का काउंटर बैलेंस प्रेशर 3-5 bar",
+      "note": ""
+    },
+    "S13b": {
+      "verdict": "MATCH",
+      "evidence": "क्लच एवं ब्रेक प्रेशर 4-7 kg/cm² सेट करें।",
+      "note": ""
+    },
+    "S14": {
+      "verdict": "MATCH",
+      "evidence": "स्ट्रोक लंबाई 625 mm",
+      "note": ""
+    },
+    "S15a": {
+      "verdict": "MATCH",
+      "evidence": "लंबाई के आयाम 129 mm, 120 mm और 93 mm वर्नियर कैलिपर से",
+      "note": ""
+    },
+    "S15b": {
+      "verdict": "MATCH",
+      "evidence": "लंबाई के आयाम 129 mm, 120 mm और 93 mm वर्नियर कैलिपर से",
+      "note": ""
+    },
+    "S15c": {
+      "verdict": "MATCH",
+      "evidence": "लंबाई के आयाम 129 mm, 120 mm और 93 mm वर्नियर कैलिपर से",
+      "note": ""
+    },
+    "S15d": {
+      "verdict": "MATCH",
+      "evidence": "CD आयाम 35 mm और 37 mm हाइट गेज से जांचें।",
+      "note": ""
+    },
+    "S15e": {
+      "verdict": "MATCH",
+      "evidence": "CD आयाम 35 mm और 37 mm हाइट गेज से जांचें।",
+      "note": ""
+    },
+    "S15f": {
+      "verdict": "MATCH",
+      "evidence": "स्लॉट का आयाम 10 x 12 mm ... वर्नियर कैलिपर से जांचें।",
+      "note": ""
+    },
+    "S15g": {
+      "verdict": "MATCH",
+      "evidence": "होल का व्यास Ø18 mm वर्नियर कैलिपर से जांचें।",
+      "note": ""
+    },
+    "S15h": {
+      "verdict": "MATCH",
+      "evidence": "अन्य आयाम 75 mm और 605.5 mm हाइट गेज से जांचें।",
+      "note": ""
+    },
+    "S15i": {
+      "verdict": "MATCH",
+      "evidence": "अन्य आयाम 75 mm और 605.5 mm हाइट गेज से जांचें।",
+      "note": ""
+    },
+    "S16a": {
+      "verdict": "MATCH",
+      "evidence": "रीस्ट्राइक ऑपरेशन के लिए पावर प्रेस 800 टन, मशीन नं. 5",
+      "note": ""
+    },
+    "S16b": {
+      "verdict": "MATCH",
+      "evidence": "रीस्ट्राइक मशीन की शट हाइट 1400 mm सेट करें",
+      "note": ""
+    },
+    "S17a": {
+      "verdict": "MATCH",
+      "evidence": "रीस्ट्राइक मशीन का काउंटर बैलेंस प्रेशर 3-5 bar",
+      "note": ""
+    },
+    "S17b": {
+      "verdict": "MATCH",
+      "evidence": "क्लच एवं ब्रेक प्रेशर 4-7 bar सेट करें।",
+      "note": ""
+    },
+    "S18": {
+      "verdict": "MATCH",
+      "evidence": "स्ट्रोक लंबाई 600 mm",
+      "note": ""
+    },
+    "S19a": {
+      "verdict": "MATCH",
+      "evidence": "रीस्ट्राइक ऑपरेशन करें और आयाम 82 mm, 17.5 mm, 36.5 mm तथा 573 mm हाइट गेज से",
+      "note": ""
+    },
+    "S19b": {
+      "verdict": "MATCH",
+      "evidence": "रीस्ट्राइक ऑपरेशन करें और आयाम 82 mm, 17.5 mm, 36.5 mm तथा 573 mm हाइट गेज से",
+      "note": ""
+    },
+    "S19c": {
+      "verdict": "MATCH",
+      "evidence": "रीस्ट्राइक ऑपरेशन करें और आयाम 82 mm, 17.5 mm, 36.5 mm तथा 573 mm हाइट गेज से",
+      "note": ""
+    },
+    "S19d": {
+      "verdict": "MATCH",
+      "evidence": "रीस्ट्राइक ऑपरेशन करें और आयाम 82 mm, 17.5 mm, 36.5 mm तथा 573 mm हाइट गेज से",
+      "note": ""
+    },
+    "S20": {
+      "verdict": "MATCH",
+      "evidence": "पैनल चेकर पर पार्ट की पूर्ण दृश्य और आयामी जांच करें",
+      "note": ""
+    },
+    "S21": {
+      "verdict": "MATCH",
+      "evidence": "स्वीकृत पार्ट को बिना जंग और डेंट के निर्धारित स्टोरेज क्षेत्र में रखें।",
+      "note": ""
+    },
+    "S22": {
+      "verdict": "MATCH",
+      "evidence": "हस्ताक्षरित लॉजिस्टिक शीट और पैकिंग मानक के अनुसार पैक करें।",
+      "note": "Dispatch is covered in step 39."
+    },
+    "T1": {
+      "verdict": "MATCH",
+      "evidence": "Shearing Machine",
+      "note": ""
+    },
+    "T2a": {
+      "verdict": "MATCH",
+      "evidence": "Power Press 800 Ton, Machine No. 5",
+      "note": "Draw tool tied to this press in step 10."
+    },
+    "T2b": {
+      "verdict": "MATCH",
+      "evidence": "Draw Tool for Part No. 289661208202/01",
+      "note": ""
+    },
+    "T2c": {
+      "verdict": "MATCH",
+      "evidence": "टूल साइज 650 x 670 x 1200 जांचें।",
+      "note": "In step 14, not the tooling list."
+    },
+    "T3a": {
+      "verdict": "MATCH",
+      "evidence": "Power Press 500 Ton, Machine No. 5",
+      "note": ""
+    },
+    "T3b": {
+      "verdict": "MATCH",
+      "evidence": "Trim and Piercing Tool for Part No. 289661208202/01",
+      "note": ""
+    },
+    "T3c": {
+      "verdict": "MATCH",
+      "evidence": "टूल साइज 690 x 1160 x 1060 जांचें।",
+      "note": "In step 21."
+    },
+    "T4a": {
+      "verdict": "MATCH",
+      "evidence": "रीस्ट्राइक ऑपरेशन के लिए पावर प्रेस 800 टन, मशीन नं. 5 पर रीस्ट्राइक टूल लगाएं।",
+      "note": ""
+    },
+    "T4b": {
+      "verdict": "MATCH",
+      "evidence": "Restrike Tool for Part No. 289661208202/01",
+      "note": ""
+    },
+    "T4c": {
+      "verdict": "MATCH",
+      "evidence": "टूल साइज 580 x 600 x 1150 जांचें।",
+      "note": "In step 31."
+    },
+    "T5": {
+      "verdict": "MATCH",
+      "evidence": "Panel Checker",
+      "note": ""
+    },
+    "QI1": {
+      "verdict": "MATCH",
+      "evidence": "कच्चे माल की सतह पर जंग, स्केल, क्रैक, ब्लैक पैच और पिटिंग नहीं होनी चाहिए।",
+      "note": ""
+    },
+    "QI2": {
+      "verdict": "MATCH",
+      "evidence": "शीट की मोटाई 1.5 mm होनी चाहिए",
+      "note": ""
+    },
+    "QI3": {
+      "verdict": "MATCH",
+      "evidence": "कच्चे माल के पैरामीटर F-QAD/SI/RMQP/1 के अनुसार होने चाहिए।",
+      "note": ""
+    },
+    "QF1a": {
+      "verdict": "MATCH",
+      "evidence": "ड्रॉ पार्ट के आयाम 38.5 mm और 21.5 mm होने चाहिए।",
+      "note": ""
+    },
+    "QF1b": {
+      "verdict": "MATCH",
+      "evidence": "ड्रॉ पार्ट के आयाम 38.5 mm और 21.5 mm होने चाहिए।",
+      "note": ""
+    },
+    "QF2a": {
+      "verdict": "MATCH",
+      "evidence": "ट्रिम-पियर्सिंग के बाद आयाम 129 mm, 120 mm और 93 mm होने चाहिए।",
+      "note": ""
+    },
+    "QF2b": {
+      "verdict": "MATCH",
+      "evidence": "ट्रिम-पियर्सिंग के बाद आयाम 129 mm, 120 mm और 93 mm होने चाहिए।",
+      "note": ""
+    },
+    "QF2c": {
+      "verdict": "MATCH",
+      "evidence": "ट्रिम-पियर्सिंग के बाद आयाम 129 mm, 120 mm और 93 mm होने चाहिए।",
+      "note": ""
+    },
+    "QF2d": {
+      "verdict": "MATCH",
+      "evidence": "CD आयाम 35 mm और 37 mm होने चाहिए।",
+      "note": ""
+    },
+    "QF2e": {
+      "verdict": "MATCH",
+      "evidence": "CD आयाम 35 mm और 37 mm होने चाहिए।",
+      "note": ""
+    },
+    "QF2f": {
+      "verdict": "MATCH",
+      "evidence": "स्लॉट का आयाम 10 x 12 mm होना चाहिए।",
+      "note": ""
+    },
+    "QF2g": {
+      "verdict": "MATCH",
+      "evidence": "होल का व्यास Ø18 mm होना चाहिए।",
+      "note": ""
+    },
+    "QF3a": {
+      "verdict": "MATCH",
+      "evidence": "रीस्ट्राइक के बाद आयाम 82 mm, 17.5 mm, 36.5 mm और 573 mm होने चाहिए।",
+      "note": ""
+    },
+    "QF3b": {
+      "verdict": "MATCH",
+      "evidence": "रीस्ट्राइक के बाद आयाम 82 mm, 17.5 mm, 36.5 mm और 573 mm होने चाहिए।",
+      "note": ""
+    },
+    "QF3c": {
+      "verdict": "MATCH",
+      "evidence": "रीस्ट्राइक के बाद आयाम 82 mm, 17.5 mm, 36.5 mm और 573 mm होने चाहिए।",
+      "note": ""
+    },
+    "QF3d": {
+      "verdict": "MATCH",
+      "evidence": "रीस्ट्राइक के बाद आयाम 82 mm, 17.5 mm, 36.5 mm और 573 mm होने चाहिए।",
+      "note": ""
+    },
+    "QF4": {
+      "verdict": "MATCH",
+      "evidence": "पार्ट पैनल चेकर पर सही प्रकार से फिट होना चाहिए।",
+      "note": ""
+    },
+    "QF5": {
+      "verdict": "MATCH",
+      "evidence": "पार्ट बिना जंग और डेंट के स्वीकृत स्थिति में स्टोर तथा पैक होना चाहिए।",
+      "note": ""
+    },
+    "QF6": {
+      "verdict": "MATCH",
+      "evidence": "पैकिंग हस्ताक्षरित लॉजिस्टिक शीट और पैकिंग मानक के अनुसार होनी चाहिए।",
+      "note": ""
+    },
+    "R1": {
+      "verdict": "PARTIAL",
+      "evidence": "जंग | जंग लगे भाग को जंग हटाने वाले रिमूवर से साफ करें, एंटी-रस्ट कोटिंग लगाएं",
+      "note": "Action matches, but the defect covers only rust; scale and crack are dropped."
+    },
+    "R2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No thickness rework row."
+    },
+    "R3": {
+      "verdict": "PARTIAL",
+      "evidence": "ट्रिम-पियर्सिंग टूल के स्टॉपर, लोकेटिंग पिन और कटिंग एज की जांचकर आवश्यक सुधार करें",
+      "note": "Checks and corrects the tool stopper and cutting edge, but never says resharpen or replace. Rows 3-4 (recut / redraw) give other actions."
+    },
+    "R4": {
+      "verdict": "CONTRADICTED",
+      "evidence": "होल या स्लॉट गलत | पार्ट को सही लोकेशन पर सेट करके स्वीकृत टूल से पुनः पियर्सिंग करें",
+      "note": "Golden fixes the tool; generated re-pierces the part. Different action."
+    },
+    "R5": {
+      "verdict": "CONTRADICTED",
+      "evidence": "डेंट या विकृति | पार्ट को संबंधित ड्रॉ या रीस्ट्राइक टूल में दोबारा सही प्रकार से सेट करके सुधारें",
+      "note": "Golden uses a plastic mallet; generated re-sets the part in the draw/restrike tool. Different action."
+    },
+    "R6": {
+      "verdict": "PARTIAL",
+      "evidence": "पार्ट पैकिंग में त्रुटि | लॉजिस्टिक शीट और पैकिंग मानक के अनुसार पार्ट को दोबारा पैक करें",
+      "note": "Repacks the part, but does not say to recheck and correct the logistic sheet itself."
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "कच्चे माल की सामग्री विशिष्टता D 513 के अनुसार",
+      "note": "New material spec (also QI 3). Not in the golden; it comes from the source PPAP.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "मशीन सेटिंग पैरामीटर शीट F-PRD-17 के अनुसार",
+      "note": "New document reference. Not in the golden.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "अधिकतम शट हाइट 1285 mm और न्यूनतम शट हाइट 795 mm सत्यापित करें।",
+      "note": "New min shut height 795 mm for the draw press.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "कुशन पिन DIA 38 (38 x 175) के 14 नग, टॉप लाइनर 140 x 200 x 1100 के 2 नग",
+      "note": "New cushion pin and top liner specs for draw.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "अधिकतम शट हाइट 1420 mm और न्यूनतम शट हाइट 760 mm सत्यापित करें।",
+      "note": "New min shut height 760 mm for trim/piercing.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "टॉप लाइनर 110 x 160 x 1020",
+      "note": "New top liner spec for trim/piercing.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "अधिकतम शट हाइट 1400 mm और न्यूनतम शट हाइट 750 mm सत्यापित करें।",
+      "note": "New min shut height 750 mm for restrike.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "टॉप लाइनर 160 x 110 x 1030",
+      "note": "New top liner spec for restrike.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "उत्पादन योजना RG-PRD-01 के अनुसार प्रति घंटे एक पार्ट की जांच करें।",
+      "note": "New first/last-piece inspection step, a new document reference, and a 1-part-per-hour frequency.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "हाइट गेज से प्रति घंटे जांचें।",
+      "note": "Hourly inspection frequency (steps 17, 24, 33) is not in the golden.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "माइक्रोमीटर से प्रति लॉट एक शीट जांची जानी चाहिए।",
+      "note": "New sampling frequency (one sheet per lot) in incoming QC.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "फिक्स्चर पहचान F-QMS-6 तथा फिक्स्चर वैलिडेशन F-DVP-29 के अनुसार होना चाहिए।",
+      "note": "New document references.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Micrometer, Least Count 0.001 mm",
+      "note": "Least count is not in the golden.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "गलत लंबाई या चौड़ाई | ... सही सेटिंग में पार्ट को दोबारा काटें",
+      "note": "New rework row: recut a blank with wrong length/width.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "गलत ड्रॉ आयाम | ... पार्ट को स्वीकृत प्रक्रिया के अनुसार दोबारा ड्रॉ करें।",
+      "note": "New rework row: re-draw the part.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "बर या तेज किनारा | उपयुक्त डिबरिंग टूल से बर हटाएं",
+      "note": "New defect type and rework action (deburring).",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "पैनल चेकर पर फिटमेंट असफल | ... पार्ट को रीस्ट्राइक प्रक्रिया से सुधारें",
+      "note": "New defect type and rework action (re-restrike).",
+      "in_ppap": null
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "कटे किनारे पर अनावश्यक बर या डैमेज नहीं होना चाहिए।",
+      "note": "Extra edge-quality criterion after shearing.",
+      "in_ppap": null
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "पार्ट पर जंग, डेंट, क्रैक, विकृति, कटिंग बर या पियर्सिंग दोष नहीं होना चाहिए।",
+      "note": "Extra defect criteria (crack, distortion, burr, piercing defect) in step 36 and finished QC 9.",
+      "in_ppap": null
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "शीट पर डेंट, विकृति या अन्य दृश्य क्षति नहीं होनी चाहिए।",
+      "note": "Extra incoming check (QI 5).",
+      "in_ppap": null
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "डिस्पैच से पहले लॉजिस्टिक शीट पर VD तथा SCM से हस्ताक्षर करवाएं।",
+      "note": "Extra sign-off requirement (also rework row 9).",
+      "in_ppap": null
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Draw Tool for Part No. 289661208202/01",
+      "note": "Tool IDs use '/01' after the part number, which the golden never does.",
+      "in_ppap": null
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "शीट को शीयरिंग मशीन पर सही दिशा में रखें और स्टॉपर से ठीक प्रकार से लोकेट करें।",
+      "note": "Generic loading guidance.",
+      "in_ppap": null
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "लोकेटिंग पिन और डॉवेल की सहायता से सही स्थान पर रखें।",
+      "note": "Generic part-loading guidance (steps 15, 22, 32).",
+      "in_ppap": null
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "Measuring Tape | Height Gauge | Vernier Caliper",
+      "note": "Instruments listed as tooling; all are named in the golden steps.",
+      "in_ppap": null
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "COMPLIANT",
+    "note": "Step, quality and rework text is in Hindi Devanagari, with technical terms transliterated and English section headers. It uses Arabic numerals and 'mm' where the golden uses Devanagari numerals and मिमी, which is acceptable."
+  },
+  "summary": "All three press stages are covered with every golden shut height, stroke, pressure and dimension correctly bound to its machine, so the process content is close to complete. It fails because the header revision (00 vs 01) and dates (11/11/17 vs 22.02.2020) are wrong, and because it adds many actionable specs that are not in the golden: min shut heights 795/760/750 mm, D 513, top liner and cushion pin sizes, the F-PRD-17, RG-PRD-01, F-QMS-6 and F-DVP-29 form references, hourly check frequencies, and new rework procedures. The rework table also gives different actions for dent and hole/slot defects, and drops the thickness rework row."
+}

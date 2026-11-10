@@ -1,0 +1,71 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP /'290058600101/03
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 0 | Date: 11/11/17
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / BKT JACK MTG FRONT | C4: PP-010 to PP-070 | E4: RAW MATERIAL RECEIPT TO STORAGE | H4: Shearing Machine, Press 150 Ton, Manual Inspection | K4: 290058604003
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: BKT JACK MTG FRONT | E6: 290058604003 | H6: 0 | J6: 11/11/17 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Verify raw material surface condition for rust, scale, crack, black patches, pitting as per incoming inspection report.
+E9: 2 | F9: Check sheet thickness using micrometer (LC 0.001mm) - target 3mm, tolerance per lot.
+E10: 3 | F10: Confirm material specification FE410 as per RMQP.
+E11: 4 | F11: Perform chemical and mechanical testing of raw material as per F-QAD/SI/RMQP.
+E12: 5 | F12: Shear raw material to length 1250mm using shearing machine - verify with measuring tape, frequency per lot.
+E13: 6 | F13: Shear raw material to width 194mm using shearing machine - verify with measuring tape, frequency per lot.
+E14: 7 | F14: Shear raw material to thickness 3mm using shearing machine - verify with micrometer, frequency per lot.
+E15: 8 | F15: Blank the sheared material using 150 Ton press - verify dimension 52.75mm using height gauge, frequency per hour.
+E16: 9 | F16: Set shut height to 450mm and stroke length to 100mm at start of production.
+E17: 10 | F17: Verify blank dimensions: 75mm, 67.79mm, 60mm, 22mm using vernier caliper, frequency per hour.
+E18: 11 | F18: Perform forming operation using 150 Ton press - verify dimension 135mm using vernier caliper, frequency per hour.
+E19: 12 | F19: Set shut height to 420mm and stroke length to 105mm at start of production.
+E20: 13 | F20: Verify formed dimensions: 30mm using height gauge, angle 90±1° using angle gauge, radius R6 using radius gauge, frequency per hour.
+E21: 14 | F21: Perform restrike operation using 150 Ton press - verify angle 85±1° using bevel protector, frequency per hour.
+E22: 15 | F22: Set shut height to 510mm and stroke length to 115mm at start of production.
+E23: 16 | F23: Verify all dimensions as per drawing specification using panel checker, frequency per hour.
+E24: 17 | F24: Inspect part surface for burrs, scoring, tool marks visually, frequency per hour.
+E25: 18 | F25: Perform final inspection as per quality plan - verify all specifications visually, frequency per lot.
+E26: 19 | F26: Store parts ensuring no rust or dent - segregate defective parts for rework.
+E27: TOOLING / EQUIPMENT
+E28: 1) | F28: Shearing Machine
+E29: 2) | F29: Press 150 Ton
+E30: 3) | F30: Height Gauge
+E31: 4) | F31: Micrometer (LC 0.001mm)
+E32: 5) | F32: Vernier Caliper
+E33: 6) | F33: Angle Gauge
+E34: 7) | F34: Radius Gauge
+E35: 8) | F35: Bevel Protector
+E36: 9) | F36: Panel Checker
+E37: 10) | F37: Measuring Tape
+E38: QUALITY PARAMETERS
+E39: A) Incoming Quality Checks
+E40: 1. | F40: Surface must be free from rust, scale, crack, black patches, pitting.
+E41: 2. | F41: Sheet thickness must be 3mm ± tolerance.
+E42: 3. | F42: Material specification must be FE410.
+E43: 4. | F43: Chemical and mechanical properties must meet RMQP requirements.
+E44: B) Finished Quality Checks
+E45: 1. | F45: All dimensions must meet drawing specifications.
+E46: 2. | F46: No burrs, scoring, or tool marks on part surface.
+E47: 3. | F47: Angle must be 85±1° for restrike operation.
+E48: 4. | F48: All formed features must meet drawing requirements.
+E49: 5. | F49: Part must be free from rust and dents.
+A52: SR. | B52: PART NO. | E52: PART DESCRIPTION | N52: QTY
+A53: 1 | B53: 290058604003 | E53: BKT JACK MTG FRONT | N53: 1
+A55: REWORK INSTRUCTIONS
+A56: NO. | B56: DEFECT TYPE | F56: ACTION
+A57: 1 | B57: Surface defects (rust, scale, crack) | F57: Sort and reject defective material. Send back to supplier if required.
+A58: 2 | B58: Incorrect thickness | F58: Adjust shearing machine settings or replace tooling. Verify with micrometer.
+A59: 3 | B59: Incorrect dimensions after blanking | F59: Stop production, adjust press stopper, perform 100% sorting of OK parts.
+A60: 4 | B60: Incorrect formed dimensions | F60: Stop production, adjust press stopper, perform 100% sorting of OK parts.
+A61: 5 | B61: Angle deviation in restrike | F61: Adjust press shut height and stroke length. Verify with bevel protector.
+A62: 6 | B62: Burrs or tool marks on surface | F62: Remove burrs using deburring tools. Inspect visually.
+A63: 7 | B63: Rust on finished parts | F63: Clean rusted area with rust remover and apply anti-rust coating. Segregate for storage.
+A64: 8 | B64: Dents on parts | F64: Use appropriate tools to remove dents without damaging part surface.
+A66: LEGEND
+A67: 🚫 Don't Twist | B67: 🔩 Spec. Torque | D67: ⚠️ Important | E67: 🔧 Adjustment | G67: 🧴 Apply Adhesive | I67: 🛢️ Lubricate Oil | K67: 🟡 Lub. Grease | L67: 🔵 Apply Sealant | N67: ⭐ Vital Parts

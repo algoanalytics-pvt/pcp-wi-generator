@@ -1,0 +1,512 @@
+{
+  "model": "mistral-small-latest",
+  "stage": "03",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / PCP /'290058600101/03",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "MATCH",
+      "evidence": "Rev: 0",
+      "note": "0 vs 00."
+    },
+    "H5": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Date: 11/11/17",
+      "note": "PPAP form date used instead of 10.12.2021."
+    },
+    "H6": {
+      "verdict": "MATCH",
+      "evidence": "UNIT-3 / BKT JACK MTG FRONT",
+      "note": ""
+    },
+    "H7": {
+      "verdict": "CONTRADICTED",
+      "evidence": "PP-010 to PP-070",
+      "note": "Process step codes instead of stage 1."
+    },
+    "H8": {
+      "verdict": "CONTRADICTED",
+      "evidence": "RAW MATERIAL RECEIPT TO STORAGE",
+      "note": "Process range instead of the stage name."
+    },
+    "H9": {
+      "verdict": "MATCH",
+      "evidence": "Shearing Machine",
+      "note": ""
+    },
+    "H10": {
+      "verdict": "MATCH",
+      "evidence": "Press 150 Ton",
+      "note": ""
+    },
+    "H11": {
+      "verdict": "MATCH",
+      "evidence": "290058604003",
+      "note": ""
+    },
+    "H12": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Cycle time left blank, as in the golden."
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": "BKT JACK MTG FRONT",
+      "note": ""
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "290058604003",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "MATCH",
+      "evidence": "Revision | 0",
+      "note": "0 vs 00."
+    },
+    "H16": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Rev Date | 11/11/17",
+      "note": "PPAP form date instead of 10.12.2021."
+    },
+    "H17": {
+      "verdict": "MATCH",
+      "evidence": "—",
+      "note": ""
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "1 | 290058604003",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "MATCH",
+      "evidence": "BKT JACK MTG FRONT",
+      "note": ""
+    },
+    "H20": {
+      "verdict": "MATCH",
+      "evidence": "BKT JACK MTG FRONT | QTY 1",
+      "note": ""
+    },
+    "S1": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No receipt/collect step; WI starts with surface inspection."
+    },
+    "S2": {
+      "verdict": "MATCH",
+      "evidence": "Verify raw material surface condition for rust, scale, crack, black patches, pitting",
+      "note": ""
+    },
+    "S3": {
+      "verdict": "MATCH",
+      "evidence": "Check sheet thickness using micrometer (LC 0.001mm) - target 3mm",
+      "note": ""
+    },
+    "S4": {
+      "verdict": "MATCH",
+      "evidence": "Confirm material specification FE410 as per RMQP.",
+      "note": ""
+    },
+    "S5": {
+      "verdict": "PARTIAL",
+      "evidence": "Perform chemical and mechanical testing of raw material as per F-QAD/SI/RMQP.",
+      "note": "Physical properties dropped; lab report replaced by a document reference."
+    },
+    "S6a": {
+      "verdict": "MATCH",
+      "evidence": "Shear raw material to length 1250mm using shearing machine",
+      "note": ""
+    },
+    "S6b": {
+      "verdict": "MATCH",
+      "evidence": "Shear raw material to width 194mm using shearing machine",
+      "note": ""
+    },
+    "S7": {
+      "verdict": "MATCH",
+      "evidence": "Shear raw material to thickness 3mm using shearing machine - verify with micrometer",
+      "note": ""
+    },
+    "S8": {
+      "verdict": "MATCH",
+      "evidence": "Blank the sheared material using 150 Ton press",
+      "note": ""
+    },
+    "S9a": {
+      "verdict": "MATCH",
+      "evidence": "verify dimension 52.75mm using height gauge",
+      "note": ""
+    },
+    "S9b": {
+      "verdict": "MATCH",
+      "evidence": "Verify blank dimensions: 75mm, 67.79mm, 60mm, 22mm using vernier caliper",
+      "note": ""
+    },
+    "S9c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "183.5 mm not given."
+    },
+    "S9d": {
+      "verdict": "MATCH",
+      "evidence": "Verify blank dimensions: 75mm, 67.79mm, 60mm, 22mm using vernier caliper",
+      "note": ""
+    },
+    "S9e": {
+      "verdict": "MATCH",
+      "evidence": "Verify blank dimensions: 75mm, 67.79mm, 60mm, 22mm using vernier caliper",
+      "note": ""
+    },
+    "S9f": {
+      "verdict": "MATCH",
+      "evidence": "Verify blank dimensions: 75mm, 67.79mm, 60mm, 22mm using vernier caliper",
+      "note": ""
+    },
+    "S10a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking radii."
+    },
+    "S10b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking radii."
+    },
+    "S10c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking radii."
+    },
+    "S11": {
+      "verdict": "MATCH",
+      "evidence": "Perform forming operation using 150 Ton press",
+      "note": ""
+    },
+    "S12a": {
+      "verdict": "MATCH",
+      "evidence": "verify dimension 135mm using vernier caliper",
+      "note": ""
+    },
+    "S12b": {
+      "verdict": "MATCH",
+      "evidence": "Verify formed dimensions: 30mm using height gauge",
+      "note": ""
+    },
+    "S13": {
+      "verdict": "MATCH",
+      "evidence": "angle 90±1° using angle gauge",
+      "note": ""
+    },
+    "S14": {
+      "verdict": "MATCH",
+      "evidence": "radius R6 using radius gauge",
+      "note": ""
+    },
+    "S15": {
+      "verdict": "MATCH",
+      "evidence": "Perform restrike operation using 150 Ton press",
+      "note": ""
+    },
+    "S16": {
+      "verdict": "MATCH",
+      "evidence": "verify angle 85±1° using bevel protector",
+      "note": ""
+    },
+    "S17": {
+      "verdict": "MATCH",
+      "evidence": "Verify all dimensions as per drawing specification using panel checker",
+      "note": ""
+    },
+    "S18": {
+      "verdict": "MATCH",
+      "evidence": "Inspect part surface for burrs, scoring, tool marks visually",
+      "note": ""
+    },
+    "S19": {
+      "verdict": "MATCH",
+      "evidence": "Perform final inspection as per quality plan",
+      "note": ""
+    },
+    "S20": {
+      "verdict": "MATCH",
+      "evidence": "Store parts ensuring no rust or dent",
+      "note": ""
+    },
+    "T1": {
+      "verdict": "MATCH",
+      "evidence": "Shearing Machine",
+      "note": ""
+    },
+    "T2a": {
+      "verdict": "MATCH",
+      "evidence": "Press 150 Ton",
+      "note": "Bound to blanking in step 8."
+    },
+    "T2b": {
+      "verdict": "MATCH",
+      "evidence": "Press 150 Ton",
+      "note": "Bound to forming in step 11."
+    },
+    "T2c": {
+      "verdict": "MATCH",
+      "evidence": "Press 150 Ton",
+      "note": "Bound to restrike in step 14."
+    },
+    "T3a": {
+      "verdict": "MATCH",
+      "evidence": "Micrometer (LC 0.001mm)",
+      "note": ""
+    },
+    "T3b": {
+      "verdict": "MATCH",
+      "evidence": "Micrometer (LC 0.001mm)",
+      "note": ""
+    },
+    "T4": {
+      "verdict": "MATCH",
+      "evidence": "Measuring Tape",
+      "note": ""
+    },
+    "T5": {
+      "verdict": "MATCH",
+      "evidence": "Vernier Caliper",
+      "note": ""
+    },
+    "T6": {
+      "verdict": "MATCH",
+      "evidence": "Radius Gauge",
+      "note": ""
+    },
+    "T7": {
+      "verdict": "MATCH",
+      "evidence": "Angle Gauge",
+      "note": ""
+    },
+    "T8": {
+      "verdict": "MATCH",
+      "evidence": "Panel Checker",
+      "note": ""
+    },
+    "T9": {
+      "verdict": "MATCH",
+      "evidence": "Height Gauge",
+      "note": ""
+    },
+    "QI1": {
+      "verdict": "MATCH",
+      "evidence": "Surface must be free from rust, scale, crack, black patches, pitting.",
+      "note": ""
+    },
+    "QI2": {
+      "verdict": "MATCH",
+      "evidence": "Sheet thickness must be 3mm ± tolerance.",
+      "note": ""
+    },
+    "QI3": {
+      "verdict": "MATCH",
+      "evidence": "Material specification must be FE410.",
+      "note": ""
+    },
+    "QI4": {
+      "verdict": "PARTIAL",
+      "evidence": "Chemical and mechanical properties must meet RMQP requirements.",
+      "note": "Physical properties dropped; lab report not named."
+    },
+    "QF1": {
+      "verdict": "MATCH",
+      "evidence": "All dimensions must meet drawing specifications.",
+      "note": ""
+    },
+    "QF2a": {
+      "verdict": "MATCH",
+      "evidence": "angle 90±1° using angle gauge",
+      "note": "Found in step 13."
+    },
+    "QF2b": {
+      "verdict": "MATCH",
+      "evidence": "Angle must be 85±1° for restrike operation.",
+      "note": ""
+    },
+    "QF3a": {
+      "verdict": "PARTIAL",
+      "evidence": "All formed features must meet drawing requirements.",
+      "note": "Generic; R5 not given anywhere."
+    },
+    "QF3b": {
+      "verdict": "PARTIAL",
+      "evidence": "All formed features must meet drawing requirements.",
+      "note": "Generic; R2 not given anywhere."
+    },
+    "QF3c": {
+      "verdict": "PARTIAL",
+      "evidence": "All formed features must meet drawing requirements.",
+      "note": "Generic; R3 not given anywhere."
+    },
+    "QF3d": {
+      "verdict": "MATCH",
+      "evidence": "radius R6 using radius gauge",
+      "note": "Found in step 13."
+    },
+    "QF4": {
+      "verdict": "MATCH",
+      "evidence": "No burrs, scoring, or tool marks on part surface.",
+      "note": ""
+    },
+    "QF5": {
+      "verdict": "MATCH",
+      "evidence": "Part must be free from rust and dents.",
+      "note": ""
+    },
+    "R1": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Surface defects (rust, scale, crack) | Sort and reject defective material. Send back to supplier",
+      "note": "Rejects instead of cleaning; row 7 cleans rust only on finished parts."
+    },
+    "R2": {
+      "verdict": "MATCH",
+      "evidence": "Incorrect thickness | Adjust shearing machine settings or replace tooling. Verify with micrometer.",
+      "note": ""
+    },
+    "R3": {
+      "verdict": "MATCH",
+      "evidence": "Incorrect dimensions after blanking | Stop production, adjust press stopper, perform 100% sorting of OK parts.",
+      "note": ""
+    },
+    "R4": {
+      "verdict": "MATCH",
+      "evidence": "Angle deviation in restrike | Adjust press shut height and stroke length. Verify with bevel protector.",
+      "note": ""
+    },
+    "R5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No radius row."
+    },
+    "R6": {
+      "verdict": "PARTIAL",
+      "evidence": "Burrs or tool marks on surface | Remove burrs using deburring tools.",
+      "note": "Scoring dropped from the defect."
+    },
+    "R7": {
+      "verdict": "PARTIAL",
+      "evidence": "Dents on parts | Use appropriate tools to remove dents without damaging part surface.",
+      "note": "Vague action; plastic mallet not named."
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Set shut height to 450mm and stroke length to 100mm at start of production.",
+      "note": "New blanking press setting.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Set shut height to 420mm and stroke length to 105mm at start of production.",
+      "note": "New forming press setting.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Set shut height to 510mm and stroke length to 115mm at start of production.",
+      "note": "New restrike press setting.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Perform chemical and mechanical testing of raw material as per F-QAD/SI/RMQP.",
+      "note": "New document reference (also 'as per RMQP' in step 3 and QI 4).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "frequency per hour",
+      "note": "New sampling frequencies: 'per lot' at incoming/shearing/final, 'per hour' at blanking, forming, restrike and inspection.",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Sheet thickness must be 3mm ± tolerance.",
+      "note": "Unquantified tolerance added (also 'tolerance per lot' in step 2).",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Shearing Machine, Press 150 Ton, Manual Inspection",
+      "note": "'Manual Inspection' added to the machine list.",
+      "in_ppap": true
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "Bevel Protector",
+      "note": "Instrument already named in golden step 16.",
+      "in_ppap": true
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "NON_COMPLIANT",
+    "note": "All step, quality and rework text is in English."
+  },
+  "summary": "All three press operations are present with the right press, angles and most dimensions, but 183.5 mm and the blanking radii R5/R2/R3 are missing. The header uses 11/11/17 for both dates and 'PP-010 to PP-070' as the stage number, rust/scale/crack material is rejected instead of cleaned, and PPAP shut heights, strokes and sampling frequencies are added. The text is entirely in English."
+}

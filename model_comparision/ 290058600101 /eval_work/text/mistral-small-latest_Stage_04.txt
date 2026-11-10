@@ -1,0 +1,36 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP /'290058600101/04
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 0 | Date: 11/11/17
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / CLAMP JACK | C4: 1 | E4: RM RECEIPT | H4: None | K4: 290058604001
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: CLAMP JACK | E6: 290058604001 | H6: 0 | J6: 11/11/17 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: रॉ मटेरियल प्राप्त करें और इसकी स्थिति की जांच करें।
+E9: 2 | F9: सतह की स्थिति की जांच करें: जंग, स्केल, क्रैक, ब्लैक पैचेज, पिटिंग से मुक्त होना चाहिए।
+E10: 3 | F10: शीट की मोटाई 3 मिमी की जांच करें माइक्रोमीटर द्वारा।
+E11: 4 | F11: मटेरियल स्पेसिफिकेशन FE410 के अनुसार होना चाहिए।
+E12: 5 | F12: रासायनिक और यांत्रिक गुणों की पुष्टि करें।
+E13: 6 | F13: मटेरियल को निर्दिष्ट स्थान पर स्टोर करें।
+E14: QUALITY PARAMETERS
+E15: A) Incoming Quality Checks
+E16: 1. | F16: सतह पर जंग, स्केल, क्रैक, ब्लैक पैचेज, पिटिंग नहीं होना चाहिए।
+E17: 2. | F17: शीट की मोटाई 3 मिमी ±0.001 मिमी होनी चाहिए।
+E18: 3. | F18: मटेरियल स्पेसिफिकेशन FE410 के अनुसार होना चाहिए।
+E19: 4. | F19: रासायनिक और यांत्रिक गुण नियंत्रण योजना के अनुसार हों।
+A22: SR. | B22: PART NO. | E22: PART DESCRIPTION | N22: QTY
+A23: 1 | B23: 290058600101 | E23: शीट मेटल (3 मिमी मोटाई) | N23: 1
+A25: REWORK INSTRUCTIONS
+A26: NO. | B26: DEFECT TYPE | F26: ACTION
+A27: 1 | B27: जंग लगा हुआ | F27: जंग लगे हुए हिस्से को घिसकर साफ करें और जंगरोधक का उपयोग करें।
+A28: 2 | B28: मोटाई में अंतर | F28: मोटाई में अंतर होने पर मटेरियल को अस्वीकार करें और आपूर्तिकर्ता को वापस भेजें।
+A29: 3 | B29: मटेरियल स्पेसिफिकेशन में अंतर | F29: मटेरियल स्पेसिफिकेशन में अंतर होने पर अस्वीकार करें और आपूर्तिकर्ता को वापस भेजें।
+A31: LEGEND
+A32: 🚫 Don't Twist | B32: 🔩 Spec. Torque | D32: ⚠️ Important | E32: 🔧 Adjustment | G32: 🧴 Apply Adhesive | I32: 🛢️ Lubricate Oil | K32: 🟡 Lub. Grease | L32: 🔵 Apply Sealant | N32: ⭐ Vital Parts

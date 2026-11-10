@@ -1,0 +1,163 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP /'290058600101/03
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 01 | Date: 11/11/17
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / BKT JACK MTG FRONT | C4: 1 | E4: BKT JACK MTG FRONT | H4: S-06220 | K4: 290058604003
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: BKT JACK MTG FRONT | E6: 290058604003 | H6: 01 | J6: 11/11/17 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Process Control Plan Number : SI / PCP /'290058600101/03
+E9: 2 | F9: Part Number / Latest Change Level  : 290058604003/A/06.10.2022
+E10: 3 | F10: Part Name / Description : BKT JACK MTG FRONT
+E11: 4 | F11: Supplier / Plant Approval /
+E12: 5 | F12: Date                                          --------
+E13: 6 | F13: SHARADA INDUSTRIES.
+E14: 7 | F14: S-06220
+E15: 8 | F15: Other Approval / Date [ if reqd. ]      -----
+E16: 9 | F16: Part /
+E17: 10 | F17: Process Name
+E18: 11 | F18: Machine
+E19: 12 | F19: Characteristic
+E20: 13 | F20: Special
+E21: 14 | F21: Product / Process 'Specification/   Tolerance
+E22: 15 | F22: Methods
+E23: 16 | F23: Process
+E24: 17 | F24: Operation
+E25: 18 | F25: Device,
+E26: 19 | F26: Product
+E27: 20 | F27: Process
+E28: 21 | F28: Char.
+E29: 22 | F29: nan
+E30: 23 | F30: Evaluation
+E31: 24 | F31: Sample
+E32: 25 | F32: nan
+E33: 26 | F33: Control
+E34: 27 | F34: nan
+E35: 28 | F35: nan
+E36: 29 | F36: nan
+E37: 30 | F37: PP-010
+E38: 31 | F38: R M RECEIPT
+E39: 32 | F39: nan
+E40: 33 | F40: SURFACE CONDITION
+E41: 34 | F41: nan
+E42: 35 | F42: nan
+E43: 36 | F43: RUST,SCALE,CRACK,BLACK PATCHES,PITTING
+E44: 37 | F44: VISUAL
+E45: 38 | F45: 1
+E46: 39 | F46: LOT
+E47: 40 | F47: As PER SI/RMQP
+E48: 41 | F48: .............
+E49: 42 | F49: Sort / Reject
+E50: 43 | F50: Sort / Reject & Sent back To Supplier
+E51: 44 | F51: PP-020
+E52: 45 | F52: SHEARING
+E53: 46 | F53: SHEARING M/C
+E54: 47 | F54: 1
+E55: 48 | F55: LENGTH
+E56: 49 | F56: nan
+E57: 50 | F57: nan
+E58: 51 | F58: 1250
+E59: 52 | F59: M. Tape
+E60: 53 | F60: 5
+E61: 54 | F61: PER LOT
+E62: 55 | F62: In-Process Inspection
+E63: 56 | F63: ---
+E64: 57 | F64: Sort / Reject
+E65: 58 | F65: Resharpening / Replacement of stopper/Tool
+E66: 59 | F66: PP-030
+E67: 60 | F67: BLANKING
+E68: 61 | F68: PRESS
+ 150 TON
+E69: 62 | F69: 1
+E70: 63 | F70: DIMENSION
+E71: 64 | F71: nan
+E72: 65 | F72: nan
+E73: 66 | F73: 52.75
+E74: 67 | F74: H.GAUGE
+E75: 68 | F75: 10
+E76: 69 | F76: PER HR
+E77: 70 | F77: 1ST PIECE INSPN- 1 PC/hr - LAST PIECE INSPProduction Plan As per 
+RG-PRD-01 
+Capacity Planing
+E78: 71 | F78: CHECK STOPPER ADJUSTMENT.
+E79: 72 | F79: SORT/REJECT
+E80: 73 | F80: -----
+E81: 74 | F81: PP-040
+E82: 75 | F82: FORMING
+E83: 76 | F83: PRESS
+ 150  TON
+E84: 77 | F84: 1
+E85: 78 | F85: DIMENSION
+E86: 79 | F86: nan
+E87: 80 | F87: nan
+E88: 81 | F88: 135
+E89: 82 | F89: V.CALIPER
+E90: 83 | F90: 10
+E91: 84 | F91: PER HR
+E92: 85 | F92: 1ST PIECE INSPN- 1 PC/hr - LAST PIECE INSPProduction Plan As per 
+RG-PRD-01 
+Capacity Planing
+E93: 86 | F93: CHECK STOPPER ADJUSTMENT.
+E94: 87 | F94: Stop the production, inform to supervisor, sort the ok parts and reject not ok part
+E95: 88 | F95: PP-050
+E96: 89 | F96: RESTRIKE
+E97: 90 | F97: PRESS
+ 150  TON
+E98: 91 | F98: 1
+E99: 92 | F99: ANGLE
+E100: 93 | F100: nan
+E101: 94 | F101: nan
+E102: 95 | F102: 85  ± 1 ̊
+E103: 96 | F103: BEVEL PROTECTOR
+E104: 97 | F104: 10
+E105: 98 | F105: PER HR
+E106: 99 | F106: 1ST PIECE INSPN- 1 PC/hr - LAST PIECE INSPProduction Plan As per 
+RG-PRD-01 
+Capacity Planing
+E107: 100 | F107: CHECK STOPPER ADJUSTMENT.
+E108: 101 | F108: Stop the production, inform to supervisor, sort the ok parts and reject not ok part
+E109: 102 | F109: PP-060
+E110: 103 | F110: INSPECTION
+E111: 104 | F111: MANUAL
+E112: 105 | F112: None
+E113: 106 | F113: INSPECTION AS PER QUALITY PLAN.
+E114: 107 | F114: nan
+E115: 108 | F115: nan
+E116: 109 | F116: None
+E117: 110 | F117: VISUAL
+E118: 111 | F118: 1
+E119: 112 | F119: LOT
+E120: 113 | F120: Final Inspection/ Layout frequency for Assy part should be once in year,as This is a Superactive part.
+E121: 114 | F121: .............
+E122: 115 | F122: Sort / Reject
+E123: 116 | F123: 100% application of RPO.100% handling in bins and trolleys.
+E124: TOOLING / EQUIPMENT
+E125: 1) | F125: Stage 1 Welding Fixture (Fixture No. 290058604003)
+E126: 2) | F126: SHEARING M/C - 1 no.
+E127: QUALITY PARAMETERS
+E128: A) Incoming Quality Checks
+E129: 1. | F129: Assembly must have no cracks, damage, or rust anywhere.
+E130: 2. | F130: No wrinkles on pressed parts.
+E131: B) Finished Quality Checks
+E132: 1. | F132: Total 1st piece inspection as per SI/RMQP.
+E133: 2. | F133: Rust, scale, cracks, black patches, and pitting must be absent on surfaces.
+E134: 3. | F134: All dimensions as Per drawing specification.
+E135: 4. | F135: No rust and corrosion on critical mating surfaces.
+A138: SR. | B138: PART NO. | E138: PART DESCRIPTION | N138: QTY
+A139: 1 | B139: 290058604003 | E139: BKT JACK MTG FRONT | N139: 1
+A140: 2 | B140: 290058604003 | E140: BKT JACK MTG FRONT - PARTS KIT | N140: 1
+A142: REWORK INSTRUCTIONS
+A143: NO. | B143: DEFECT TYPE | F143: ACTION
+A144: 1 | B144: Rust/Surface Contamination | F144: Clean rusted areas with rust remover and apply anti-corrosion coating; retest surface quality.
+A145: 2 | B145: Dimensional Deviation | F145: Rework with correct tooling to meet specified dimension; re-check with V. Caliper.
+A146: 3 | B146: Surface Defects | F146: Rework using appropriate finishing to remove burrs and scoring; ensure visual pass.
+A147: 4 | B147: Incorrect Assembly | F147: Reassemble parts correctly as per control plan; document rework in QA log.
+A149: LEGEND
+A150: 🚫 Don't Twist | B150: 🔩 Spec. Torque | D150: ⚠️ Important | E150: 🔧 Adjustment | G150: 🧴 Apply Adhesive | I150: 🛢️ Lubricate Oil | K150: 🟡 Lub. Grease | L150: 🔵 Apply Sealant | N150: ⭐ Vital Parts

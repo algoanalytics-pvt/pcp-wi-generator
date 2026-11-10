@@ -1,0 +1,649 @@
+{
+  "model": "Nano-5",
+  "stage": "01",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / 289661208202/01",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "MATCH",
+      "evidence": "Rev: 01",
+      "note": ""
+    },
+    "H5": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Date: 11/11/17",
+      "note": "Different date."
+    },
+    "H6": {
+      "verdict": "CONTRADICTED",
+      "evidence": "UNIT-3 / CROSSMEMBER LH 2DR XENON CAB",
+      "note": "Wrong unit (UNIT-3 vs UNIT-II)."
+    },
+    "H7": {
+      "verdict": "MATCH",
+      "evidence": "1",
+      "note": ""
+    },
+    "H8": {
+      "verdict": "MATCH",
+      "evidence": "CROSSMEMBER LH 2DR XENON CAB",
+      "note": ""
+    },
+    "H9": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Machine field says 'Welding & Checking Fixtures'; no shearing machine anywhere."
+    },
+    "H10": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No press anywhere."
+    },
+    "H11": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No press anywhere."
+    },
+    "H12": {
+      "verdict": "MATCH",
+      "evidence": "289661208202",
+      "note": ""
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Generated also leaves cycle time blank."
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "CROSSMEMBER LH 2DR XENON CAB",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "MATCH",
+      "evidence": "289661208202",
+      "note": ""
+    },
+    "H16": {
+      "verdict": "MATCH",
+      "evidence": "Revision | H6: 01",
+      "note": ""
+    },
+    "H17": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Rev Date | J6: 11/11/17",
+      "note": "Different revision date."
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "—",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "MATCH",
+      "evidence": "1 | B31: 289661208202",
+      "note": ""
+    },
+    "H20": {
+      "verdict": "MATCH",
+      "evidence": "CROSSMEMBER LH 2DR XENON CAB",
+      "note": ""
+    },
+    "H21": {
+      "verdict": "MATCH",
+      "evidence": "N31: 1",
+      "note": ""
+    },
+    "S1a": {
+      "verdict": "PARTIAL",
+      "evidence": "Collect all loose parts and place them together.",
+      "note": "Says 'loose parts' (assembly wording) instead of raw material."
+    },
+    "S1b": {
+      "verdict": "PARTIAL",
+      "evidence": "Assembly must have no cracks, damage, or rust anywhere.",
+      "note": "Only crack and rust; scale, black patch and pitting missing. Applied to the assembly, not the raw material."
+    },
+    "S2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S6a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S6b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S8a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S8b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S9a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S9b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S9c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S10": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S11a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S11b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S12a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S12b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S13a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S13b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S14": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S15a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S15b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S15c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S15d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S15e": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S15f": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S15g": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S15h": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S15i": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S16a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S16b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S17a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S17b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S18": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S19a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S19b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S19c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S19d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Generated WI describes a spot-welding assembly process; no press-forming content."
+    },
+    "S20": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "'Inspect the completed assembly' names no panel checker."
+    },
+    "S21": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Rust/damage only appears as an incoming check, not for finished parts."
+    },
+    "S22": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Ends with 'pass to Stage 2'; no packing or dispatch."
+    },
+    "T1": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Tooling lists only a welding fixture and spot welding gun."
+    },
+    "T2a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Tooling lists only a welding fixture and spot welding gun."
+    },
+    "T2b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Tooling lists only a welding fixture and spot welding gun."
+    },
+    "T2c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Tooling lists only a welding fixture and spot welding gun."
+    },
+    "T3a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Tooling lists only a welding fixture and spot welding gun."
+    },
+    "T3b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Tooling lists only a welding fixture and spot welding gun."
+    },
+    "T3c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Tooling lists only a welding fixture and spot welding gun."
+    },
+    "T4a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Tooling lists only a welding fixture and spot welding gun."
+    },
+    "T4b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Tooling lists only a welding fixture and spot welding gun."
+    },
+    "T4c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Tooling lists only a welding fixture and spot welding gun."
+    },
+    "T5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Tooling lists only a welding fixture and spot welding gun."
+    },
+    "QI1": {
+      "verdict": "PARTIAL",
+      "evidence": "Assembly must have no cracks, damage, or rust anywhere.",
+      "note": "Only crack and rust; scale, black patch and pitting missing."
+    },
+    "QI2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF1a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF1b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF2a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF2b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF2c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF2d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF2e": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF2f": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF2g": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF3a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF3b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF3c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF3d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Rust only appears as an incoming check."
+    },
+    "QF6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R1": {
+      "verdict": "PARTIAL",
+      "evidence": "Rust | Clean rusted area with rust remover and apply anti-rust coating.",
+      "note": "Action matches, but the defect covers only rust; scale and crack are dropped."
+    },
+    "R2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R5": {
+      "verdict": "MATCH",
+      "evidence": "Dent or Damage | Use plastic mallet to rework dents or damage.",
+      "note": ""
+    },
+    "R6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Welding & Checking Fixtures",
+      "note": "Header machine field gives welding equipment; the golden is a shearing + press-forming stage.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Verify all assembly parts are loaded on fixture (Fixture No. S-06221).",
+      "note": "New welding-fixture loading step and fixture number. In the PPAP, S-06221 is an approval code, not a fixture.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Clamp the fixture. | Unclamp the fixture.",
+      "note": "New fixture clamp/unclamp steps (steps 3, 5).",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Perform 12 spots as per control plan.",
+      "note": "New spot-welding operation and count (also step 7, finished QC 1). No welding in the golden or the PPAP.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Spot Welding Gun - 1 no. (Gun No. 90)",
+      "note": "New equipment and gun number.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Stage 1 Welding Fixture (Fixture No. S-06221)",
+      "note": "New tooling item.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Verify total 12 spots are complete on both sub-assemblies and pass to Stage 2.",
+      "note": "New sub-assemblies and hand-off to Stage 2 instead of packing/dispatch.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Weld nuts and studs must not be missing.",
+      "note": "Weld nuts and studs do not exist in the golden (also rework row 4).",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "289661208202/01 | E32: Attachment for Crossmember | N32: 1",
+      "note": "New part-list entry with an invented part number.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Spot Missing | Missing spots must be done properly (ref: control plan and drawing).",
+      "note": "New welding rework rows (spot / welding / part / nut missing).",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Part Shift | Remove misplaced part using spot cutter and chisel, reposition correctly.",
+      "note": "New rework procedure using spot cutter and chisel.",
+      "in_ppap": null
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Inspect the completed assembly.",
+      "note": "Generic inspection of an assembly that the golden does not have.",
+      "in_ppap": null
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "No wrinkles on pressed parts.",
+      "note": "Extra incoming criterion.",
+      "in_ppap": null
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "No deep spots allowed. | No burrs at spot locations.",
+      "note": "Weld acceptance criteria not in the golden.",
+      "in_ppap": null
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "No loose parts missing.",
+      "note": "Assembly criterion not in the golden.",
+      "in_ppap": null
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "NON_COMPLIANT",
+    "note": "All step, quality and rework text is in English. The golden uses Hindi (Devanagari) body text."
+  },
+  "summary": "The generated WI describes the wrong process: a spot-welding assembly stage (welding fixture S-06221, 12 spot welds, spot welding gun No. 90, weld nuts, hand-off to Stage 2) instead of shearing, draw, trim & piercing and restrike on the 800 T and 500 T presses. An operator would get no press settings, no dimensions and no correct machines. Only the header identifiers, the part list row and two rework rows (dent → plastic mallet, rust → rust remover) are usable. Dates and unit are wrong, and all body text is in English instead of Hindi."
+}

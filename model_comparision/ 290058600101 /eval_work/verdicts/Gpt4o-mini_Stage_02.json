@@ -1,0 +1,457 @@
+{
+  "model": "Gpt4o-mini",
+  "stage": "02",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / PCP /'290058600101/02",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "MATCH",
+      "evidence": "Rev: 01",
+      "note": ""
+    },
+    "H5": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Date: 11/11/17",
+      "note": "Uses the PCP format revision date (also the prompt example's date) instead of 13.10.2025."
+    },
+    "H6": {
+      "verdict": "MATCH",
+      "evidence": "UNIT-3 / BRACKET JACK MTG",
+      "note": ""
+    },
+    "H7": {
+      "verdict": "CONTRADICTED",
+      "evidence": "1",
+      "note": "Golden Stage No. is 'Multiple'."
+    },
+    "H8": {
+      "verdict": "MATCH",
+      "evidence": "BRACKET JACK MTG",
+      "note": ""
+    },
+    "H9": {
+      "verdict": "PARTIAL",
+      "evidence": "Shearing Machine 150 Ton",
+      "note": "Not in the header machine list (only 'Press 150 Ton'); appears only in tooling, with an invented tonnage."
+    },
+    "H10": {
+      "verdict": "MATCH",
+      "evidence": "Press 150 Ton",
+      "note": ""
+    },
+    "H11": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "75 Ton press not mentioned anywhere."
+    },
+    "H12": {
+      "verdict": "MATCH",
+      "evidence": "290058604004",
+      "note": ""
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Cycle time left blank, as in the golden."
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "BRACKET JACK MTG",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "MATCH",
+      "evidence": "290058604004",
+      "note": ""
+    },
+    "H16": {
+      "verdict": "MATCH",
+      "evidence": "Revision | 01",
+      "note": ""
+    },
+    "H17": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Rev Date | 11/11/17",
+      "note": "PCP format revision date instead of 13.10.2025."
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "—",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Part list table is empty."
+    },
+    "H20": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Part list table is empty."
+    },
+    "H21": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Part list table is empty."
+    },
+    "S1a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S1b": {
+      "verdict": "MATCH",
+      "evidence": "Surface must be free from rust, scale, crack, black patches, pitting.",
+      "note": "Found only in incoming QC."
+    },
+    "S2": {
+      "verdict": "MATCH",
+      "evidence": "Sheet thickness must be 2 mm as per micrometer.",
+      "note": "Found only in incoming QC."
+    },
+    "S3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S5a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S5b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S7a": {
+      "verdict": "PARTIAL",
+      "evidence": "Press 150 Ton",
+      "note": "Press listed, but blanking is never named, so the binding cannot be confirmed."
+    },
+    "S7b": {
+      "verdict": "PARTIAL",
+      "evidence": "Dimensions must be 146.5 mm as per control plan.",
+      "note": "Value in finished QC with no operation; not bound to blanking."
+    },
+    "S8a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S8b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S9": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S10a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S10b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S11": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S12a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S12b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S13": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S14": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S15": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S16a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S16b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S17a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S17b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S18": {
+      "verdict": "MATCH",
+      "evidence": "All other dimensions must be checked as per panel checker.",
+      "note": "In finished QC."
+    },
+    "S19": {
+      "verdict": "PARTIAL",
+      "evidence": "Inspect the completed assembly.",
+      "note": "Final inspection named without the quality-plan reference."
+    },
+    "S20": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T1": {
+      "verdict": "MATCH",
+      "evidence": "Shearing Machine 150 Ton",
+      "note": "Tonnage added (listed as extra)."
+    },
+    "T2a": {
+      "verdict": "PARTIAL",
+      "evidence": "Press 150 Ton",
+      "note": "Blanking never named; binding cannot be confirmed."
+    },
+    "T2b": {
+      "verdict": "PARTIAL",
+      "evidence": "Press 150 Ton",
+      "note": "Forming 1 never named; binding cannot be confirmed."
+    },
+    "T2c": {
+      "verdict": "PARTIAL",
+      "evidence": "Press 150 Ton",
+      "note": "Forming 2 never named; binding cannot be confirmed."
+    },
+    "T3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T4a": {
+      "verdict": "MATCH",
+      "evidence": "Sheet thickness must be 2 mm as per micrometer.",
+      "note": "Micrometer named in incoming QC, not in tooling list."
+    },
+    "T4b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T8": {
+      "verdict": "MATCH",
+      "evidence": "All other dimensions must be checked as per panel checker.",
+      "note": "Named in finished QC, not in tooling list."
+    },
+    "QI1": {
+      "verdict": "MATCH",
+      "evidence": "Surface must be free from rust, scale, crack, black patches, pitting.",
+      "note": ""
+    },
+    "QI2": {
+      "verdict": "MATCH",
+      "evidence": "Sheet thickness must be 2 mm as per micrometer.",
+      "note": ""
+    },
+    "QI3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF1": {
+      "verdict": "MATCH",
+      "evidence": "Verify all dimensions as per control plan.",
+      "note": "Generic all-dimensions check (control plan instead of drawing)."
+    },
+    "QF2": {
+      "verdict": "MATCH",
+      "evidence": "No burrs or tool marks on the part surface.",
+      "note": ""
+    },
+    "QF3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R1": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R2": {
+      "verdict": "PARTIAL",
+      "evidence": "Surface Condition | Surface must be free from burr and tool marks.",
+      "note": "Defect covered, but the 'action' restates the criterion; no grinder/file removal."
+    },
+    "R3": {
+      "verdict": "PARTIAL",
+      "evidence": "Dimension | Rework dimensions to meet specifications.",
+      "note": "Rework without segregation; vague."
+    },
+    "R4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Verify all assembly parts are loaded on fixture. / Clamp the fixture. / Unclamp the fixture.",
+      "note": "Fixture load/clamp/unclamp steps from the prompt's welding example; no fixture in this press stage (steps 2, 3, 5).",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Shearing Machine 150 Ton",
+      "note": "Invented tonnage for the shearing machine.",
+      "in_ppap": false
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Collect all loose parts and place them together.",
+      "note": "Prompt-example wording; replaces raw-material receipt. 'Inspect the completed assembly' (step 6) is the same leak.",
+      "in_ppap": false
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "NON_COMPLIANT",
+    "note": "Step, quality and rework text is entirely in English."
+  },
+  "summary": "Almost none of the process is there: no blanking, piercing, forming or piercing-2 steps, no shut heights, strokes, hole, slot or emboss specs, and no 75 T press. The steps are the prompt's welding-fixture example (collect loose parts, clamp/unclamp fixture) with 'shearing' substituted. The header date and revision date are 11/11/17 instead of 13.10.2025, the stage number is wrong and the part list is empty."
+}

@@ -5,6 +5,7 @@ docx_reader.py
 beautiful_pdf_generator.py
 image004 (1).png
 pcp_batch_report_*.xlsx
+.claude/
 
 # Python cache
 __pycache__/

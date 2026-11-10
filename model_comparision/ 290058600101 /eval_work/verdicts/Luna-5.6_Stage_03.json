@@ -1,0 +1,530 @@
+{
+  "model": "Luna-5.6",
+  "stage": "03",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / PCP /'290058600101/03",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "MATCH",
+      "evidence": "Rev: 00",
+      "note": ""
+    },
+    "H5": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Date: 11/11/17",
+      "note": "PPAP form date used instead of 10.12.2021."
+    },
+    "H6": {
+      "verdict": "PARTIAL",
+      "evidence": "SHARADA INDUSTRIES / BKT JACK MTG FRONT",
+      "note": "Line area correct; UNIT-3 replaced by the company name."
+    },
+    "H7": {
+      "verdict": "MATCH",
+      "evidence": "1",
+      "note": ""
+    },
+    "H8": {
+      "verdict": "MATCH",
+      "evidence": "BKT JACK MTG FRONT",
+      "note": ""
+    },
+    "H9": {
+      "verdict": "MATCH",
+      "evidence": "Shearing Machine",
+      "note": ""
+    },
+    "H10": {
+      "verdict": "MATCH",
+      "evidence": "150 Ton Press",
+      "note": ""
+    },
+    "H11": {
+      "verdict": "MATCH",
+      "evidence": "290058604003",
+      "note": ""
+    },
+    "H12": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Cycle time left blank, as in the golden."
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": "BKT JACK MTG FRONT",
+      "note": ""
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "290058604003",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "MATCH",
+      "evidence": "Revision | 00",
+      "note": ""
+    },
+    "H16": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Rev Date | 11/11/17",
+      "note": "PPAP form date instead of 10.12.2021."
+    },
+    "H17": {
+      "verdict": "MATCH",
+      "evidence": "—",
+      "note": ""
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "1 | 290058604003",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "MATCH",
+      "evidence": "BKT JACK MTG FRONT",
+      "note": ""
+    },
+    "H20": {
+      "verdict": "MATCH",
+      "evidence": "BKT JACK MTG FRONT | QTY 1",
+      "note": ""
+    },
+    "S1": {
+      "verdict": "PARTIAL",
+      "evidence": "प्राप्त कच्चे माल की पहचान, सामग्री विनिर्देशन और सतह की स्थिति की जांच करें।",
+      "note": "Receipt check only; no collect/place in inspection area."
+    },
+    "S2": {
+      "verdict": "MATCH",
+      "evidence": "कच्चे माल पर जंग, स्केल, क्रैक, काले धब्बे और पिटिंग नहीं होनी चाहिए।",
+      "note": ""
+    },
+    "S3": {
+      "verdict": "MATCH",
+      "evidence": "शीट की मोटाई माइक्रोमीटर से जांचें और मोटाई 3 मिलीमीटर सुनिश्चित करें।",
+      "note": ""
+    },
+    "S4": {
+      "verdict": "MATCH",
+      "evidence": "सामग्री का ग्रेड FE410",
+      "note": ""
+    },
+    "S5": {
+      "verdict": "PARTIAL",
+      "evidence": "रासायनिक, यांत्रिक और भौतिक गुण एफ-क्यूएडी तथा एसआई/आरएमक्यूपी के अनुसार सुनिश्चित करें।",
+      "note": "Lab report replaced by a document reference."
+    },
+    "S6a": {
+      "verdict": "MATCH",
+      "evidence": "शीट की लंबाई 1250 मिलीमीटर, चौड़ाई 194 मिलीमीटर",
+      "note": ""
+    },
+    "S6b": {
+      "verdict": "MATCH",
+      "evidence": "शीट की लंबाई 1250 मिलीमीटर, चौड़ाई 194 मिलीमीटर",
+      "note": ""
+    },
+    "S7": {
+      "verdict": "PARTIAL",
+      "evidence": "मोटाई 3 मिलीमीटर के अनुसार कटिंग करें।",
+      "note": "Value at shearing, but no re-check instruction after cutting."
+    },
+    "S8": {
+      "verdict": "MATCH",
+      "evidence": "कटे हुए शीट को ब्लैंकिंग प्रेस 150 टन पर रखें",
+      "note": ""
+    },
+    "S9a": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैंकिंग के बाद 52.75 मिलीमीटर तथा 75 मिलीमीटर के आयाम जांचें।",
+      "note": ""
+    },
+    "S9b": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैंकिंग के बाद 52.75 मिलीमीटर तथा 75 मिलीमीटर के आयाम जांचें।",
+      "note": ""
+    },
+    "S9c": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैंकिंग भाग के 183.5, 67.79, 60 और 22 मिलीमीटर आयाम वर्नियर कैलिपर से जांचें।",
+      "note": ""
+    },
+    "S9d": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैंकिंग भाग के 183.5, 67.79, 60 और 22 मिलीमीटर आयाम वर्नियर कैलिपर से जांचें।",
+      "note": ""
+    },
+    "S9e": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैंकिंग भाग के 183.5, 67.79, 60 और 22 मिलीमीटर आयाम वर्नियर कैलिपर से जांचें।",
+      "note": ""
+    },
+    "S9f": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैंकिंग भाग के 183.5, 67.79, 60 और 22 मिलीमीटर आयाम वर्नियर कैलिपर से जांचें।",
+      "note": ""
+    },
+    "S10a": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैंकिंग भाग पर आर5, आर2 और आर3 के रेडियस रेडियस गेज से जांचें।",
+      "note": ""
+    },
+    "S10b": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैंकिंग भाग पर आर5, आर2 और आर3 के रेडियस रेडियस गेज से जांचें।",
+      "note": ""
+    },
+    "S10c": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैंकिंग भाग पर आर5, आर2 और आर3 के रेडियस रेडियस गेज से जांचें।",
+      "note": ""
+    },
+    "S11": {
+      "verdict": "MATCH",
+      "evidence": "कटे हुए ब्लैंक को फॉर्मिंग प्रेस 150 टन पर रखें",
+      "note": ""
+    },
+    "S12a": {
+      "verdict": "MATCH",
+      "evidence": "फॉर्मिंग के बाद 135 मिलीमीटर और 30 मिलीमीटर के आयाम जांचें।",
+      "note": ""
+    },
+    "S12b": {
+      "verdict": "MATCH",
+      "evidence": "फॉर्मिंग के बाद 135 मिलीमीटर और 30 मिलीमीटर के आयाम जांचें।",
+      "note": ""
+    },
+    "S13": {
+      "verdict": "MATCH",
+      "evidence": "फॉर्म किए हुए भाग का कोण 90° ± 1° एंगल गेज से जांचें।",
+      "note": ""
+    },
+    "S14": {
+      "verdict": "MATCH",
+      "evidence": "फॉर्म किए हुए भाग का आर6 रेडियस रेडियस गेज से जांचें।",
+      "note": ""
+    },
+    "S15": {
+      "verdict": "MATCH",
+      "evidence": "फॉर्म किए हुए भाग को रिस्ट्राइक प्रेस 150 टन पर रखें",
+      "note": ""
+    },
+    "S16": {
+      "verdict": "MATCH",
+      "evidence": "रिस्ट्राइक के बाद कोण 85° ± 1° बेवल प्रोटेक्टर से जांचें।",
+      "note": ""
+    },
+    "S17": {
+      "verdict": "MATCH",
+      "evidence": "सभी अन्य आयामों की ड्रॉइंग विनिर्देश के अनुसार पैनल चेकर से जांच करें।",
+      "note": ""
+    },
+    "S18": {
+      "verdict": "MATCH",
+      "evidence": "फॉर्मिंग के बाद भाग पर कोई बर, स्कोरिंग या टूल मार्क नहीं होना चाहिए।",
+      "note": "Also after blanking (step 12)."
+    },
+    "S19": {
+      "verdict": "MATCH",
+      "evidence": "अंतिम निरीक्षण गुणवत्ता योजना के अनुसार करें",
+      "note": ""
+    },
+    "S20": {
+      "verdict": "MATCH",
+      "evidence": "भागों को जंग और डेंट से सुरक्षित रखते हुए निर्धारित भंडारण स्थान पर रखें।",
+      "note": ""
+    },
+    "T1": {
+      "verdict": "MATCH",
+      "evidence": "Shearing Machine",
+      "note": ""
+    },
+    "T2a": {
+      "verdict": "MATCH",
+      "evidence": "150 Ton Blanking Press",
+      "note": ""
+    },
+    "T2b": {
+      "verdict": "MATCH",
+      "evidence": "150 Ton Forming Press",
+      "note": ""
+    },
+    "T2c": {
+      "verdict": "MATCH",
+      "evidence": "150 Ton Restrike Press",
+      "note": ""
+    },
+    "T3a": {
+      "verdict": "MATCH",
+      "evidence": "Micrometer, LC 0.001 mm",
+      "note": ""
+    },
+    "T3b": {
+      "verdict": "MATCH",
+      "evidence": "Micrometer, LC 0.001 mm",
+      "note": ""
+    },
+    "T4": {
+      "verdict": "MATCH",
+      "evidence": "Measuring Tape",
+      "note": ""
+    },
+    "T5": {
+      "verdict": "MATCH",
+      "evidence": "Vernier Caliper",
+      "note": ""
+    },
+    "T6": {
+      "verdict": "MATCH",
+      "evidence": "Radius Gauge",
+      "note": ""
+    },
+    "T7": {
+      "verdict": "MATCH",
+      "evidence": "Angle Gauge",
+      "note": ""
+    },
+    "T8": {
+      "verdict": "MATCH",
+      "evidence": "Panel Checker",
+      "note": ""
+    },
+    "T9": {
+      "verdict": "MATCH",
+      "evidence": "Height Gauge",
+      "note": ""
+    },
+    "QI1": {
+      "verdict": "MATCH",
+      "evidence": "सामग्री की सतह पर जंग, स्केल, क्रैक, काले धब्बे और पिटिंग नहीं होनी चाहिए।",
+      "note": ""
+    },
+    "QI2": {
+      "verdict": "MATCH",
+      "evidence": "शीट की मोटाई 3 मिलीमीटर होनी चाहिए।",
+      "note": ""
+    },
+    "QI3": {
+      "verdict": "MATCH",
+      "evidence": "सामग्री का विनिर्देशन FE410 होना चाहिए।",
+      "note": ""
+    },
+    "QI4": {
+      "verdict": "PARTIAL",
+      "evidence": "रासायनिक, यांत्रिक और भौतिक गुण एफ-क्यूएडी तथा एसआई/आरएमक्यूपी के अनुसार होने चाहिए।",
+      "note": "Lab report replaced by a document reference."
+    },
+    "QF1": {
+      "verdict": "MATCH",
+      "evidence": "सभी अन्य आयाम ड्रॉइंग विनिर्देश के अनुसार होने चाहिए।",
+      "note": ""
+    },
+    "QF2a": {
+      "verdict": "MATCH",
+      "evidence": "फॉर्मिंग कोण 90° ± 1° होना चाहिए।",
+      "note": ""
+    },
+    "QF2b": {
+      "verdict": "MATCH",
+      "evidence": "रिस्ट्राइक के बाद कोण 85° ± 1° होना चाहिए।",
+      "note": ""
+    },
+    "QF3a": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैंकिंग रेडियस आर5, आर2 और आर3 के अनुसार होने चाहिए।",
+      "note": ""
+    },
+    "QF3b": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैंकिंग रेडियस आर5, आर2 और आर3 के अनुसार होने चाहिए।",
+      "note": ""
+    },
+    "QF3c": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैंकिंग रेडियस आर5, आर2 और आर3 के अनुसार होने चाहिए।",
+      "note": ""
+    },
+    "QF3d": {
+      "verdict": "MATCH",
+      "evidence": "फॉर्मिंग रेडियस आर6 के अनुसार होना चाहिए।",
+      "note": ""
+    },
+    "QF4": {
+      "verdict": "MATCH",
+      "evidence": "भाग की सतह बर, स्कोरिंग और टूल मार्क से मुक्त होनी चाहिए।",
+      "note": ""
+    },
+    "QF5": {
+      "verdict": "MATCH",
+      "evidence": "भाग पर जंग और डेंट नहीं होना चाहिए।",
+      "note": ""
+    },
+    "R1": {
+      "verdict": "PARTIAL",
+      "evidence": "जंग | ... जंग हटाने वाले पदार्थ से साफ करें और जंगरोधी पदार्थ लगाएं।",
+      "note": "Defect narrowed to rust; crack is sent to a separate reject row."
+    },
+    "R2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No thickness rework row."
+    },
+    "R3": {
+      "verdict": "MATCH",
+      "evidence": "आयाम गलत | ... गलत आयाम वाले भाग को ड्रॉइंग के अनुसार सुधारें या अस्वीकार करें।",
+      "note": ""
+    },
+    "R4": {
+      "verdict": "MATCH",
+      "evidence": "कोण गलत | स्टॉपर और प्रेस टूल की सेटिंग जांचकर भाग को रिस्ट्राइक करें",
+      "note": ""
+    },
+    "R5": {
+      "verdict": "MATCH",
+      "evidence": "रेडियस गलत | ... भाग को पुनः फॉर्म करें।",
+      "note": ""
+    },
+    "R6": {
+      "verdict": "MATCH",
+      "evidence": "बर | बर हटाने के लिए उपयुक्त डीबरिंग प्रक्रिया अपनाएं",
+      "note": "Scoring covered by row 5; grinder/file generalised to deburring."
+    },
+    "R7": {
+      "verdict": "MATCH",
+      "evidence": "डेंट | ... अनुमोदित प्रेस टूल या प्लास्टिक मैलेट से सुधारें।",
+      "note": ""
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "ब्लैंकिंग के दौरान शट हाइट 450 मिलीमीटर और स्ट्रोक लंबाई 100 मिलीमीटर सुनिश्चित करें।",
+      "note": "New blanking press setting.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "फॉर्मिंग के दौरान शट हाइट 420 मिलीमीटर और स्ट्रोक लंबाई 105 मिलीमीटर सुनिश्चित करें।",
+      "note": "New forming press setting.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "रिस्ट्राइक के दौरान शट हाइट 510 मिलीमीटर और स्ट्रोक लंबाई 115 मिलीमीटर सुनिश्चित करें।",
+      "note": "New restrike press setting.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "एफ-क्यूएडी तथा एसआई/आरएमक्यूपी के अनुसार",
+      "note": "New document reference (transliterated F-QAD/SI/RMQP; step 4 and QI 4).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "प्रत्येक लॉट से एक शीट की मोटाई",
+      "note": "New sampling frequency.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "प्रत्येक घंटे प्रथम भाग, प्रक्रिया के दौरान एक भाग और अंतिम भाग की निरीक्षण योजना के अनुसार जांच करें।",
+      "note": "New inspection frequency.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Blanking Tool",
+      "note": "New tooling items: Blanking, Forming and Restrike Tool.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "सतह दोष | क्रैक, पिटिंग, काले धब्बे ... अलग कर अस्वीकार करें और सप्लायर को सूचित करें।",
+      "note": "New rework row (reject and inform supplier).",
+      "in_ppap": true
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "शीट को शियरिंग मशीन पर सही स्थिति में रखें और स्टॉपर लगाकर क्लैंप करें।",
+      "note": "Generic loading/locating at each press.",
+      "in_ppap": null
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "जांच किए गए भागों को स्वीकृत और अस्वीकृत भागों में अलग करें।",
+      "note": "Generic segregation and bin/trolley handling.",
+      "in_ppap": true
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "Bevel Protector",
+      "note": "Instrument already named in golden step 16.",
+      "in_ppap": true
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "COMPLIANT",
+    "note": "Hindi Devanagari body text; technical terms transliterated (sometimes awkwardly, e.g. 'एफ-क्यूएडी')."
+  },
+  "summary": "Every golden operation, dimension, angle and radius is present and bound to the right press, and the revision and part list are correct. The header uses the PPAP form date 11/11/17 instead of 10.12.2021, and the WI adds PPAP shut heights and strokes for all three presses, sampling frequencies, an F-QAD/SI/RMQP reference, press tools and a reject-to-supplier rework row. The thickness rework row is missing."
+}

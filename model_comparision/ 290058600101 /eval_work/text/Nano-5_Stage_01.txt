@@ -1,0 +1,173 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP /'290058600101/01
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 01 | Date: 11/11/17
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+C4: 1
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+H6: 01 | J6: 11/11/17 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Process Control Plan: Prototype to Pre-launch stages and Production readiness as per PCP
+E9: 2 | F9: Part Name / Description : BKT ASSY JACK MTG
+E10: 3 | F10: Part Number / Latest Change Level  : 290058600101/A/06.10.2022
+E11: 4 | F11: Core Team : KAP/PVB/SSP/VSJ/VB/LS
+E12: 5 | F12: Customer Engineering
+E13: 6 | F13: Date(Orig.): 10.12.2022
+E14: 7 | F14: Part / Process Name : BKT ASSY JACK MTG
+E15: 8 | F15: Supplier / Plant Approval /
+E16: 9 | F16: Supplier Code : S-06220
+E17: 10 | F17: Date                                          --------
+E18: 11 | F18: SHARADA INDUSTRIES.
+E19: 12 | F19: S-06220
+E20: 13 | F20: Other Approval / Date [ if reqd. ]      -----
+E21: 14 | F21: To receive material as per drawing the requirement.
+E22: 15 | F22: SUPPLIER PDI REPORT
+E23: 16 | F23: DIMENSIONS
+E24: 17 | F24: LOT
+E25: 18 | F25: LAYOUTS  REPORT/ INCOMING INSPECTION REPORT
+E26: 19 | F26: PP-010
+E27: 20 | F27: MATERIAL RECEIPT AS PER THE REQUIREMENT
+E28: 21 | F28: DIMENSIONS
+E29: 22 | F29: To receive material as per drawing the requirement.
+E30: 23 | F30: SUPPLIER PDI REPORT
+E31: 24 | F31: 1
+E32: 25 | F32: LOT
+E33: 26 | F33: LAYOUTS  FREQUENCY/ INCOMING INSPECTION REPORT SI/QP/585888210155
+E34: 27 | F34: Seggregation to be done. Rework the parts if required or else reject.
+E35: 28 | F35: Seggregate the parts and Sent back Not ok parts To Supplier
+E36: 29 | F36: 2
+E37: 30 | F37: SURFACE CONDITION
+E38: 31 | F38: FREE FROM DENT,DAMAGE RUST,PEEL OFF.
+E39: 32 | F39: VISUAL
+E40: 33 | F40: 1
+E41: 34 | F41: LOT
+E42: 35 | F42: Foam Packing-290058604002
+E43: 36 | F43: Bought out part
+E44: 37 | F44: As per drawing
+E45: 38 | F45: V.caliper
+E46: 39 | F46: 10
+E47: 40 | F47: LOT
+E48: 41 | F48: BOQP
+E49: 42 | F49: PP-020
+E50: 43 | F50: SUB ASSY 1
+E51: 44 | F51: PROJECTION WELD TO HEX WELD NUT M8 AND  290058604001 (Clamp JACK)
+E52: 45 | F52: PROJECTION WELD M/C
+E53: 46 | F53: 1
+E54: 47 | F54: Projection weld  Parameters
+E55: 48 | F55: Voltage
+E56: 49 | F56: 180-220 V
+E57: 50 | F57: VISUAL N M/C DISPLAY
+E58: 51 | F58: 1
+E59: 52 | F59: PER SHIFT
+E60: 53 | F60: 1st Piece Inspection Record / In-process inspection/
+E61: 54 | F61: --
+E62: 55 | F62: Sort and inform to supervisor
+E63: 56 | F63: If rework possible then do the rework else reject and kept in rejection bin
+E64: 57 | F64: PP-030
+E65: 58 | F65: SUB ASSY 1
+E66: 59 | F66: PROJECTION WELD TO HEX WELD NUT M8 AND  290058604004 (Bracket jack mtg fronT)
+E67: 60 | F67: PROJECTION WELD M/C
+E68: 61 | F68: 1
+E69: 62 | F69: Projection weld  Parameters
+E70: 63 | F70: Voltage
+E71: 64 | F71: 180-220 V
+E72: 65 | F72: VISUAL N M/C DISPLAY
+E73: 66 | F73: 1
+E74: 67 | F74: PER SHIFT
+E75: 68 | F75: 1st Piece Inspection Record / In-process inspection/
+E76: 69 | F76: --
+E77: 70 | F77: Sort and inform to supervisor
+E78: 71 | F78: If rework possible then do the rework else reject and kept in rejection bin
+E79: 72 | F79: Welding Quality
+E80: 73 | F80: To be project properly
+E81: 74 | F81: VISUAL
+E82: 75 | F82: 1
+E83: 76 | F83: PER LOT
+E84: 77 | F84: PP-040
+E85: 78 | F85: CO2 TACK WELD TO  SUB ASSY 1 + SUB ASSY 2 + 290058604003 (Bracket jack mtg fronT)
+E86: 79 | F86: WELDING  M/C   &  WELDING FIXTURE
+E87: 80 | F87: 1
+E88: 81 | F88: Welding Parameters
+E89: 82 | F89: CURRENT 'AMP'
+E90: 83 | F90: 160-220 AMP
+E91: 84 | F91: VISUAL  DISPLAY
+E92: 85 | F92: 5
+E93: 86 | F93: PER SHIFT
+E94: 87 | F94: 1st Piece Inspection Record / In-process inspection/
+E95: 88 | F95: In welding fixture  pins are made considering hex weld nut dia. If hex weld nut not project then bkts are not fit in welding fixture properly /Four Dowels added in Welding Fixture.
+E96: 89 | F96: Sort and Inform to supervior
+E97: 90 | F97: Rework the job and use it
+E98: 91 | F98: PP-050
+E99: 92 | F99: FULL WELDING TO FINAL ASSY
+E100: 93 | F100: WELDING M/C
+E101: 94 | F101: 1
+E102: 95 | F102: Welding Parameters
+E103: 96 | F103: CURRENT 'AMP'
+E104: 97 | F104: 120-160 AMP
+E105: 98 | F105: VISUAL  DISPLAY
+E106: 99 | F106: 1
+E107: 100 | F107: PER SHIFT
+E108: 101 | F108: 1st Piece Inspection Record / In-process inspection/
+E109: 102 | F109: Inprocess Inspection/Visual Inspection
+E110: 103 | F110: Sort and Inform to supervior-
+E111: 104 | F111: Rework the job and use it
+E112: 105 | F112: PP-060
+E113: 106 | F113: SURFACE TREAMENT  CED COATED AS PER SS 7265 DFT MINIMUM 25 MICRO + BLACK EPOXY PLOYSTER POWDER COATING MIN 50 MICRONS AS PER SS:7651
+E114: 107 | F114: SET UP
+E115: 108 | F115: 1
+E116: 109 | F116: BC-PC 20
+E117: 110 | F117: Black Epoxy  Polyster Powder coating
+E118: 111 | F118: SS ;7651
+E119: 112 | F119: 1
+E120: 113 | F120: As per production lot quantity
+E121: 114 | F121: Supplier TC & incoming inspection
+E122: 115 | F122: Maintenance of Proper Coating Specifications
+E123: 116 | F123: Sort / Reject & Sent Back to Supplier
+E124: 117 | F124: PP-070
+E125: 118 | F125: TAPPING
+E126: 119 | F126: Manual Drilling machine
+E127: 120 | F127: 1
+E128: 121 | F128: Tapping
+E129: 122 | F129: M8 ×1.25
+E130: 123 | F130: Internal thread gauge
+E131: 124 | F131: 1
+E132: 125 | F132: Per lot
+E133: 126 | F133: First piece Inspection/ Inprocess Inspection
+E134: 127 | F134: nan
+E135: 128 | F135: Sort & rework
+E136: 129 | F136: Before & after threading seperate location has been defined.
+E137: 130 | F137: PP-080
+E138: 131 | F138: FOAM PASTING
+E139: 132 | F139: MANUAL
+E140: 133 | F140: 1
+E141: 134 | F141: nan
+E142: 135 | F142: Remove white paper and just past foam to bkt
+E143: 136 | F143: Foam hole and bkt hole position should match
+E144: 137 | F144: VISUAL
+E145: 138 | F145: 1
+E146: 139 | F146: PER LOT
+E147: 140 | F147: VISUAL CHECKING
+E148: 141 | F148: nan
+E149: 142 | F149: nan
+E150: 143 | F150: nan
+E151: TOOLING / EQUIPMENT
+E152: 1)
+A155: SR. | B155: PART NO. | E155: PART DESCRIPTION | N155: QTY
+A156: 1 | B156: 290058600101/A/06.10.2022 | E156: BKT ASSY JACK MTG | N156: 1
+A158: REWORK INSTRUCTIONS
+A159: NO. | B159: DEFECT TYPE | F159: ACTION
+A160: 1 | B160: Spot Missing | F160: Missing spots must be done properly (ref: control plan and drawing)
+A161: 2 | B161: Welding Missing | F161: Welding must be done properly (ref: control plan and drawing)
+A162: 3 | B162: Part Missing | F162: All parts must be welded properly (ref: control plan and drawing)
+A163: 4 | B163: Nut Missing | F163: All nuts must be welded properly (ref: control plan and drawing)
+A164: 5 | B164: Dent or Damage | F164: Use plastic mallet to rework dents or damage
+A165: 6 | B165: Rust | F165: Clean rusted area with rust remover and apply anti-rust coating
+A166: 7 | B166: Part Shift | F166: Remove misplaced part using spot cutter and chisel, reposition correctly
+A168: LEGEND
+A169: 🚫 Don't Twist | B169: 🔩 Spec. Torque | D169: ⚠️ Important | E169: 🔧 Adjustment | G169: 🧴 Apply Adhesive | I169: 🛢️ Lubricate Oil | K169: 🟡 Lub. Grease | L169: 🔵 Apply Sealant | N169: ⭐ Vital Parts

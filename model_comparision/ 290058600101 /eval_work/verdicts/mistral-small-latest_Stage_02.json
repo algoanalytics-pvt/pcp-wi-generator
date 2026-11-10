@@ -1,0 +1,511 @@
+{
+  "model": "mistral-small-latest",
+  "stage": "02",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / PCP /'290058600101/02",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "MATCH",
+      "evidence": "Rev: 01",
+      "note": ""
+    },
+    "H5": {
+      "verdict": "MATCH",
+      "evidence": "Date: 13.10.2025",
+      "note": ""
+    },
+    "H6": {
+      "verdict": "MATCH",
+      "evidence": "UNIT-3 / BRACKET JACK MTG",
+      "note": ""
+    },
+    "H7": {
+      "verdict": "CONTRADICTED",
+      "evidence": "PP-010 to PP-090",
+      "note": "Process step codes instead of 'Multiple'."
+    },
+    "H8": {
+      "verdict": "PARTIAL",
+      "evidence": "BRACKET JACK MTG PROCESS",
+      "note": "Correct stage name with 'PROCESS' appended."
+    },
+    "H9": {
+      "verdict": "MATCH",
+      "evidence": "Shearing Machine",
+      "note": ""
+    },
+    "H10": {
+      "verdict": "MATCH",
+      "evidence": "Press 150 Ton",
+      "note": ""
+    },
+    "H11": {
+      "verdict": "MATCH",
+      "evidence": "Press 75 Ton",
+      "note": ""
+    },
+    "H12": {
+      "verdict": "MATCH",
+      "evidence": "290058604004",
+      "note": ""
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Cycle time left blank, as in the golden."
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "BRACKET JACK MTG",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "MATCH",
+      "evidence": "290058604004",
+      "note": ""
+    },
+    "H16": {
+      "verdict": "MATCH",
+      "evidence": "Revision | 01",
+      "note": ""
+    },
+    "H17": {
+      "verdict": "MATCH",
+      "evidence": "Rev Date | 13.10.2025",
+      "note": ""
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "—",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "MATCH",
+      "evidence": "1 | 290058604004",
+      "note": ""
+    },
+    "H20": {
+      "verdict": "MATCH",
+      "evidence": "BRACKET JACK MTG",
+      "note": ""
+    },
+    "H21": {
+      "verdict": "MATCH",
+      "evidence": "BRACKET JACK MTG | 1",
+      "note": ""
+    },
+    "S1a": {
+      "verdict": "MATCH",
+      "evidence": "Verify incoming raw material",
+      "note": ""
+    },
+    "S1b": {
+      "verdict": "MATCH",
+      "evidence": "Verify incoming raw material for rust, scale, cracks, black patches, and pitting",
+      "note": ""
+    },
+    "S2": {
+      "verdict": "MATCH",
+      "evidence": "Check sheet thickness using micrometer (LC=0.001mm) - target 2mm",
+      "note": ""
+    },
+    "S3": {
+      "verdict": "MATCH",
+      "evidence": "Verify material specification E34 as per control plan.",
+      "note": ""
+    },
+    "S4": {
+      "verdict": "PARTIAL",
+      "evidence": "Check raw material chemical and mechanical parameters as per F-QAD/SI/RMQP.",
+      "note": "Physical properties dropped; form reference instead of lab test report."
+    },
+    "S5a": {
+      "verdict": "MATCH",
+      "evidence": "Perform shearing operation to achieve length 1250mm using M. Tape",
+      "note": ""
+    },
+    "S5b": {
+      "verdict": "MATCH",
+      "evidence": "Perform shearing operation to achieve width 263mm using M. Tape",
+      "note": ""
+    },
+    "S6": {
+      "verdict": "MATCH",
+      "evidence": "length 1250mm using M. Tape ... width 263mm using M. Tape",
+      "note": ""
+    },
+    "S7a": {
+      "verdict": "MATCH",
+      "evidence": "Perform blanking operation on 150 Ton press",
+      "note": ""
+    },
+    "S7b": {
+      "verdict": "MATCH",
+      "evidence": "to achieve dimension 146.5mm using Vernier Caliper.",
+      "note": ""
+    },
+    "S8a": {
+      "verdict": "MATCH",
+      "evidence": "Set shut height to 385mm",
+      "note": "Step follows blanking."
+    },
+    "S8b": {
+      "verdict": "MATCH",
+      "evidence": "stroke length to 60mm",
+      "note": ""
+    },
+    "S9": {
+      "verdict": "MATCH",
+      "evidence": "Perform piercing operation on 75 Ton press to achieve hole diameter 10.5mm",
+      "note": ""
+    },
+    "S10a": {
+      "verdict": "MATCH",
+      "evidence": "Set shut height to 370mm",
+      "note": "Step follows piercing 1."
+    },
+    "S10b": {
+      "verdict": "MATCH",
+      "evidence": "stroke length to 80mm",
+      "note": ""
+    },
+    "S11": {
+      "verdict": "MATCH",
+      "evidence": "Perform forming operation 1 on 150 Ton press to achieve dimension 115mm",
+      "note": ""
+    },
+    "S12a": {
+      "verdict": "MATCH",
+      "evidence": "Set shut height to 497mm",
+      "note": "Step follows forming 1."
+    },
+    "S12b": {
+      "verdict": "MATCH",
+      "evidence": "stroke length to 117mm",
+      "note": ""
+    },
+    "S13": {
+      "verdict": "MATCH",
+      "evidence": "Verify forming dimensions including radius R4",
+      "note": ""
+    },
+    "S14": {
+      "verdict": "MATCH",
+      "evidence": "emboss 2 qty",
+      "note": "Forming 1."
+    },
+    "S15": {
+      "verdict": "MATCH",
+      "evidence": "Perform forming operation 2 on 150 Ton press to achieve dimension 180mm using Height Gauge.",
+      "note": ""
+    },
+    "S16a": {
+      "verdict": "MATCH",
+      "evidence": "Set shut height to 417mm",
+      "note": "Step follows forming 2."
+    },
+    "S16b": {
+      "verdict": "MATCH",
+      "evidence": "stroke length to 102mm",
+      "note": ""
+    },
+    "S17a": {
+      "verdict": "MATCH",
+      "evidence": "Perform piercing operation 2 on 150 Ton press to achieve 4 slots (8x25mm)",
+      "note": ""
+    },
+    "S17b": {
+      "verdict": "MATCH",
+      "evidence": "4 slots (8x25mm)",
+      "note": ""
+    },
+    "S18": {
+      "verdict": "MATCH",
+      "evidence": "Perform final inspection as per quality plan using visual and panel checker methods.",
+      "note": ""
+    },
+    "S19": {
+      "verdict": "MATCH",
+      "evidence": "Perform final inspection as per quality plan",
+      "note": ""
+    },
+    "S20": {
+      "verdict": "MATCH",
+      "evidence": "Store parts ensuring no rust or dents are present",
+      "note": ""
+    },
+    "T1": {
+      "verdict": "MATCH",
+      "evidence": "Shearing Machine",
+      "note": ""
+    },
+    "T2a": {
+      "verdict": "MATCH",
+      "evidence": "Perform blanking operation on 150 Ton press",
+      "note": "Binding in step; tooling lists 'Press 150 Ton'."
+    },
+    "T2b": {
+      "verdict": "MATCH",
+      "evidence": "Perform forming operation 1 on 150 Ton press",
+      "note": ""
+    },
+    "T2c": {
+      "verdict": "MATCH",
+      "evidence": "Perform forming operation 2 on 150 Ton press",
+      "note": ""
+    },
+    "T3": {
+      "verdict": "MATCH",
+      "evidence": "Perform piercing operation on 75 Ton press",
+      "note": ""
+    },
+    "T4a": {
+      "verdict": "MATCH",
+      "evidence": "Micrometer (LC=0.001mm)",
+      "note": ""
+    },
+    "T4b": {
+      "verdict": "MATCH",
+      "evidence": "Micrometer (LC=0.001mm)",
+      "note": ""
+    },
+    "T5": {
+      "verdict": "MATCH",
+      "evidence": "Vernier Caliper",
+      "note": ""
+    },
+    "T6": {
+      "verdict": "MATCH",
+      "evidence": "Height Gauge",
+      "note": ""
+    },
+    "T7": {
+      "verdict": "MATCH",
+      "evidence": "Radius Gauge",
+      "note": ""
+    },
+    "T8": {
+      "verdict": "MATCH",
+      "evidence": "Panel Checker",
+      "note": ""
+    },
+    "QI1": {
+      "verdict": "MATCH",
+      "evidence": "Surface must be free from rust, scale, cracks, black patches, and pitting.",
+      "note": ""
+    },
+    "QI2": {
+      "verdict": "MATCH",
+      "evidence": "Sheet thickness must be 2mm as per specification.",
+      "note": ""
+    },
+    "QI3": {
+      "verdict": "MATCH",
+      "evidence": "Material specification must be E34.",
+      "note": ""
+    },
+    "QI4": {
+      "verdict": "PARTIAL",
+      "evidence": "Chemical and mechanical parameters must meet F-QAD/SI/RMQP requirements.",
+      "note": "Physical properties dropped."
+    },
+    "QF1": {
+      "verdict": "MATCH",
+      "evidence": "All dimensions must meet drawing specifications",
+      "note": ""
+    },
+    "QF2": {
+      "verdict": "MATCH",
+      "evidence": "Surface must be free from burrs, tool marks, and scoring.",
+      "note": ""
+    },
+    "QF3": {
+      "verdict": "MATCH",
+      "evidence": "Hole diameters must be 10.5mm.",
+      "note": ""
+    },
+    "QF4": {
+      "verdict": "MATCH",
+      "evidence": "Slots must be 8x25mm as per drawing.",
+      "note": ""
+    },
+    "QF5": {
+      "verdict": "MATCH",
+      "evidence": "Formed features must have correct radius R4 and emboss 2 qty.",
+      "note": ""
+    },
+    "QF6": {
+      "verdict": "MATCH",
+      "evidence": "No cracks, damage, or rust on finished parts.",
+      "note": "Dent generalised to damage."
+    },
+    "R1": {
+      "verdict": "MATCH",
+      "evidence": "Rust or Scale | Clean affected area with rust remover and apply anti-rust coating.",
+      "note": ""
+    },
+    "R2": {
+      "verdict": "MATCH",
+      "evidence": "Burr or Tool Marks | Remove burrs using deburring tools and smooth surface with fine abrasive.",
+      "note": "Deburring tools instead of grinder/file."
+    },
+    "R3": {
+      "verdict": "PARTIAL",
+      "evidence": "Incorrect Dimension | Adjust tooling/stopper and rework part to meet drawing specifications.",
+      "note": "Rework without segregation."
+    },
+    "R4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R5": {
+      "verdict": "MATCH",
+      "evidence": "Forming Defect | Reform part using correct tooling or scrap if deformation is permanent.",
+      "note": "Generalised defect covers missing emboss; re-forming redoes it."
+    },
+    "R6": {
+      "verdict": "PARTIAL",
+      "evidence": "Cracks or Damage | Segregate cracked/damaged parts and scrap if beyond repair.",
+      "note": "No plastic-mallet repair; vague."
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "as per F-QAD/SI/RMQP",
+      "note": "New document reference (step 4, QI 4).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "last piece inspection as per RG-PRD-01",
+      "note": "New document reference (steps 10, 13).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "frequency per lot",
+      "note": "New per-lot sampling frequency (steps 2, 5, 6, 7).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Perform in-process inspection every hour (1 piece/hr) and last piece inspection",
+      "note": "New hourly/last-piece frequency (steps 10, 13).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Verify sheared sheet thickness 2mm using micrometer",
+      "note": "New thickness check after shearing.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Verify forming dimensions including 145mm, 115mm, emboss 2 qty",
+      "note": "New Forming 2 dimensions.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Verify all dimensions including 12mm, 75mm",
+      "note": "New Piercing 2 dimensions.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Perform piercing operation 2 on 150 Ton press ... Set shut height to 417mm and stroke length to 102mm",
+      "note": "Golden gives no machine or settings for Piercing 2.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Missing Hole | Drill missing hole to specified diameter using appropriate tool.",
+      "note": "New rework row; drilling not in golden.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Incorrect Hole Position | Reposition hole using drilling fixture",
+      "note": "New rework row and new fixture.",
+      "in_ppap": false
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Surface must be free from burrs, tool marks, and scoring.",
+      "note": "Scoring and cracks added to finished QC criteria.",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Store parts ensuring no rust or dents are present, segregate if required.",
+      "note": "Extra segregation instruction.",
+      "in_ppap": true
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "NON_COMPLIANT",
+    "note": "Step, quality and rework text is in English."
+  },
+  "summary": "Every golden operation, press binding, shut height, stroke and the hole, slot, radius and emboss values are present and correctly bound, and the header revision and dates are right. It fails on the stage number ('PP-010 to PP-090') and on added PPAP control-plan detail (form references, sampling frequencies, Piercing 2 settings, extra dimensions), plus invented drilling rework rows; the wrong-hole-diameter rework is missing. The whole body is in English instead of Hindi."
+}

@@ -1,0 +1,535 @@
+{
+  "model": "Nano-5",
+  "stage": "02",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / PCP /'290058600101/02",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "MATCH",
+      "evidence": "Rev: 01",
+      "note": ""
+    },
+    "H5": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Date: 11/11/17",
+      "note": "PCP format revision date (also the prompt example's date) instead of 13.10.2025."
+    },
+    "H6": {
+      "verdict": "MATCH",
+      "evidence": "UNIT-3 / BRACKET JACK MTG",
+      "note": ""
+    },
+    "H7": {
+      "verdict": "CONTRADICTED",
+      "evidence": "1",
+      "note": "Golden Stage No. is 'Multiple'."
+    },
+    "H8": {
+      "verdict": "MATCH",
+      "evidence": "BRACKET JACK MTG",
+      "note": ""
+    },
+    "H9": {
+      "verdict": "PARTIAL",
+      "evidence": "SHEARING M/C",
+      "note": "Only as a stray cell in the dumped control-plan rows; the header machine list says 'Spot Welding Guns'."
+    },
+    "H10": {
+      "verdict": "PARTIAL",
+      "evidence": "PRESS / 150 TON",
+      "note": "Only as stray cells in the dumped control-plan rows, not in the machine list."
+    },
+    "H11": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H12": {
+      "verdict": "CONTRADICTED",
+      "evidence": "290058600101",
+      "note": "Assembly part number instead of 290058604004."
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Cycle time left blank, as in the golden."
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "BRACKET JACK MTG",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "CONTRADICTED",
+      "evidence": "290058600101",
+      "note": "Assembly drawing number instead of 290058604004."
+    },
+    "H16": {
+      "verdict": "MATCH",
+      "evidence": "Revision | 01",
+      "note": ""
+    },
+    "H17": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Rev Date | 11/11/17",
+      "note": "PCP format revision date instead of 13.10.2025."
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "—",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "CONTRADICTED",
+      "evidence": "1 | 290058600101",
+      "note": "Assembly number instead of 290058604004."
+    },
+    "H20": {
+      "verdict": "MATCH",
+      "evidence": "BRACKET JACK MTG",
+      "note": ""
+    },
+    "H21": {
+      "verdict": "MATCH",
+      "evidence": "BRACKET JACK MTG | 1",
+      "note": ""
+    },
+    "S1a": {
+      "verdict": "MATCH",
+      "evidence": "R M RECEIPT",
+      "note": "Bare control-plan cell used as a step."
+    },
+    "S1b": {
+      "verdict": "PARTIAL",
+      "evidence": "SURFACE CONDITION",
+      "note": "Check named as a stray cell; QI lists only cracks, damage, rust for the 'assembly'."
+    },
+    "S2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S5a": {
+      "verdict": "MATCH",
+      "evidence": "LENGTH ... 1250 ... M. Tape",
+      "note": "Separate step cells after 'SHEARING'."
+    },
+    "S5b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S6": {
+      "verdict": "PARTIAL",
+      "evidence": "M. Tape",
+      "note": "Measuring tape given for length only; width not checked."
+    },
+    "S7a": {
+      "verdict": "MATCH",
+      "evidence": "BLANKING / PRESS / 150 TON",
+      "note": "Separate step cells."
+    },
+    "S7b": {
+      "verdict": "MATCH",
+      "evidence": "DIMENSION ... 146.5 / V. CALIPER",
+      "note": "Separate step cells after 'BLANKING'."
+    },
+    "S8a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S8b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S9": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S10a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S10b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S11": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S12a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S12b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S13": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S14": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S15": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S16a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S16b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S17a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S17b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S18": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S19": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S20": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T1": {
+      "verdict": "PARTIAL",
+      "evidence": "SHEARING M/C",
+      "note": "Not in the tooling list (welding fixture and gun only); only a stray step cell."
+    },
+    "T2a": {
+      "verdict": "MATCH",
+      "evidence": "BLANKING / PRESS / 150 TON",
+      "note": "Stray step cells; not in tooling list."
+    },
+    "T2b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T2c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T4a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T4b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T5": {
+      "verdict": "MATCH",
+      "evidence": "V. CALIPER",
+      "note": "Only as a step cell."
+    },
+    "T6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T8": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI1": {
+      "verdict": "PARTIAL",
+      "evidence": "Assembly must have no cracks, damage, or rust anywhere.",
+      "note": "Scale, black spots and pitting dropped."
+    },
+    "QI2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF1": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF2": {
+      "verdict": "PARTIAL",
+      "evidence": "No burrs at spot locations.",
+      "note": "Burr only, tied to weld spots; tool marks dropped."
+    },
+    "QF3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R1": {
+      "verdict": "PARTIAL",
+      "evidence": "Rust | Clean rusted area with rust remover and apply anti-rust coating.",
+      "note": "Defect narrowed to rust (scale dropped)."
+    },
+    "R2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R6": {
+      "verdict": "PARTIAL",
+      "evidence": "Dent or Damage | Use plastic mallet to rework dents or damage.",
+      "note": "Repair matches; the reject option is dropped."
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Spot Welding Gun - 1 no. (Gun No. 90)",
+      "note": "Welding equipment in a press stage: header machine 'Spot Welding Guns', tooling 'Stage 1 Welding Fixture (Fixture No. 290058600101)'. Gun No. 90 is the prompt example.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Total 12 spots as per control plan and spot plan.",
+      "note": "Spot-weld count; different process.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "No deep spots allowed. / Weld nuts and studs must not be missing. / No loose parts missing.",
+      "note": "Spot-welding acceptance criteria; different process.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Spot Missing | Missing spots must be done properly (ref: control plan and drawing).",
+      "note": "Welding rework rows (spot, welding, part, nut missing; part shift with spot cutter and chisel).",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "2 | 290058600102 | BRACKET JACK PLATE | 1",
+      "note": "New part-list entry.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Format No.: F-DVP-7",
+      "note": "Form reference dumped into the steps.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "As PER SI/RMQP",
+      "note": "Document reference dumped into the steps.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "RG-PRD-01",
+      "note": "Document reference dumped into the steps.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Date(Orig.): 10.12.2022",
+      "note": "New date dumped into the steps.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Part Number / Latest Change Level  : 290058604004/A/06.10.2022",
+      "note": "New change level/date dumped into the steps.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Supplier Code : S-06220",
+      "note": "New supplier code dumped into the steps (steps 8, 10, 12).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "5 / PER LOT",
+      "note": "Sampling frequency for shearing.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "10 / PER HR / 1ST PIECE INSPN- 1 PC/hr - LAST PIECE INSP",
+      "note": "Hourly/first/last-piece frequency for blanking.",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Prototype / Pre-launch / Process Name / Characteristic / nan",
+      "note": "Control-plan column headers and empty cells emitted as numbered steps (most of steps 1-32, 57-59, 64-66).",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Sort / Reject & Sent back To Supplier / CHECK STOPPER ADJUSTMENT. / Rejected parts should be kept in rejection bin",
+      "note": "Reaction-plan cells emitted as steps.",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "No wrinkles on pressed parts.",
+      "note": "Extra incoming criterion.",
+      "in_ppap": false
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "NON_COMPLIANT",
+    "note": "Body text is English; the steps are raw control-plan cells."
+  },
+  "summary": "This WI is unusable: the steps are raw control-plan cells (column headers, 'nan', supplier codes) and stop after blanking, so piercing, forming, all press settings and the hole, slot and emboss checks are missing. The part, drawing and part-list numbers are the assembly number 290058600101, the dates are 11/11/17, and the machine list, tooling, finished QC and rework describe spot welding (Gun No. 90, 12 spots) instead of pressing."
+}

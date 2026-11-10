@@ -1,0 +1,607 @@
+{
+  "model": "Gpt4o-mini",
+  "stage": "01",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / 289661208202/01",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "MATCH",
+      "evidence": "Rev: 01",
+      "note": ""
+    },
+    "H5": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Date: 11/11/17",
+      "note": "Different date; 11/11/17 does not match 22.02.2020."
+    },
+    "H6": {
+      "verdict": "CONTRADICTED",
+      "evidence": "UNIT-3 / CROSSMEMBER LH 2DR XENON CAB",
+      "note": "Wrong unit (UNIT-3 vs UNIT-II)."
+    },
+    "H7": {
+      "verdict": "MATCH",
+      "evidence": "1",
+      "note": ""
+    },
+    "H8": {
+      "verdict": "MATCH",
+      "evidence": "CROSSMEMBER LH 2DR XENON CAB",
+      "note": ""
+    },
+    "H9": {
+      "verdict": "MATCH",
+      "evidence": "Shearing Machine",
+      "note": "Missing from header machine field but listed in tooling."
+    },
+    "H10": {
+      "verdict": "MATCH",
+      "evidence": "Power Press 800 Ton",
+      "note": ""
+    },
+    "H11": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No 500 Ton press anywhere in generated WI."
+    },
+    "H12": {
+      "verdict": "MATCH",
+      "evidence": "289661208202",
+      "note": ""
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Generated also leaves cycle time blank."
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "CROSSMEMBER LH 2DR XENON CAB",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "MATCH",
+      "evidence": "289661208202",
+      "note": ""
+    },
+    "H16": {
+      "verdict": "MATCH",
+      "evidence": "Revision | H6: 01",
+      "note": ""
+    },
+    "H17": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Rev Date | J6: 11/11/17",
+      "note": "Different revision date."
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "—",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Part list table has headers only; no rows."
+    },
+    "H20": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Part list table empty."
+    },
+    "H21": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Part list table empty."
+    },
+    "S1a": {
+      "verdict": "PARTIAL",
+      "evidence": "Collect all loose parts and place them together.",
+      "note": "Says 'loose parts' (assembly wording) instead of raw material."
+    },
+    "S1b": {
+      "verdict": "MATCH",
+      "evidence": "Perform inspection on surface condition.",
+      "note": "Step has no criteria, but the full defect list appears in incoming QC."
+    },
+    "S2": {
+      "verdict": "MATCH",
+      "evidence": "Check sheet thickness using micrometer.",
+      "note": "Value 1.5 mm is in incoming QC: 'Sheet thickness must be 1.5 mm.'"
+    },
+    "S3": {
+      "verdict": "MATCH",
+      "evidence": "Check raw material parameters as per F-QAD/SI/RMQP /1.",
+      "note": ""
+    },
+    "S4": {
+      "verdict": "PARTIAL",
+      "evidence": "Inspect hydraulic oil level on shearing machine.",
+      "note": "Range 100-130 mm missing."
+    },
+    "S5": {
+      "verdict": "PARTIAL",
+      "evidence": "Check air pressure.",
+      "note": "Range 3-5 kg/cm² missing."
+    },
+    "S6a": {
+      "verdict": "PARTIAL",
+      "evidence": "Measure length using measuring tape.",
+      "note": "Value 670 mm missing."
+    },
+    "S6b": {
+      "verdict": "PARTIAL",
+      "evidence": "Measure width using measuring tape.",
+      "note": "Value 200 mm missing."
+    },
+    "S7": {
+      "verdict": "PARTIAL",
+      "evidence": "Check thickness using micrometer.",
+      "note": "No value in this step; the only 1.5 mm in the generated WI is the incoming-sheet check."
+    },
+    "S8a": {
+      "verdict": "PARTIAL",
+      "evidence": "Inspect shut height on power press.",
+      "note": "800 Ton press is listed, but the draw operation is never named."
+    },
+    "S8b": {
+      "verdict": "PARTIAL",
+      "evidence": "Inspect shut height on power press.",
+      "note": "1285 mm missing."
+    },
+    "S9a": {
+      "verdict": "PARTIAL",
+      "evidence": "Inspect counter balance pressure.",
+      "note": "5-7 bar missing."
+    },
+    "S9b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No cushion pressure anywhere."
+    },
+    "S9c": {
+      "verdict": "PARTIAL",
+      "evidence": "Check clutch & brake pressure.",
+      "note": "6.5-7 kg/cm² missing."
+    },
+    "S10": {
+      "verdict": "PARTIAL",
+      "evidence": "Measure stroke length.",
+      "note": "350 mm missing."
+    },
+    "S11a": {
+      "verdict": "PARTIAL",
+      "evidence": "Inspect dimensions using height gauge.",
+      "note": "Generic dimension check, no value."
+    },
+    "S11b": {
+      "verdict": "PARTIAL",
+      "evidence": "Inspect dimensions using height gauge.",
+      "note": "Generic dimension check, no value."
+    },
+    "S12a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim/piercing operation and no 500 T press."
+    },
+    "S12b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "The generated WI has one set of press settings, which maps to draw (credited there)."
+    },
+    "S13a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S13b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S14": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S15a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim/piercing stage in the generated WI."
+    },
+    "S15b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim/piercing stage in the generated WI."
+    },
+    "S15c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim/piercing stage in the generated WI."
+    },
+    "S15d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim/piercing stage in the generated WI."
+    },
+    "S15e": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim/piercing stage in the generated WI."
+    },
+    "S15f": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim/piercing stage in the generated WI."
+    },
+    "S15g": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim/piercing stage in the generated WI."
+    },
+    "S15h": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim/piercing stage in the generated WI."
+    },
+    "S15i": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No trim/piercing stage in the generated WI."
+    },
+    "S16a": {
+      "verdict": "PARTIAL",
+      "evidence": "Power Press 800 Ton (M/C-5)",
+      "note": "800 Ton press is listed, but the restrike operation is never named."
+    },
+    "S16b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S17a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S17b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S18": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S19a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No restrike stage in the generated WI."
+    },
+    "S19b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No restrike stage in the generated WI."
+    },
+    "S19c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No restrike stage in the generated WI."
+    },
+    "S19d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No restrike stage in the generated WI."
+    },
+    "S20": {
+      "verdict": "MATCH",
+      "evidence": "Perform inspection on panel checker.",
+      "note": ""
+    },
+    "S21": {
+      "verdict": "MATCH",
+      "evidence": "Ensure parts are without rust & dent.",
+      "note": ""
+    },
+    "S22": {
+      "verdict": "PARTIAL",
+      "evidence": "Pack parts as per signed logistic sheet and packing standards.",
+      "note": "Dispatch omitted."
+    },
+    "T1": {
+      "verdict": "MATCH",
+      "evidence": "Shearing Machine",
+      "note": ""
+    },
+    "T2a": {
+      "verdict": "PARTIAL",
+      "evidence": "Power Press 800 Ton (M/C-5)",
+      "note": "Press listed, but not tied to a draw tool."
+    },
+    "T2b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T2c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T3a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T3b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T3c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T4a": {
+      "verdict": "PARTIAL",
+      "evidence": "Power Press 800 Ton (M/C-5)",
+      "note": "Press listed, but not tied to a restrike tool."
+    },
+    "T4b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T4c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T5": {
+      "verdict": "MATCH",
+      "evidence": "Perform inspection on panel checker.",
+      "note": "Not in the tooling list, but the panel checker appears in the steps."
+    },
+    "QI1": {
+      "verdict": "MATCH",
+      "evidence": "Surface must be free from rust, scale, crack, black patches, and pitting.",
+      "note": ""
+    },
+    "QI2": {
+      "verdict": "MATCH",
+      "evidence": "Sheet thickness must be 1.5 mm.",
+      "note": ""
+    },
+    "QI3": {
+      "verdict": "MATCH",
+      "evidence": "Check raw material parameters as per F-QAD/SI/RMQP /1.",
+      "note": "Present in steps, not in incoming QC."
+    },
+    "QF1a": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions must meet specified tolerances.",
+      "note": "Generic check, no value."
+    },
+    "QF1b": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions must meet specified tolerances.",
+      "note": "Generic check, no value."
+    },
+    "QF2a": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions must meet specified tolerances.",
+      "note": "Generic check, no value."
+    },
+    "QF2b": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions must meet specified tolerances.",
+      "note": "Generic check, no value."
+    },
+    "QF2c": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions must meet specified tolerances.",
+      "note": "Generic check, no value."
+    },
+    "QF2d": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions must meet specified tolerances.",
+      "note": "Generic check, no value."
+    },
+    "QF2e": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions must meet specified tolerances.",
+      "note": "Generic check, no value."
+    },
+    "QF2f": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions must meet specified tolerances.",
+      "note": "Generic check, no value."
+    },
+    "QF2g": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions must meet specified tolerances.",
+      "note": "Generic check, no value."
+    },
+    "QF3a": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions must meet specified tolerances.",
+      "note": "Generic check, no value."
+    },
+    "QF3b": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions must meet specified tolerances.",
+      "note": "Generic check, no value."
+    },
+    "QF3c": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions must meet specified tolerances.",
+      "note": "Generic check, no value."
+    },
+    "QF3d": {
+      "verdict": "PARTIAL",
+      "evidence": "All dimensions must meet specified tolerances.",
+      "note": "Generic check, no value."
+    },
+    "QF4": {
+      "verdict": "MATCH",
+      "evidence": "Perform inspection on panel checker.",
+      "note": "Present in steps."
+    },
+    "QF5": {
+      "verdict": "MATCH",
+      "evidence": "Ensure parts are without rust & dent.",
+      "note": "Present in steps."
+    },
+    "QF6": {
+      "verdict": "MATCH",
+      "evidence": "Pack parts as per signed logistic sheet and packing standards.",
+      "note": "Present in steps."
+    },
+    "R1": {
+      "verdict": "PARTIAL",
+      "evidence": "Surface Condition | Surface must be cleaned and treated as per standards.",
+      "note": "Defect generalised; rust remover and rust preventive not named."
+    },
+    "R2": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Thickness Out of Spec | Rework the sheet to meet thickness specifications.",
+      "note": "Golden says replace the sheet; generated says rework it, which is a different action."
+    },
+    "R3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Verify all assembly parts are loaded on fixture.",
+      "note": "New process step. The golden is a press-shop stage with no assembly fixture.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Clamp the fixture.",
+      "note": "New process step; the golden has no fixture clamping.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Verify max shut height.",
+      "note": "New check; the golden sets one fixed shut height per press.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Check min shut height.",
+      "note": "New check; not in the golden.",
+      "in_ppap": null
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Inspect liner dimensions.",
+      "note": "New inspection step; the golden mentions no liner.",
+      "in_ppap": null
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Check tool size dimensions.",
+      "note": "Loosely based on the tool sizes in the golden tooling list, but the golden has no such step, and no values are given.",
+      "in_ppap": null
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "Verify material specification.",
+      "note": "Overlaps the golden RMQP raw-material check.",
+      "in_ppap": null
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "No defects allowed in finished parts.",
+      "note": "Generic statement consistent with the golden.",
+      "in_ppap": null
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "NON_COMPLIANT",
+    "note": "All step, quality and rework text is in English. The golden uses Hindi (Devanagari) body text."
+  },
+  "summary": "The generated WI only covers the shearing stage and one generic press block. The trim & piercing (500 T) and restrike stages are missing, and every press setting and tool dimension is missing (shut heights 1285/1420/1400 mm, strokes 350/625/600 mm, pressures, all draw/trim/restrike dimensions), so an operator cannot set up or inspect the part. It also adds assembly-fixture steps and max/min shut-height and liner checks that do not exist in the golden, has wrong document/revision dates and unit, tells the operator to 'rework' an off-thickness sheet instead of replacing it, and is written in English instead of Hindi."
+}

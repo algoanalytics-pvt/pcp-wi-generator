@@ -1,0 +1,57 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP /'290058600101/01
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 01 | Date: 11/11/17
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / BKT ASSY JACK MTG | C4: 1 | E4: BKT ASSY JACK MTG | H4: Projection Weld Machine | K4: 290058600101
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: BKT ASSY JACK MTG | E6: 290058600101 | H6: 01 | J6: 11/11/17 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Receive material as per drawing requirement.
+E9: 2 | F9: Inspect dimensions as per supplier PDI report.
+E10: 3 | F10: Ensure surface condition is free from dent, damage, rust, and peel off.
+E11: 4 | F11: Perform projection welding on sub-assembly 1 to hex weld nut M8 and clamp jack.
+E12: 5 | F12: Check voltage parameters between 180-220 V.
+E13: 6 | F13: Verify pressure between 15-20 KG/CM².
+E14: 7 | F14: Inspect M8 hex weld nut for proper projection.
+E15: 8 | F15: Ensure welding quality is free from spatters, blow holes, and porosity.
+E16: 9 | F16: Perform full welding to final assembly.
+E17: 10 | F17: Check voltage parameters between 120-160 AMP.
+E18: 11 | F18: Inspect gas flow rate between 10-15 IPM.
+E19: 12 | F19: Verify wire feed rate between 30-60 M/MIN.
+E20: 13 | F20: Ensure wire size is 0.8.
+E21: 14 | F21: Check wire brand as per AWS 70 S 6.
+E22: 15 | F22: Inspect welding length of 180 mm.
+E23: 16 | F23: Perform visual inspection for surface condition.
+E24: 17 | F24: Conduct foam pasting as per visual check.
+E25: 18 | F25: Perform final inspection as per quality plan.
+E26: 19 | F26: Ensure parts are stored without rust and dent.
+E27: 20 | F27: Pack as per signed logistic sheet and packing standards.
+E28: TOOLING / EQUIPMENT
+E29: 1) | F29: Projection Weld Machine
+E30: 2) | F30: Manual Drilling Machine
+E31: QUALITY PARAMETERS
+E32: A) Incoming Quality Checks
+E33: 1. | F33: Assembly must have no cracks, damage, or rust anywhere.
+E34: 2. | F34: Surface condition must be free from dent, damage, rust, and peel off.
+E35: B) Finished Quality Checks
+E36: 1. | F36: Welding must be free from spatters, blow holes, and porosity.
+E37: 2. | F37: Total tack welding to assembly must be 6 nos.
+E38: 3. | F38: Final assembly must meet all dimensional requirements.
+A41: SR. | B41: PART NO. | E41: PART DESCRIPTION | N41: QTY
+A42: 1 | B42: 290058604002 | E42: Foam Packing | N42: 1
+A43: 2 | B43: 290058604001 | E43: Clamp JACK | N43: 1
+A44: 3 | B44: 290058604003 | E44: Bracket jack mtg front | N44: 1
+A46: REWORK INSTRUCTIONS
+A47: NO. | B47: DEFECT TYPE | F47: ACTION
+A48: 1 | B48: Surface Condition Defect | F48: Rework the surface to remove any dents or rust.
+A49: 2 | B49: Welding Quality Defect | F49: Rework the welds to ensure they are free from defects.
+A50: 3 | B50: Dimensional Defect | F50: Adjust dimensions as per drawing specifications.
+A52: LEGEND
+A53: 🚫 Don't Twist | B53: 🔩 Spec. Torque | D53: ⚠️ Important | E53: 🔧 Adjustment | G53: 🧴 Apply Adhesive | I53: 🛢️ Lubricate Oil | K53: 🟡 Lub. Grease | L53: 🔵 Apply Sealant | N53: ⭐ Vital Parts

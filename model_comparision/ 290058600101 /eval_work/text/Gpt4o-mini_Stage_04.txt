@@ -1,0 +1,54 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP /'290058600101/04
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 01 | Date: 11/11/17
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / CLAMP JACK | C4: 1 | E4: CLAMP JACK | H4: Shearing Machine | K4: 290058604001
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: CLAMP JACK | E6: 290058604001 | H6: 01 | J6: 11/11/17 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Verify the process control plan.
+E9: 2 | F9: Check the revision number and date.
+E10: 3 | F10: Ensure the prototype and pre-launch status is confirmed.
+E11: 4 | F11: Contact key personnel if needed.
+E12: 5 | F12: Check the part number and latest change level.
+E13: 6 | F13: Verify the part name and description.
+E14: 7 | F14: Confirm supplier and plant approval.
+E15: 8 | F15: Check the customer quality requirements.
+E16: 9 | F16: Ensure the surface condition is free from rust, scale, crack, black patches, and pitting.
+E17: 10 | F17: Measure the sheet thickness using a micrometer.
+E18: 11 | F18: Verify the material specification as FE410.
+E19: 12 | F19: Check raw material parameters as per quality plan.
+E20: 13 | F20: Perform shearing operation and measure length.
+E21: 14 | F21: Measure the width using a measuring tape.
+E22: 15 | F22: Check the thickness with a micrometer.
+E23: 16 | F23: Perform blanking operation and measure dimension.
+E24: 17 | F24: Check the shut height and stroke length.
+E25: 18 | F25: Verify the radius and thickness as per specifications.
+E26: 19 | F26: Ensure all dimensions are as per drawing specifications.
+E27: 20 | F27: Perform final inspection as per quality plan.
+E28: 21 | F28: Store parts without rust and dent.
+E29: TOOLING / EQUIPMENT
+E30: 1) | F30: Shearing Machine - 150 Ton
+E31: 2) | F31: Press - 150 Ton
+E32: QUALITY PARAMETERS
+E33: A) Incoming Quality Checks
+E34: 1. | F34: Surface must be free from rust, scale, crack, black patches, and pitting.
+E35: 2. | F35: Sheet thickness must be 3 mm.
+E36: B) Finished Quality Checks
+E37: 1. | F37: Dimensions must be as per drawing specifications.
+E38: 2. | F38: No burrs, scoring, or tool marks on the part surface.
+A41: SR. | B41: PART NO. | E41: PART DESCRIPTION | N41: QTY
+A42: 1 | B42: 290058604001 | E42: CLAMP JACK | N42: 1
+A44: REWORK INSTRUCTIONS
+A45: NO. | B45: DEFECT TYPE | F45: ACTION
+A46: 1 | B46: Surface Condition | F46: Parts must be cleaned and free from burr, scoring, and tool marks.
+A47: 2 | B47: Dimension Mismatch | F47: Rework parts to meet drawing specifications.
+A49: LEGEND
+A50: 🚫 Don't Twist | B50: 🔩 Spec. Torque | D50: ⚠️ Important | E50: 🔧 Adjustment | G50: 🧴 Apply Adhesive | I50: 🛢️ Lubricate Oil | K50: 🟡 Lub. Grease | L50: 🔵 Apply Sealant | N50: ⭐ Vital Parts

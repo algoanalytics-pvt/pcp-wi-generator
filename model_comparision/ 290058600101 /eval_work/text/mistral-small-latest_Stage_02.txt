@@ -1,0 +1,74 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP /'290058600101/02
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 01 | Date: 13.10.2025
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / BRACKET JACK MTG | C4: PP-010 to PP-090 | E4: BRACKET JACK MTG PROCESS | H4: Shearing Machine, Press 150 Ton, Press 75 Ton | K4: 290058604004
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: BRACKET JACK MTG | E6: 290058604004 | H6: 01 | J6: 13.10.2025 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Verify incoming raw material for rust, scale, cracks, black patches, and pitting as per control plan.
+E9: 2 | F9: Check sheet thickness using micrometer (LC=0.001mm) - target 2mm, frequency per lot.
+E10: 3 | F10: Verify material specification E34 as per control plan.
+E11: 4 | F11: Check raw material chemical and mechanical parameters as per F-QAD/SI/RMQP.
+E12: 5 | F12: Perform shearing operation to achieve length 1250mm using M. Tape, frequency per lot.
+E13: 6 | F13: Perform shearing operation to achieve width 263mm using M. Tape, frequency per lot.
+E14: 7 | F14: Verify sheared sheet thickness 2mm using micrometer, frequency per lot.
+E15: 8 | F15: Perform blanking operation on 150 Ton press to achieve dimension 146.5mm using Vernier Caliper.
+E16: 9 | F16: Set shut height to 385mm and stroke length to 60mm at start of production.
+E17: 10 | F17: Perform in-process inspection every hour (1 piece/hr) and last piece inspection as per RG-PRD-01.
+E18: 11 | F18: Perform piercing operation on 75 Ton press to achieve hole diameter 10.5mm using Vernier Caliper.
+E19: 12 | F19: Set shut height to 370mm and stroke length to 80mm at start of production.
+E20: 13 | F20: Perform in-process inspection every hour (1 piece/hr) and last piece inspection as per RG-PRD-01.
+E21: 14 | F21: Perform forming operation 1 on 150 Ton press to achieve dimension 115mm using Vernier Caliper.
+E22: 15 | F22: Set shut height to 497mm and stroke length to 117mm at start of production.
+E23: 16 | F23: Verify forming dimensions including radius R4, emboss 2 qty, and other dimensions as per control plan.
+E24: 17 | F24: Perform forming operation 2 on 150 Ton press to achieve dimension 180mm using Height Gauge.
+E25: 18 | F25: Set shut height to 417mm and stroke length to 102mm at start of production.
+E26: 19 | F26: Verify forming dimensions including 145mm, 115mm, emboss 2 qty, and other dimensions as per control plan.
+E27: 20 | F27: Perform piercing operation 2 on 150 Ton press to achieve 4 slots (8x25mm) using Vernier Caliper.
+E28: 21 | F28: Set shut height to 417mm and stroke length to 102mm at start of production.
+E29: 22 | F29: Verify all dimensions including 12mm, 75mm, and other dimensions using appropriate gauges.
+E30: 23 | F30: Perform final inspection as per quality plan using visual and panel checker methods.
+E31: 24 | F31: Store parts ensuring no rust or dents are present, segregate if required.
+E32: TOOLING / EQUIPMENT
+E33: 1) | F33: Shearing Machine
+E34: 2) | F34: Press 150 Ton
+E35: 3) | F35: Press 75 Ton
+E36: 4) | F36: Vernier Caliper
+E37: 5) | F37: Micrometer (LC=0.001mm)
+E38: 6) | F38: Height Gauge
+E39: 7) | F39: Radius Gauge
+E40: 8) | F40: Panel Checker
+E41: QUALITY PARAMETERS
+E42: A) Incoming Quality Checks
+E43: 1. | F43: Surface must be free from rust, scale, cracks, black patches, and pitting.
+E44: 2. | F44: Sheet thickness must be 2mm as per specification.
+E45: 3. | F45: Material specification must be E34.
+E46: 4. | F46: Chemical and mechanical parameters must meet F-QAD/SI/RMQP requirements.
+E47: B) Finished Quality Checks
+E48: 1. | F48: All dimensions must meet drawing specifications (146.5mm, 10.5mm, 115mm, 180mm, etc.).
+E49: 2. | F49: Hole diameters must be 10.5mm.
+E50: 3. | F50: Formed features must have correct radius R4 and emboss 2 qty.
+E51: 4. | F51: Surface must be free from burrs, tool marks, and scoring.
+E52: 5. | F52: Slots must be 8x25mm as per drawing.
+E53: 6. | F53: No cracks, damage, or rust on finished parts.
+A56: SR. | B56: PART NO. | E56: PART DESCRIPTION | N56: QTY
+A57: 1 | B57: 290058604004 | E57: BRACKET JACK MTG | N57: 1
+A59: REWORK INSTRUCTIONS
+A60: NO. | B60: DEFECT TYPE | F60: ACTION
+A61: 1 | B61: Rust or Scale | F61: Clean affected area with rust remover and apply anti-rust coating.
+A62: 2 | B62: Incorrect Dimension | F62: Adjust tooling/stopper and rework part to meet drawing specifications.
+A63: 3 | B63: Burr or Tool Marks | F63: Remove burrs using deburring tools and smooth surface with fine abrasive.
+A64: 4 | B64: Cracks or Damage | F64: Segregate cracked/damaged parts and scrap if beyond repair.
+A65: 5 | B65: Missing Hole | F65: Drill missing hole to specified diameter using appropriate tool.
+A66: 6 | B66: Incorrect Hole Position | F66: Reposition hole using drilling fixture or rework as per engineering instruction.
+A67: 7 | B67: Forming Defect | F67: Reform part using correct tooling or scrap if deformation is permanent.
+A69: LEGEND
+A70: 🚫 Don't Twist | B70: 🔩 Spec. Torque | D70: ⚠️ Important | E70: 🔧 Adjustment | G70: 🧴 Apply Adhesive | I70: 🛢️ Lubricate Oil | K70: 🟡 Lub. Grease | L70: 🔵 Apply Sealant | N70: ⭐ Vital Parts

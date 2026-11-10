@@ -1,0 +1,418 @@
+{
+  "model": "Gpt4o-mini",
+  "stage": "04",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / PCP /'290058600101/04",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Rev: 01",
+      "note": "Golden document revision is 00; 01 matches the prompt example, PPAP PCP says Rev. No.: 0."
+    },
+    "H5": {
+      "verdict": "MATCH",
+      "evidence": "Date: 11/11/17",
+      "note": ""
+    },
+    "H6": {
+      "verdict": "MATCH",
+      "evidence": "UNIT-3 / CLAMP JACK",
+      "note": ""
+    },
+    "H7": {
+      "verdict": "CONTRADICTED",
+      "evidence": "1",
+      "note": "Golden stage no. is 1-5."
+    },
+    "H8": {
+      "verdict": "PARTIAL",
+      "evidence": "CLAMP JACK",
+      "note": "'MANUFACTURING' dropped."
+    },
+    "H9": {
+      "verdict": "MATCH",
+      "evidence": "Shearing Machine",
+      "note": ""
+    },
+    "H10": {
+      "verdict": "MATCH",
+      "evidence": "Press - 150 Ton",
+      "note": "Not in the header machine field; found only in the tooling list."
+    },
+    "H11": {
+      "verdict": "MATCH",
+      "evidence": "290058604001",
+      "note": ""
+    },
+    "H12": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Cycle time field left blank, as in golden."
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": "CLAMP JACK",
+      "note": ""
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "290058604001",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Revision | 01",
+      "note": "Golden drawing revision is 00."
+    },
+    "H16": {
+      "verdict": "MATCH",
+      "evidence": "Rev Date | 11/11/17",
+      "note": ""
+    },
+    "H17": {
+      "verdict": "MATCH",
+      "evidence": "—",
+      "note": ""
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "290058604001",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "MATCH",
+      "evidence": "CLAMP JACK",
+      "note": ""
+    },
+    "H20": {
+      "verdict": "MATCH",
+      "evidence": "1",
+      "note": ""
+    },
+    "S1a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No raw-material receipt step; steps 1-8 are PCP admin checks."
+    },
+    "S1b": {
+      "verdict": "MATCH",
+      "evidence": "Ensure the surface condition is free from rust, scale, crack, black patches, and pitting.",
+      "note": ""
+    },
+    "S2": {
+      "verdict": "MATCH",
+      "evidence": "Measure the sheet thickness using a micrometer.",
+      "note": "3 mm value given in QI 2."
+    },
+    "S3": {
+      "verdict": "MATCH",
+      "evidence": "Verify the material specification as FE410.",
+      "note": ""
+    },
+    "S4": {
+      "verdict": "PARTIAL",
+      "evidence": "Check raw material parameters as per quality plan.",
+      "note": "Chemical/mechanical/physical and lab report not named."
+    },
+    "S5a": {
+      "verdict": "PARTIAL",
+      "evidence": "Perform shearing operation and measure length.",
+      "note": "No 1250 mm value."
+    },
+    "S5b": {
+      "verdict": "PARTIAL",
+      "evidence": "Measure the width using a measuring tape.",
+      "note": "No 140 mm value."
+    },
+    "S6": {
+      "verdict": "MATCH",
+      "evidence": "Perform shearing operation and measure length. ... Measure the width using a measuring tape.",
+      "note": ""
+    },
+    "S7": {
+      "verdict": "PARTIAL",
+      "evidence": "Perform blanking operation and measure dimension.",
+      "note": "150 T press only in tooling list, not bound to blanking."
+    },
+    "S8a": {
+      "verdict": "PARTIAL",
+      "evidence": "Perform blanking operation and measure dimension.",
+      "note": "No values."
+    },
+    "S8b": {
+      "verdict": "PARTIAL",
+      "evidence": "Perform blanking operation and measure dimension.",
+      "note": "No values."
+    },
+    "S8c": {
+      "verdict": "PARTIAL",
+      "evidence": "Perform blanking operation and measure dimension.",
+      "note": "No values."
+    },
+    "S8d": {
+      "verdict": "PARTIAL",
+      "evidence": "Perform blanking operation and measure dimension.",
+      "note": "No values."
+    },
+    "S9": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No piercing operation."
+    },
+    "S10a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming operation."
+    },
+    "S10b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming operation."
+    },
+    "S10c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming operation."
+    },
+    "S10d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming operation."
+    },
+    "S10e": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No forming operation."
+    },
+    "S11": {
+      "verdict": "PARTIAL",
+      "evidence": "Verify the radius and thickness as per specifications.",
+      "note": "No R3 value, no R gauge."
+    },
+    "S12": {
+      "verdict": "PARTIAL",
+      "evidence": "Perform final inspection as per quality plan.",
+      "note": "Panel checker not mentioned."
+    },
+    "S13": {
+      "verdict": "MATCH",
+      "evidence": "No burrs, scoring, or tool marks on the part surface.",
+      "note": "Found in QF 2."
+    },
+    "S14": {
+      "verdict": "MATCH",
+      "evidence": "Store parts without rust and dent.",
+      "note": ""
+    },
+    "T1": {
+      "verdict": "MATCH",
+      "evidence": "Shearing Machine - 150 Ton",
+      "note": "Tonnage added; listed as extra content."
+    },
+    "T2a": {
+      "verdict": "PARTIAL",
+      "evidence": "Press - 150 Ton",
+      "note": "Operations not named in tooling list."
+    },
+    "T2b": {
+      "verdict": "PARTIAL",
+      "evidence": "Press - 150 Ton",
+      "note": "Piercing never named."
+    },
+    "T2c": {
+      "verdict": "PARTIAL",
+      "evidence": "Press - 150 Ton",
+      "note": "Forming never named."
+    },
+    "T3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T4": {
+      "verdict": "MATCH",
+      "evidence": "Measure the sheet thickness using a micrometer.",
+      "note": "Named in steps, not tooling list."
+    },
+    "T5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T8": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI1": {
+      "verdict": "MATCH",
+      "evidence": "Surface must be free from rust, scale, crack, black patches, and pitting.",
+      "note": ""
+    },
+    "QI2": {
+      "verdict": "MATCH",
+      "evidence": "Sheet thickness must be 3 mm.",
+      "note": ""
+    },
+    "QI3": {
+      "verdict": "MATCH",
+      "evidence": "Verify the material specification as FE410.",
+      "note": "Found in step 11."
+    },
+    "QI4": {
+      "verdict": "PARTIAL",
+      "evidence": "Check raw material parameters as per quality plan.",
+      "note": "Properties and lab report not named."
+    },
+    "QF1": {
+      "verdict": "MATCH",
+      "evidence": "Dimensions must be as per drawing specifications.",
+      "note": ""
+    },
+    "QF2": {
+      "verdict": "MATCH",
+      "evidence": "No burrs, scoring, or tool marks on the part surface.",
+      "note": ""
+    },
+    "QF3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF4": {
+      "verdict": "PARTIAL",
+      "evidence": "Verify the radius and thickness as per specifications.",
+      "note": "No R3 value."
+    },
+    "QF5": {
+      "verdict": "MATCH",
+      "evidence": "Store parts without rust and dent.",
+      "note": ""
+    },
+    "R1": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Only rework row on surface addresses burr/scoring, not rust/scale."
+    },
+    "R2": {
+      "verdict": "PARTIAL",
+      "evidence": "Surface Condition | Parts must be cleaned and free from burr, scoring, and tool marks.",
+      "note": "Defect generalised; action vague (no grinder/file)."
+    },
+    "R3": {
+      "verdict": "PARTIAL",
+      "evidence": "Dimension Mismatch | Rework parts to meet drawing specifications.",
+      "note": "Rework matches reprocess; segregation dropped."
+    },
+    "R4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Verify the process control plan. ... Ensure the prototype and pre-launch status is confirmed.",
+      "note": "Steps 1-8 are new admin process steps built from PCP header fields (revision, prototype status, key contact, supplier approval, customer quality).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Shearing Machine - 150 Ton",
+      "note": "Tonnage assigned to the shearing machine; golden and PPAP give none.",
+      "in_ppap": false
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Check the shut height and stroke length.",
+      "note": "New press-setting check (no values) under blanking.",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Check the thickness with a micrometer.",
+      "note": "New post-shearing thickness check; also 'radius and thickness' in step 18.",
+      "in_ppap": true
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "NON_COMPLIANT",
+    "note": "Step, quality and rework text is entirely English."
+  },
+  "summary": "Only incoming checks, shearing and blanking survive, and almost without values: no 1250 x 140 blank size, no blanking dimensions, and no piercing or forming operation at all, so the 10.5 mm hole, forming dimensions, 90±1° angle and R3 are lost. Header has revision 01 instead of 00 and stage 1 instead of 1-5, eight PCP-admin steps replace the first process steps, and the text is English."
+}

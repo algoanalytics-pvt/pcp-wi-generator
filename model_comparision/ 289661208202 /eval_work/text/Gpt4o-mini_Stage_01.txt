@@ -1,0 +1,56 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / 289661208202/01
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 01 | Date: 11/11/17
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / CROSSMEMBER LH 2DR XENON CAB | C4: 1 | E4: CROSSMEMBER LH 2DR XENON CAB | H4: Power Press 800 Ton | K4: 289661208202
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: CROSSMEMBER LH 2DR XENON CAB | E6: 289661208202 | H6: 01 | J6: 11/11/17 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Collect all loose parts and place them together.
+E9: 2 | F9: Verify all assembly parts are loaded on fixture.
+E10: 3 | F10: Clamp the fixture.
+E11: 4 | F11: Perform inspection on surface condition.
+E12: 5 | F12: Check sheet thickness using micrometer.
+E13: 6 | F13: Verify material specification.
+E14: 7 | F14: Check raw material parameters as per F-QAD/SI/RMQP /1.
+E15: 8 | F15: Inspect hydraulic oil level on shearing machine.
+E16: 9 | F16: Check air pressure.
+E17: 10 | F17: Measure length using measuring tape.
+E18: 11 | F18: Measure width using measuring tape.
+E19: 12 | F19: Check thickness using micrometer.
+E20: 13 | F20: Inspect shut height on power press.
+E21: 14 | F21: Verify max shut height.
+E22: 15 | F22: Check min shut height.
+E23: 16 | F23: Inspect counter balance pressure.
+E24: 17 | F24: Check clutch & brake pressure.
+E25: 18 | F25: Measure stroke length.
+E26: 19 | F26: Inspect liner dimensions.
+E27: 20 | F27: Check tool size dimensions.
+E28: 21 | F28: Inspect dimensions using height gauge.
+E29: 22 | F29: Perform inspection on panel checker.
+E30: 23 | F30: Ensure parts are without rust & dent.
+E31: 24 | F31: Pack parts as per signed logistic sheet and packing standards.
+E32: TOOLING / EQUIPMENT
+E33: 1) | F33: Power Press 800 Ton (M/C-5)
+E34: 2) | F34: Shearing Machine
+E35: QUALITY PARAMETERS
+E36: A) Incoming Quality Checks
+E37: 1. | F37: Surface must be free from rust, scale, crack, black patches, and pitting.
+E38: 2. | F38: Sheet thickness must be 1.5 mm.
+E39: B) Finished Quality Checks
+E40: 1. | F40: All dimensions must meet specified tolerances.
+E41: 2. | F41: No defects allowed in finished parts.
+A44: SR. | B44: PART NO. | E44: PART DESCRIPTION | N44: QTY
+A46: REWORK INSTRUCTIONS
+A47: NO. | B47: DEFECT TYPE | F47: ACTION
+A48: 1 | B48: Surface Condition | F48: Surface must be cleaned and treated as per standards.
+A49: 2 | B49: Thickness Out of Spec | F49: Rework the sheet to meet thickness specifications.
+A51: LEGEND
+A52: 🚫 Don't Twist | B52: 🔩 Spec. Torque | D52: ⚠️ Important | E52: 🔧 Adjustment | G52: 🧴 Apply Adhesive | I52: 🛢️ Lubricate Oil | K52: 🟡 Lub. Grease | L52: 🔵 Apply Sealant | N52: ⭐ Vital Parts

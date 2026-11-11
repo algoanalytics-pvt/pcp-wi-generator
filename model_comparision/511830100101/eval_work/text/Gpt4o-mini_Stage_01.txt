@@ -1,0 +1,54 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP / `'511830100101-01
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 01 | Date: 11/11/17
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / BRACKET ASSY,ACCELERATOR PEDAL MTG | C4: 1 | E4: BRACKET ASSY,ACCELERATOR PEDAL MTG | H4: Press Machine | K4: `511830100101
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: BRACKET ASSY,ACCELERATOR PEDAL MTG | E6: `511830100101 | H6: 01 | J6: 11/11/17 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Collect all loose parts and place them together.
+E9: 2 | F9: Verify all assembly parts are loaded on fixture.
+E10: 3 | F10: Clamp the fixture.
+E11: 4 | F11: Perform quality checks as per incoming quality parameters.
+E12: 5 | F12: Inspect surface condition for rust, scale, crack, black patches, and pitting.
+E13: 6 | F13: Measure sheet thickness using a micrometer.
+E14: 7 | F14: Check material specification for Fe410.
+E15: 8 | F15: Perform raw material parameters checks as per F-QAD/SI/RMQP.
+E16: 9 | F16: Conduct shearing operation on shearing machine.
+E17: 10 | F17: Check length, width, and thickness as per specifications.
+E18: 11 | F18: Perform blanking operation on press machine.
+E19: 12 | F19: Set shut height and check max and min shut heights.
+E20: 13 | F20: Measure stroke length.
+E21: 14 | F21: Check counter balance pressure and clutch & brake pressure.
+E22: 15 | F22: Inspect liner dimensions and tool size.
+E23: 16 | F23: Conduct visual inspection for appearance and free from burr on cut edge.
+E24: 17 | F24: Perform projection welding and check hex weld.
+E25: 18 | F25: Conduct torque checks.
+E26: 19 | F26: Perform CO2 tack welding and ensure proper tack.
+E27: 20 | F27: Conduct final inspection as per quality plan.
+E28: TOOLING / EQUIPMENT
+E29: 1) | F29: Press Machine on 200 Ton (Machine-06)
+E30: 2) | F30: Shearing Machine
+E31: QUALITY PARAMETERS
+E32: A) Incoming Quality Checks
+E33: 1. | F33: Assembly must have no cracks, damage, or rust anywhere.
+E34: 2. | F34: No wrinkles on pressed parts.
+E35: B) Finished Quality Checks
+E36: 1. | F36: Total dimensions must meet specifications.
+E37: 2. | F37: No burrs at cut edges.
+E38: 3. | F38: All welds must be visually inspected.
+A41: SR. | B41: PART NO. | E41: PART DESCRIPTION | N41: QTY
+A43: REWORK INSTRUCTIONS
+A44: NO. | B44: DEFECT TYPE | F44: ACTION
+A45: 1 | B45: Surface Condition | F45: Clean rusted areas and ensure no cracks or damages.
+A46: 2 | B46: Dimension Mismatch | F46: Adjust dimensions as per specifications.
+A47: 3 | B47: Weld Missing | F47: Ensure all welds are completed as per standards.
+A49: LEGEND
+A50: 🚫 Don't Twist | B50: 🔩 Spec. Torque | D50: ⚠️ Important | E50: 🔧 Adjustment | G50: 🧴 Apply Adhesive | I50: 🛢️ Lubricate Oil | K50: 🟡 Lub. Grease | L50: 🔵 Apply Sealant | N50: ⭐ Vital Parts

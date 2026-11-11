@@ -1,0 +1,45 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP /2654 7220 8237/8238N/01
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 02 | Date: 11/11/17
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / SUPPORT LH/RH DOOR OUTER HANDLE | C4: 1 | E4: SUPPORT LH/RH DOOR OUTER HANDLE | H4: S-06220 | K4: 2654 7220 8237/8238N
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: SUPPORT LH/RH DOOR OUTER HANDLE | E6: 2654 7220 8237/8238N | H6: 02 | J6: 11/11/17 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Collect all loose parts and place them together.
+E9: 2 | F9: Verify Part Name / Description : SUPPORT LH/RH DOOR OUTER HANDLE and Fixture availability.
+E10: 3 | F10: Clamp the fixture and verify Fixture Date / Approval if required.
+E11: 4 | F11: Load parts onto fixture as per PCP instructions.
+E12: 5 | F12: Perform required operations and checks as per control plan for each step.
+E13: 6 | F13: Unclamp the fixture and inspect the completed assembly.
+E14: 7 | F14: Ensure all specified process steps are completed and pass to next stage if required.
+E15: TOOLING / EQUIPMENT
+E16: 1) | F16: Fixture for Support LH/RH Door Outer Handle (Fixture No. 2654 7220 8237/8238N)
+E17: 2) | F17: Date Code/Approval Card (if applicable)
+E18: QUALITY PARAMETERS
+E19: A) Incoming Quality Checks
+E20: 1. | F20: All required components present as per bill of materials.
+E21: 2. | F21: No damage to parts on arrival.
+E22: B) Finished Quality Checks
+E23: 1. | F23: Complete assembly of support LH/RH door outer handle with correct orientation.
+E24: 2. | F24: No loose fasteners after assembly.
+E25: 3. | F25: No visible defects on surface of handle and attach points.
+E26: 4. | F26: Parts aligned within tolerance per PCP.
+A29: SR. | B29: PART NO. | E29: PART DESCRIPTION | N29: QTY
+A30: 1 | B30: 2654 7220 8237/8238N | E30: SUPPORT LH/RH DOOR OUTER HANDLE | N30: 1
+A32: REWORK INSTRUCTIONS
+A33: NO. | B33: DEFECT TYPE | F33: ACTION
+A34: 1 | B34: Part Missing | F34: Re-check fixture setup and ensure all components are present and correctly loaded.
+A35: 2 | B35: Weld/Attachment Missing | F35: Reapply attachment as per control plan and verify secure fit.
+A36: 3 | B36: Misalignment | F36: Realign part to specification using appropriate alignment jigs.
+A37: 4 | B37: Surface Defect | F37: Polish or repair surface per approved method and retest.
+A38: 5 | B38: Damaged Part | F38: Quarantine and replace damaged component, then reassemble as per PCP.
+A40: LEGEND
+A41: 🚫 Don't Twist | B41: 🔩 Spec. Torque | D41: ⚠️ Important | E41: 🔧 Adjustment | G41: 🧴 Apply Adhesive | I41: 🛢️ Lubricate Oil | K41: 🟡 Lub. Grease | L41: 🔵 Apply Sealant | N41: ⭐ Vital Parts

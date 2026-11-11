@@ -1,0 +1,679 @@
+=== SHEET: LABLE ===
+A7: Part No:- | C7: 511830100101
+A9: Part Name:- | C9: BRACKET ASSY,ACCELERATOR PEDAL MTG
+=== SHEET: COVER ===
+A1: SHARADA INDUSTRIES
+A11: Part No:- | C11: 511830100101
+A13: Dwg. No:- | C13: '511830100101
+A15: Part Name:- | C15: BRACKET ASSY,ACCELERATOR PEDAL MTG
+A17: Mod No. & Date:- | C17: B/25.03.2022
+A19: Document:- | C19: PPAP (Production Part Approval Process)
+=== SHEET: Document Review ===
+A1: PPAP- REQUIREMENTS CHECKLIST
+A4: Part Name -  BRACKET ASSY,ACCELERATOR PEDAL MTG
+A5: Part Number - '511830100101
+A6: Mod No./Date : B/25.03.2022
+A7: Sr. No. | B7: REQUIREMENTS | C7: DOCUMENTS/REMARKS
+A8: 1 | B8: Approved Drawing | C8: S
+A9: 2 | B9: Process Flow Diagram | C9: S
+A10: 3 | B10: Process FMEA | C10: S
+A11: 4 | B11: Process Control Plan | C11: S
+A12: 5 | B12: Dim Report | C12: S
+A13: 6 | B13: Process Cap (Cp Cpk) | C13: NA
+A14: 7 | B14: R&R (MSA) | C14: S
+A15: 8 | B15: Limit Sample List | C15: NA
+A16: 9 | B16: Limit Sample Validation | C16: NA
+A17: 10 | B17: Checking Aids (Gauges) | C17: S
+A18: 11 | B18: Bulk Material Apprvl | C18: NA
+A19: 12 | B19: RM Source List | C19: NA
+A20: 13 | B20: Tier 2 Source list | C20: NA
+A21: 14 | B21: Tier 2 PSW | C21: NA
+A22: 15 | B22: Complaints (Q&R) | C22: NA
+A23: 16 | B23: Visual Controls | C23: NA
+A24: 17 | B24: Work Instruction | C24: NA
+A25: 18 | B25: Quality Plan | C25: S
+A26: 19 | B26: RM Test Rept | C26: S
+A27: 20 | B27: ARAI Report | C27: NA
+A28: 21 | B28: Logistic Sheet (Sign Off) | C28: S
+A29: 22 | B29: ERC Green Rept | C29: NA
+A30: 23 | B30: Aesthetic Approval | C30: NA
+A31: 24 | B31: Fitment Report | C31: NA
+A32: 25 | B32: Run @ Rate | C32: R
+A33: 26 | B33: PSW (PPAP) Sign off | C33: S
+A34: 27 | B34: MASTER SAMPLE ON INSPECTION FIXT./ PHOTOS OF TOOLS | C34: S
+A35: 28 | B35: FRQUENCY FOR TOOL MAINTANACE. | C35: S
+A36: 29 | B36: SURFACE PROTECTION REPORT | C36: S
+B39: Reviewed by (Name):
+B40: Reviewed  by (Sign) :
+=== SHEET: 1)Approved Drawing ===
+=== SHEET: 2)PFD ===
+A1: Sharada Industries
+ W-199 B 'S' Block MIDC Bhosari, Pune 411 026 | C1: PROCESS FLOW DIAGRAM | E1: Format No. : F-DVP-6
+E2: Rev. No. : 0
+E3: Rev. Date: 11/11/17
+A4: Assy Part Name : | B4: BRACKET ASSY,ACCELERATOR PEDAL MTG | C4: Mod :- | D4: B | E4: Department.:-DEVELOPMENT
+A5: Assy Part No.   : | B5: `511830100101 | C5: Mod. Date: | D5: 25.03.2022
+A6: Process Sheet No.:- | B6: SI/PFD/'`511830100101/01 | C6: Process Sheet Date.:- | D6: 24.01.2023
+A7: Sub Part No. / Part Name: | B7: 511830103301 | C7: Rev. No./ Rev. Date: | D7: 0/24.01.2023
+A8: Operation No /  Brief Desc. | B8: Incoming Sources of Variations | C8: Process Flow Diagram | D8: Product Characteristics                   (Desired Outcome) | E8: Process Characteristics
+A9: 010. MATERIAL RECEIPT. | C9: ssss
+A10: Receive child part as per the requirement. | B10: 1. Damaged or rusty material. | D10: All specifications as per drawing. | E10: 01. Supplier PDI report.
+A11: SHARADA INDUSTRIES  ,                          UNIT-III
+A13: 020.SHEARING | B13: 1.Wrong Type/ Capacity Selection | D13: 1. THK: 3MM | E13: 1.Stopper condition.
+A14: To Obtain Required Blank | B14: 2.Ram Parallelism Not Ok | D14: 2. WIDTH: 305 | E14: 2.Position of top die up to setting blocks
+A15: on SHEARING MACHINE | B15: 3.Shut Height Not as per Data sheet | D15: 3. Length : 1250 | E15: 3.Shut height as per Set Up Approval Sheet.
+B16: 4.Width of strip less or more. | E16: 4.Tool condition
+A17: UNIT I SHARADA IND. | B17: 5.Shearing Burr, dent marks
+A19: 030.BLANKING | B19: 1.Wrong Type/ Capacity Selection | D19: 1. DIMN 293.6 | E19: 1.Stopper condition.
+A20: To Obtain Required Blank | B20: 2.Ram Parallelism Not Ok | D20: 2. Dimn: 87.5 | E20: 2.Position of top die up to setting blocks
+A21: on Power Press M/C no-03 | B21: 3.Shut Height Not as per Data sheet | D21: 3. Dimn: 121.5 | E21: 3.Shut height as per Set Up Approval Sheet.
+A22: Tonnage - 250 T | B22: 4.Width of strip less or more. | D22: 4. RADIUS : R5 TYP | E22: 4.Tool condition
+A23: UNIT I SHARADA IND. | B23: 5.Shearing Burr, dent marks | D23: 5. RADIUS : R10 TYP
+D24: 7.Free from Burr, crack, Scoring marks, 
+ Dent & Damages.
+A26: 040. PIERCING | B26: 1.Wrong Type/ Capacity Selection | D26: 1. 3Hole Dia : Ø8 | E26: 1. Stopper condition
+A27: To Obtain Required Blank | B27: 2.Ram Parallelism Not Ok | D27: 2.C.D :60, 84, 26, 43, 31 , 49 | E27: 2. Tool condition & setting
+A28: on Power Press M/C no-03 | B28: 3.Shut Height Not as per Data sheet | D28: 3. DIMN : 15, 12.4
+A29: Tonnage-  150T (UNIT I SHARADA IND.) | B29: 4.Width of strip less or more. | D29: 4. SLOT: 9X15, 20X12
+A30: 050.FORMING I | B30: 1.Wrong Type/ Capacity Selection | D30: 1.ANGLE: 157.75º | E30: 1. Stopper condition
+A31: on Power Press M/C no-03 | B31: 2.Ram Parallelism Not Ok | D31: 2. ANGLE: 120.75º | E31: 2. Tool condition & setting
+A32: Tonnage-  400T (UNIT I SHARADA IND.) | B32: 3.Shut Height Not as per Data sheet | D32: 3. Dimn: 45.5 | E32: 3. Stroke Length setting.
+D33: 4. Dimn:20.8
+D34: 5. Dimn: 283.50
+A36: 060.FORMING II | B36: 1.Wrong Type/ Capacity Selection | D36: 1.ANGLE: 90º | E36: 1. Stopper condition
+A37: on Power Press M/C no-03 | B37: 2.Ram Parallelism Not Ok | D37: 2. ANGLE: 45º, 8º | E37: 2. Tool condition & setting
+A38: Tonnage-  250T (UNIT I SHARADA IND.) | B38: 3.Shut Height Not as per Data sheet | D38: 3. Dimn: 85, 69 | E38: 3. Stroke Length setting.
+D39: 4. Dimn: 191.6, 99,
+D40: 5. Dimn: 83.5 , 29
+A42: 070. PROJECTION WELDING | B42: 1.Hole missing | D42: 1.Stud Speci: M8 not 5 nos each | E42: 1.Welding current: 7.5 KAM
+A43: Weld the 02 nos  M6 Nut Each | B43: 2.Mixup material | D43: 3.Free of taper weld | E43: 2.Water Flow: 15 LPM
+A44: on Projection welding machine | B44: 3.Wrong specification stud recived | D44: 4.Free of spatter on surface | E44: 3.Squieze: 30
+A45: Unit II | B45: 4.Damage material | E45: 4.Take carban test before start operation
+A46: 080. CO2 TACK WELDING  WELDING | B46: 1.Base plate or Nut  Not ok | D46: 1.Tack welding to M6 weld nut. | E46: 1. Welding Parameters
+A47: Weld the 02 nos  M6 Nut Each | B47: 2.Part  not as per drawing. | D47: 2.Free from porosity, cracks, | E47: 2. Anti spatter spray
+A48: on CO2  welding machine | D48: Undercut, Blow holes, etc. | E48: 3. Qualified Welder
+A49: 090.PLATING | B49: 1. Passivation not proper | D49: PLATING THK 55 TO 65 MICRON | E49: DFT METER
+A50: BC-PC20 AS PER TS10812 | B50: 2.Powder coating  not ok.
+A51: 100. INSPECTION. | B51: 1. Scratches, Crack, Dent & Damages. | D51: 1. All specifications as per the drawings. | E51: 1. Inspection done manually.
+B52: 2. Part not as per drawing. | E52: Visual Inspection.
+A53: 110. STORAGE.
+SHARADA INDUSTRIES ,            
+UNIT-III | B53: 1. Rust on Parts. | D53: 1. Free from rust, burr, scoring. | E53: 1. R.P.O. application on parts.
+B54: 2. Material damaged in previous operations due to handling. | D54: 2. Part should be free from dents, damage. | E54: 2. Material to be stored at proper location.
+A55: 120. PACKING &  DISPATCH | B55: 1. Storage in improper conditions and improper place. | D55: 1. Material to be packed as per packing standards and logistic sheet. | E55: 1. Manually.
+A56: SHARADA INDUSTRIES , 
+UNIT-III | B56: 2. Packing may get opened up.
+A57: TRANSPORT | B57: INSPECTION | C57: PROCESS | D57: PROCESS CUM INSP. | E57: STORAGE
+=== SHEET: LASER FMEA ===
+A1: Sharada Industries. W-199B, S Block, MIDC, Bhosari Pune - 411 026 | F1: POTENTIAL FAILURE MODE AND EFFECT ANALYSIS (PROCESS FMEA) | M1: Format No. : F-DVP-8
+M2: Rev. No. : 02
+M3: Rev. Date: 2/01/13
+A4: ASSY NAME: | C4: BRACKET | F4: ASSY NO: | H4: '264349203306 | L4: FMEA NUMBER: | M4: '264349203306/ 01
+A5: SUB PART  NAME: | L5: FMEA DATE: | M5: 07.03.2017
+A6: SUB PART NO: | L6: KEY DATE: | P6: --
+A7: MODEL YEAR /VEHICLE(S): | D7: LPT 613 | F7: MOD.STATUS / NO: | I7: NR/19.06.2016 | L7: REV . NO: | N7: 00 | O7: REV DATE: | R7: --
+A8: CORE TEAM: | B8: KAP/PDA/SSP/RP/HAI/APK/MSP | I8: PROCESS RESPOSIBLITY : | L8: Mrs.Kanchan Pant | N8: PAGE: | O8: 01
+A9: Item | B9: Potential Failure Mode | C9: Potential Effect(s) of Failure | D9: SEVER | E9: CLASS | F9: Potential cause(s) /Mechanism(s) of Failure | G9: OCCUR | H9: Current Process Control Prevention | I9: Current Process Control Detection | J9: DETEC | K9: RPN | L9: Recommended Action(s) | M9: Responsibility & Target Completion Date | N9: ACTION RESULTS
+N10: Action Taken | O10: SEV | P10: OCC | Q10: DET | R10: R        P       N
+B11: Blank Length                     Blank Width                     Blank Thk           Blank Radius               More/ Less | C11: Dimension Variation in subsequence process | D11: 6 | E11: …. | F11: Improper M/C Condition & Setting | G11: 2 | H11: M/C maintenance done as per PM Plan. Setting done as per WI | I11: FPIR / IPIR | J11: 5 | K11: 60 | L11: ………. | M11: ………. | N11: ………. | O11: ….. | P11: ….. | Q11: ….. | R11: …..
+F12: Improper Sheet Alignment to Stopper | G12: 2 | H12: Trained Operator | J12: 5 | K12: 60 | L12: ………. | M12: ………. | N12: ………. | O12: ….. | P12: ….. | Q12: ….. | R12: …..
+A13: Laser Cutting Blank With Holes. | B13: Hole C.D.               Hole Diameter               more/ less | C13: Dimension Variation in subsequence process. | D13: 6 | E13: …. | F13: Improper M/C Condition & Setting | G13: 2 | H13: M/C maintenance done as per PM Plan. Setting done as per WI | I13: FPIR / IPIR | J13: 5 | K13: 60 | L13: ………. | M13: ………. | N13: ………. | O13: ….. | P13: ….. | Q13: ….. | R13: …..
+F14: Improper Sheet Alignment to Stopper | G14: 2 | H14: Trained Operator | J14: 5 | K14: 60 | L14: ………. | M14: ………. | N14: ………. | O14: ….. | P14: ….. | Q14: ….. | R14: …..
+B15: Burr, Sheet Burn,                       Serratiom Marks, Dent & Damage | C15: Problem in subsequence process | D15: 3 | E15: …. | F15: Improper Gas Mixture | G15: 3 | H15: Proper Gas Mixture to be set as per W/I before process | I15: FPIR / IPIR | J15: 7 | K15: 63 | L15: ………. | M15: ………. | N15: ………. | O15: ….. | P15: ….. | Q15: ….. | R15: …..
+A16: To get Blank, Holes position without surface defects. | C16: Fittment Problem | D16: 6 | F16: Improper Laser Tip / Sharpness setting.     Defective / Damage Laser Tip | G16: 2 | H16: Proper set sharpness of Laser Gas / Tip.                      Replace Laser Tip As per maintenance plan. | I16: FPIR / IPIR / | J16: 5 | K16: 60 | L16: ………. | M16: ………. | N16: ………. | O16: ….. | P16: ….. | Q16: ….. | R16: …..
+C17: Fittment Problem | D17: 6 | F17: Improper Laser Tip / Sharpness setting.     Defective / Damage Laser Tip | G17: 2 | H17: Proper set sharpness of Laser Gas / Tip.                      Replace Laser Tip As per maintenance plan. | I17: FPIR / IPIR / | J17: 5 | K17: 60 | L17: ………. | M17: ………. | N17: ………. | O17: ….. | P17: ….. | Q17: ….. | R17: …..
+B18: Hole, Slot          missing / Partial, Oblong Hole / Offcut Blank | C18: Fittment Problem | D18: 6 | E18: …. | F18: Hole / Slot missing in Programm | G18: 2 | H18: Inspection of Programms before loading in M/C | I18: FPIR / IPIR | J18: 5 | K18: 60 | L18: ………. | M18: ………. | N18: ………. | O18: ….. | P18: ….. | Q18: ….. | R18: …..
+F19: Improper Programm Selection | G19: 2 | H19: Trained Operator | J19: 5 | K19: 60 | L19: ………. | M19: ………. | N19: ………. | O19: ….. | P19: ….. | Q19: ….. | R19: …..
+A20: Prepared By: | B20: SURESH UMARANI
+=== SHEET: FMEA ===
+A1: Sharada Industries. W-199B, S Block, MIDC, Bhosari Pune - 411 026 | F1: POTENTIAL FAILURE MODE AND EFFECT ANALYSIS (PROCESS FMEA) | N1: Format No. : F-DVP-8
+N2: Rev. No. : 0
+N3: Rev. Date:  11/11/17
+A4: ASSY NAME: | C4: BRACKET ASSY,ACCELERATOR PEDAL MTG | F4: ASSY NO: | H4: 511830100101 | L4: FMEA NUMBER: | O4: 511830100101/ 02/01
+A5: SUB PART  NAME: | D5: BRACKET,ACCELERATOR PEDAL MTG | L5: FMEA DATE: | O5: 24.01.2023
+A6: SUB PART NO: | D6: `511830103301 | L6: KEY DATE: | O6: ……
+A7: MODEL YEAR /VEHICLE(S): | D7: LPT 1112 RDE BSVI | F7: MOD.STATUS / NO: | I7: b/28.04.2022 | L7: REV . NO: | O7: 0 | P7: REV DATE: | Q7: 24.01.2023
+A8: CORE TEAM: | C8: KAP/PDA/SSP/VB/PA/AS | I8: PROCESS RESPOSIBLITY : | L8: Mrs.Kanchan Pant | P8: PAGE: | Q8: 3
+A9: OP.NO. | B9: PROCESS FUNCTION | C9: REQUIREMENTS | D9: POTENTIAL FAILURE MODE | E9: POTENTIAL EFFECT(s) OF FAILURE. 
+1. END USER
+2 MFG./ASSEMBLY
+3. SAFETY | F9: SEVERITY | G9: CLASS | H9: POTENTIAL CAUSE(S) / MECHANISM(S) OF FAILURE MODE | I9: CURRENT PROCESS CONTROL PREVENTION | J9: OCCURANCE | K9: CURRENT PROCESS CONTROL DETECTION | L9: DETECTION | M9: SOD | N9: RPN | O9: RECOMMANDED ACTION(S) | P9: RESP.& TARGET COMPLETITION DATE | Q9: ACTION TAKEN | R9: SEVERITY | S9: OCCURANCE | T9: DETECTION | U9: RPN
+A13: 010 | B13: RAW MATERIAL
+ UNIT-II SHARADA INDUSTRIES. | C13: Thickness | D13: Thickness Undersize | E13: 01. Rejection of Material. 
+2. Problem in succesive operation. | F13: 7 | H13: Improper processing at supplier's / manufacturer's end. | I13: Mill TC by supplier's / manufacturer's end. | J13: 1 | K13: Inspection at Receiving stage & checked as per Raw Material quality plan. | L13: 7 | M13: 717 | N13: 49 | O13: Third Party inspection. Lab TC | P13: --- | Q13: --- | R13: --- | S13: --- | T13: --- | U13: ---
+D14: Thickness Oversize. | E14: 01. Shearing blade damage.
+02. Machine deteriorate due to overload. | F14: 8 | H14: Improper processing at supplier's / manufacturer's end. | I14: Mill TC by supplier's / manufacturer's end. | J14: 1 | K14: Inspection at Receiving stage & checked as per Raw Material quality plan. | L14: 7 | M14: 817 | N14: 56 | O14: Third Party inspection. Lab TC | P14: Q.A .Insp./        R.M. Purchase | Q14: Inspection As per RMQP. | R14: 8 | S14: 1 | T14: 6 | U14: 48
+C15: Chemical & Mechanical Properties | D15: Chemical & Mechanical Properties out of specification. | E15: 01. Rejection of Material.
+02. Machine deteriorate due to high mechanical properties hence overload. | F15: 7 | H15: Improper processing at supplier's / manufacturer's end. | I15: Mill TC by supplier's / manufacturer's end. | J15: 1 | K15: 5 nos. per lot to be checked by outside lab and cross checked by suppliers incoming test report. | L15: 6 | M15: 716 | N15: 42 | O15: Third Party inspection. Lab TC | P15: --- | Q15: --- | R15: --- | S15: --- | T15: --- | U15: ---
+C16: Rusty ,Scale,Pitted, Dent & Damage | D16: Rusty ,Scale,Pitted, Dent & Damage | E16: 01. Rejection of Material.
+02. Improper Material Performance. | F16: 7 | H16: 1. Improper pre treatment. | I16: Visual Inspection of Lot. | J16: 2 | K16: 100 % Visual Inspection At Receiving stage. | L16: 6 | M16: 726 | N16: 84 | O16: --- | P16: --- | Q16: --- | R16: --- | S16: --- | T16: --- | U16: ---
+A17: Sharada Industries. W-199B, S Block, MIDC, Bhosari Pune - 411 026 | F17: POTENTIAL FAILURE MODE AND EFFECT ANALYSIS (PROCESS FMEA) | N17: Format No. : F-DVP-8
+N18: Rev. No. : 0
+N19: Rev. Date:  11/11/17
+A20: ASSY NAME: | C20: BRACKET ASSY,ACCELERATOR PEDAL MTG | F20: ASSY NO: | H20: 511830100101 | L20: FMEA NUMBER: | O20: 511830100101/ 02/01
+A21: SUB PART  NAME: | D21: BRACKET,ACCELERATOR PEDAL MTG | L21: FMEA DATE: | O21: 24.01.2023
+A22: SUB PART NO: | D22: `511830103301 | L22: KEY DATE: | O22: ……
+A23: MODEL YEAR /VEHICLE(S): | D23: LPT 1112 RDE BSVI | F23: MOD.STATUS / NO: | I23: b/28.04.2022 | L23: REV . NO: | O23: 0 | P23: REV DATE: | Q23: 24.01.2023
+A24: CORE TEAM: | C24: KAP/PDA/SSP/VB/PA/AS | I24: PROCESS RESPOSIBLITY : | L24: Mrs.Kanchan Pant | P24: PAGE: | Q24: 3
+A25: OP.NO. | B25: PROCESS FUNCTION | C25: REQUIREMENTS | D25: POTENTIAL FAILURE MODE | E25: POTENTIAL EFFECT(s) OF FAILURE. 
+1. END USER
+2 MFG./ASSEMBLY
+3. SAFETY | F25: SEVERITY | G25: CLASS | H25: POTENTIAL CAUSE(S) / MECHANISM(S) OF FAILURE MODE | I25: CURRENT PROCESS CONTROL PREVENTION | J25: OCCURANCE | K25: CURRENT PROCESS CONTROL DETECTION | L25: DETECTION | M25: SOD | N25: RPN | O25: RECOMMANDED ACTION(S) | P25: RESP.& TARGET COMPLETITION DATE | Q25: ACTION TAKEN | R25: SEVERITY | S25: OCCURANCE | T25: DETECTION | U25: RPN
+A29: 020 | B29: SHEARING
+[SHARADA INDUSTRUES
+ UNIt II ] | C29: To receive material in Correct size & Grade
+3x304x1250 fe410 | D29: Burr | E29: Problem in Succesive operation | F29: 6 | H29: 1. Blade Sharpness Not Ok
+2. Clearance between shearing blade not ok | I29: Blade Sharpness checked in Every Six Month. | J29: 3 | K29: FPIR | L29: 5 | M29: 635 | N29: 90 | O29: 1. FPIR & IIR
+2. Shearing blade clearance should be checked for every First Piece.
+3.Resharpen the Blade whenever Burr Occure.
+4. Point to be added in PM checklist. | P29: Production Dept. | Q29: 1. FPIR & IIR
+2. Shearing blade clearance is checked & setted for every First Piece.
+3.Resharped  the Blade .
+4. Point is added in PM checklist. | R29: 5 | S29: 3 | T29: 5 | U29: 75
+D30: Length & Width of U/S | E30: Blank Half Cut | F30: 3 | H30: 1. Stopper setting Not Ok
+2. Job not touched to stopper | I30: 1. Stopper Alignment at setting.
+2.Work Instructions for setting parameters of Shearing m/c. | J30: 2 | K30: FPIR | L30: 5 | M30: 125 | N30: 30 | O30: …… | P30: …… | Q30: …… | R30: …. | S30: … | T30: … | U30: …
+D31: Length & Width of O/S | E31: 1.Material Wastage           2.Strip Will not Enter In die | F31: 3 | H31: 1. Stopper setting Not Ok
+2. Job not touched to stopper | I31: 1. Stopper Alignment at setting.
+2.Work Instructions for setting parameters of Shearing m/c. | J31: 2 | K31: FPIR | L31: 5 | M31: 125 | N31: 30 | O31: …… | P31: …… | Q31: …… | R31: …. | S31: … | T31: … | U31: …
+A32: Sharada Industries. W-199B, S Block, MIDC, Bhosari Pune - 411 026 | F32: POTENTIAL FAILURE MODE AND EFFECT ANALYSIS (PROCESS FMEA) | N32: Format No. : F-DVP-8
+N33: Rev. No. : 0
+N34: Rev. Date:  11/11/17
+A35: ASSY NAME: | C35: BRACKET ASSY,ACCELERATOR PEDAL MTG | F35: ASSY NO: | H35: 511830100101 | L35: FMEA NUMBER: | O35: 511830100101/ 02/01
+A36: SUB PART  NAME: | D36: BRACKET,ACCELERATOR PEDAL MTG | L36: FMEA DATE: | O36: 24.01.2023
+A37: SUB PART NO: | D37: `511830103301 | L37: KEY DATE: | O37: ……
+A38: MODEL YEAR /VEHICLE(S): | D38: LPT 1112 RDE BSVI | F38: MOD.STATUS / NO: | I38: b/28.04.2022 | L38: REV . NO: | O38: 0 | P38: REV DATE: | Q38: 24.01.2023
+A39: CORE TEAM: | C39: KAP/PDA/SSP/VB/PA/AS | I39: PROCESS RESPOSIBLITY : | L39: Mrs.Kanchan Pant | P39: PAGE: | Q39: 3
+A40: OP.NO. | B40: PROCESS FUNCTION | C40: REQUIREMENTS | D40: POTENTIAL FAILURE MODE | E40: POTENTIAL EFFECT(s) OF FAILURE. 
+1. END USER
+2 MFG./ASSEMBLY
+3. SAFETY | F40: SEVERITY | G40: CLASS | H40: POTENTIAL CAUSE(S) / MECHANISM(S) OF FAILURE MODE | I40: CURRENT PROCESS CONTROL PREVENTION | J40: OCCURANCE | K40: CURRENT PROCESS CONTROL DETECTION | L40: DETECTION | M40: SOD | N40: RPN | O40: RECOMMANDED ACTION(S) | P40: RESP.& TARGET COMPLETITION DATE | Q40: ACTION TAKEN | R40: SEVERITY | S40: OCCURANCE | T40: DETECTION | U40: RPN
+A44: 030 | B44: BLANKING | C44: To Produce Blank in Correct Shape Without Any Surface Damage.
+293.6, 87.5 , 121.5, R5 , R10 | D44: Burr | E44: Unsafe for handling, | F44: 8 | H44: Clerance between punch & die.Guide pillars & bushes worn out. | I44: PM of tooling as per schedule. | J44: 4 | K44: Visual | L44: 3 | M44: 843 | N44: 96 | O44: 1. FPIR & IIR   2.Tool Resharpening frquency for blanking .
+4. Point to be added in PM checklist. | P44: Production Dept. | Q44: Completed. | R44: 8 | S44: 3 | T44: 3 | U44: 72
+D45: Blank Half cut | E45: Problem In next Operation | F45: 6 | H45: 1.Improper Stopper Setting. | I45: PM of tooling as per schedule. | J45: 2 | K45: First Piece Approval | L45: 3 | M45: 623 | N45: 36 | O45: --- | P45: --- | Q45: --- | R45: --- | S45: --- | T45: --- | U45: ---
+A46: Sharada Industries. W-199B, S Block, MIDC, Bhosari Pune - 411 026 | F46: POTENTIAL FAILURE MODE AND EFFECT ANALYSIS (PROCESS FMEA) | N46: Format No. : F-DVP-8
+N47: Rev. No. : 0
+N48: Rev. Date:  11/11/17
+A49: ASSY NAME: | C49: BRACKET ASSY,ACCELERATOR PEDAL MTG | F49: ASSY NO: | H49: 511830100101 | L49: FMEA NUMBER: | O49: 511830100101/ 02/01
+A50: SUB PART  NAME: | D50: BRACKET,ACCELERATOR PEDAL MTG | L50: FMEA DATE: | O50: 24.01.2023
+A51: SUB PART NO: | D51: `511830103301 | L51: KEY DATE: | O51: ……
+A52: MODEL YEAR /VEHICLE(S): | D52: LPT 1112 RDE BSVI | F52: MOD.STATUS / NO: | I52: B/28.04.2022 | L52: REV . NO: | O52: 0 | P52: REV DATE: | Q52: 24.01.2023
+A53: CORE TEAM: | C53: KAP/PDA/SSP/VB/PA/AS | I53: PROCESS RESPOSIBLITY : | L53: Mrs.Kanchan Pant | P53: PAGE: | Q53: 3
+A54: OP.NO. | B54: PROCESS FUNCTION | C54: REQUIREMENTS | D54: POTENTIAL FAILURE MODE | E54: POTENTIAL EFFECT(s) OF FAILURE. 
+1. END USER
+2 MFG./ASSEMBLY
+3. SAFETY | F54: SEVERITY | G54: CLASS | H54: POTENTIAL CAUSE(S) / MECHANISM(S) OF FAILURE MODE | I54: CURRENT PROCESS CONTROL PREVENTION | J54: OCCURANCE | K54: CURRENT PROCESS CONTROL DETECTION | L54: DETECTION | M54: SOD | N54: RPN | O54: RECOMMANDED ACTION(S) | P54: RESP.& TARGET COMPLETITION DATE | Q54: ACTION TAKEN | R54: SEVERITY | S54: OCCURANCE | T54: DETECTION | U54: RPN
+A58: 040 | B58: PIERCING | C58: To get correct sized holes at correct location.
+3 HOLE: 8 , 1 HOLE : 7 , SLOT: 20X12, 9X15 , C.D: 60, 84, 43, 31 , 49 | D58: Hole U/S | E58: Fitment problem in subsequent operation. | F58: 7 | H58: Punch & Die wear out. Guide pillars & bushes worn out | I58: Setting Parameters of M/c & PM of tooling as per schedule | J58: 3 | K58: FPIR | L58: 2 | M58: 732 | N58: 42 | O58: --- | P58: --- | Q58: --- | R58: --- | S58: --- | T58: --- | U58: ---
+D59: Hole O/S or Oblong | E59: Fitment problem in Assy. | F59: 7 | H59: Punch size varization / Lack of spring back allowance | I59: Setting Parameters of M/c & PM of tooling as per schedule | J59: 3 | K59: First Piece Approval | L59: 3 | M59: 733 | N59: 63 | O59: --- | P59: --- | Q59: --- | R59: --- | S59: --- | T59: --- | U59: ---
+D60: Wrong / Shifted position of hole | E60: Assy. problem / May lead to final rejection / Difficulty in succesive operation | F60: 7 | H60: Insufficient locating & resting arrangement | I60: Foolprofing done to avoid improper location | J60: 2 | K60: FPIR | L60: 4 | M60: 724 | N60: 56 | O60: --- | P60: --- | Q60: --- | R60: --- | S60: --- | T60: --- | U60: ---
+D61: Hole missing | E61: Fitment problem in subsequent operation. | F61: 7 | H61: Insufficient Ram stroke. Untrained operator | I61: Setting Parameters of M/c & Skill matrix of operator. | J61: 2 | K61: FPIR | L61: 3 | M61: 723 | N61: 42 | O61: --- | P61: --- | Q61: --- | R61: --- | S61: --- | T61: --- | U61: ---
+D62: Burr | E62: Fitment problem in subsequent operation. | F62: 8 | H62: Punch Wear Out/PM not done as per plan. | I62: Setting Parameters of M/c. | J62: 2 | K62: Visual inspection | L62: 3 | M62: 823 | N62: 48 | O62: Make PM checklist of tool . | P62: Tooling Dept. | Q62: Completed. | R62: 7 | S62: 2 | T62: 2 | U62: 28
+A63: Sharada Industries. W-199B, S Block, MIDC, Bhosari Pune - 411 026 | F63: POTENTIAL FAILURE MODE AND EFFECT ANALYSIS (PROCESS FMEA) | N63: Format No. : F-DVP-8
+N64: Rev. No. : 0
+N65: Rev. Date:  11/11/17
+A66: ASSY NAME: | C66: BRACKET ASSY,ACCELERATOR PEDAL MTG | F66: ASSY NO: | H66: 511830100101 | L66: FMEA NUMBER: | O66: 511830100101/ 02/01
+A67: SUB PART  NAME: | D67: BRACKET,ACCELERATOR PEDAL MTG | L67: FMEA DATE: | O67: 24.01.2023
+A68: SUB PART NO: | D68: `511830103301 | L68: KEY DATE: | O68: ……
+A69: MODEL YEAR /VEHICLE(S): | D69: LPT 1112 RDE BSVI | F69: MOD.STATUS / NO: | I69: b/28.04.2022 | L69: REV . NO: | O69: 0 | P69: REV DATE: | Q69: 24.01.2023
+A70: CORE TEAM: | C70: KAP/PDA/SSP/VB/PA/AS | I70: PROCESS RESPOSIBLITY : | L70: Mrs.Kanchan Pant | P70: PAGE: | Q70: 3
+A71: OP.NO. | B71: PROCESS FUNCTION | C71: REQUIREMENTS | D71: POTENTIAL FAILURE MODE | E71: POTENTIAL EFFECT(s) OF FAILURE. 
+1. END USER
+2 MFG./ASSEMBLY
+3. SAFETY | F71: SEVERITY | G71: CLASS | H71: POTENTIAL CAUSE(S) / MECHANISM(S) OF FAILURE MODE | I71: CURRENT PROCESS CONTROL PREVENTION | J71: OCCURANCE | K71: CURRENT PROCESS CONTROL DETECTION | L71: DETECTION | M71: SOD | N71: RPN | O71: RECOMMANDED ACTION(S) | P71: RESP.& TARGET COMPLETITION DATE | Q71: ACTION TAKEN | R71: SEVERITY | S71: OCCURANCE | T71: DETECTION | U71: RPN
+A75: 050 | B75: FORMING I | C75: To bend the blank / strip to get correct bend.
+DIMN: 205.2 , 20.7 , ANGLE:157.75º, 120.75º | D75: Radius Oversize | E75: Problem in subsequent operation. | F75: 7 | H75: Form of die radius not ok
+.Setting parameters not available. | I75: PM OF tool as per plan. | J75: 2 | K75: Set up approval & IIR | L75: 5 | M75: 725 | N75: 70 | O75: --- | P75: --- | Q75: --- | R75: --- | S75: --- | T75: --- | U75: ---
+D76: Radius Undersize | E76: Problem in subsequent operation. | F76: 7 | H76: Form of die radius not ok
+.Setting parameters not available. | I76: PM OF tool as per plan. | J76: 2 | K76: Set up approval & IIR | L76: 5 | M76: 725 | N76: 70 | O76: --- | P76: --- | Q76: --- | R76: --- | S76: --- | T76: --- | U76: ---
+D77: Cracks during bending at form radius. | E77: Assy. problem / May lead to final rejection | F77: 8 | H77: Wrong raw material grade./Sharp bend radii /Cushion Pressure /Holding  Variation | I77: Identification on material during shearing./Check cushion pressure | J77: 3 | K77: Receiving Inpsection /Colour coding as per material grades. /Cushion Pin layout | L77: 5 | M77: 835 | N77: 120 | O77: Cushion Pressure set as per cushion pin layout. | P77: Production Dept. | Q77: Completed. | R77: 8 | S77: 2 | T77: 5 | U77: 80
+D78: Scoring marks | E78: Aesthetic Discrepancy. | F78: 4 | H78: 1)Rough finish of die..
+2)Metal chips ,dust on tools | I78: PM Of tool as per plan. | J78: 3 | K78: Visual Inpsection | L78: 7 | M78: 437 | N78: 84 | O78: --- | P78: --- | Q78: --- | R78: --- | S78: --- | T78: --- | U78: ---
+D79: Opening up of bend | E79: Assy. problem / May lead to final rejection | F79: 7 | H79: Elastic Recovery of material | I79: Springback allowance to be considered while tool designing | J79: 4 | K79: In-process inspection / First Piece Approval | L79: 3 | M79: 743 | N79: 84 | O79: --- | P79: --- | Q79: --- | R79: --- | S79: --- | T79: --- | U79: ---
+A80: Sharada Industries. W-199B, S Block, MIDC, Bhosari Pune - 411 026 | F80: POTENTIAL FAILURE MODE AND EFFECT ANALYSIS (PROCESS FMEA) | N80: Format No. : F-DVP-8
+N81: Rev. No. : 0
+N82: Rev. Date:  11/11/17
+A83: ASSY NAME: | C83: BRACKET ASSY,ACCELERATOR PEDAL MTG | F83: ASSY NO: | H83: 511830100101 | L83: FMEA NUMBER: | O83: 511830100101/ 02/01
+A84: SUB PART  NAME: | D84: BRACKET,ACCELERATOR PEDAL MTG | L84: FMEA DATE: | O84: 24.01.2023
+A85: SUB PART NO: | D85: `511830103301 | L85: KEY DATE: | O85: ……
+A86: MODEL YEAR /VEHICLE(S): | D86: LPT 1112 RDE BSVI | F86: MOD.STATUS / NO: | I86: b/28.04.2022 | L86: REV . NO: | O86: 1 | P86: REV DATE: | Q86: 24.09.2025
+A87: CORE TEAM: | C87: KAP/PDA/SSP/VB/PA/AS | I87: PROCESS RESPOSIBLITY : | L87: Mrs.Kanchan Pant | P87: PAGE: | Q87: 3
+A88: OP.NO. | B88: PROCESS FUNCTION | C88: REQUIREMENTS | D88: POTENTIAL FAILURE MODE | E88: POTENTIAL EFFECT(s) OF FAILURE. 
+1. END USER
+2 MFG./ASSEMBLY
+3. SAFETY | F88: SEVERITY | G88: CLASS | H88: POTENTIAL CAUSE(S) / MECHANISM(S) OF FAILURE MODE | I88: CURRENT PROCESS CONTROL PREVENTION | J88: OCCURANCE | K88: CURRENT PROCESS CONTROL DETECTION | L88: DETECTION | M88: SOD | N88: RPN | O88: RECOMMANDED ACTION(S) | P88: RESP.& TARGET COMPLETITION DATE | Q88: ACTION TAKEN | R88: SEVERITY | S88: OCCURANCE | T88: DETECTION | U88: RPN
+A92: 060 | B92: FORMING II | C92: To bend the blank / strip to get correct bend.
+DIMN: 85, 69, 191.6, 99 ANGLE:90º, 8º, 45º | D92: Radius Oversize | E92: Problem in subsequent operation. | F92: 7 | H92: Form of die radius not ok
+.Setting parameters not available. | I92: PM OF tool as per plan. | J92: 2 | K92: Set up approval & IIR | L92: 5 | M92: 725 | N92: 70 | O92: --- | P92: --- | Q92: --- | R92: --- | S92: --- | T92: --- | U92: ---
+D93: Radius Undersize | E93: Problem in subsequent operation. | F93: 7 | H93: Form of die radius not ok
+.Setting parameters not available. | I93: PM OF tool as per plan. | J93: 2 | K93: Set up approval & IIR | L93: 5 | M93: 725 | N93: 70 | O93: --- | P93: --- | Q93: --- | R93: --- | S93: --- | T93: --- | U93: ---
+D94: Cracks during bending at form radius. | E94: Assy. problem / May lead to final rejection | F94: 8 | H94: Wrong raw material grade./Sharp bend radii /Cushion Pressure /Holding  Variation | I94: Identification on material during shearing./Check cushion pressure | J94: 3 | K94: Receiving Inpsection /Colour coding as per material grades. /Cushion Pin layout | L94: 5 | M94: 835 | N94: 120 | O94: Cushion Pressure set as per cushion pin layout. | P94: Production Dept. | Q94: Completed. | R94: 8 | S94: 2 | T94: 5 | U94: 80
+D95: Scoring marks | E95: Aesthetic Discrepancy. | F95: 4 | H95: 1)Rough finish of die..
+2)Metal chips ,dust on tools | I95: PM Of tool as per plan. | J95: 3 | K95: Visual Inpsection | L95: 7 | M95: 437 | N95: 84 | O95: --- | P95: --- | Q95: --- | R95: --- | S95: --- | T95: --- | U95: ---
+D96: Opening up of bend | E96: Assy. problem / May lead to final rejection | F96: 7 | H96: Elastic Recovery of material | I96: Springback allowance to be considered while tool designing | J96: 4 | K96: In-process inspection / First Piece Approval | L96: 3 | M96: 743 | N96: 84 | O96: --- | P96: --- | Q96: 1) Forming tool PM done, angle 90 degree found ok in forming-II tool.
+2) ensure it forms the correct angle in forming tool. | R96: 6 | S96: 4 | T96: 2 | U96: 48
+A97: Sharada Industries. W-199B, S Block, MIDC, Bhosari Pune - 411 026 | F97: POTENTIAL FAILURE MODE AND EFFECT ANALYSIS (PROCESS FMEA) | N97: Format No. : F-DVP-8
+N98: Rev. No. : 0
+N99: Rev. Date:  11/11/17
+A100: ASSY NAME: | C100: BRACKET ASSY,ACCELERATOR PEDAL MTG | F100: ASSY NO: | H100: 511830100101 | L100: FMEA NUMBER: | O100: 511830100101/ 02/01
+A101: SUB PART  NAME: | D101: BRACKET,ACCELERATOR PEDAL MTG | L101: FMEA DATE: | O101: 24.01.2023
+A102: SUB PART NO: | D102: `511830103301 | L102: KEY DATE: | O102: ……
+A103: MODEL YEAR /VEHICLE(S): | D103: LPT 1112 RDE BSVI | F103: MOD.STATUS / NO: | I103: b/28.04.2022 | L103: REV . NO: | O103: 2 | P103: REV DATE: | Q103: 13.11.2025
+A104: CORE TEAM: | C104: KAP/PDA/SSP/VB/PA/AS | I104: PROCESS RESPOSIBLITY : | L104: Mrs.Kanchan Pant | P104: PAGE: | Q104: 3
+A105: OP.NO. | B105: PROCESS FUNCTION | C105: REQUIREMENTS | D105: POTENTIAL FAILURE MODE | E105: POTENTIAL EFFECT(s) OF FAILURE. 
+1. END USER
+2 MFG./ASSEMBLY
+3. SAFETY | F105: SEVERITY | G105: CLASS | H105: POTENTIAL CAUSE(S) / MECHANISM(S) OF FAILURE MODE | I105: CURRENT PROCESS CONTROL PREVENTION | J105: OCCURANCE | K105: CURRENT PROCESS CONTROL DETECTION | L105: DETECTION | M105: SOD | N105: RPN | O105: RECOMMANDED ACTION(S) | P105: RESP.& TARGET COMPLETITION DATE | Q105: ACTION TAKEN | R105: SEVERITY | S105: OCCURANCE | T105: DETECTION | U105: RPN
+A109: 70 | B109: PROJECTION WELDING MACHINE | C109: Nut Position as per Drawing requirement | D109: Wrong orientation of nut. | E109: 1.Assy. Problem  May cause final rejection
+2.Failure at customer end | F109: 8 | G109: SC | H109: 1.Operator carelessness
+2.Problem at welding fixture | I109: First piece & Inprocess inspection
+& Operator Instruction | J109: 3 | K109: FPIR | L109: 4 | M109: 834 | N109: 96 | O109: ……. | P109: …. | Q109: ……. | R109: …. | S109: … | T109: .. | U109: ….
+D110: Nut Shift | E110: Failure at customer end | F110: 8 | H110: 1.Locating pin wear out
+2.Welding material diposited on electrode | I110: 1.Locating pin replacement as per PM schdule.
+2.Electrode cleaning as per schdule | J110: 2 | K110: 1.FPIR
+2.Electrode cleaning chard displayed on board | L110: 4 | M110: 824 | N110: 64 | Q110: 1) Process parameter setting done Voltage 160-180V & Pressure - 10-15kg/cm² (As per M6 Nut STD)
+2) Process parameter set and recored maintained and opeator fill the record.
+3) After powder coating and tapping of the M6 nut, the quality inspector shall ensure nut availability by marking each part with a green dot at the PDI gate. | R110: 6 | S110: 2 | T110: 4 | U110: 36
+D111: Wrong side Nut Welding | E111: Failure in Quality inspection | F111: 9 | G111: SC | H111: 1.Operator carelessness
+2.Problem at welding fixture | I111: First piece & Inprocess inspection
+& Operator Instruction | J111: 2 | K111: FPIR | L111: 3 | M111: 923 | N111: 54
+C112: Nut Spcification  M6 | D112: Wrong nut use | E112: Failure at customer end | F112: 9 | H112: 1.Operator carelessness
+2.Problem at welding fixture | I112: First piece & Inprocess inspection
+& Operator Instruction | J112: 2 | K112: FPIR | L112: 2 | M112: 922 | N112: 36 | U112: 0
+A113: Sharada Industries. W-199B, S Block, MIDC, Bhosari Pune - 411 026 | F113: POTENTIAL FAILURE MODE AND EFFECT ANALYSIS (PROCESS FMEA) | N113: Format No. : F-DVP-8
+N114: Rev. No. : 0
+N115: Rev. Date:  11/11/17
+A116: ASSY NAME: | C116: BRACKET ASSY,ACCELERATOR PEDAL MTG | F116: ASSY NO: | H116: 511830100101 | L116: FMEA NUMBER: | O116: 511830100101/ 02/01
+A117: SUB PART  NAME: | D117: BRACKET,ACCELERATOR PEDAL MTG | L117: FMEA DATE: | O117: 24.01.2023
+A118: SUB PART NO: | D118: `511830103301 | L118: KEY DATE: | O118: ……
+A119: MODEL YEAR /VEHICLE(S): | D119: LPT 1112 RDE BSVI | F119: MOD.STATUS / NO: | I119: b/28.04.2022 | L119: REV . NO: | O119: 0 | P119: REV DATE: | Q119: 24.01.2023
+A120: CORE TEAM: | C120: KAP/PDA/SSP/VB/PA/AS | I120: PROCESS RESPOSIBLITY : | L120: Mrs.Kanchan Pant | P120: PAGE: | Q120: 3
+A121: OP.NO. | B121: PROCESS FUNCTION | C121: REQUIREMENTS | D121: POTENTIAL FAILURE MODE | E121: POTENTIAL EFFECT(s) OF FAILURE. 
+1. END USER
+2 MFG./ASSEMBLY
+3. SAFETY | F121: SEVERITY | G121: CLASS | H121: POTENTIAL CAUSE(S) / MECHANISM(S) OF FAILURE MODE | I121: CURRENT PROCESS CONTROL PREVENTION | J121: OCCURANCE | K121: CURRENT PROCESS CONTROL DETECTION | L121: DETECTION | M121: SOD | N121: RPN | O121: RECOMMANDED ACTION(S) | P121: RESP.& TARGET COMPLETITION DATE | Q121: ACTION TAKEN | R121: SEVERITY | S121: OCCURANCE | T121: DETECTION | U121: RPN
+A125: 80 | B125: CO2 TACK WELDING | C125: Tcak welding 
+ M6 WELD NUT | D125: Weld Penetration less than reqd specification. | E125: Low strength of weld joint. | F125: 8 | H125: 1. Wrong welding parameters.
+2. Wrong welding consumables (Welding Wire, Contact tip, etc)
+3. Contact tube to work distance more than reqd. | I125: 1. Display of proper welding parameters (Work Instructions)  2)Maintain Process setting parameters as per work instructions                   3) As per WPS | J125: 3 | K125: Weld penetration test. | L125: 9 | M125: 839 | N125: 216 | O125: Detection cannot be reduced since it is a special process & requires destructive testing for Detection which is not economical & Feasible. Hence following operation has been taken to control occurence:
+Welding parameters monitoring on daily basis at start of shift as per Process Setting Parameters | R125: 8 | S125: 2 | T125: 9 | U125: 144
+D126: Poor quality of welding joint | E126: Poor weld strength Possibility of field failure. | F126: 7 | H126: Wrong welding consumables. | I126: Use of proper specification of welding consumables. | J126: 3 | K126: Weld joint bend test once in  200 pieces produced | L126: 5 | M126: 735 | N126: 105 | O126: Use of specified welding consumable. | P126: Production Engg. | Q126: Operator evaluation test. | R126: 6 | S126: 2 | T126: 2 | U126: 24
+D127: Welding spatters | E127: 1) Poor aesthetics
+2) Assy Problem
+3) improper flow of CO2 welding. | F127: 5 | H127: 1) Improper setting of Process parameter.
+2) untrained operator | I127: 1) Set machine parameter as per WPS                           2) Trained operator                     3) 100% visual insp. by welder | J127: 4 | K127: First piece inspection & inprocess inspection | L127: 5 | M127: 535 | N127: 100 | O127: 1) Process Parameter sheet Display on M/C.
+2)Work Instruction Display on M/C. | P127: Production Engg. | Q127: Completed | R127: 5 | S127: 3 | T127: 5 | U127: 75
+A128: Sharada Industries. W-199B, S Block, MIDC, Bhosari Pune - 411 026 | F128: POTENTIAL FAILURE MODE AND EFFECT ANALYSIS (PROCESS FMEA) | N128: Format No. : F-DVP-8
+N129: Rev. No. : 0
+N130: Rev. Date:  11/11/17
+A131: ASSY NAME: | C131: BRACKET ASSY,ACCELERATOR PEDAL MTG | F131: ASSY NO: | H131: 511830100101 | L131: FMEA NUMBER: | O131: 511830100101/ 02/01
+A132: SUB PART  NAME: | D132: BRACKET,ACCELERATOR PEDAL MTG | L132: FMEA DATE: | O132: 24.01.2023
+A133: SUB PART NO: | D133: `511830103301 | L133: KEY DATE: | O133: ……
+A134: MODEL YEAR /VEHICLE(S): | D134: LPT 1112 RDE BSVI | F134: MOD.STATUS / NO: | I134: b/28.04.2022 | L134: REV . NO: | O134: 0 | P134: REV DATE: | Q134: 24.01.2023
+A135: CORE TEAM: | C135: KAP/PDA/SSP/VB/PA/AS | I135: PROCESS RESPOSIBLITY : | L135: Mrs.Kanchan Pant | P135: PAGE: | Q135: 3
+A136: OP.NO. | B136: PROCESS FUNCTION | C136: REQUIREMENTS | D136: POTENTIAL FAILURE MODE | E136: POTENTIAL EFFECT(s) OF FAILURE. 
+1. END USER
+2 MFG./ASSEMBLY
+3. SAFETY | F136: SEVERITY | G136: CLASS | H136: POTENTIAL CAUSE(S) / MECHANISM(S) OF FAILURE MODE | I136: CURRENT PROCESS CONTROL PREVENTION | J136: OCCURANCE | K136: CURRENT PROCESS CONTROL DETECTION | L136: DETECTION | M136: SOD | N136: RPN | O136: RECOMMANDED ACTION(S) | P136: RESP.& TARGET COMPLETITION DATE | Q136: ACTION TAKEN | R136: SEVERITY | S136: OCCURANCE | T136: DETECTION | U136: RPN
+A140: 90 | B140: INSPECTION | C140: To inspect parts as per SI/QP | D140: Part Dimension not as per drg | E140: 1. Fitment issue
+2. May lead to rework 
+3. Parts may reject | F140: 8 | H140: 1.Inspector is not aware to Quality plan
+2.Error in checking instruments | I140: 1. Training to Inpector about part inspection
+2. Calibration of instrument to be done as per MSA plan. | J140: 2 | K140: 1. In-Process inspection
+2. 100 % Part Inspection thru Reciever gauge | L140: 6 | M140: 836 | N140: 96 | O140: --- | P140: --- | Q140: --- | R140: --- | S140: --- | T140: --- | U140: ---
+A141: Sharada Industries. W-199B, S Block, MIDC, Bhosari Pune - 411 026 | F141: POTENTIAL FAILURE MODE AND EFFECT ANALYSIS (PROCESS FMEA) | N141: Format No. : F-DVP-8
+N142: Rev. No. : 0
+N143: Rev. Date:  11/11/17
+A144: ASSY NAME: | C144: BRACKET ASSY,ACCELERATOR PEDAL MTG | F144: ASSY NO: | H144: 511830100101 | L144: FMEA NUMBER: | O144: 511830100101/ 02/01
+A145: SUB PART  NAME: | D145: BRACKET,ACCELERATOR PEDAL MTG | L145: FMEA DATE: | O145: 24.01.2023
+A146: SUB PART NO: | D146: `511830103301 | L146: KEY DATE: | O146: ……
+A147: MODEL YEAR /VEHICLE(S): | D147: LPT 1112 RDE BSVI | F147: MOD.STATUS / NO: | I147: b/28.04.2022 | L147: REV . NO: | O147: 0 | P147: REV DATE: | Q147: 24.01.2023
+A148: CORE TEAM: | C148: KAP/PDA/SSP/VB/PA/AS | I148: PROCESS RESPOSIBLITY : | L148: Mrs.Kanchan Pant | P148: PAGE: | Q148: 3
+A149: OP.NO. | B149: PROCESS FUNCTION | C149: REQUIREMENTS | D149: POTENTIAL FAILURE MODE | E149: POTENTIAL EFFECT(s) OF FAILURE.                         1. END USER                                 2. MFG./ASSEMBLY              3. SAFETY | F149: SEVERITY | G149: CLASS | H149: POTENTIAL CAUSE(S) / MECHANISM(S) OF FAILURE MODE | I149: CURRENT PROCESS CONTROL PREVENTION | J149: OCCURANCE | K149: CURRENT PROCESS CONTROL DETECTION | L149: DETECTION | M149: SOD | N149: RPN | O149: RECOMMANDED ACTION(S) | P149: RESP.& TARGET COMPLETITION DATE | Q149: ACTION TAKEN | R149: SEVERITY | S149: OCCURANCE | T149: DETECTION | U149: RPN
+A153: 100 | B153: SURFACE PROTECTION          BC PC 20 | C153: Coating agent | D153: Wrong Coating Agent Used. | E153: May Cause Rejections at Customer End. | F153: 8 | H153: Improper processing at supplier's / manufacturer's end. | I153: Mill TC by supplier's / manufacturer's end. | J153: 2 | K153: Inspection at Receiving stage | L153: 6 | M153: 826 | N153: 96 | O153: As Per Work Instructions of Powder coating. | P153: VQA of special process. | Q153: Process Audit done for special process of  powder coating | R153: 8 | S153: 2 | T153: 5 | U153: 80
+C154: Coating layer thickness | D154: Inadequate Coating Layer Thickness. | E154: May lead to rust & Less Part Life | F154: 6 | H154: Improper processing at supplier's / manufacturer's end. | I154: TC by supplier's / manufacturer's end. | J154: 3 | K154: Inspection at Receiving stage | L154: 5 | M154: 635 | N154: 90
+C155: coating layer quality | D155: Coating Peeling Off / Less Life of Coating Layer. | E155: May lead to rust & Less Part Life | F155: 6 | H155: Insufficient Pre-Treatment of Jobs. | I155: TC by supplier's / manufacturer's end. | J155: 3 | K155: Inspection at Receiving stage | L155: 5 | M155: 635 | N155: 90 | O155: --- | P155: --- | Q155: --- | R155: --- | S155: --- | T155: ---
+A156: Sharada Industries. W-199B, S Block, MIDC, Bhosari Pune - 411 026 | F156: POTENTIAL FAILURE MODE AND EFFECT ANALYSIS (PROCESS FMEA) | N156: Format No. : F-DVP-8
+N157: Rev. No. : 0
+N158: Rev. Date:  11/11/17
+A159: ASSY NAME: | C159: BRACKET ASSY,ACCELERATOR PEDAL MTG | F159: ASSY NO: | H159: 511830100101 | L159: FMEA NUMBER: | O159: 511830100101/ 02/01
+A160: SUB PART  NAME: | D160: BRACKET,ACCELERATOR PEDAL MTG | L160: FMEA DATE: | O160: 24.01.2023
+A161: SUB PART NO: | D161: `511830103301 | L161: KEY DATE: | O161: ……
+A162: MODEL YEAR /VEHICLE(S): | D162: LPT 1112 RDE BSVI | F162: MOD.STATUS / NO: | I162: b/28.04.2022 | L162: REV . NO: | O162: 0 | P162: REV DATE: | Q162: 24.01.2023
+A163: CORE TEAM: | C163: KAP/PDA/SSP/VB/PA/AS | I163: PROCESS RESPOSIBLITY : | L163: Mrs.Kanchan Pant | P163: PAGE: | Q163: 3
+A164: OP.NO. | B164: PROCESS FUNCTION | C164: REQUIREMENTS | D164: POTENTIAL FAILURE MODE | E164: POTENTIAL EFFECT(s) OF FAILURE.                         1. END USER                                 2. MFG./ASSEMBLY              3. SAFETY | F164: SEVERITY | G164: CLASS | H164: POTENTIAL CAUSE(S) / MECHANISM(S) OF FAILURE MODE | I164: CURRENT PROCESS CONTROL PREVENTION | J164: OCCURANCE | K164: CURRENT PROCESS CONTROL DETECTION | L164: DETECTION | M164: SOD | N164: RPN | O164: RECOMMANDED ACTION(S) | P164: RESP.& TARGET COMPLETITION DATE | Q164: ACTION TAKEN | R164: SEVERITY | S164: OCCURANCE | T164: DETECTION | U164: RPN
+A168: 110 | B168: INSPECTION | C168: To inspect parts as per SI/QP | D168: Surface protection (Plating/Powder Coating)not ok | E168: May lead to rework at our End / customer end. | F168: 8 | H168: Improper processing at supplier's / manufacturer's end. | I168: TC by supplier's / manufacturer's end. | J168: 3 | K168: 5 nos. per lot to be checked by QA of special process. | L168: 6 | M168: 836 | N168: 144 | O168: Supplier Special process audit to be done by VQA of special process. | P168: VQA of special process. | Q168: Process Audit done for special process of powder coating & Plating | R168: 8 | S168: 3 | T168: 3 | U168: 72
+A169: Sharada Industries. W-199B, S Block, MIDC, Bhosari Pune - 411 026 | F169: POTENTIAL FAILURE MODE AND EFFECT ANALYSIS (PROCESS FMEA) | N169: Format No. : F-DVP-8
+N170: Rev. No. : 0
+N171: Rev. Date:  11/11/17
+A172: ASSY NAME: | C172: BRACKET ASSY,ACCELERATOR PEDAL MTG | F172: ASSY NO: | H172: 511830100101 | L172: FMEA NUMBER: | O172: 511830100101/ 02/01
+A173: SUB PART  NAME: | D173: BRACKET,ACCELERATOR PEDAL MTG | L173: FMEA DATE: | O173: 24.01.2023
+A174: SUB PART NO: | D174: `511830103301 | L174: KEY DATE: | O174: ……
+A175: MODEL YEAR /VEHICLE(S): | D175: LPT 1112 RDE BSVI | F175: MOD.STATUS / NO: | I175: b/28.04.2022 | L175: REV . NO: | O175: 0 | P175: REV DATE: | Q175: 24.01.2023
+A176: CORE TEAM: | C176: KAP/PDA/SSP/VB/PA/AS | I176: PROCESS RESPOSIBLITY : | L176: Mrs.Kanchan Pant | P176: PAGE: | Q176: 3
+A177: OP.NO. | B177: PROCESS FUNCTION | C177: REQUIREMENTS | D177: POTENTIAL FAILURE MODE | E177: POTENTIAL EFFECT(s) OF FAILURE. 
+1. END USER
+2 MFG./ASSEMBLY
+3. SAFETY | F177: SEVERITY | G177: CLASS | H177: POTENTIAL CAUSE(S) / MECHANISM(S) OF FAILURE MODE | I177: CURRENT PROCESS CONTROL PREVENTION | J177: OCCURANCE | K177: CURRENT PROCESS CONTROL DETECTION | L177: DETECTION | M177: SOD | N177: RPN | O177: RECOMMANDED ACTION(S) | P177: RESP.& TARGET COMPLETITION DATE | Q177: ACTION TAKEN | R177: SEVERITY | S177: OCCURANCE | T177: DETECTION | U177: RPN
+A181: 120 | B181: STORAGE | C181: Proper storage of parts to prevent rust accumulation and damage due to handling. | D181: Strenght of parts affected due to rust. | E181: 1. Rejection at assy level. | F181: 7 | H181: Contact with air and moisture. | I181: Cleaning of parts with rust removal | J181: 3 | K181: Inprocess inspection | L181: 5 | M181: 735 | N181: 105 | O181: 100% application of RPO and parts to be covered with polythene sheets | P181: …….. | Q181: ……. | R181: ….. | S181: ….. | T181: ….. | U181: ….
+A182: Sharada Industries. W-199B, S Block, MIDC, Bhosari Pune - 411 026 | F182: POTENTIAL FAILURE MODE AND EFFECT ANALYSIS (PROCESS FMEA) | N182: Format No. : F-DVP-8
+N183: Rev. No. : 0
+N184: Rev. Date:  11/11/17
+A185: ASSY NAME: | C185: BRACKET ASSY,ACCELERATOR PEDAL MTG | F185: ASSY NO: | H185: 511830100101 | L185: FMEA NUMBER: | O185: 511830100101/ 02/01
+A186: SUB PART  NAME: | D186: BRACKET,ACCELERATOR PEDAL MTG | L186: FMEA DATE: | O186: 24.01.2023
+A187: SUB PART NO: | D187: `511830103301 | L187: KEY DATE: | O187: ……
+A188: MODEL YEAR /VEHICLE(S): | D188: LPT 1112 RDE BSVI | F188: MOD.STATUS / NO: | I188: b/28.04.2022 | L188: REV . NO: | O188: 0 | P188: REV DATE: | Q188: 24.01.2023
+A189: CORE TEAM: | C189: KAP/PDA/SSP/VB/PA/AS | I189: PROCESS RESPOSIBLITY : | L189: Mrs.Kanchan Pant | P189: PAGE: | Q189: 3
+A190: OP.NO. | B190: PROCESS FUNCTION | C190: REQUIREMENTS | D190: POTENTIAL FAILURE MODE | E190: POTENTIAL EFFECT(s) OF FAILURE. 
+1. END USER
+2 MFG./ASSEMBLY
+3. SAFETY | F190: SEVERITY | G190: CLASS | H190: POTENTIAL CAUSE(S) / MECHANISM(S) OF FAILURE MODE | I190: CURRENT PROCESS CONTROL PREVENTION | J190: OCCURANCE | K190: CURRENT PROCESS CONTROL DETECTION | L190: DETECTION | M190: SOD | N190: RPN | O190: RECOMMANDED ACTION(S) | P190: RESP.& TARGET COMPLETITION DATE | Q190: ACTION TAKEN | R190: SEVERITY | S190: OCCURANCE | T190: DETECTION | U190: RPN
+A194: 130 | B194: PACKING  & DESPATCH | C194: Proper packing of parts as per logistic sheet and packing standards. | D194: Not as per standards. | E194: 1) Part damage | F194: 6 | H194: 1) Not adhering to signed-off logistic sheet.
+2) Errors in planned logistics. | I194: 1) Operator to be trained to adhere to logistic sheet
+2) Logistic sheet to be corrected and signed-off as per requirement. | J194: 3 | K194: Every lot to be checked by dispatch person. | L194: 5 | M194: 635 | N194: 90 | O194: Logistic sheet to be signed-off and adhered to. | P194: Despatch Inchr. | Q194: …… | R194: 6 | S194: 3 | T194: 4 | U194: 72
+D199: Change Log
+D200: Sr.No. | E200: Date | F200: Revision No. | G200: Process No. / Operation | I200: Description
+D201: 1 | E201: 24.09.2025 | F201: 1 | G201: PP-60 | I201: 1) Forming tool PM done, angle 90 degree found ok in forming-II tool.
+2) ensure it forms the correct angle in forming tool.
+3) Training given to  operators and setup & Panel checker report verified.
+D202: 2 | E202: 13.11.2025 | F202: 2 | G202: PP-70 | I202: 1) Process parameter setting done Voltage 160-180V & Pressure - 10-15kg/cm² (As per M6 Nut STD)
+2) Process parameter set and recored maintained and opeator fill the record.
+3) After powder coating and tapping of the M6 nut, the quality inspector shall ensure nut availability by marking each part with a green dot at the PDI gate.
+=== SHEET: 4)P-C-P ===
+A1: PROCESS CONTROL PLAN | M1: Format No.: F-DVP-7
+M2: Rev. No.: 0
+M3: Rev. Date: 11.11.17
+B4: Prototype | C4: Pre-launch | F4: Production | H4: Key Contact / Phone:Mr P. V. Modak   2712 0962 | K4: Date(Orig.): 24.01.2023 | M4: (Rev.No.):02 | N4: Date (Rev.) : 13.11.2025
+A5: Process Control Plan Number : SI / PCP / `'511830100101-01 | K5: Customer Engineering
+A6: Part Number / Latest Change Level  :  `511830100101/B/25.03.2022 | H6: Core Team : KAP/VK/DS/SS/PC/PP/KM | K6: Approval/Date [ if reqd.] | O6: --------
+A7: Part Name / Description : BRACKET ASSY,ACCELERATOR PEDAL MTG | H7: Supplier / Plant Approval / | K7: Customer Quality | M7: -------
+A8: Supplier / Plant : | E8: Supplier Code : | H8: Date                                          -------- | K8: Approval / Date [ if reqd.]
+A9: SHARADA INDUSTRIES. | E9: S-06220 | H9: Other Approval / Date [ if reqd. ]      ----- | K9: Other Approval / Date [ if reqd] -------
+A30: Part / | B30: Process Name | C30: Machine | D30: Characteristic | G30: Special | H30: Product / Process 'Specification/   Tolerance | I30: Methods | M30: Error Proofing | N30: Reaction Plan | O30: Corrective Action
+A31: Process | B31: Operation | C31: Device, | D31:  | E31: Product | F31: Process | G31: Char. | I31: Evaluation | J31: Sample | L31: Control
+A32: Number | B32: Description | C32: Tool for Mfg. | G32: Class. | I32: Measurement Technique [L.C. ] | J32: Size | K32: Freq./ Quant. | L32: Method
+A33: PP-010 | B33: R M RECEIPT | D33: 1 | E33: SURFACE CONDITION | H33: RUST,SCALE,CRACK ,BLACK PATCHES,PITTING | I33: VISUAL | J33: 100 | K33: LOT | L33: As PER SI/RMQP | M33: ............. | N33: Sort / Reject | O33: Sort / Reject & Sent back To Supplier
+D34: 2 | E34: Sheet Thk. | H34: 3 MM | I34: Micrometer [LC=0.001mm] | J34: 1 Sheet | K34: PER LOT
+D35: 3 | E35: MATERIAL SPECIFICATION | H35: Fe410 | I35: --- | J35: -- | K35: --
+D36: 4 | E36: Raw material parameters | F36: Chemical | H36: As PER F-QAD/SI/RMQP | I36: Lab TC | J36: 3 x 50 x 300 mm 02 piece for each lot | K36: PER LOT
+F37: Mechanical
+F38: Physical
+A39: PP-020 | B39: SHEARING | C39: SHEARING M/C. | D39: 1 | E39: LENGTH | H39: 1270 ±3 | I39: M.TAPE | J39: 1 | K39: Per hr. | L39: In-Process Inspection | N39: Sort / Reject | O39: Resharpening / Replacement of stopper/Tool
+D40: 2 | E40: WIDTH | H40: 304 ±3 | I40: M.TAPE | J40: 1 | K40: Per hr.
+D41: 3 | E41: THK. | H41: 3 | I41: Micrometer [LC=0.001mm] | J41: 1 | K41: Per hr.
+A42: PP-030 | B42: Blanking | C42: PRESS MACHINE ON  200 TON(Machine-06) | F42: SHUT HEIGHT | H42: 630 | I42: M.Tape / Visual | J42: 1 | K42: PER LOT | L42: Machine setting parameter sheet F-PRD-17
+F43: MAX SHUT HEIGHT | H43: 630
+F44: MIN SHUT HEIGHT | H44: 400
+F45: STROKE LENGTH | H45: 230
+F46: COUNTER BALANCE PRESSURE | H46: 5.0- 7.0 Kg/Cm2
+F47: CLUTCH & BRAEK PRESSURE | H47: 5.0- 7.0 Kg/Cm2
+F48: LINER | G48: TOP | H48: -
+G49: BOTTOM | H49: 100x80x660(2)
+F50: TOOL SIZE | H50: 300x470x660
+D51: 1 | E51: DIMENSIONS | H51: 293.6 ±1.2 | I51: HT.GAUGE | J51: 1 | K51: PER HR | L51: 1st Piece Inspection Record / In-process Inspection | M51: PM of tooling as per schdule | N51: sort/ Rejection | O51: Training given to operator
+D52: 2 | E52: DIMENSIONS | H52: 87.5 ±1.0 | I52: V.Caliper | J52: 1 | K52: PER HR
+D53: 3 | E53: DIMENSIONS | H53: 121.5 ±1.0 | I53: HT.GAUGE | J53: 1 | K53: PER HR
+D54: 4 | E54: RADIUS | H54: R 8.5 TYP | I54: R.GAUGE | J54: 1 | K54: PER HR
+D55: 5 | E55: RADIUS | H55: R 10 TYP | I55: R.GAUGE | J55: 1 | K55: PER HR
+D56: 6 | E56: RADIUS | H56: R 5 TYP | I56: R.GAUGE | J56: 1 | K56: PER HR
+D57: 7 | E57: APPERANCE | H57: Free from Burr, crack, Scoring marks, 
+ Dent & Damages. | I57: Visual | J57: 1 | K57: LOT
+A58: PP-040 | B58: PIERCING | C58: PRESS MACHINE ON 200 TON(Machine-06) | F58: SHUT HEIGHT | H58: 610 | I58: M.Tape / Visual | J58: 1 | K58: PER LOT | L58: Machine setting parameter sheet F-PRD-17
+F59: MAX SHUT HEIGHT | H59: 610
+F60: MIN SHUT HEIGHT | H60: 405
+F61: STROKE LENGTH | H61: 203
+F62: COUNTER BALANCE PRESSURE | H62: 3 kg/cm2
+F63: CLUTCH & BRAKE  PRESSURE | H63: 6 kg/cm2
+F64: No Of Thread | H64: 0
+F65: LINER | G65: TOP | H65: 25X40X550
+G66: BOTTOM | H66: 95X80X560
+F67: TOOL SIZE | H67: 280X550X360
+D68: 1 | E68: Hole Diameter | H68: Ø8  × 3Holes | I68: V.Caliper | J68: 1 | K68: PER HR | L68: 1st Piece Inspection Record / In-process Inspection | M68: PM of tooling as per schdule/ Locating Pins available | N68: sort/ Rejection | O68: Training given to operator
+D69: 2 | E69: Hole Diameter | H69: Ø7 X 1 HOLE | I69: V.Caliper | J69: 1 | K69: PER HR
+D70: 3 | E70: CD | H70: 60 ±0.5 | I70: HT.GAUGE | J70: 1 | K70: PER HR
+D71: 4 | E71: CD | H71: 84±0.5 | I71: HT.GAUGE | J71: 1 | K71: PER HR
+D72: 5 | E72: CD | H72: 26±0.5 | I72: HT.GAUGE | J72: 1 | K72: PER HR
+D73: 6 | E73: CD | H73: 43±0.5 | I73: HT.GAUGE | J73: 1 | K73: PER HR
+D74: 7 | E74: CD | H74: 31±1 | I74: HT.GAUGE | J74: 1 | K74: PER HR
+D75: 8 | E75: CD | H75: 49±0.5 | I75: HT.GAUGE | J75: 1 | K75: PER HR
+D76: 9 | E76: DIMN | H76: 15 ±0.6 | I76: HT.GAUGE | J76: 1 | K76: PER HR
+D77: 10 | E77: DIMN | H77: 12.4 ±0.6 | I77: HT.GAUGE | J77: 1 | K77: PER HR
+D78: 11 | E78: 2 SLOT | H78: 9X15 | I78: V.Caliper | J78: 1 | K78: PER HR
+D79: 12 | E79: 2 SLOT | H79: 20X12 | I79: V.Caliper | J79: 1 | K79: PER HR
+A80: PP-050 | B80: FORMING I | C80: PRESS MACHINE ON 150 TON (m/c-08) | F80: SHUT HEIGHT | H80: 525 | I80: M.Tape / Visual | J80: 1 | K80: PER LOT | L80: Machine setting parameter sheet F-PRD-17
+F81: MAX SHUT HEIGHT | H81: 525
+F82: MIN SHUT HEIGHT | H82: 465
+F83: STROKE LENGTH | H83: 85
+F84: COUNTER BALANCE PRESSURE | H84: 1-3 KG/CM
+F85: CUSHION PIN | H85: Dia-38(38x330)-4nos
+F86: CUSHION PRESSURE | H86: 1-3 bar
+F87: LINER | G87: TOP | H87: 60X80X600
+G88: BOTTOM | H88: 100X75X600
+F89: TOOL SIZE | H89: 300X550X350
+D90: 1 | E90: DIMENSIONS | H90: 283.5 ±1.2 | I90: HT.GAUGE | J90: 1 | K90: PER HR | L90: 1st Piece Inspection Record / In-process Inspection | M90: PM of tooling as per schdule/Locating Pins available | N90: sort/ Rejection | O90: Training given to operator
+D91: 2 | E91: DIMENSIONS | H91: 21.5 ±0.6 | I91: HT.GAUGE | J91: 1 | K91: PER HR
+D92: 3 | E92: DIMENSIONS | H92: 120.75º | I92: BP/PC | J92: 1 | K92: PER HR
+D93: 5 | E93: APPERANCE | H93: Free from Burr on Cut Edge. | I93: Visual | J93: 1 | K93: LOT
+A94: PP-060 | B94: FORMING II | C94: PRESS MACHINE ON 200 TON(M/C-06) | F94: SHUT HEIGHT | H94: 650 | I94: M.Tape / Visual | J94: 1 | K94: PER LOT | L94: Machine setting parameter sheet F-PRD-17
+F95: MAX SHUT HEIGHT | H95: 650 | M95: PM of tooling as per schdule/Locating Pins available | N95: sort/ Rejection | O95: 1) Forming tool PM done, angle 90 degree found ok in forming-II tool.
+2) ensure it forms the correct angle in forming tool.
+3) Training given to  operators and setup & Panel checker report verified.
+F96: MIN SHUT HEIGHT | H96: 435
+F97: STROKE LENGTH | H97: 135
+F98: RAM PRESSURE | H98: 1-2 KG/CM²
+F99: COUNTER BALANCE PRESSURE | H99: 3 kg/cm2
+F100: CLUTCH & BRAKE  PRESSURE | H100: 6 kg/cm2
+F101: CUSHION PIN | H101: Dia-25 (25X300)-4nos
+F102: LINER | G102: TOP | H102: -
+G103: BOTTOM | H103: 80x95x550
+F104: TOOL SIZE | H104: 345x540x380
+D105: 1 | E105: DIMENSIONS | H105: 191.6 ±1.2 | I105: Panel checker | J105: 1 | K105: PER HR | L105: 1st Piece Inspection Record / In-process Inspection | M105: PM of tooling as per schdule/ Locating Pins available | N105: sort/ Rejection | O105: Training given to operator
+D106: 2 | E106: DIMENSIONS | H106: 99 ±1.0 | I106: Panel checker | J106: 1 | K106: PER HR
+D107: 3 | E107: DIMENSIONS | H107: 90º, 8º | I107: Panel checker | J107: 1 | K107: PER HR
+D108: 4 | E108: DIMENSIONS | H108: 45º | I108: Panel checker | J108: 1 | K108: PER HR
+D109: 5 | E109: DIMENSIONS | H109: 85 ±1.0 | I109: Panel checker | J109: 1 | K109: PER HR
+D110: 6 | E110: DIMENSIONS | H110: 21.5 ±0.6 | I110: Panel checker | J110: 1 | K110: PER HR
+D111: 7 | E111: DIMENSIONS | H111: 69 ±1.0 | I111: Panel checker | J111: 1 | K111: PER HR
+D112: 8 | E112: APPERANCE | H112: Free from Burr on Cut Edge. | I112: Visual | J112: 1 | K112: LOT
+A113: PP-070 | B113: PROJECTION WELDING | C113: PROJECTION WELDING M/C | D113: 1 | E113: HEX WELD | H113: M6 | I113: VISUAL | J113: 5 | K113: LOT | L113: 1st Piece Inspection Record / In-process Inspection | M113: Projection shank/ Visual Inspection | N113: sort/ Rejection/rework | O113: 1) Process parameter setting done Voltage 160-180V & Pressure - 10-15kg/cm² (As per M6 Nut STD)
+2)  New Tech Projection machine to be Purchased.
+D114: 2 | E114: TORQUE | H114: 1.55 KG.M | I114: TW | J114: 5 | K114: LOT
+A115: PP-080 | B115: CO2 TACK WELDING | C115: WELDING M/C | D115: 1 | E115: CO2 tack | H115: 3 Tack each nut | J115: 1 | K115: HR | L115: 1st Piece Inspection Record / In-process Inspection | N115: sort/ Rejection/rework | O115: Training given to operator
+A116: PP-090 | B116: INSPECTION | C116: MANUAL | E116: INSPECTION AS PER QUALITY PLAN. | I116: Visual | J116: 1 | K116: LOT | L116: Final Inspection/ Layout frequency for Assy part should be once in year,as This is a Superactive part. | M116: --- | N116: Sort / Reject | O116: 100% application of RPO.100% handling in bins and trolleys.
+A117: PP-100 | B117: Powder coating | C117: Set-up | D117: 1 | E117: COATING | H117: BC-PC20 AS PER TS10812 | I117: TS10812 | J117: 1 | K117: as per production lot quantity | L117: 1st Piece Inspection Record / In-process Inspection | M117: Maintenance of Proper Coating Specifications | N117: Sort / Reject & Sent Back to Supplier | O117: Operator Training for Powder Coating
+D118: 2 | E118: COATING thickness | H118: Min.50TO 55 μ | I118: DFT meter /  adhesive tape test
+D119: 3 | E119: COATING  Quality | H119: Free of Coating Defects
+D120: 4 | E120: DFT | H120: 50 to 55 Micron
+A121: PP-110 | B121: INSPECTION | C121: MANUAL | D121: 1 | E121: INSPECTION AS PER QUALITY PLAN. | I121: VISUAL | J121: 1 | K121: LOT | L121: Final Inspection/ Layout frequency for Assy part should be once in year,as This is a Superactive part. | M121: ............. | N121: Sort / Reject | O121: 100% application of RPO.100% handling in bins and trolleys.
+A122: PP- 120 | B122: STORAGE | C122: MANUAL | E122: PARTS  WITHOUT RUST & DENT | I122: VISUAL | J122: 1 | K122: LOT | L122: INPROCESS INSPECTION. | M122: ............. | N122: Sort / Reject | O122: PER LOT application of RPO.100% handling in bins and trolleys.
+A123: PP-130 | B123: PACKING & DESPATCH | C123: MANUAL | D123: 1 | E123: To be packed as Per signed  logistic sheet and packing standards | I123: VISUAL | J123: 1 | K123: EACH LOT | L123: In-Process Inspection | M123: ............. | N123: Refer logistic sheet | O123: Logistic sheet to be revisited if any errors and to be signed off by VD and SCM
+B127: Change Log
+B128: Sr.No. | C128: Date | D128: Revision No. | E128: Process No. / Operation | G128: Description
+B129: 1 | C129: 24.09.2025 | D129: 1 | E129: PP-60 | G129: 1) Forming tool PM done, angle 90 degree found ok in forming-II tool.
+2) ensure it forms the correct angle in forming tool.
+3) Training given to  operators and setup & Panel checker report verified.
+B130: 2 | C130: 13.11.2025 | D130: 2 | E130: PP-70 | G130: 1) Process parameter setting done Voltage 160-180V & Pressure - 10-15kg/cm² (As per M6 Nut STD)
+2) New Tech Projection machine to be Purchased
+3) After powder coating and tapping of the M6 nut, the quality inspector shall ensure nut availability by marking each part with a green dot at the PDI gate.
+=== SHEET: SPC 40±0.5 ===
+A1: SHARADA INDUSTRIES 
+W-199 , 'S' BLOCK ,BHOSARI,PUNE-26 | D1: STATISTICAL PROCESS CONTROL (X-bar & R chart) STUDY | O1: Format No: | Q1: F-QAD-29
+O2: Revision No: | Q2: 0
+O3: Revision Date: | Q3: 20-02-2015
+A4: PART NAME       : | C4: BRACKET PARKING BRAKE CABLE LEVER MTG | F4: INSTRUMENT    : | H4: VERNIER CALIPER | K4: LEAST COUNT           : | M4: 0.02
+A5: PART NO.           : | C5: 552742703303 | F5: SPECIFIC          : | H5: 40±0.5 | K5: NO.OF DECIMALS: | M5: 3 | Q5: DATE: | R5: 27.03.2018
+A6: SAMPLE SIZE     : | C6: 50
+A7: DATA COLLECTION: -
+A8: SNO. | B8: 1 | C8: 2 | D8: 3 | E8: 4 | F8: 5 | G8: 6 | H8: 7 | I8: 8 | J8: 9 | K8: 10 | L8: U.T.L. | M8: 40.5
+A9: 1 | B9: 40.1 | C9: 40.2 | D9: 40.1 | E9: 40 | F9: 40 | G9: 40.1 | H9: 40 | I9: 40.2 | J9: 40.1 | K9: 40.2
+A10: 2 | B10: 40.2 | C10: 40.2 | D10: 40 | E10: 40.2 | F10: 40.1 | G10: 40 | H10: 40.1 | I10: 40.1 | J10: 40.1 | K10: 40.12
+A11: 3 | B11: 40.2 | C11: 40.1 | D11: 40.2 | E11: 40.3 | F11: 40.2 | G11: 40.25 | H11: 40.1 | I11: 40.1 | J11: 40.1 | K11: 40.1 | L11: L.T.L. | M11: 39.5
+A12: 4 | B12: 40.1 | C12: 40.2 | D12: 40.1 | E12: 40.1 | F12: 40.2 | G12: 40.1 | H12: 40.1 | I12: 40.2 | J12: 40.1 | K12: 40.1
+A13: 5 | B13: 40.2 | C13: 40.1 | D13: 40.2 | E13: 40.1 | F13: 40.3 | G13: 40.1 | H13: 40.2 | I13: 40.2 | J13: 40.1 | K13: 40.1
+A14: CALCULATIONS FOR HISTOGRAM : -
+A15: XLARGE | B15: 40.2 | C15: 40.2 | D15: 40.2 | E15: 40.3 | F15: 40.3 | G15: 40.25 | H15: 40.2 | I15: 40.2 | J15: 40.1 | K15: 40.2 | L15: Xmax.   = | M15: 40.3 | N15: NO.OF NON CONFORMING PART = | Q15: 0 | R15: NOS.
+A16: XSMALL | B16: 40.1 | C16: 40.1 | D16: 40 | E16: 40 | F16: 40 | G16: 40 | H16: 40 | I16: 40.1 | J16: 40.1 | K16: 40.1 | L16: Xmin.    = | M16: 40
+A17: RANGE | B17: 0.100000000000001 | C17: 0.100000000000001 | D17: 0.200000000000003 | E17: 0.299999999999997 | F17: 0.299999999999997 | G17: 0.25 | H17: 0.200000000000003 | I17: 0.100000000000001 | J17: 0 | K17: 0.100000000000001 | L17: R - BAR = | M17: 0.165000000000001 | N17: NO. OF PARTS ABOVE U.T.L.     = | Q17: 0 | R17: NOS.
+A18: AVG. | B18: 40.16 | C18: 40.16 | D18: 40.12 | E18: 40.14 | F18: 40.16 | G18: 40.11 | H18: 40.1 | I18: 40.16 | J18: 40.1 | K18: 40.124 | L18: X - BAR = | M18: 40.1334 | N18: NO. OF PARTS BELOW L.T.L.     = | Q18: 0 | R18: NOS.
+A19: Process Width ( P )    = | D19: 0.3 | F19: Specification Width(S)         = | I19: 1 | K19: Index (K)={2 x (D-XBAR)/S} = | N19: 0.2668 | O19: INTERVAL | Q19: FREQ. | R19: CU. FREQ.
+A20: Design Centre ( D )     = | D20: 40 | F20: Interval                               = | I20: 0.1 | K20: Selecting no. of classes     = | N20: 3 | O20: 39.7 | P20: 39.8 | Q20: 0 | R20: 0
+A21: Starting Point               = | D21: 40 | F21: No. of readings                   = | I21: 50 | K21: Shift Of 'X-BAR' from 'D'      = | N21: 0.133400000000002 | O21: 39.8 | P21: 39.9 | Q21: 0 | R21: 0
+O22: 39.9 | P22: 40 | Q22: 5 | R22: 5
+O23: 40 | P23: 40.1 | Q23: 25 | R23: 30
+O24: 40.1 | P24: 40.2 | Q24: 17 | R24: 47
+O25: 40.2 | P25: 40.3 | Q25: 3 | R25: 50
+O26: 40.3 | P26: 40.4 | Q26: 0 | R26: 50
+O27: 40.4 | P27: 40.5 | Q27: 0 | R27: 50
+O28: 40.5 | P28: 40.6 | Q28: 0 | R28: 50
+O29: 40.6 | P29: 40.7 | Q29: 0 | R29: 50
+O30: 40.7 | P30: 40.8 | Q30: 0 | R30: 50 | T30: R - Bar | U30: 0.165000000000001 | V30: 0.165000000000001 | W30: 0.165000000000001 | X30: 0.165000000000001 | Y30: 0.165000000000001 | Z30: 0.165000000000001 | AA30: 0.165000000000001 | AB30: 0.165000000000001 | AC30: 0.165000000000001 | AD30: 0.165000000000001
+O31: 40.8 | P31: 40.9 | Q31: 0 | R31: 50 | T31: X - Bar | U31: 40.1334 | V31: 40.1334 | W31: 40.1334 | X31: 40.1334 | Y31: 40.1334 | Z31: 40.1334 | AA31: 40.1334 | AB31: 40.1334 | AC31: 40.1334 | AD31: 40.1334
+O32: U.C.L.XBAR                  = | Q32: 40.1334 | U32: 40.1334 | V32: 40.1334 | W32: 40.1334 | X32: 40.1334 | Y32: 40.1334 | Z32: 40.1334 | AA32: 40.1334 | AB32: 40.1334 | AC32: 40.1334 | AD32: 40.1334
+O33: L.C.L.XBAR                 = | Q33: 40.1334 | U33: 40.1334 | V33: 40.1334 | W33: 40.1334 | X33: 40.1334 | Y33: 40.1334 | Z33: 40.1334 | AA33: 40.1334 | AB33: 40.1334 | AC33: 40.1334 | AD33: 40.1334
+O34: U.C.L.RBAR                = | Q34: 0 | U34: 0 | V34: 0 | W34: 0 | X34: 0 | Y34: 0 | Z34: 0 | AA34: 0 | AB34: 0 | AC34: 0 | AD34: 0
+O35: L.C.L.RBAR                  = | Q35: 0 | U35: 0 | V35: 0 | W35: 0 | X35: 0 | Y35: 0 | Z35: 0 | AA35: 0 | AB35: 0 | AC35: 0 | AD35: 0
+O36: Std.Dev."s"       = | Q36: 0.0724388552856965
+O37: Cp=(S/6s)          = | Q37: 2.3008
+A38: CONCLUSION : - | C38: PROCESS IS EXCELLENT | O38: Cpk={1-K}xPp)  = | Q38: 1.687
+O39: CP,CPk => 1.67 ACCEPTABLE
+=== SHEET: 10)Checking Aids (Gauges). ===
+A1: SHARADA INDUSTRIES                     W-199, 'S'-BLOCK, MIDC, BHOSARI,    PUNE- 411 026 | C1: CALIBRATION RECORD OF MEASURING INSTRUMENTS | L1: Format No.: F-QAD-7
+L2: Rev. No.: 01
+L3: Rev. Date:  11.11.17
+A4: Sr. NO | B4: Name of Instrument | C4: Range | D4: Identification | E4: L.C. | F4: Certificate No. | G4: Make | H4: Location | I4: Frequency of Calibr. | L4: REMARK
+A6: 1 | B6: Height Gauge | C6: 00 to 300 | D6: HG-09 | E6: 0.02 | F6: MCL/2014-15/27-01 | G6: Forbes | H6: W-199 | I6: 1 Year | L6: OK
+A7: 2 | B7: Vernier Caliper | C7: 00 to 600 | D7: VC-12 | E7: 0.05 | F7: MCL/2014-15/33/1 | G7: Mitutoyo | H7: W-199 | I7: 1 Year | L7: OK
+A8: 3 | B8: Vernier Caliper | C8: 00 to 1000 | D8: VC-02 | E8: 0.1 | F8: MCL/2014-15/132/5 | G8: Aerospace | H8: W-199 | I8: 2 Year | L8: OK
+A9: 4 | B9: Dial Vernier Caliper | C9: 00 to 300 | D9: VC-06 | E9: 0.02 | F9: MCL/2014-15/132/6 | G9: Mitutoyo | H9: W-199 | I9: 1 Year | L9: OK
+A10: 5 | B10: DIGITAL MICROMETER | C10: 0 to 25 | D10: EM-01 | E10: 0.001MM | F10: MCL/2014-15/38/03 | G10: Mitutoyo | H10: W-199 | I10: 1 Year | L10: OK
+A11: 6 | B11: Micrometer | C11: 50 to 75 | D11: EM-02 | E11: 0.01 | F11: MCL/2014-15/38/02 | G11: Mitutoyo | H11: W-199 | I11: 1 Year | L11: OK
+A12: 7 | B12: Radius Gauge | C12: 7.5 - 15mm | D12: RG-13 | E12: 0.5 | F12: PI/M/280 | G12: Mitutoyo | H12: W-199 | I12: 2 YEARS | L12: OK
+A13: 8 | B13: V BLOCK 1 | D13: VB-01 | H13: W-199 | L13: OK
+A14: PANEL CHECKER
+=== SHEET: 18)QP ===
+A1: Sharada Industries
+W-199 B 'S' Block MIDC Bhosari Pune 411 026 | C1: QUALITY PLAN | E1: Q.P. NO : SI/QP/511830100101/01
+E2: Rev. No.: --
+E3: Rev. Date : --
+A4: Part Name : BRACKET ASSY,ACCELERATOR PEDAL MTG
+A5: Part No & Rev : '511830100101/ b/25.03.2022
+A6: SKETCH :
+A19: SR.NO | B19: Parameters | C19: Specification | D19: Method Of
+Inspection | E19: Sample
+Size | F19: Frequency | G19: Remarks
+A20: Dimensional
+A21: 1 | B21: CO2  TACK WELD | C21: 3 NOS | D21: VISUAL | E21: 10 | F21: PER LOT
+A22: 2 | B22: M6 HEX WELD NUT | C22: 2 NOS | D22: TPG | E22: 10 | F22: PER LOT
+A23: 3 | B23: PART WEIGHT | D23: WM | E23: 10 | F23: PER LOT
+A24: 4 | B24: SURFACE PROTECTION | C24: BC-PC20 AS PER TS10812 | D24: COATING TC | E24: 10 | F24: PER LOT
+A25: 5 | B25: THICKNESS | C25: 3MM | D25: MM | E25: 10 | F25: PER LOT
+A26: 6 | B26: DIMN | C26: 10 | D26: V.CALLIPER | E26: 10 | F26: PER LOT
+A27: 7 | B27: DIMN | C27: 29 | D27: V.CALLIPER | E27: 10 | F27: PER LOT
+A28: 8 | B28: HOLE DIA | C28: 7 | D28: RG | E28: 10 | F28: PER LOT
+A29: 9 | B29: DIMN | C29: 12 | D29: PANEL CHECKER | E29: 10 | F29: PER LOT
+A30: 10 | B30: RADIUS | C30: R6 | D30: V.CALLIPER | E30: 10 | F30: PER LOT
+A31: 11 | B31: DIMN | C31: 18.5 | D31: V.CALLIPER | E31: 10 | F31: PER LOT
+A32: 12 | B32: DIMN | C32: 121.5 | D32: PANEL CHECKER | E32: 10 | F32: PER LOT
+A33: 13 | B33: C.D | C33: 84±0.5 | D33: V.CALLIPER | E33: 10 | F33: PER LOT
+A34: 14 | B34: C.D | C34: 5.5 | D34: V.CALLIPER | E34: 10 | F34: PER LOT
+A35: 15 | B35: DIMN | C35: 15 | D35: H.G | E35: 10 | F35: PER LOT
+A36: 16 | B36: DIMN | C36: 9 TYP | D36: PANEL CHECKER | E36: 10 | F36: PER LOT
+A37: 17 | B37: DIMN | C37: 15 | D37: V.CALLIPER | E37: 10 | F37: PER LOT
+A38: 18 | B38: DIMN | C38: 34 | D38: V.CALLIPER | E38: 10 | F38: PER LOT
+A39: 19 | B39: C.D | C39: 60±0.5 | D39: PANEL CHECKER | E39: 10 | F39: PER LOT
+A40: 20 | B40: DIMN | C40: 87.5 | D40: V.CALLIPER | E40: 10 | F40: PER LOT
+A41: 21 | B41: RADIUS | C41: R5 TYP | D41: RG | E41: 10 | F41: PER LOT
+A42: 22 | B42: DIMN | C42: 12.4 | D42: PANEL CHECKER | E42: 10 | F42: PER LOT
+A43: 23 | B43: DIMN | C43: `(36) | D43: PANEL CHECKER | E43: 10 | F43: PER LOT
+A44: 24 | B44: DIMN | C44: `(136) | D44: PANEL CHECKER | E44: 10 | F44: PER LOT
+A45: 25 | B45: DIMN | C45: ` (185) | D45: PANEL CHECKER | E45: 10 | F45: PER LOT
+A46: 26 | B46: ANGLE | C46: 90º±1º | D46: PANEL CHECKER | E46: 10 | F46: PER LOT
+A47: 27 | B47: ANGLE | C47: 8º±1º | D47: PANEL CHECKER | E47: 10 | F47: PER LOT
+A48: 28 | B48: DIMN | C48: ` (185) | D48: PANEL CHECKER | E48: 10 | F48: PER LOT
+A49: 29 | B49: DIMN | C49: `(85) | D49: PANEL CHECKER | E49: 10 | F49: PER LOT
+B50: DIMN | C50: 83.5±1 | D50: PANEL CHECKER | E50: 10 | F50: PER LOT
+B51: DIMN | C51: 191.6±1 | D51: PANEL CHECKER | E51: 10 | F51: PER LOT
+B52: ANGLE | C52: ` (45º) | D52: PANEL CHECKER | E52: 10 | F52: PER LOT
+A53: 30 | B53: DIMN | C53: `(41) | D53: V.CALLIPER | E53: 10 | F53: PER LOT
+A54: 31 | B54: RADIUS | C54: R5 TYP | D54: RG | E54: 10 | F54: PER LOT
+A55: 32 | B55: DIMN | C55: `(69) | D55: V.CALLIPER | E55: 10 | F55: PER LOT
+A56: 33 | B56: DIMN | C56: `(99) | D56: PANEL CHECKER | E56: 10 | F56: PER LOT
+A57: 34 | B57: 2 HOLE | C57: DIA 8 | D57: V.CALLIPER | E57: 10 | F57: PER LOT
+A58: 35 | B58: C.D | C58: 26±0.5 | D58: PANEL CHECKER | E58: 10 | F58: PER LOT
+A59: 36 | B59: C.D | C59: 43±0.5 | D59: PANEL CHECKER | E59: 10 | F59: PER LOT
+A60: 37 | B60: DIMN | C60: `(49) | D60: PANEL CHECKER | E60: 10 | F60: PER LOT
+A61: 38 | B61: C.D | C61: 31±1 | D61: PANEL CHECKER | E61: 10 | F61: PER LOT
+A62: 39 | B62: C.D | C62: 49±0.5 | D62: PANEL CHECKER | E62: 10 | F62: PER LOT
+A63: 40 | B63: C.D | C63: 67±0.5 | D63: PANEL CHECKER | E63: 10 | F63: PER LOT
+A64: 41 | B64: DIMN | C64: 20 | D64: PANEL CHECKER | E64: 10 | F64: PER LOT
+A65: 42 | B65: DIMN | C65: `(55) | D65: PANEL CHECKER | E65: 10 | F65: PER LOT
+A66: 43 | B66: DIMN | C66: `(70) | D66: PANEL CHECKER | E66: 10 | F66: PER LOT
+A67: 44 | B67: DIMN | C67: `(95) | D67: PANEL CHECKER | E67: 10 | F67: PER LOT
+A68: 45 | B68: DIMN | C68: ` (127) | D68: PANEL CHECKER | E68: 10 | F68: PER LOT
+A69: 46 | B69: DIMN | C69: `(169) | D69: PANEL CHECKER | E69: 10 | F69: PER LOT
+A70: 47 | B70: DIMN | C70: `(20) | D70: PANEL CHECKER | E70: 10 | F70: PER LOT
+A71: 48 | B71: RADIUS | C71: R10 | D71: RG | E71: 10 | F71: PER LOT
+A72: 49 | B72: HOLE DIA 8 | C72: DIA 8 | D72: V.CALLIPER | E72: 10 | F72: PER LOT
+A73: 50 | B73: DIMN | C73: 38.5 | D73: V.CALLIPER | E73: 10 | F73: PER LOT
+A74: 51 | B74: All other dimn are confirm on panel checker
+A75: VISUAL
+A76: 1 | B76: THERE SHOULD NOT BE ANY SHARP BURR. | D76: VISUAL | E76: 1 | F76: EVERY LOT
+A77: 2 | B77: PART SHOULD BE RUST FREE. | D77: VISUAL | E77: 1 | F77: EVERY LOT
+A78: 3 | B78: THERE SHOULD NOT BE CRACK | D78: VISUAL | E78: 1 | F78: EVERY LOT
+A79: PERFORMANCE
+A80: 1 | B80: NA
+A81: MATERIAL CHECK
+A82: 1 | B82: FE 410 3. mm | G82: AS PER MATERIAL TC
+F83: Format No.: F-DVP-17
+F84: Rev. No.: 0
+A85: PREPARED BY | F85: Rev. Date: 11/11/17
+=== SHEET: 26)PSW ===
+A1: Sharada Industries W-199 B 'S' Block MIDC Bhosari Pune 411 026 | E1: PART SUBMISSION WARRANT | I1: Format No.: F-DVP-14
+I2: Rev. No.: 00
+I3: Rev. Date: 11/11/17
+A4: Part Name: | B4: BRACKET ASSY Accelerator pedal mtg | H4: Part Number  :511830100101
+A5: Safety and or | D5: Engineering Drawing change Level: | G5: B | I5: Dated : | J5: 25.03.2022
+A6: Government Regulation       Yes                          No
+A7: Additional Engineering Changes | H7: Dated :
+A8: Shown on Drg. No. | C8: 511830100101 | E8: Purchase order No.: | G8: 2540193527 | I8: Weight (Kg) : | K8: 0.660KG
+A9: Checking Aid No. | E9: Engineering Change Level : | H9: …. | I9: Dated  : | J9: …..
+B10:  | C10: 
+A11: SUPPLIER MANUFACTURING INFORMATION | F11: SUBMISSION INFORMATION
+A12: Supplier Name & Supplier Code | E12: Dimensional | G12: Materials/Functional | J12: Appearance
+A13: SHARADA INDUSTRIES      S06220 | F13: Customer Name / Division: | I13: TML ,PUNE
+A14: Street Address: | C14:  | D14:  | F14: Buyer / Buyer Code : | I14: Mr. Panduranga Dhamarla
+A15: W-199 S' Block MIDC Bhosari, Pune-26
+A17: City: | B17: PUNE | C17: State: | D17: MAHARASHTRA | E17: PIN | F17: 411026 | H17: Application  : | J17: LPT 1112 RDE BSVI
+A18: Note: Does this part contain any restricted or reportable substances | I18: Yes | J18: No.
+A19: Are plastic parts identified with appropriate ISO marking codes | I19: Yes | J19: No.
+A21: REASON FOR SUBMISSION
+A23: Initial Submission | H23: Change to optional construction or material.
+A24: Engineering Change(s) | H24: Sub-supplier or material source change
+A25: Tooling: Transfer, Replacement, Refurbishment or additional | H25: Change in Part Processing
+A26: Correction of discrepancy | E26:  | H26: Parts produced at additional location
+A27: Tooling Inactive > that 1 year | H27: Other-Please specify.
+A29: REQUESTED SUBMISSION LEVEL (Check One)
+A31: Level 1 – Warrant Only (And for designated appearance items, an appearance approval report)
+B32: submitted to customer
+A33: Level 2 – Warrant with product samples and limited supporting data submitted to customer.
+A34: Level 3 – Warrant with product samples and complete supporting data submitted to customer.
+A35: Level 4 – Warrant and other requirement as defined by customer.
+A36: Level 5 – Warrant with product samples and complete supporting data reviewed at supplier’s
+B37: manufacturing location.
+A39: SUBMISSION RESULTS
+A40: The results for | C40: Dimensional measurements | F40: Material and functional tests | H40: Appearance criteria | J40: statistical process package.
+A42: These results meet all drawing and specification requirements | G42: yes | H42: no. (“If no”-Explain)
+A43: Mold/ Cavity/Production Process | D43: Press and Fabrication
+A45: DECLARATION
+A46: I hereby affirm that the samples represented by this warrant are representative of our parts, have been made to
+A47: the Production Part Approval Process manual 4th Edition Requirements. I further warrant these samples were
+A48: produced at the production rate of 600 Nos / 8 hours. I have noted any deviations from this declaration below.
+A50: EXPLANATION / COMMENTS:
+A52: Print Name: | B52: Mrs.Kanchan Pant | E52: Title: | F52: COO | H52: Phone No.:. | J52: FAX No.:
+A53: Supplier Authorised Signature: | H53: Date :
+A54: FOR CUSTOMER USE ONLY (IF APPLICABLE)
+A55: Part Warrant Disposition | D55: Approved | F55: Rejected | H55: Part Functional Approval | K55: Approved
+D56: Other | J56:  | K56: Waived
+A58: Customer Name: | C58: TML PUNE | F58: Customer Signature: | I58: Date:
+A59: 

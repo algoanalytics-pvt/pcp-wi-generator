@@ -1,0 +1,564 @@
+{
+  "model": "mistral-small-latest",
+  "stage": "01",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / PCP /2654 7220 8237/8238N/01",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "MATCH",
+      "evidence": "Rev: 02",
+      "note": ""
+    },
+    "H5": {
+      "verdict": "MATCH",
+      "evidence": "Date: 06.03.2026",
+      "note": ""
+    },
+    "H6": {
+      "verdict": "CONTRADICTED",
+      "evidence": "UNIT-3 / SUPPORT LH/RH DOOR OUTER HANDLE",
+      "note": "UNIT-3 instead of UNIT-II."
+    },
+    "H7": {
+      "verdict": "MATCH",
+      "evidence": "Stage No. 1",
+      "note": ""
+    },
+    "H8": {
+      "verdict": "CONTRADICTED",
+      "evidence": "R M RECEIPT",
+      "note": "First operation name instead of the stage name."
+    },
+    "H9": {
+      "verdict": "PARTIAL",
+      "evidence": "शीयरिंग मशीन (150 टन)",
+      "note": "Only in the tooling list; header machine field says 'Manual'."
+    },
+    "H10": {
+      "verdict": "PARTIAL",
+      "evidence": "ब्लैंकिंग मशीन (150 टन)",
+      "note": "Only in the tooling list; header machine field says 'Manual'."
+    },
+    "H11": {
+      "verdict": "PARTIAL",
+      "evidence": "पियरसिंग मशीन (75 टन)",
+      "note": "Only in the tooling list; header machine field says 'Manual'."
+    },
+    "H12": {
+      "verdict": "CONTRADICTED",
+      "evidence": "2654 7220 8237/8238N/H/06/01/12",
+      "note": "Change-level suffix added."
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Cycle time left blank, as in the golden."
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "SUPPORT LH/RH DOOR OUTER HANDLE",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "MATCH",
+      "evidence": "2654 7220 8237/8238N",
+      "note": ""
+    },
+    "H16": {
+      "verdict": "MATCH",
+      "evidence": "Revision 02",
+      "note": ""
+    },
+    "H17": {
+      "verdict": "MATCH",
+      "evidence": "Rev Date 06.03.2026",
+      "note": ""
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "—",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "MATCH",
+      "evidence": "2654 7220 8237",
+      "note": ""
+    },
+    "H20": {
+      "verdict": "PARTIAL",
+      "evidence": "SUPPORT LH",
+      "note": "Description truncated."
+    },
+    "H21": {
+      "verdict": "MATCH",
+      "evidence": "1",
+      "note": ""
+    },
+    "H22": {
+      "verdict": "CONTRADICTED",
+      "evidence": "2654 7220 8238",
+      "note": "Suffix N dropped."
+    },
+    "H23": {
+      "verdict": "PARTIAL",
+      "evidence": "SUPPORT RH",
+      "note": "Description truncated."
+    },
+    "H24": {
+      "verdict": "MATCH",
+      "evidence": "1",
+      "note": ""
+    },
+    "S1a": {
+      "verdict": "MATCH",
+      "evidence": "प्राप्त होने वाले रॉ मटेरियल को ... प्राप्त करें",
+      "note": ""
+    },
+    "S1b": {
+      "verdict": "MATCH",
+      "evidence": "जंग, स्केल, क्रैक, ब्लैक पैच, पिटिंग से मुक्त होना चाहिए",
+      "note": ""
+    },
+    "S2": {
+      "verdict": "MATCH",
+      "evidence": "शीट की मोटाई 1.5 मिमी होनी चाहिए। माइक्रोमीटर [LC=0.001mm] से मापें।",
+      "note": ""
+    },
+    "S3": {
+      "verdict": "MATCH",
+      "evidence": "मटेरियल स्पेसिफिकेशन D513 के अनुसार होना चाहिए",
+      "note": ""
+    },
+    "S4": {
+      "verdict": "MATCH",
+      "evidence": "रासायनिक और यांत्रिक गुणों की जांच करें ... भौतिक गुणों की लैब टीसी द्वारा जांच करें",
+      "note": "Steps 5-6."
+    },
+    "S5a": {
+      "verdict": "MATCH",
+      "evidence": "लंबाई 1250 मिमी",
+      "note": "Step 7, followed by shearing in step 8; also QF 1."
+    },
+    "S5b": {
+      "verdict": "MATCH",
+      "evidence": "चौड़ाई 165 मिमी",
+      "note": ""
+    },
+    "S6": {
+      "verdict": "MATCH",
+      "evidence": "मोटाई 1.5 मिमी होनी चाहिए",
+      "note": "Step 7 / QF 1; micrometer not restated."
+    },
+    "S7a": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैंकिंग मशीन (150 टन)",
+      "note": "Tooling list; step 10 does blanking on the blanking machine."
+    },
+    "S7b": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैंकिंग मशीन की शट हाइट 412 मिमी",
+      "note": ""
+    },
+    "S7c": {
+      "verdict": "MATCH",
+      "evidence": "स्ट्रोक लेंथ 67 मिमी",
+      "note": ""
+    },
+    "S8a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S8b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S8c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S8d": {
+      "verdict": "CONTRADICTED",
+      "evidence": "कटिंग के बाद किनारों पर चैम्फर 5 x 45° और रेडियस R3 लगाएं।",
+      "note": "Attached to shearing (before blanking) as a process step, not a blanking check."
+    },
+    "S8e": {
+      "verdict": "CONTRADICTED",
+      "evidence": "कटिंग के बाद किनारों पर चैम्फर 5 x 45° और रेडियस R3 लगाएं।",
+      "note": "Attached to shearing, not blanking."
+    },
+    "S9a": {
+      "verdict": "MATCH",
+      "evidence": "पियरसिंग मशीन (75 टन)",
+      "note": "Tooling list; step 12."
+    },
+    "S9b": {
+      "verdict": "MATCH",
+      "evidence": "शट हाइट 357 मिमी",
+      "note": ""
+    },
+    "S9c": {
+      "verdict": "MATCH",
+      "evidence": "स्ट्रोक लेंथ 67 मिमी",
+      "note": ""
+    },
+    "S10a": {
+      "verdict": "PARTIAL",
+      "evidence": "पियरसिंग मशीन पर आवश्यक छेद करें।",
+      "note": "Check named without its value."
+    },
+    "S10b": {
+      "verdict": "PARTIAL",
+      "evidence": "आवश्यक छेद और आयाम पियरसिंग और फॉर्मिंग ऑपरेशन्स के अनुसार",
+      "note": "Check named without its value."
+    },
+    "S11a": {
+      "verdict": "MATCH",
+      "evidence": "फॉर्मिंग I मशीन (150 टन)",
+      "note": "Tooling list; step 13."
+    },
+    "S11b": {
+      "verdict": "MATCH",
+      "evidence": "शट हाइट 420 मिमी",
+      "note": ""
+    },
+    "S11c": {
+      "verdict": "MATCH",
+      "evidence": "स्ट्रोक लेंथ 100 मिमी",
+      "note": ""
+    },
+    "S12a": {
+      "verdict": "PARTIAL",
+      "evidence": "आवश्यक छेद और आयाम पियरसिंग और फॉर्मिंग ऑपरेशन्स के अनुसार होने चाहिए।",
+      "note": "Check named without its value."
+    },
+    "S12b": {
+      "verdict": "PARTIAL",
+      "evidence": "आवश्यक छेद और आयाम पियरसिंग और फॉर्मिंग ऑपरेशन्स के अनुसार होने चाहिए।",
+      "note": "Check named without its value."
+    },
+    "S12c": {
+      "verdict": "PARTIAL",
+      "evidence": "आवश्यक छेद और आयाम पियरसिंग और फॉर्मिंग ऑपरेशन्स के अनुसार होने चाहिए।",
+      "note": "Check named without its value."
+    },
+    "S12d": {
+      "verdict": "PARTIAL",
+      "evidence": "आवश्यक छेद और आयाम पियरसिंग और फॉर्मिंग ऑपरेशन्स के अनुसार होने चाहिए।",
+      "note": "Check named without its value."
+    },
+    "S12e": {
+      "verdict": "PARTIAL",
+      "evidence": "आवश्यक छेद और आयाम पियरसिंग और फॉर्मिंग ऑपरेशन्स के अनुसार होने चाहिए।",
+      "note": "Check named without its value."
+    },
+    "S12f": {
+      "verdict": "PARTIAL",
+      "evidence": "आवश्यक छेद और आयाम पियरसिंग और फॉर्मिंग ऑपरेशन्स के अनुसार होने चाहिए।",
+      "note": "Check named without its value."
+    },
+    "S13a": {
+      "verdict": "MATCH",
+      "evidence": "फॉर्मिंग II मशीन (150 टन)",
+      "note": "Tooling list; step 14."
+    },
+    "S13b": {
+      "verdict": "MATCH",
+      "evidence": "शट हाइट 503 मिमी",
+      "note": ""
+    },
+    "S13c": {
+      "verdict": "MATCH",
+      "evidence": "स्ट्रोक लेंथ 113 मिमी",
+      "note": ""
+    },
+    "S14a": {
+      "verdict": "PARTIAL",
+      "evidence": "आवश्यक छेद और आयाम पियरसिंग और फॉर्मिंग ऑपरेशन्स के अनुसार होने चाहिए।",
+      "note": "Check named without its value."
+    },
+    "S14b": {
+      "verdict": "PARTIAL",
+      "evidence": "आवश्यक छेद और आयाम पियरसिंग और फॉर्मिंग ऑपरेशन्स के अनुसार होने चाहिए।",
+      "note": "Check named without its value."
+    },
+    "S14c": {
+      "verdict": "PARTIAL",
+      "evidence": "आवश्यक छेद और आयाम पियरसिंग और फॉर्मिंग ऑपरेशन्स के अनुसार होने चाहिए।",
+      "note": "Check named without its value."
+    },
+    "S14d": {
+      "verdict": "PARTIAL",
+      "evidence": "आवश्यक छेद और आयाम पियरसिंग और फॉर्मिंग ऑपरेशन्स के अनुसार होने चाहिए।",
+      "note": "Check named without its value."
+    },
+    "S14e": {
+      "verdict": "PARTIAL",
+      "evidence": "आवश्यक छेद और आयाम पियरसिंग और फॉर्मिंग ऑपरेशन्स के अनुसार होने चाहिए।",
+      "note": "Check named without its value."
+    },
+    "S14f": {
+      "verdict": "PARTIAL",
+      "evidence": "आवश्यक छेद और आयाम पियरसिंग और फॉर्मिंग ऑपरेशन्स के अनुसार होने चाहिए।",
+      "note": "Check named without its value."
+    },
+    "S15": {
+      "verdict": "PARTIAL",
+      "evidence": "अंतिम निरीक्षण करें। सभी आयामों और विशेषताओं की जांच करें।",
+      "note": "Quality gate not referenced."
+    },
+    "S16": {
+      "verdict": "PARTIAL",
+      "evidence": "अंतिम निरीक्षण के बाद भागों को अलग एलएच/आरएच बिन्स में रखें।",
+      "note": "Storage named; rust/dent condition dropped."
+    },
+    "S17": {
+      "verdict": "MATCH",
+      "evidence": "पैकिंग और डिस्पैच करें। लॉजिस्टिक शीट के अनुसार पैक करें।",
+      "note": ""
+    },
+    "T1": {
+      "verdict": "MATCH",
+      "evidence": "शीयरिंग मशीन (150 टन)",
+      "note": "Tonnage is an addition."
+    },
+    "T2": {
+      "verdict": "MATCH",
+      "evidence": "ब्लैंकिंग मशीन (150 टन)",
+      "note": "Also Forming I and II machines (150 टन)."
+    },
+    "T3": {
+      "verdict": "MATCH",
+      "evidence": "पियरसिंग मशीन (75 टन)",
+      "note": ""
+    },
+    "T4": {
+      "verdict": "MATCH",
+      "evidence": "हाइट गेज",
+      "note": ""
+    },
+    "T5": {
+      "verdict": "MATCH",
+      "evidence": "वर्नियर कैलिपर",
+      "note": ""
+    },
+    "T6a": {
+      "verdict": "MATCH",
+      "evidence": "माइक्रोमीटर [LC=0.001mm]",
+      "note": ""
+    },
+    "T6b": {
+      "verdict": "MATCH",
+      "evidence": "माइक्रोमीटर [LC=0.001mm]",
+      "note": ""
+    },
+    "T7": {
+      "verdict": "MATCH",
+      "evidence": "रेडियस गेज",
+      "note": ""
+    },
+    "QI1": {
+      "verdict": "MATCH",
+      "evidence": "सामग्री में जंग, स्केल, क्रैक, ब्लैक पैच, पिटिंग नहीं होनी चाहिए।",
+      "note": ""
+    },
+    "QI2": {
+      "verdict": "PARTIAL",
+      "evidence": "शीट की मोटाई 1.5 मिमी होनी चाहिए।",
+      "note": "Tolerance ±0.05 mm dropped."
+    },
+    "QI3": {
+      "verdict": "MATCH",
+      "evidence": "मटेरियल स्पेसिफिकेशन D513 के अनुसार होना चाहिए।",
+      "note": ""
+    },
+    "QI4": {
+      "verdict": "MATCH",
+      "evidence": "रासायनिक और यांत्रिक गुणों की रिपोर्ट F-QAD/SI/RMQP/ के अनुसार",
+      "note": "Physical properties in step 6."
+    },
+    "QF1": {
+      "verdict": "MATCH",
+      "evidence": "सभी आयाम और विशेषताएं नियंत्रण योजना के अनुसार होनी चाहिए।",
+      "note": ""
+    },
+    "QF2": {
+      "verdict": "MATCH",
+      "evidence": "कोई दरार, डेंट, या क्षति नहीं होनी चाहिए।",
+      "note": ""
+    },
+    "QF3": {
+      "verdict": "PARTIAL",
+      "evidence": "किनारों पर चैम्फर 5 x 45° और रेडियस R3 होना चाहिए।",
+      "note": "Only one radius; R10, R20, R4.5 not covered."
+    },
+    "QF4": {
+      "verdict": "PARTIAL",
+      "evidence": "कोई दरार, डेंट, या क्षति नहीं होनी चाहिए।",
+      "note": "Rust not named."
+    },
+    "QF5": {
+      "verdict": "MATCH",
+      "evidence": "लॉजिस्टिक शीट के अनुसार पैक करें।",
+      "note": "Step 17."
+    },
+    "R1": {
+      "verdict": "PARTIAL",
+      "evidence": "जंग लगा हुआ | जंग लगे हुए हिस्से को घिसकर साफ करें और जंगरोधक का उपयोग करें।",
+      "note": "Scale dropped."
+    },
+    "R2": {
+      "verdict": "PARTIAL",
+      "evidence": "आयाम गलत | आयाम को नियंत्रण योजना और ड्राइंग के अनुसार समायोजित करें।",
+      "note": "Vague: does not say adjust or replace the stopper/tool."
+    },
+    "R3": {
+      "verdict": "PARTIAL",
+      "evidence": "क्रैक या क्षति | क्षतिग्रस्त भाग को रिप्लेस करें।",
+      "note": "Replace only; plastic-mallet repair dropped."
+    },
+    "R4": {
+      "verdict": "CONTRADICTED",
+      "evidence": "फॉर्मिंग गलत | फॉर्मिंग को नियंत्रण योजना और ड्राइंग के अनुसार दोबारा करें।",
+      "note": "Re-forms the part instead of adjusting the tool."
+    },
+    "R5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "शीयरिंग मशीन (150 टन)",
+      "note": "New tonnage for the shearing machine.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "शीट मेटल कटिंग मशीन",
+      "note": "New machine.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "मैक्स शट हाइट 412 मिमी, मिन शट हाइट 345 मिमी",
+      "note": "New max/min shut-height limits for all four press operations.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "रिपोर्ट F-QAD/SI/RMQP/ के अनुसार होनी चाहिए",
+      "note": "New document reference (step 5, QI 4).",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "बॉटम डाई पैड (एलएच और आरएच), गाइडेड बुश, लोकेशन पिन, डोवेल पिन",
+      "note": "New tool items, taken from the PCP change log.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "भागों को अलग एलएच/आरएच बिन्स में रखें",
+      "note": "New LH/RH segregation step.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "मोटाई गलत | मोटाई को नियंत्रण योजना के अनुसार समायोजित करें।",
+      "note": "New thickness rework row (adjusting thickness is not possible).",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "छेद गलत | छेद को नियंत्रण योजना और ड्राइंग के अनुसार दोबारा करें।",
+      "note": "New hole rework row (re-pierce).",
+      "in_ppap": false
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "सप्लायर पीडीआई रिपोर्ट के अनुसार",
+      "note": "Supplier PDI report added at receipt.",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "भौतिक गुणों की लैब टीसी द्वारा जांच करें",
+      "note": "Lab TC verification.",
+      "in_ppap": true
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "COMPLIANT",
+    "note": "Hindi Devanagari body text, including the tooling list; transliterated technical terms (रॉ मटेरियल, शट हाइट)."
+  },
+  "summary": "All press settings (shut height and stroke for blanking, piercing, Forming I and II) are present on the right machines, but no blanking, piercing or forming dimension is given; only 'as per control plan'. The chamfer 5x45° and R3 are applied after shearing instead of checked after blanking, the header says UNIT-3 with a suffixed part number, and the RH part number drops the N. It adds a 150 T shearing machine, min/max shut heights, a form reference and die-pad/pin tool items."
+}

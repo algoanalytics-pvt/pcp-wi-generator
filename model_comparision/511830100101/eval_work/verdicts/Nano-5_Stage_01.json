@@ -1,0 +1,650 @@
+{
+ "model": "Nano-5",
+ "stage": "01",
+ "verdicts": {
+  "H1": {
+   "verdict": "MATCH",
+   "evidence": "SHARADA INDUSTRIES",
+   "note": ""
+  },
+  "H2": {
+   "verdict": "MATCH",
+   "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+   "note": ""
+  },
+  "H3": {
+   "verdict": "MATCH",
+   "evidence": "Doc No.: SI / PCP / `'511830100101-01",
+   "note": ""
+  },
+  "H4": {
+   "verdict": "MATCH",
+   "evidence": "Rev: 02",
+   "note": ""
+  },
+  "H5": {
+   "verdict": "CONTRADICTED",
+   "evidence": "Date: 11/11/17",
+   "note": "Golden is 13.11.2025; 11/11/17 is the PPAP form revision date."
+  },
+  "H6": {
+   "verdict": "MATCH",
+   "evidence": "UNIT-3 / BRACKET ASSY ACCELERATOR PEDAL MTG",
+   "note": ""
+  },
+  "H7": {
+   "verdict": "MATCH",
+   "evidence": "1",
+   "note": ""
+  },
+  "H8": {
+   "verdict": "MATCH",
+   "evidence": "BRACKET ASSY ACCELERATOR PEDAL MTG",
+   "note": ""
+  },
+  "H9": {
+   "verdict": "MATCH",
+   "evidence": "SHEARING M/C.",
+   "note": "Only as a raw PCP cell in the step table; header says 'Welding/Machining Fixtures'."
+  },
+  "H10": {
+   "verdict": "MATCH",
+   "evidence": "PRESS MACHINE ON  200 TON(Machine-06)",
+   "note": "Raw PCP cell in the step table."
+  },
+  "H11": {
+   "verdict": "MATCH",
+   "evidence": "Projection Welding M/C",
+   "note": "Tooling."
+  },
+  "H12": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No welding machine; header says 'Welding/Machining Fixtures'."
+  },
+  "H13": {
+   "verdict": "MATCH",
+   "evidence": "511830100101",
+   "note": ""
+  },
+  "H14": {
+   "verdict": "MATCH",
+   "evidence": null,
+   "note": "Blank in both."
+  },
+  "H15": {
+   "verdict": "MATCH",
+   "evidence": "BRACKET ASSY ACCELERATOR PEDAL MTG",
+   "note": ""
+  },
+  "H16": {
+   "verdict": "MATCH",
+   "evidence": "511830100101",
+   "note": ""
+  },
+  "H17": {
+   "verdict": "MATCH",
+   "evidence": "02",
+   "note": ""
+  },
+  "H18": {
+   "verdict": "CONTRADICTED",
+   "evidence": "11/11/17",
+   "note": "Golden is 13.11.2025."
+  },
+  "H19": {
+   "verdict": "MATCH",
+   "evidence": null,
+   "note": "'—' in both."
+  },
+  "H20": {
+   "verdict": "MATCH",
+   "evidence": "511830100101",
+   "note": ""
+  },
+  "H21": {
+   "verdict": "MATCH",
+   "evidence": "BRACKET ASSY ACCELERATOR PEDAL MTG",
+   "note": ""
+  },
+  "H22": {
+   "verdict": "MATCH",
+   "evidence": "1",
+   "note": ""
+  },
+  "S1a": {
+   "verdict": "MATCH",
+   "evidence": "R M RECEIPT",
+   "note": "Raw PCP cell."
+  },
+  "S1b": {
+   "verdict": "MATCH",
+   "evidence": "RUST,SCALE,CRACK ,BLACK PATCHES,PITTING",
+   "note": "With 'VISUAL'."
+  },
+  "S2": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Step table stops after the first PP-010 row."
+  },
+  "S3": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S4": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S5a": {
+   "verdict": "CONTRADICTED",
+   "evidence": "LENGTH | 1270 ±13",
+   "note": "Tolerance ±13 instead of ±3."
+  },
+  "S5b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Width absent."
+  },
+  "S6a": {
+   "verdict": "MATCH",
+   "evidence": "Blanking | PRESS MACHINE ON  200 TON(Machine-06)",
+   "note": ""
+  },
+  "S6b": {
+   "verdict": "PARTIAL",
+   "evidence": "SHUT HEIGHT | 630",
+   "note": "Unit dropped."
+  },
+  "S7a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S7b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S7c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S7d": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S7e": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S7f": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S8a": {
+   "verdict": "MATCH",
+   "evidence": "PIERCING | PRESS MACHINE ON 200 TON(Machine-06)",
+   "note": ""
+  },
+  "S8b": {
+   "verdict": "PARTIAL",
+   "evidence": "SHUT HEIGHT | 610",
+   "note": "Unit dropped."
+  },
+  "S9a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S9b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S10a": {
+   "verdict": "MATCH",
+   "evidence": "FORMING I | PRESS MACHINE ON 150 TON (m/c-08)",
+   "note": ""
+  },
+  "S10b": {
+   "verdict": "PARTIAL",
+   "evidence": "SHUT HEIGHT | 525",
+   "note": "Unit dropped."
+  },
+  "S10c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S10d": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S11a": {
+   "verdict": "MATCH",
+   "evidence": "FORMING II | PRESS MACHINE ON 200 TON(M/C-06)",
+   "note": ""
+  },
+  "S11b": {
+   "verdict": "PARTIAL",
+   "evidence": "SHUT HEIGHT | 650",
+   "note": "Unit dropped."
+  },
+  "S11c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S11d": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S11e": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S11f": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S11g": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S12a": {
+   "verdict": "MATCH",
+   "evidence": "PROJECTION WELDING | PROJECTION WELDING M/C | ... HEX WELD | M6",
+   "note": ""
+  },
+  "S12b": {
+   "verdict": "MATCH",
+   "evidence": "Voltage 160-180V",
+   "note": ""
+  },
+  "S12c": {
+   "verdict": "MATCH",
+   "evidence": "Pressure - 10-15kg/cm2",
+   "note": ""
+  },
+  "S13": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S14": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No CO2 tack welding."
+  },
+  "S15": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S16": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S17": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S18": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T1": {
+   "verdict": "MATCH",
+   "evidence": "SHEARING M/C.",
+   "note": "Step table only."
+  },
+  "T2": {
+   "verdict": "MATCH",
+   "evidence": "PRESS MACHINE ON  200 TON(Machine-06)",
+   "note": "Step table only."
+  },
+  "T3": {
+   "verdict": "MATCH",
+   "evidence": "PRESS MACHINE ON 150 TON (m/c-08)",
+   "note": "Step table only."
+  },
+  "T4": {
+   "verdict": "MATCH",
+   "evidence": "Projection Welding M/C",
+   "note": ""
+  },
+  "T5": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T6": {
+   "verdict": "MATCH",
+   "evidence": "Panel checker",
+   "note": ""
+  },
+  "T7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T8": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T9a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T9b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T10": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QI1": {
+   "verdict": "PARTIAL",
+   "evidence": "RUST, SCALE, CRACK, BLACK PATCHES, PITTING on sheet surfaces must be removed or minimized during RECEIPT",
+   "note": "'Removed or minimized' instead of 'must not be present'."
+  },
+  "QI2": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QI3": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QI4": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QF1a": {
+   "verdict": "PARTIAL",
+   "evidence": "Dimensional checks as per DIMENSIONS section of PCP",
+   "note": "Generic."
+  },
+  "QF1b": {
+   "verdict": "PARTIAL",
+   "evidence": "Dimensional checks as per DIMENSIONS section of PCP",
+   "note": "Generic."
+  },
+  "QF1c": {
+   "verdict": "PARTIAL",
+   "evidence": "Dimensional checks as per DIMENSIONS section of PCP",
+   "note": "Generic."
+  },
+  "QF1d": {
+   "verdict": "PARTIAL",
+   "evidence": "Dimensional checks as per DIMENSIONS section of PCP",
+   "note": "Generic."
+  },
+  "QF1e": {
+   "verdict": "PARTIAL",
+   "evidence": "Dimensional checks as per DIMENSIONS section of PCP",
+   "note": "Generic."
+  },
+  "QF1f": {
+   "verdict": "PARTIAL",
+   "evidence": "Dimensional checks as per DIMENSIONS section of PCP",
+   "note": "Generic."
+  },
+  "QF1g": {
+   "verdict": "PARTIAL",
+   "evidence": "Dimensional checks as per DIMENSIONS section of PCP",
+   "note": "Generic."
+  },
+  "QF1h": {
+   "verdict": "PARTIAL",
+   "evidence": "Dimensional checks as per DIMENSIONS section of PCP",
+   "note": "Generic."
+  },
+  "QF2a": {
+   "verdict": "PARTIAL",
+   "evidence": "Dimensional checks as per DIMENSIONS section of PCP",
+   "note": "Generic."
+  },
+  "QF2b": {
+   "verdict": "PARTIAL",
+   "evidence": "Dimensional checks as per DIMENSIONS section of PCP",
+   "note": "Generic."
+  },
+  "QF3": {
+   "verdict": "MATCH",
+   "evidence": "HEX WELD | M6 | VISUAL",
+   "note": "Step table."
+  },
+  "QF4": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QF5": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QF6": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QF7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QF8": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R1": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No rust/scale row."
+  },
+  "R2": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No crack/damage row."
+  },
+  "R3": {
+   "verdict": "PARTIAL",
+   "evidence": "Dimensional Deviation | Recheck and correct as per DIMENSIONS section",
+   "note": "Vague; no PM or re-setting."
+  },
+  "R4": {
+   "verdict": "MATCH",
+   "evidence": "Reapply welds as per PCP including correct voltage and pressure settings",
+   "note": ""
+  },
+  "R5": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "R6": {
+   "verdict": "PARTIAL",
+   "evidence": "Spot / Weld Missing | Reapply welds",
+   "note": "Nut not named; no torque recheck."
+  },
+  "R7": {
+   "verdict": "MATCH",
+   "evidence": "Part Shift | Realign part using proper fixture alignment and re-weld as required",
+   "note": "Adds fixture and re-weld."
+  },
+  "L1": {
+   "verdict": "MATCH",
+   "evidence": "🚫 Don't Twist",
+   "note": ""
+  },
+  "L2": {
+   "verdict": "MATCH",
+   "evidence": "🔩 Spec. Torque",
+   "note": ""
+  },
+  "L3": {
+   "verdict": "MATCH",
+   "evidence": "⚠️ Important",
+   "note": ""
+  },
+  "L4": {
+   "verdict": "MATCH",
+   "evidence": "🔧 Adjustment",
+   "note": ""
+  },
+  "L5": {
+   "verdict": "MATCH",
+   "evidence": "🧴 Apply Adhesive",
+   "note": ""
+  },
+  "L6": {
+   "verdict": "MATCH",
+   "evidence": "🛢️ Lubricate Oil",
+   "note": ""
+  },
+  "L7": {
+   "verdict": "MATCH",
+   "evidence": "🟡 Lub. Grease",
+   "note": ""
+  },
+  "L8": {
+   "verdict": "MATCH",
+   "evidence": "🔵 Apply Sealant",
+   "note": ""
+  },
+  "L9": {
+   "verdict": "MATCH",
+   "evidence": "⭐ Vital Parts",
+   "note": ""
+  }
+ },
+ "extra_content": [
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Stage 1 Welding Fixture (Fixture No. 511830100101)",
+   "note": "New fixture (also header 'Welding/Machining Fixtures'); the PPAP mentions a welding fixture only as an FMEA cause.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Spot Welding Gun - 1 no. (Gun No. 90)",
+   "note": "New welding gun from the prompt example; no spot welding in the PPAP.",
+   "in_ppap": false
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "M.Tape / Visual",
+   "note": "Instrument not named in the golden (also shearing 'M.TAPE').",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Machine setting parameter sheet F-PRD-17",
+   "note": "New document reference (four press rows).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "As PER SI/RMQP",
+   "note": "New document reference.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Per hr.",
+   "note": "New sampling frequencies: 100/LOT, 1 per hr, 1 per lot, 5 per lot.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Resharpening / Replacement of stopper/Tool",
+   "note": "New reaction-plan actions in the step table (also 'Sort / Reject & Sent back To Supplier').",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "(As per M6 Nut STD)",
+   "note": "New standard reference.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Appearance Defects | Fix burrs, undercuts, and surface imperfections",
+   "note": "New rework row.",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "Part Number / Latest Change Level  :  `511830100101/B/25.03.2022",
+   "note": "PCP header and column labels dumped as steps 1–35 (change level, supplier code S-06220, 'Error Proofing', etc.).",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "New Tech Projection machine to be Purchased.",
+   "note": "Corrective-action note copied as a step.",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "1st Piece Inspection Record / In-process Inspection",
+   "note": "Extra record/control-method text.",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "All welds must be free from porosity and cold lap",
+   "note": "Extra weld criteria (also rework 2).",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "No visual imperfections on critical welds",
+   "note": "Extra criterion.",
+   "in_ppap": false
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "Proper mating of bracket to accelerator pedal assembly",
+   "note": "Extra criterion.",
+   "in_ppap": false
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "SURFACE CONDITION of BLANKS and SHAPE PARTS must be within defined specs",
+   "note": "Extra incoming criterion.",
+   "in_ppap": null
+  }
+ ],
+ "sequence_issues": [],
+ "language": {
+  "verdict": "NON_COMPLIANT",
+  "note": "Step table is raw English PCP cell text; quality and rework text English."
+ },
+ "summary": "The step table is a dump of raw control-plan cells (headers, column labels, frequencies), not instructions, and it stops after projection welding: no incoming thickness or material, no dimensions, torque, CO2 tacking, coating, inspection or packing. The shear length tolerance is garbled to ±13, the document and drawing dates are 11/11/17, and a spot-welding gun and welding fixture from the prompt example are added."
+}

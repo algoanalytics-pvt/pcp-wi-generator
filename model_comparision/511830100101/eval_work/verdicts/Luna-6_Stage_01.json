@@ -1,0 +1,728 @@
+{
+ "model": "Luna-6",
+ "stage": "01",
+ "verdicts": {
+  "H1": {
+   "verdict": "MATCH",
+   "evidence": "SHARADA INDUSTRIES",
+   "note": ""
+  },
+  "H2": {
+   "verdict": "MATCH",
+   "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+   "note": ""
+  },
+  "H3": {
+   "verdict": "MATCH",
+   "evidence": "Doc No.: SI / PCP / `'511830100101-01",
+   "note": ""
+  },
+  "H4": {
+   "verdict": "MATCH",
+   "evidence": "Rev: 02",
+   "note": ""
+  },
+  "H5": {
+   "verdict": "MATCH",
+   "evidence": "Date: 13.11.2025",
+   "note": ""
+  },
+  "H6": {
+   "verdict": "CONTRADICTED",
+   "evidence": "SHARADA INDUSTRIES / BRACKET ASSY, ACCELERATOR PEDAL MTG",
+   "note": "Company name in place of UNIT-3."
+  },
+  "H7": {
+   "verdict": "CONTRADICTED",
+   "evidence": "PP-010 to PP-130",
+   "note": "Control-plan operation codes instead of Stage No. 1."
+  },
+  "H8": {
+   "verdict": "MATCH",
+   "evidence": "BRACKET ASSY, ACCELERATOR PEDAL MTG - COMPLETE PROCESS",
+   "note": "Adds '- COMPLETE PROCESS'."
+  },
+  "H9": {
+   "verdict": "MATCH",
+   "evidence": "Shearing Machine",
+   "note": ""
+  },
+  "H10": {
+   "verdict": "MATCH",
+   "evidence": "200 Ton Press Machine (Machine-06); 150 Ton Press Machine (Machine-08)",
+   "note": ""
+  },
+  "H11": {
+   "verdict": "MATCH",
+   "evidence": "Projection Welding Machine",
+   "note": ""
+  },
+  "H12": {
+   "verdict": "MATCH",
+   "evidence": "CO2 Welding Machine",
+   "note": ""
+  },
+  "H13": {
+   "verdict": "MATCH",
+   "evidence": "511830100101",
+   "note": ""
+  },
+  "H14": {
+   "verdict": "MATCH",
+   "evidence": null,
+   "note": "Blank in both."
+  },
+  "H15": {
+   "verdict": "MATCH",
+   "evidence": "BRACKET ASSY, ACCELERATOR PEDAL MTG",
+   "note": ""
+  },
+  "H16": {
+   "verdict": "MATCH",
+   "evidence": "511830100101",
+   "note": ""
+  },
+  "H17": {
+   "verdict": "MATCH",
+   "evidence": "02",
+   "note": ""
+  },
+  "H18": {
+   "verdict": "MATCH",
+   "evidence": "13.11.2025",
+   "note": ""
+  },
+  "H19": {
+   "verdict": "MATCH",
+   "evidence": null,
+   "note": "'—' in both."
+  },
+  "H20": {
+   "verdict": "MATCH",
+   "evidence": "511830100101",
+   "note": ""
+  },
+  "H21": {
+   "verdict": "MATCH",
+   "evidence": "BRACKET ASSY, ACCELERATOR PEDAL MTG",
+   "note": ""
+  },
+  "H22": {
+   "verdict": "MATCH",
+   "evidence": "1",
+   "note": ""
+  },
+  "S1a": {
+   "verdict": "MATCH",
+   "evidence": "आने वाली कच्ची सामग्री का निरीक्षण करें",
+   "note": ""
+  },
+  "S1b": {
+   "verdict": "MATCH",
+   "evidence": "सतह पर जंग, स्केल, दरार, काले धब्बे या पिटिंग न हो",
+   "note": "Visual stated in QI 1."
+  },
+  "S2": {
+   "verdict": "MATCH",
+   "evidence": "सामग्री Fe410, 3 mm मोटाई की हो",
+   "note": "Micrometer named in QI 2."
+  },
+  "S3": {
+   "verdict": "MATCH",
+   "evidence": "सामग्री Fe410",
+   "note": ""
+  },
+  "S4": {
+   "verdict": "MATCH",
+   "evidence": "रासायनिक, यांत्रिक और भौतिक परीक्षण हेतु प्रयोगशाला में भेजें",
+   "note": "Samples sent to lab."
+  },
+  "S5a": {
+   "verdict": "MATCH",
+   "evidence": "शीयरिंग मशीन पर शीट काटें। लंबाई 1270 ±3 mm",
+   "note": ""
+  },
+  "S5b": {
+   "verdict": "MATCH",
+   "evidence": "चौड़ाई 304 ±3 mm",
+   "note": ""
+  },
+  "S6a": {
+   "verdict": "MATCH",
+   "evidence": "ब्लैंकिंग के लिए 200 टन प्रेस मशीन, मशीन-06 पर टूल लगाएँ",
+   "note": ""
+  },
+  "S6b": {
+   "verdict": "MATCH",
+   "evidence": "शट हाइट 630 mm",
+   "note": ""
+  },
+  "S7a": {
+   "verdict": "MATCH",
+   "evidence": "293.6 ±1.2 mm",
+   "note": ""
+  },
+  "S7b": {
+   "verdict": "MATCH",
+   "evidence": "87.5 ±1.0 mm",
+   "note": ""
+  },
+  "S7c": {
+   "verdict": "MATCH",
+   "evidence": "121.5 ±1.0 mm",
+   "note": ""
+  },
+  "S7d": {
+   "verdict": "MATCH",
+   "evidence": "रेडियस R8.5 TYP",
+   "note": ""
+  },
+  "S7e": {
+   "verdict": "MATCH",
+   "evidence": "R10 TYP",
+   "note": ""
+  },
+  "S7f": {
+   "verdict": "MATCH",
+   "evidence": "R5 TYP",
+   "note": ""
+  },
+  "S8a": {
+   "verdict": "MATCH",
+   "evidence": "पियर्सिंग के लिए 200 टन प्रेस मशीन, मशीन-06",
+   "note": ""
+  },
+  "S8b": {
+   "verdict": "MATCH",
+   "evidence": "शट हाइट 610 mm",
+   "note": ""
+  },
+  "S9a": {
+   "verdict": "MATCH",
+   "evidence": "3 छेद Ø8 mm",
+   "note": ""
+  },
+  "S9b": {
+   "verdict": "MATCH",
+   "evidence": "1 छेद Ø7 mm",
+   "note": ""
+  },
+  "S10a": {
+   "verdict": "MATCH",
+   "evidence": "फॉर्मिंग-I के लिए 150 टन प्रेस मशीन, मशीन-08",
+   "note": ""
+  },
+  "S10b": {
+   "verdict": "MATCH",
+   "evidence": "शट हाइट 525 mm",
+   "note": ""
+  },
+  "S10c": {
+   "verdict": "MATCH",
+   "evidence": "फॉर्मिंग-I के बाद आयाम 283.5 ±1.2 mm",
+   "note": ""
+  },
+  "S10d": {
+   "verdict": "MATCH",
+   "evidence": "21.5 ±0.6 mm",
+   "note": ""
+  },
+  "S11a": {
+   "verdict": "MATCH",
+   "evidence": "फॉर्मिंग-II के लिए 200 टन प्रेस मशीन, मशीन-06",
+   "note": ""
+  },
+  "S11b": {
+   "verdict": "MATCH",
+   "evidence": "शट हाइट 650 mm",
+   "note": ""
+  },
+  "S11c": {
+   "verdict": "MATCH",
+   "evidence": "191.6 ±1.2 mm",
+   "note": ""
+  },
+  "S11d": {
+   "verdict": "MATCH",
+   "evidence": "99 ±1.0 mm",
+   "note": ""
+  },
+  "S11e": {
+   "verdict": "MATCH",
+   "evidence": "90° और 8° कोण",
+   "note": ""
+  },
+  "S11f": {
+   "verdict": "MATCH",
+   "evidence": "45° कोण",
+   "note": ""
+  },
+  "S11g": {
+   "verdict": "MATCH",
+   "evidence": "85 ±1.0 mm",
+   "note": ""
+  },
+  "S12a": {
+   "verdict": "MATCH",
+   "evidence": "प्रोजेक्शन वेल्डिंग मशीन पर M6 नट वेल्ड करें",
+   "note": ""
+  },
+  "S12b": {
+   "verdict": "MATCH",
+   "evidence": "वोल्टेज 160–180 V",
+   "note": ""
+  },
+  "S12c": {
+   "verdict": "MATCH",
+   "evidence": "दबाव 10–15 kg/cm²",
+   "note": ""
+  },
+  "S13": {
+   "verdict": "MATCH",
+   "evidence": "टॉर्क 1.55 kg·m सुनिश्चित करें",
+   "note": ""
+  },
+  "S14": {
+   "verdict": "MATCH",
+   "evidence": "CO2 टैक वेल्डिंग में प्रत्येक नट पर 3 टैक करें",
+   "note": ""
+  },
+  "S15": {
+   "verdict": "MATCH",
+   "evidence": "असेंबली का गुणवत्ता योजना के अनुसार अंतिम निरीक्षण करें",
+   "note": ""
+  },
+  "S16": {
+   "verdict": "MATCH",
+   "evidence": "पाउडर कोटिंग ... कोटिंग मोटाई DFT मीटर से 50–55 μm जाँचें",
+   "note": ""
+  },
+  "S17": {
+   "verdict": "MATCH",
+   "evidence": "कोटिंग दोष नहीं होने चाहिए",
+   "note": ""
+  },
+  "S18": {
+   "verdict": "MATCH",
+   "evidence": "हस्ताक्षरित लॉजिस्टिक शीट और पैकिंग मानक के अनुसार प्रत्येक लॉट पैक करके भेजें",
+   "note": ""
+  },
+  "T1": {
+   "verdict": "MATCH",
+   "evidence": "Shearing Machine",
+   "note": ""
+  },
+  "T2": {
+   "verdict": "MATCH",
+   "evidence": "200 Ton Press Machine (Machine-06)",
+   "note": ""
+  },
+  "T3": {
+   "verdict": "MATCH",
+   "evidence": "150 Ton Press Machine (Machine-08)",
+   "note": ""
+  },
+  "T4": {
+   "verdict": "MATCH",
+   "evidence": "Projection Welding Machine",
+   "note": ""
+  },
+  "T5": {
+   "verdict": "MATCH",
+   "evidence": "CO2 Welding Machine",
+   "note": ""
+  },
+  "T6": {
+   "verdict": "MATCH",
+   "evidence": "Panel Checker",
+   "note": ""
+  },
+  "T7": {
+   "verdict": "MATCH",
+   "evidence": "Height Gauge",
+   "note": ""
+  },
+  "T8": {
+   "verdict": "MATCH",
+   "evidence": "Vernier Caliper",
+   "note": ""
+  },
+  "T9a": {
+   "verdict": "MATCH",
+   "evidence": "Micrometer",
+   "note": ""
+  },
+  "T9b": {
+   "verdict": "MATCH",
+   "evidence": "माइक्रोमीटर (LC 0.001 mm)",
+   "note": "Found in QI 2."
+  },
+  "T10": {
+   "verdict": "MATCH",
+   "evidence": "DFT Meter",
+   "note": ""
+  },
+  "QI1": {
+   "verdict": "MATCH",
+   "evidence": "जंग, स्केल, दरार, काले धब्बे या पिटिंग नहीं होनी चाहिए",
+   "note": ""
+  },
+  "QI2": {
+   "verdict": "PARTIAL",
+   "evidence": "शीट की मोटाई 3 mm हो",
+   "note": "±0.001 mm tolerance dropped."
+  },
+  "QI3": {
+   "verdict": "MATCH",
+   "evidence": "सामग्री विनिर्देश Fe410 होना चाहिए",
+   "note": ""
+  },
+  "QI4": {
+   "verdict": "PARTIAL",
+   "evidence": "रासायनिक, यांत्रिक और भौतिक परीक्षण F-QAD/SI/RMQP के अनुसार करें",
+   "note": "Tests against RMQP; lab test report not named (samples are sent to the lab in step 2)."
+  },
+  "QF1a": {
+   "verdict": "MATCH",
+   "evidence": "ब्लैंकिंग आयाम: 293.6 ±1.2 mm",
+   "note": ""
+  },
+  "QF1b": {
+   "verdict": "MATCH",
+   "evidence": "87.5 ±1.0 mm",
+   "note": ""
+  },
+  "QF1c": {
+   "verdict": "MATCH",
+   "evidence": "121.5 ±1.0 mm",
+   "note": ""
+  },
+  "QF1d": {
+   "verdict": "MATCH",
+   "evidence": "फॉर्मिंग-II आयाम 191.6 ±1.2 mm",
+   "note": ""
+  },
+  "QF1e": {
+   "verdict": "MATCH",
+   "evidence": "99 ±1.0 mm",
+   "note": ""
+  },
+  "QF1f": {
+   "verdict": "MATCH",
+   "evidence": "कोण 90°, 8° और 45°",
+   "note": ""
+  },
+  "QF1g": {
+   "verdict": "MATCH",
+   "evidence": "कोण 90°, 8° और 45°",
+   "note": ""
+  },
+  "QF1h": {
+   "verdict": "MATCH",
+   "evidence": "85 ±1.0 mm",
+   "note": ""
+  },
+  "QF2a": {
+   "verdict": "MATCH",
+   "evidence": "3 छेद Ø8 mm",
+   "note": ""
+  },
+  "QF2b": {
+   "verdict": "MATCH",
+   "evidence": "1 छेद Ø7 mm",
+   "note": ""
+  },
+  "QF3": {
+   "verdict": "MATCH",
+   "evidence": "M6 नट सही जगह उपलब्ध हो, वेल्ड मानक के अनुरूप हो",
+   "note": ""
+  },
+  "QF4": {
+   "verdict": "MATCH",
+   "evidence": "टॉर्क 1.55 kg·m हो",
+   "note": ""
+  },
+  "QF5": {
+   "verdict": "MATCH",
+   "evidence": "प्रत्येक नट पर 3 CO2 टैक होने चाहिए",
+   "note": ""
+  },
+  "QF6": {
+   "verdict": "MATCH",
+   "evidence": "DFT 50–55 μm हो",
+   "note": ""
+  },
+  "QF7": {
+   "verdict": "MATCH",
+   "evidence": "कोटिंग दोषरहित हो",
+   "note": ""
+  },
+  "QF8": {
+   "verdict": "MATCH",
+   "evidence": "भंडारण के पार्ट जंग और डेंट से मुक्त हों",
+   "note": ""
+  },
+  "R1": {
+   "verdict": "PARTIAL",
+   "evidence": "जंग या डेंट | पार्ट को अलग करें। जंग या डेंट को केवल स्वीकृत सुधार विधि से ठीक करें; RPO लगाकर",
+   "note": "Rust repaired by an unspecified 'approved method' plus RPO (rust preventive); no rust remover. Incoming surface defects (row 1) are rejected/returned instead."
+  },
+  "R2": {
+   "verdict": "PARTIAL",
+   "evidence": "जंग या डेंट | ... केवल स्वीकृत सुधार विधि से ठीक करें",
+   "note": "Only dents covered, by an unspecified method; no plastic mallet, crack not covered."
+  },
+  "R3": {
+   "verdict": "PARTIAL",
+   "evidence": "मशीन या टूल सेटिंग की जाँच के बाद ही अधिकृत अनुमोदन से उत्पादन पुनः शुरू करें",
+   "note": "Setting check covered; equipment PM missing; parts sorted/rejected."
+  },
+  "R4": {
+   "verdict": "PARTIAL",
+   "evidence": "केवल अनुमोदित वेल्डिंग प्रक्रिया से पुनःकार्य करें",
+   "note": "Re-weld covered; process-parameter setting not stated."
+  },
+  "R5": {
+   "verdict": "PARTIAL",
+   "evidence": "दोषयुक्त पार्ट को अलग करें और छाँटकर अस्वीकार करें",
+   "note": "Segregation covered; recheck of coating process not stated."
+  },
+  "R6": {
+   "verdict": "MATCH",
+   "evidence": "M6 नट अनुपस्थित ... पुनःकार्य करें और नट की उपस्थिति तथा 1.55 kg·m टॉर्क की पुनः जाँच करें",
+   "note": ""
+  },
+  "R7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No part-shift row."
+  },
+  "L1": {
+   "verdict": "MATCH",
+   "evidence": "🚫 Don't Twist",
+   "note": ""
+  },
+  "L2": {
+   "verdict": "MATCH",
+   "evidence": "🔩 Spec. Torque",
+   "note": ""
+  },
+  "L3": {
+   "verdict": "MATCH",
+   "evidence": "⚠️ Important",
+   "note": ""
+  },
+  "L4": {
+   "verdict": "MATCH",
+   "evidence": "🔧 Adjustment",
+   "note": ""
+  },
+  "L5": {
+   "verdict": "MATCH",
+   "evidence": "🧴 Apply Adhesive",
+   "note": ""
+  },
+  "L6": {
+   "verdict": "MATCH",
+   "evidence": "🛢️ Lubricate Oil",
+   "note": ""
+  },
+  "L7": {
+   "verdict": "MATCH",
+   "evidence": "🟡 Lub. Grease",
+   "note": ""
+  },
+  "L8": {
+   "verdict": "MATCH",
+   "evidence": "🔵 Apply Sealant",
+   "note": ""
+  },
+  "L9": {
+   "verdict": "MATCH",
+   "evidence": "⭐ Vital Parts",
+   "note": ""
+  }
+ },
+ "extra_content": [
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "प्रत्येक लॉट से 3 x 50 x 300 mm के 2 नमूने लेकर",
+   "note": "New lab sample size and count (also QI 4).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "F-QAD/SI/RMQP और SI/RMQP का पालन करें",
+   "note": "New document references (also QI 4).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "आयाम प्रति घंटे मापकर इन-प्रोसेस निरीक्षण रिकॉर्ड में दर्ज करें",
+   "note": "New hourly / first-piece / per-lot / 100% / 5-per-lot sampling frequencies (steps 3, 5, 7, 9, 11, 12, 13; QI 1, 2).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "मशीन सेटिंग शीट F-PRD-17 के अनुसार",
+   "note": "New document reference (steps 4, 6, 8, 10).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "अधिकतम 630 mm, न्यूनतम 400 mm और स्ट्रोक 230 mm",
+   "note": "Blanking: new max/min shut height, stroke, counter-balance and clutch-brake 5.0–7.0 kg/cm².",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "न्यूनतम 405 mm, स्ट्रोक 203 mm, काउंटर बैलेंस दबाव 3 kg/cm²",
+   "note": "Piercing: new min shut height, stroke, counter-balance 3 and clutch-brake 6 kg/cm².",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "CD आयाम 60 ±0.5, 84 ±0.5, 26 ±0.5, 43 ±0.5, 31 ±1 और 49 ±0.5 mm",
+   "note": "Piercing: new CD dimensions, 15 ±0.6 / 12.4 ±0.6 and slots 9 x 15, 20 x 12 (also QF 3).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "न्यूनतम 465 mm, स्ट्रोक 85 mm, काउंटर बैलेंस दबाव 1–3 kg/cm² और कुशन दबाव 1–3 bar",
+   "note": "Forming-I: new min shut height, stroke, counter-balance and cushion pressure.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "कोण 120.75° जाँचें",
+   "note": "Forming-I: new angle 120.75° (also QF 4).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "न्यूनतम 435 mm, स्ट्रोक 135 mm, रैम दबाव 1–2 kg/cm²",
+   "note": "Forming-II: new min shut height, stroke, ram 1–2, counter-balance 3, clutch-brake 6.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "90° और 8° कोण, 45° कोण, 85 ±1.0 mm, 21.5 ±0.6 mm तथा 69 ±1.0 mm",
+   "note": "Forming-II: new 8°, 21.5 ±0.6 and 69 ±1.0 (also QF 5).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "वोल्टेज 160–180 V और दबाव 10–15 kg/cm², M6 नट मानक के अनुसार",
+   "note": "New standard reference (M6 nut standard).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "पाउडर कोटिंग BC-PC20 को TS10812 के अनुसार करें",
+   "note": "New coating specification and standard (also QF 9).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "एडहेसिव टेप परीक्षण करें",
+   "note": "New test method (also rework 6).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "असेंबली पार्ट का लेआउट वर्ष में एक बार करें",
+   "note": "New yearly layout inspection.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "PDI गेट पर प्रत्येक पार्ट को हरे बिंदु से चिह्नित करें",
+   "note": "New step: green-dot marking at PDI gate (also QF 10).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "स्वीकृत पार्ट पर RPO लगाएँ",
+   "note": "New step: apply RPO (also step 17, rework 7).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Blanking Tool: 300 x 470 x 660 mm",
+   "note": "New tool sizes for all four press tools (tooling 4–7).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Powder Coating Setup",
+   "note": "Machine not in the golden (header and tooling).",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Measuring Tape",
+   "note": "Instrument not named in the golden.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Radius Gauge",
+   "note": "Instrument not named in the golden.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Torque Wrench",
+   "note": "Instrument not named in the golden (PPAP gives 'TW').",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "CO2 टैक अनुपस्थित या गलत",
+   "note": "New rework row.",
+   "in_ppap": true
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "पैकिंग या लॉजिस्टिक शीट में त्रुटि",
+   "note": "New rework row (VD/SCM approval).",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "मोटाई 3 mm जाँचें",
+   "note": "Extra thickness check after shearing (also QF 1 shearing dimensions).",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "कटे किनारे पर बर, दरार, स्कोरिंग, डेंट या क्षति न हो",
+   "note": "Extra cut-edge criteria (steps 5, 9, 11; QF 6).",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "सामग्री की पहचान तथा दस्तावेज़ों को जाँचें",
+   "note": "Extra identification / document check.",
+   "in_ppap": null
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "शीट की समीक्षा कर VD और SCM से अनुमोदन लें",
+   "note": "Extra sign-off (signed logistic sheet).",
+   "in_ppap": true
+  },
+  {
+   "type": "BENIGN_ADDITION",
+   "evidence": "सभी पार्ट बिन या ट्रॉली में रखें",
+   "note": "Handling.",
+   "in_ppap": null
+  }
+ ],
+ "sequence_issues": [],
+ "language": {
+  "verdict": "COMPLIANT",
+  "note": "Hindi body text; tooling list in English as in the golden."
+ },
+ "summary": "Every golden operation is present with the right press, shut height, dimension, weld setting, torque, tack count and coating thickness. The header Stage No. is the operation-code range “PP-010 to PP-130” and the line area drops UNIT-3. The operator also gets 24 critical additions from the PPAP (min shut heights, strokes, pressures, extra CD dimensions, F-PRD-17, sampling frequencies) and vaguer rework actions than the golden (no rust remover, no plastic mallet, no part-shift row)."
+}

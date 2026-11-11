@@ -291,7 +291,7 @@ def build_html(part, m, models, notes):
 <p><b>Pass rule.</b> A model fails if any critical fact is contradicted, if there is any critical hallucination, or if critical recall is below 0.95.</p>
 <p><b>Judgement calls applied to all models:</b></p><ul>{''.join(f'<li>{c}</li>' for c in calls)}</ul>
 <p><b>Limits.</b> {limits}</p>
-<p><b>Detailed results</b> (per-fact verdicts, evidence quotes, extra content, score workings):</p><ul>{files}</ul>
+<div class=keep><p><b>Detailed results</b> (per-fact verdicts, evidence quotes, extra content, score workings):</p><ul>{files}</ul></div>
 </body></html>"""
 
 

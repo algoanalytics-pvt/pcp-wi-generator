@@ -1,0 +1,63 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP / `'511830100101-01
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 02 | Date: 13.11.2025
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / BRACKET ASSY,ACCELERATOR PEDAL MTG | C4: PP-010 to PP-130 | E4: BRACKET ASSY,ACCELERATOR PEDAL MTG | H4: Shearing M/C, Press Machine 200 Ton, Press Machine 150 Ton, Projection Welding M/C, CO2 Tack Welding M/C, Powder Coating Set-up | K4: 511830100101
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: BRACKET ASSY,ACCELERATOR PEDAL MTG | E6: 511830100101 | H6: 02 | J6: 13.11.2025 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Raw material receipt: Verify surface condition (rust, scale, crack, black patches, pitting) and dimensions (1270±3 mm length, 304±3 mm width, 3 mm thickness).
+E9: 2 | F9: Shearing operation: Perform shearing on shearing machine to achieve required dimensions.
+E10: 3 | F10: Blanking operation: Set up 200 Ton press machine (Machine-06) with parameters from F-PRD-17. Verify shut height (630), max shut height (630), min shut height (400), stroke length (230), counter balance pressure (5.0-7.0 Kg/Cm2), clutch & brake pressure (5.0-7.0 Kg/Cm2).
+E11: 4 | F11: Piercing operation: Set up 200 Ton press machine (Machine-06) with parameters from F-PRD-17. Verify shut height (610), max shut height (610), min shut height (405), stroke length (203), counter balance pressure (3 kg/cm2), clutch & brake pressure (6 kg/cm2).
+E12: 5 | F12: Forming I operation: Set up 150 Ton press machine (m/c-08) with parameters from F-PRD-17. Verify shut height (525), max shut height (525), min shut height (465), stroke length (85), counter balance pressure (1-3 KG/CM), cushion pin (Dia-38(38x330)-4nos), cushion pressure (1-3 bar).
+E13: 6 | F13: Forming II operation: Set up 200 Ton press machine (M/C-06) with parameters from F-PRD-17. Verify shut height (650), max shut height (650), min shut height (435), stroke length (135), ram pressure (1-2 KG/CM²), counter balance pressure (3 kg/cm2), clutch & brake pressure (6 kg/cm2), cushion pin (Dia-25 (25X300)-4nos).
+E14: 7 | F14: Projection welding: Perform projection welding on projection welding machine. Verify hex weld M6, torque 1.55 KG.M. Ensure process parameters (Voltage 160-180V, Pressure 10-15kg/cm²) as per M6 Nut STD.
+E15: 8 | F15: CO2 tack welding: Perform CO2 tack welding on welding machine. Ensure 3 tacks per nut.
+E16: 9 | F16: Inspection: Perform final inspection as per quality plan. Verify dimensions, angles, and appearance (free from burr, crack, scoring marks, dent, damage).
+E17: 10 | F17: Powder coating: Perform powder coating as per TS10812. Verify coating thickness (50 to 55 Micron) and coating quality (free of defects).
+E18: 11 | F18: Final inspection: Perform final inspection as per quality plan. Ensure no rust, dent, and proper coating.
+E19: 12 | F19: Storage: Store parts without rust and dent in bins/trolleys.
+E20: 13 | F20: Packing & despatch: Pack parts as per signed logistic sheet and packing standards.
+E21: TOOLING / EQUIPMENT
+E22: 1) | F22: Shearing Machine
+E23: 2) | F23: 200 Ton Press Machine (Machine-06)
+E24: 3) | F24: 150 Ton Press Machine (m/c-08)
+E25: 4) | F25: Projection Welding Machine
+E26: 5) | F26: CO2 Tack Welding Machine
+E27: 6) | F27: Powder Coating Set-up
+E28: 7) | F28: HT Gauge, Vernier Caliper, Panel Checker, DFT Meter
+E29: QUALITY PARAMETERS
+E30: A) Incoming Quality Checks
+E31: 1. | F31: Surface condition: Free from rust, scale, crack, black patches, pitting.
+E32: 2. | F32: Material specification: Fe410.
+E33: 3. | F33: Raw material parameters: Chemical and mechanical properties as per F-QAD/SI/RMQP.
+E34: B) Finished Quality Checks
+E35: 1. | F35: Dimensions: 293.6±1.2 mm, 87.5±1.0 mm, 121.5±1.0 mm, 283.5±1.2 mm, 21.5±0.6 mm, 120.75°, 90°, 8°, 45°, 85±1.0 mm, 69±1.0 mm.
+E36: 2. | F36: Hole diameters: Ø8 x 3Holes, Ø7 x 1Hole.
+E37: 3. | F37: CD dimensions: 60±0.5 mm, 84±0.5 mm, 26±0.5 mm, 43±0.5 mm, 31±1 mm, 49±0.5 mm.
+E38: 4. | F38: 2 Slot dimensions: 9X15 mm, 20X12 mm.
+E39: 5. | F39: Appearance: Free from burr on cut edge, free from coating defects.
+E40: 6. | F40: Coating thickness: 50 to 55 Micron.
+E41: 7. | F41: Weld quality: Hex weld M6, torque 1.55 KG.M, 3 tacks per nut.
+E42: 8. | F42: Angles: 90°, 8°, 45°.
+A45: SR. | B45: PART NO. | E45: PART DESCRIPTION | N45: QTY
+A46: 1 | B46: 511830100101 | E46: BRACKET ASSY,ACCELERATOR PEDAL MTG | N46: 1
+A48: REWORK INSTRUCTIONS
+A49: NO. | B49: DEFECT TYPE | F49: ACTION
+A50: 1 | B50: Surface defects (rust, scale, crack, black patches, pitting) | F50: Sort/reject and send back to supplier as per reaction plan.
+A51: 2 | B51: Incorrect dimensions | F51: Resharpening/replacement of stopper/tool or training given to operator.
+A52: 3 | B52: Burr on cut edge | F52: Remove burr using appropriate tool.
+A53: 4 | B53: Coating defects | F53: Sort/reject and send back for re-coating.
+A54: 5 | B54: Missing welds or tacks | F54: Perform missing welds/tacks as per control plan.
+A55: 6 | B55: Incorrect angles | F55: Adjust tooling or re-form to correct angle.
+A56: 7 | B56: Low coating thickness | F56: Re-coat to achieve required thickness.
+A58: LEGEND
+A59: 🚫 Don't Twist | B59: 🔩 Spec. Torque | D59: ⚠️ Important | E59: 🔧 Adjustment | G59: 🧴 Apply Adhesive | I59: 🛢️ Lubricate Oil | K59: 🟡 Lub. Grease | L59: 🔵 Apply Sealant | N59: ⭐ Vital Parts

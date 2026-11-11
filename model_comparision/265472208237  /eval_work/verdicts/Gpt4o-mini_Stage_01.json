@@ -1,0 +1,545 @@
+{
+  "model": "Gpt4o-mini",
+  "stage": "01",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / PCP /2654 7220 8237/8238N/01",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "MATCH",
+      "evidence": "Rev: 02",
+      "note": ""
+    },
+    "H5": {
+      "verdict": "MATCH",
+      "evidence": "Date: 06.03.2026",
+      "note": ""
+    },
+    "H6": {
+      "verdict": "CONTRADICTED",
+      "evidence": "SHARADA INDUSTRIES UNIT-III",
+      "note": "UNIT-III instead of UNIT-II; line area name missing."
+    },
+    "H7": {
+      "verdict": "MATCH",
+      "evidence": "Stage No. 1",
+      "note": ""
+    },
+    "H8": {
+      "verdict": "MATCH",
+      "evidence": "SUPPORT LH/RH DOOR OUTER HANDLE",
+      "note": ""
+    },
+    "H9": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Machine list has only the 150 T press; no shearing machine anywhere."
+    },
+    "H10": {
+      "verdict": "MATCH",
+      "evidence": "POWER PRESS 150 TON",
+      "note": ""
+    },
+    "H11": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "75 T press not mentioned anywhere."
+    },
+    "H12": {
+      "verdict": "CONTRADICTED",
+      "evidence": "2654 7220 8237/8238N/H/06/01/12",
+      "note": "Change-level suffix added."
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Cycle time left blank, as in the golden."
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "SUPPORT LH/RH DOOR OUTER HANDLE",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "MATCH",
+      "evidence": "2654 7220 8237/8238N",
+      "note": ""
+    },
+    "H16": {
+      "verdict": "MATCH",
+      "evidence": "Revision 02",
+      "note": ""
+    },
+    "H17": {
+      "verdict": "MATCH",
+      "evidence": "Rev Date 06.03.2026",
+      "note": ""
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "—",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Part list empty."
+    },
+    "H20": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Part list empty."
+    },
+    "H21": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Part list empty."
+    },
+    "H22": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Part list empty."
+    },
+    "H23": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Part list empty."
+    },
+    "H24": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Part list empty."
+    },
+    "S1a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S1b": {
+      "verdict": "PARTIAL",
+      "evidence": "Inspect the surface condition for rust, scale, cracks, and pitting.",
+      "note": "Black spots dropped."
+    },
+    "S2": {
+      "verdict": "MATCH",
+      "evidence": "Sheet thickness must be 1.5 mm.",
+      "note": "Value in QI 2; step 7 names the micrometer."
+    },
+    "S3": {
+      "verdict": "MATCH",
+      "evidence": "Verify the material specification as per D513.",
+      "note": ""
+    },
+    "S4": {
+      "verdict": "PARTIAL",
+      "evidence": "Check the raw material parameters for chemical composition.",
+      "note": "Mechanical and physical properties dropped."
+    },
+    "S5a": {
+      "verdict": "PARTIAL",
+      "evidence": "Perform the shearing operation as per the specified dimensions.",
+      "note": "Check named without its value."
+    },
+    "S5b": {
+      "verdict": "PARTIAL",
+      "evidence": "Perform the shearing operation as per the specified dimensions.",
+      "note": "Check named without its value."
+    },
+    "S6": {
+      "verdict": "PARTIAL",
+      "evidence": "Measure the sheet thickness using a micrometer.",
+      "note": "Comes after shearing in this WI, but no value."
+    },
+    "S7a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking operation."
+    },
+    "S7b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking operation."
+    },
+    "S7c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking operation."
+    },
+    "S8a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking operation."
+    },
+    "S8b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking operation."
+    },
+    "S8c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking operation."
+    },
+    "S8d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking operation."
+    },
+    "S8e": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No blanking operation."
+    },
+    "S9a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Piercing named but no 75 T press anywhere."
+    },
+    "S9b": {
+      "verdict": "PARTIAL",
+      "evidence": "Perform the piercing operation with specified shut height.",
+      "note": "Check named without its value."
+    },
+    "S9c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S10a": {
+      "verdict": "PARTIAL",
+      "evidence": "Inspect the dimensions after piercing.",
+      "note": "Check named without its value."
+    },
+    "S10b": {
+      "verdict": "PARTIAL",
+      "evidence": "Inspect the dimensions after piercing.",
+      "note": "Check named without its value."
+    },
+    "S11a": {
+      "verdict": "PARTIAL",
+      "evidence": "Perform the forming operation I with specified shut height.",
+      "note": "150 T press only in the header; binding not stated."
+    },
+    "S11b": {
+      "verdict": "PARTIAL",
+      "evidence": "Perform the forming operation I with specified shut height.",
+      "note": "Check named without its value."
+    },
+    "S11c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S12a": {
+      "verdict": "PARTIAL",
+      "evidence": "Check the dimensions after forming operation.",
+      "note": "Check named without its value."
+    },
+    "S12b": {
+      "verdict": "PARTIAL",
+      "evidence": "Check the dimensions after forming operation.",
+      "note": "Check named without its value."
+    },
+    "S12c": {
+      "verdict": "PARTIAL",
+      "evidence": "Check the dimensions after forming operation.",
+      "note": "Check named without its value."
+    },
+    "S12d": {
+      "verdict": "PARTIAL",
+      "evidence": "Check the dimensions after forming operation.",
+      "note": "Check named without its value."
+    },
+    "S12e": {
+      "verdict": "PARTIAL",
+      "evidence": "Check the dimensions after forming operation.",
+      "note": "Check named without its value."
+    },
+    "S12f": {
+      "verdict": "PARTIAL",
+      "evidence": "Check the dimensions after forming operation.",
+      "note": "Check named without its value."
+    },
+    "S13a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No Forming II operation."
+    },
+    "S13b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No Forming II operation."
+    },
+    "S13c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No Forming II operation."
+    },
+    "S14a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No Forming II operation."
+    },
+    "S14b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No Forming II operation."
+    },
+    "S14c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No Forming II operation."
+    },
+    "S14d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No Forming II operation."
+    },
+    "S14e": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No Forming II operation."
+    },
+    "S14f": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "No Forming II operation."
+    },
+    "S15": {
+      "verdict": "MATCH",
+      "evidence": "Conduct final inspection as per quality gate.",
+      "note": ""
+    },
+    "S16": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S17": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T1": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T2": {
+      "verdict": "PARTIAL",
+      "evidence": "POWER PRESS 150 TON",
+      "note": "Operations not bound."
+    },
+    "T3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T6a": {
+      "verdict": "MATCH",
+      "evidence": "Measure the sheet thickness using a micrometer.",
+      "note": ""
+    },
+    "T6b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI1": {
+      "verdict": "MATCH",
+      "evidence": "Surface must be free from rust, scale, cracks, black patches, and pitting.",
+      "note": ""
+    },
+    "QI2": {
+      "verdict": "PARTIAL",
+      "evidence": "Sheet thickness must be 1.5 mm.",
+      "note": "Tolerance ±0.05 mm dropped."
+    },
+    "QI3": {
+      "verdict": "MATCH",
+      "evidence": "Material must meet specification D513.",
+      "note": ""
+    },
+    "QI4": {
+      "verdict": "PARTIAL",
+      "evidence": "Check the raw material parameters for chemical composition.",
+      "note": "Only chemical; from step 9."
+    },
+    "QF1": {
+      "verdict": "MATCH",
+      "evidence": "Dimensions must meet specified tolerances.",
+      "note": ""
+    },
+    "QF2": {
+      "verdict": "PARTIAL",
+      "evidence": "No deep spots or defects allowed.",
+      "note": "Crack not named; dents in QF 3."
+    },
+    "QF3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF4": {
+      "verdict": "PARTIAL",
+      "evidence": "All parts must be free from dents and damage.",
+      "note": "Rust not named."
+    },
+    "QF5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R1": {
+      "verdict": "MATCH",
+      "evidence": "Surface Defect | Clean the surface and apply anti-rust coating.",
+      "note": "Defect generalised."
+    },
+    "R2": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Dimension Out of Tolerance | Rework the part to meet specified dimensions.",
+      "note": "Golden readjusts/replaces stopper or tool; generated reworks the part."
+    },
+    "R3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R4": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Dimension Out of Tolerance | Rework the part to meet specified dimensions.",
+      "note": "Covers radius/chamfer, but reworks the part instead of the tool."
+    },
+    "R5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Machine setting parameter sheet F-PRD-17",
+      "note": "New document reference in tooling.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Material Specification Not Met | Replace with material that meets specification D513.",
+      "note": "New rework row.",
+      "in_ppap": true
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Verify the process control plan.",
+      "note": "Document checks added (steps 1-3: control plan, revision, parts availability).",
+      "in_ppap": false
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "Set the machine parameters as per the control plan.",
+      "note": "Generic set-up.",
+      "in_ppap": null
+    },
+    {
+      "type": "BENIGN_ADDITION",
+      "evidence": "Conduct visual inspection for any defects.",
+      "note": "Generic.",
+      "in_ppap": null
+    }
+  ],
+  "sequence_issues": [
+    {
+      "operation": "Incoming material checks",
+      "golden_order": 1,
+      "issue": "surface, thickness, D513 and raw-material checks (steps 6-9) come after shearing (step 5)"
+    },
+    {
+      "operation": "Piercing",
+      "golden_order": 9,
+      "issue": "piercing (step 13) comes after Forming I (step 10)"
+    }
+  ],
+  "language": {
+    "verdict": "NON_COMPLIANT",
+    "note": "All step, quality and rework text is in English."
+  },
+  "summary": "A generic 15-step outline in English with almost no values: blanking and Forming II are missing entirely, and piercing and Forming I have no shut height, stroke or dimensions. The header puts the line in UNIT-III and appends /H/06/01/12 to the part number, the part list is empty, and incoming checks run after shearing. Dimension faults are reworked on the part instead of adjusting the tool."
+}

@@ -1,0 +1,552 @@
+{
+  "model": "Nano-5",
+  "stage": "01",
+  "verdicts": {
+    "H1": {
+      "verdict": "MATCH",
+      "evidence": "SHARADA INDUSTRIES",
+      "note": ""
+    },
+    "H2": {
+      "verdict": "MATCH",
+      "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+      "note": ""
+    },
+    "H3": {
+      "verdict": "MATCH",
+      "evidence": "Doc No.: SI / PCP /2654 7220 8237/8238N/01",
+      "note": ""
+    },
+    "H4": {
+      "verdict": "MATCH",
+      "evidence": "Rev: 02",
+      "note": ""
+    },
+    "H5": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Date: 11/11/17",
+      "note": "PFD form's revision date (also the prompt example's date)."
+    },
+    "H6": {
+      "verdict": "CONTRADICTED",
+      "evidence": "UNIT-3 / SUPPORT LH/RH DOOR OUTER HANDLE",
+      "note": "UNIT-3 instead of UNIT-II."
+    },
+    "H7": {
+      "verdict": "MATCH",
+      "evidence": "Stage No. 1",
+      "note": ""
+    },
+    "H8": {
+      "verdict": "MATCH",
+      "evidence": "SUPPORT LH/RH DOOR OUTER HANDLE",
+      "note": ""
+    },
+    "H9": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Machine field holds the supplier code S-06220; no machines anywhere."
+    },
+    "H10": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H11": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "H12": {
+      "verdict": "MATCH",
+      "evidence": "2654 7220 8237/8238N",
+      "note": ""
+    },
+    "H13": {
+      "verdict": "MATCH",
+      "evidence": null,
+      "note": "Cycle time left blank, as in the golden."
+    },
+    "H14": {
+      "verdict": "MATCH",
+      "evidence": "SUPPORT LH/RH DOOR OUTER HANDLE",
+      "note": ""
+    },
+    "H15": {
+      "verdict": "MATCH",
+      "evidence": "2654 7220 8237/8238N",
+      "note": ""
+    },
+    "H16": {
+      "verdict": "MATCH",
+      "evidence": "Revision 02",
+      "note": ""
+    },
+    "H17": {
+      "verdict": "CONTRADICTED",
+      "evidence": "Rev Date 11/11/17",
+      "note": "Wrong date."
+    },
+    "H18": {
+      "verdict": "MATCH",
+      "evidence": "—",
+      "note": ""
+    },
+    "H19": {
+      "verdict": "PARTIAL",
+      "evidence": "2654 7220 8237/8238N",
+      "note": "Part list has one combined row: 2654 7220 8237/8238N."
+    },
+    "H20": {
+      "verdict": "PARTIAL",
+      "evidence": "SUPPORT LH/RH DOOR OUTER HANDLE",
+      "note": "Part list has one combined row: 2654 7220 8237/8238N."
+    },
+    "H21": {
+      "verdict": "PARTIAL",
+      "evidence": "1",
+      "note": "Quantity 1 for the combined LH/RH row."
+    },
+    "H22": {
+      "verdict": "PARTIAL",
+      "evidence": "2654 7220 8237/8238N",
+      "note": "Part list has one combined row: 2654 7220 8237/8238N."
+    },
+    "H23": {
+      "verdict": "PARTIAL",
+      "evidence": "SUPPORT LH/RH DOOR OUTER HANDLE",
+      "note": "Part list has one combined row: 2654 7220 8237/8238N."
+    },
+    "H24": {
+      "verdict": "PARTIAL",
+      "evidence": "1",
+      "note": "Quantity 1 for the combined LH/RH row."
+    },
+    "S1a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S1b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S5a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S5b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S7a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S7b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S7c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S8a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S8b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S8c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S8d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S8e": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S9a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S9b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S9c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S10a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S10b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S11a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S11b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S11c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S12a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S12b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S12c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S12d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S12e": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S12f": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S13a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S13b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S13c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S14a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S14b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S14c": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S14d": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S14e": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S14f": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": "Press process not present; the WI describes a fixture assembly."
+    },
+    "S15": {
+      "verdict": "PARTIAL",
+      "evidence": "Unclamp the fixture and inspect the completed assembly.",
+      "note": "Inspection present; quality gate not referenced."
+    },
+    "S16": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "S17": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T1": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T6a": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T6b": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "T7": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI1": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QI4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF1": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF2": {
+      "verdict": "PARTIAL",
+      "evidence": "No visible defects on surface of handle and attach points.",
+      "note": "Crack and dent not named."
+    },
+    "QF3": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "QF5": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R1": {
+      "verdict": "PARTIAL",
+      "evidence": "Surface Defect | Polish or repair surface per approved method and retest.",
+      "note": "Vague action; no cleaning or rust preventive."
+    },
+    "R2": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R3": {
+      "verdict": "PARTIAL",
+      "evidence": "Damaged Part | Quarantine and replace damaged component, then reassemble as per PCP.",
+      "note": "Replace only; plastic-mallet repair dropped."
+    },
+    "R4": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "R5": {
+      "verdict": "MATCH",
+      "evidence": "Part Missing | Re-check fixture setup and ensure all components are present and correctly loaded.",
+      "note": ""
+    },
+    "R6": {
+      "verdict": "MISSING",
+      "evidence": null,
+      "note": ""
+    },
+    "L1": {
+      "verdict": "MATCH",
+      "evidence": "🚫 Don't Twist",
+      "note": ""
+    },
+    "L2": {
+      "verdict": "MATCH",
+      "evidence": "🔩 Spec. Torque",
+      "note": ""
+    },
+    "L3": {
+      "verdict": "MATCH",
+      "evidence": "⚠️ Important",
+      "note": ""
+    },
+    "L4": {
+      "verdict": "MATCH",
+      "evidence": "🔧 Adjustment",
+      "note": ""
+    },
+    "L5": {
+      "verdict": "MATCH",
+      "evidence": "🧴 Apply Adhesive",
+      "note": ""
+    },
+    "L6": {
+      "verdict": "MATCH",
+      "evidence": "🛢️ Lubricate Oil",
+      "note": ""
+    },
+    "L7": {
+      "verdict": "MATCH",
+      "evidence": "🟡 Lub. Grease",
+      "note": ""
+    },
+    "L8": {
+      "verdict": "MATCH",
+      "evidence": "🔵 Apply Sealant",
+      "note": ""
+    },
+    "L9": {
+      "verdict": "MATCH",
+      "evidence": "⭐ Vital Parts",
+      "note": ""
+    }
+  },
+  "extra_content": [
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Collect all loose parts and place them together.",
+      "note": "Fixture-assembly process copied from the prompt's welding example (steps 1-7: clamp, load, unclamp).",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Fixture for Support LH/RH Door Outer Handle (Fixture No. 2654 7220 8237/8238N)",
+      "note": "New fixture; the P-C-P has none (fixtures appear only in generic FMEA rows).",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Date Code/Approval Card (if applicable)",
+      "note": "New document/card item.",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "S-06220",
+      "note": "Supplier code put in the Machine / Equipment field.",
+      "in_ppap": true
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Weld/Attachment Missing | Reapply attachment as per control plan and verify secure fit.",
+      "note": "New rework row from a different process (welding/assembly).",
+      "in_ppap": false
+    },
+    {
+      "type": "CRITICAL_HALLUCINATION",
+      "evidence": "Misalignment | Realign part to specification using appropriate alignment jigs.",
+      "note": "New rework row and alignment jig.",
+      "in_ppap": false
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "Complete assembly of support LH/RH door outer handle with correct orientation.",
+      "note": "Assembly acceptance criteria (also 'No loose fasteners', 'aligned within tolerance per PCP').",
+      "in_ppap": false
+    },
+    {
+      "type": "MINOR_HALLUCINATION",
+      "evidence": "All required components present as per bill of materials.",
+      "note": "Assembly incoming criteria (also 'No damage to parts on arrival').",
+      "in_ppap": false
+    }
+  ],
+  "sequence_issues": [],
+  "language": {
+    "verdict": "NON_COMPLIANT",
+    "note": "All body text is in English."
+  },
+  "summary": "Nano-5 produced a generic fixture-assembly WI copied from the prompt's welding example instead of the press process: no shearing, blanking, piercing or forming, and no tooling, settings or dimensions. The header date is 11/11/17 instead of 06.03.2026 and the line is UNIT-3. An operator could not run this stage from it."
+}

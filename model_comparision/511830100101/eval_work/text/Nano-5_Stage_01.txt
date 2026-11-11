@@ -1,0 +1,149 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP / `'511830100101-01
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 02 | Date: 11/11/17
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: UNIT-3 / BRACKET ASSY ACCELERATOR PEDAL MTG | C4: 1 | E4: BRACKET ASSY ACCELERATOR PEDAL MTG | H4: Welding/Machining Fixtures | K4: 511830100101
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: BRACKET ASSY ACCELERATOR PEDAL MTG | E6: 511830100101 | H6: 02 | J6: 11/11/17 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Process Control Plan Number : SI / PCP / '511830100101-01
+E9: 2 | F9: Part Number / Latest Change Level  :  `511830100101/B/25.03.2022
+E10: 3 | F10: Part Name / Description : BRACKET ASSY, ACCELERATOR PEDAL MTG
+E11: 4 | F11: Supplier / Plant Approval /
+E12: 5 | F12: Customer Quality
+E13: 6 | F13: Date                                          --------
+E14: 7 | F14: S-06220
+E15: 8 | F15: SHARADA INDUSTRIES.
+E16: 9 | F16: Other Approval / Date [ if reqd. ]      -----
+E17: 10 | F17: Part /
+E18: 11 | F18: Process Name
+E19: 12 | F19: Machine
+E20: 13 | F20: Characteristic
+E21: 14 | F21: Special
+E22: 15 | F22: Product / Process 'Specification/   Tolerance
+E23: 16 | F23: Methods
+E24: 17 | F24: Error Proofing
+E25: 18 | F25: Reaction Plan
+E26: 19 | F26: Corrective Action
+E27: 20 | F27: Process
+E28: 21 | F28: Operation
+E29: 22 | F29: Device,
+E30: 23 | F30: Product
+E31: 24 | F31: Process
+E32: 25 | F32: Char.
+E33: 26 | F33: Evaluation
+E34: 27 | F34: Sample
+E35: 28 | F35: Control
+E36: 29 | F36: Number
+E37: 30 | F37: Description
+E38: 31 | F38: Tool for Mfg.
+E39: 32 | F39: Measurement Technique [L.C. ]
+E40: 33 | F40: Size
+E41: 34 | F41: Freq./ Quant.
+E42: 35 | F42: Method
+E43: 36 | F43: PP-010
+E44: 37 | F44: R M RECEIPT
+E45: 38 | F45: SURFACE CONDITION
+E46: 39 | F46: RUST,SCALE,CRACK ,BLACK PATCHES,PITTING
+E47: 40 | F47: VISUAL
+E48: 41 | F48: 100
+E49: 42 | F49: LOT
+E50: 43 | F50: As PER SI/RMQP
+E51: 44 | F51: Sort / Reject
+E52: 45 | F52: Sort / Reject & Sent back To Supplier
+E53: 46 | F53: PP-020
+E54: 47 | F54: SHEARING
+E55: 48 | F55: SHEARING M/C.
+E56: 49 | F56: LENGTH
+E57: 50 | F57: 1270 ±13
+E58: 51 | F58: M.TAPE
+E59: 52 | F59: 1
+E60: 53 | F60: Per hr.
+E61: 54 | F61: In-Process Inspection
+E62: 55 | F62: Sort / Reject
+E63: 56 | F63: Resharpening / Replacement of stopper/Tool
+E64: 57 | F64: PP-030
+E65: 58 | F65: Blanking
+E66: 59 | F66: PRESS MACHINE ON  200 TON(Machine-06)
+E67: 60 | F67: None
+E68: 61 | F68: SHUT HEIGHT
+E69: 62 | F69: 630
+E70: 63 | F70: M.Tape / Visual
+E71: 64 | F71: 1
+E72: 65 | F72: PER LOT
+E73: 66 | F73: Machine setting parameter sheet F-PRD-17
+E74: 67 | F74: PP-040
+E75: 68 | F75: PIERCING
+E76: 69 | F76: PRESS MACHINE ON 200 TON(Machine-06)
+E77: 70 | F77: None
+E78: 71 | F78: SHUT HEIGHT
+E79: 72 | F79: 610
+E80: 73 | F80: M.Tape / Visual
+E81: 74 | F81: 1
+E82: 75 | F82: PER LOT
+E83: 76 | F83: Machine setting parameter sheet F-PRD-17
+E84: 77 | F84: PP-050
+E85: 78 | F85: FORMING I
+E86: 79 | F86: PRESS MACHINE ON 150 TON (m/c-08)
+E87: 80 | F87: None
+E88: 81 | F88: SHUT HEIGHT
+E89: 82 | F89: 525
+E90: 83 | F90: M.Tape / Visual
+E91: 84 | F91: 1
+E92: 85 | F92: PER LOT
+E93: 86 | F93: Machine setting parameter sheet F-PRD-17
+E94: 87 | F94: PP-060
+E95: 88 | F95: FORMING II
+E96: 89 | F96: PRESS MACHINE ON 200 TON(M/C-06)
+E97: 90 | F97: None
+E98: 91 | F98: SHUT HEIGHT
+E99: 92 | F99: 650
+E100: 93 | F100: M.Tape / Visual
+E101: 94 | F101: 1
+E102: 95 | F102: PER LOT
+E103: 96 | F103: Machine setting parameter sheet F-PRD-17
+E104: 97 | F104: PP-070
+E105: 98 | F105: PROJECTION WELDING
+E106: 99 | F106: PROJECTION WELDING M/C
+E107: 100 | F107: 1
+E108: 101 | F108: HEX WELD
+E109: 102 | F109: M6
+E110: 103 | F110: VISUAL
+E111: 104 | F111: 5
+E112: 105 | F112: LOT
+E113: 106 | F113: 1st Piece Inspection Record / In-process Inspection
+E114: 107 | F114: Projection shank/ Visual Inspection
+E115: 108 | F115: sort/ Rejection/rework
+E116: 109 | F116: 1) Process parameter setting done Voltage 160-180V & Pressure - 10-15kg/cm2 (As per M6 Nut STD) 2) New Tech Projection machine to be Purchased.
+E117: TOOLING / EQUIPMENT
+E118: 1) | F118: Stage 1 Welding Fixture (Fixture No. 511830100101)
+E119: 2) | F119: Spot Welding Gun - 1 no. (Gun No. 90)
+E120: 3) | F120: Projection Welding M/C
+E121: 4) | F121: Panel checker
+E122: QUALITY PARAMETERS
+E123: A) Incoming Quality Checks
+E124: 1. | F124: RUST, SCALE, CRACK, BLACK PATCHES, PITTING on sheet surfaces must be removed or minimized during RECEIPT
+E125: 2. | F125: SURFACE CONDITION of BLANKS and SHAPE PARTS must be within defined specs
+E126: B) Finished Quality Checks
+E127: 1. | F127: All welds must be free from porosity and cold lap
+E128: 2. | F128: No visual imperfections on critical welds
+E129: 3. | F129: Dimensional checks as per DIMENSIONS section of PCP
+E130: 4. | F130: Proper mating of bracket to accelerator pedal assembly
+A133: SR. | B133: PART NO. | E133: PART DESCRIPTION | N133: QTY
+A134: 1 | B134: 511830100101 | E134: BRACKET ASSY ACCELERATOR PEDAL MTG | N134: 1
+A136: REWORK INSTRUCTIONS
+A137: NO. | B137: DEFECT TYPE | F137: ACTION
+A138: 1 | B138: Spot / Weld Missing | F138: Reapply welds as per PCP including correct voltage and pressure settings
+A139: 2 | B139: Weld Quality Issue | F139: Repair welds to avoid porosity or cold lap; document results
+A140: 3 | B140: Dimensional Deviation | F140: Recheck and correct as per DIMENSIONS section; remeasure with toolings
+A141: 4 | B141: Part Shift | F141: Realign part using proper fixture alignment and re-weld as required
+A142: 5 | B142: Appearance Defects | F142: Fix burrs, undercuts, and surface imperfections; inspect visually
+A144: LEGEND
+A145: 🚫 Don't Twist | B145: 🔩 Spec. Torque | D145: ⚠️ Important | E145: 🔧 Adjustment | G145: 🧴 Apply Adhesive | I145: 🛢️ Lubricate Oil | K145: 🟡 Lub. Grease | L145: 🔵 Apply Sealant | N145: ⭐ Vital Parts

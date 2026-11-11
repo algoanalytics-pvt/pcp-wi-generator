@@ -1,0 +1,168 @@
+{
+  "part_dir": "/home/algolaptop13/Documents/AlgoAnalytics/pcp-wi-generator/model_comparision/265472208237  ",
+  "part_no": "265472208237",
+  "prepared_on": "2026-11-10",
+  "golden_dir": "Hindi",
+  "stages": [
+    "01"
+  ],
+  "golden": {
+    "01": {
+      "file": "Hindi/WI_20260616_265472208237  NEW PPAP_Stage_01.xlsx",
+      "text": "eval_work/text/golden_Stage_01.txt"
+    }
+  },
+  "ppap": [
+    {
+      "file": "265472208237  NEW PPAP.xlsx",
+      "text": "eval_work/text/ppap.txt"
+    }
+  ],
+  "models": {
+    "Gpt4o-mini": {
+      "folder": "Generated/Gpt4o-mini",
+      "stages": {
+        "01": {
+          "file": "Generated/Gpt4o-mini/WI_20261030_265472208237  NEW PPAP_Stage_01.xlsx",
+          "text": "eval_work/text/Gpt4o-mini_Stage_01.txt",
+          "verdicts": "eval_work/verdicts/Gpt4o-mini_Stage_01.json",
+          "judge_result": "Generated/Gpt4o-mini/judge_result_Gpt4o-mini_Stage_01.json"
+        }
+      },
+      "cost": {
+        "model": "gpt-4o-mini",
+        "provider_model_id": "openai / gpt-4o-mini",
+        "language": "hindi",
+        "strategy": "oneshot",
+        "temperature": "0.2",
+        "max_tokens": 4000,
+        "stages_generated": 1,
+        "total_cost_usd": 0.004213,
+        "avg_cost_per_wi_usd": 0.004213,
+        "prompt_tokens": 25655,
+        "completion_tokens": 608,
+        "total_llm_time": "6.5 s",
+        "price_per_1m_in_out": "0.15 / 0.6",
+        "total_llm_time_s": 6.5,
+        "file": "Generated/Gpt4o-mini/COST_20261030_265472208237  NEW PPAP_gpt-4o-mini.docx"
+      }
+    },
+    "Luna-5.6": {
+      "folder": "Generated/Luna-5.6",
+      "stages": {
+        "01": {
+          "file": "Generated/Luna-5.6/WI_20261030_265472208237  NEW PPAP_Stage_01.xlsx",
+          "text": "eval_work/text/Luna-5.6_Stage_01.txt",
+          "verdicts": "eval_work/verdicts/Luna-5.6_Stage_01.json",
+          "judge_result": "Generated/Luna-5.6/judge_result_Luna-5.6_Stage_01.json"
+        }
+      },
+      "cost": {
+        "model": "gpt-5.6-luna",
+        "provider_model_id": "openai / gpt-5.6-luna",
+        "language": "hindi",
+        "strategy": "oneshot",
+        "temperature": "0.2 (ignored by GPT-5/6 models)",
+        "max_tokens": 4000,
+        "stages_generated": 1,
+        "total_cost_usd": 0.008906,
+        "avg_cost_per_wi_usd": 0.008906,
+        "prompt_tokens": 25654,
+        "completion_tokens": 3146,
+        "total_llm_time": "35.6 s",
+        "price_per_1m_in_out": "0.2 / 1.2",
+        "total_llm_time_s": 35.6,
+        "file": "Generated/Luna-5.6/COST_20261030_265472208237  NEW PPAP_gpt-5.6-luna.docx"
+      }
+    },
+    "Luna-6": {
+      "folder": "Generated/Luna-6",
+      "stages": {
+        "01": {
+          "file": "Generated/Luna-6/WI_20261030_265472208237  NEW PPAP_Stage_01.xlsx",
+          "text": "eval_work/text/Luna-6_Stage_01.txt",
+          "verdicts": "eval_work/verdicts/Luna-6_Stage_01.json",
+          "judge_result": "Generated/Luna-6/judge_result_Luna-6_Stage_01.json"
+        }
+      },
+      "cost": {
+        "model": "gpt-6-luna",
+        "provider_model_id": "openai / gpt-6-luna",
+        "language": "hindi",
+        "strategy": "oneshot",
+        "temperature": "0.2 (ignored by GPT-5/6 models)",
+        "max_tokens": 4000,
+        "stages_generated": 1,
+        "total_cost_usd": 0.004472,
+        "avg_cost_per_wi_usd": 0.004472,
+        "prompt_tokens": 25654,
+        "completion_tokens": 3813,
+        "total_llm_time": "36.4 s",
+        "price_per_1m_in_out": "0.1 / 0.5",
+        "total_llm_time_s": 36.4,
+        "file": "Generated/Luna-6/COST_20261030_265472208237  NEW PPAP_gpt-6-luna.docx"
+      }
+    },
+    "Nano-5": {
+      "folder": "Generated/Nano-5",
+      "stages": {
+        "01": {
+          "file": "Generated/Nano-5/WI_20261030_265472208237  NEW PPAP_Stage_01.xlsx",
+          "text": "eval_work/text/Nano-5_Stage_01.txt",
+          "verdicts": "eval_work/verdicts/Nano-5_Stage_01.json",
+          "judge_result": "Generated/Nano-5/judge_result_Nano-5_Stage_01.json"
+        }
+      },
+      "cost": {
+        "model": "gpt-5-nano",
+        "provider_model_id": "openai / gpt-5-nano",
+        "language": "hindi",
+        "strategy": "oneshot",
+        "temperature": "0.2 (ignored by GPT-5/6 models)",
+        "max_tokens": 4000,
+        "stages_generated": 1,
+        "total_cost_usd": 0.001557,
+        "avg_cost_per_wi_usd": 0.001557,
+        "prompt_tokens": 25654,
+        "completion_tokens": 686,
+        "total_llm_time": "9.2 s",
+        "price_per_1m_in_out": "0.05 / 0.4",
+        "total_llm_time_s": 9.2,
+        "file": "Generated/Nano-5/COST_20261030_265472208237  NEW PPAP_gpt-5-nano.docx"
+      }
+    },
+    "mistral-small-latest": {
+      "folder": "Generated/mistral-small-latest",
+      "stages": {
+        "01": {
+          "file": "Generated/mistral-small-latest/WI_20261030_265472208237  NEW PPAP_Stage_01.xlsx",
+          "text": "eval_work/text/mistral-small-latest_Stage_01.txt",
+          "verdicts": "eval_work/verdicts/mistral-small-latest_Stage_01.json",
+          "judge_result": "Generated/mistral-small-latest/judge_result_mistral-small-latest_Stage_01.json"
+        }
+      },
+      "cost": {
+        "model": "mistral-small-latest",
+        "provider_model_id": "mistral / mistral-small-latest",
+        "language": "hindi",
+        "strategy": "oneshot",
+        "temperature": "0.2",
+        "max_tokens": 16000,
+        "stages_generated": 1,
+        "total_cost_usd": 0.005468,
+        "avg_cost_per_wi_usd": 0.005468,
+        "prompt_tokens": 29551,
+        "completion_tokens": 1725,
+        "total_llm_time": "17.0 s",
+        "price_per_1m_in_out": "0.15 / 0.6",
+        "total_llm_time_s": 17.0,
+        "file": "Generated/mistral-small-latest/COST_20261030_265472208237  NEW PPAP_mistral-small-latest.docx"
+      }
+    }
+  },
+  "golden_facts": {
+    "01": "eval_work/golden_facts_Stage_01.json"
+  },
+  "report_notes": "eval_work/report_notes.json",
+  "problems": []
+}

@@ -1,0 +1,50 @@
+=== SHEET: Work Instruction ===
+A1: SHARADA
+INDUSTRIES | E1: WORK INSTRUCTIONS | K1: Doc No.: SI / PCP /2654 7220 8237/8238N/01
+A2: Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India | K2: Rev: 02 | Date: 06.03.2026
+A3: Factory / Line Area | C3: Stage No. | E3: Stage Name | H3: Machine / Equipment | K3: Part No. | M3: Cycle Time
+A4: SHARADA INDUSTRIES UNIT-III | C4: 1 | E4: SUPPORT LH/RH DOOR OUTER HANDLE | H4: POWER PRESS 150 TON | K4: 2654 7220 8237/8238N/H/06/01/12
+A5: Part Name | E5: Drawing No. | H5: Revision | J5: Rev Date | L5: Modification
+A6: SUPPORT LH/RH DOOR OUTER HANDLE | E6: 2654 7220 8237/8238N | H6: 02 | J6: 06.03.2026 | L6: —
+A7: DETAILED WORK INSTRUCTIONS
+A8: 🖼️
+
+Image
+Placeholder
+
+(Insert image
+here manually) | E8: 1 | F8: Verify the process control plan.
+E9: 2 | F9: Check the revision number and date.
+E10: 3 | F10: Ensure all parts are available as per the drawing.
+E11: 4 | F11: Set the machine parameters as per the control plan.
+E12: 5 | F12: Perform the shearing operation as per the specified dimensions.
+E13: 6 | F13: Inspect the surface condition for rust, scale, cracks, and pitting.
+E14: 7 | F14: Measure the sheet thickness using a micrometer.
+E15: 8 | F15: Verify the material specification as per D513.
+E16: 9 | F16: Check the raw material parameters for chemical composition.
+E17: 10 | F17: Perform the forming operation I with specified shut height.
+E18: 11 | F18: Check the dimensions after forming operation.
+E19: 12 | F19: Conduct visual inspection for any defects.
+E20: 13 | F20: Perform the piercing operation with specified shut height.
+E21: 14 | F21: Inspect the dimensions after piercing.
+E22: 15 | F22: Conduct final inspection as per quality gate.
+E23: TOOLING / EQUIPMENT
+E24: 1) | F24: POWER PRESS 150 TON
+E25: 2) | F25: Machine setting parameter sheet F-PRD-17
+E26: QUALITY PARAMETERS
+E27: A) Incoming Quality Checks
+E28: 1. | F28: Surface must be free from rust, scale, cracks, black patches, and pitting.
+E29: 2. | F29: Sheet thickness must be 1.5 mm.
+E30: 3. | F30: Material must meet specification D513.
+E31: B) Finished Quality Checks
+E32: 1. | F32: Dimensions must meet specified tolerances.
+E33: 2. | F33: No deep spots or defects allowed.
+E34: 3. | F34: All parts must be free from dents and damage.
+A37: SR. | B37: PART NO. | E37: PART DESCRIPTION | N37: QTY
+A39: REWORK INSTRUCTIONS
+A40: NO. | B40: DEFECT TYPE | F40: ACTION
+A41: 1 | B41: Surface Defect | F41: Clean the surface and apply anti-rust coating.
+A42: 2 | B42: Dimension Out of Tolerance | F42: Rework the part to meet specified dimensions.
+A43: 3 | B43: Material Specification Not Met | F43: Replace with material that meets specification D513.
+A45: LEGEND
+A46: 🚫 Don't Twist | B46: 🔩 Spec. Torque | D46: ⚠️ Important | E46: 🔧 Adjustment | G46: 🧴 Apply Adhesive | I46: 🛢️ Lubricate Oil | K46: 🟡 Lub. Grease | L46: 🔵 Apply Sealant | N46: ⭐ Vital Parts

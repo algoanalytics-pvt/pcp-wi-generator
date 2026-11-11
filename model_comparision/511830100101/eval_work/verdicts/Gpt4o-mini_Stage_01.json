@@ -1,0 +1,584 @@
+{
+ "model": "Gpt4o-mini",
+ "stage": "01",
+ "verdicts": {
+  "H1": {
+   "verdict": "MATCH",
+   "evidence": "SHARADA INDUSTRIES",
+   "note": ""
+  },
+  "H2": {
+   "verdict": "MATCH",
+   "evidence": "Plot-W199, S-Block, MIDC, Bhosari, Pune-411026, India",
+   "note": ""
+  },
+  "H3": {
+   "verdict": "MATCH",
+   "evidence": "Doc No.: SI / PCP / `'511830100101-01",
+   "note": ""
+  },
+  "H4": {
+   "verdict": "CONTRADICTED",
+   "evidence": "Rev: 01",
+   "note": "Golden is 02."
+  },
+  "H5": {
+   "verdict": "CONTRADICTED",
+   "evidence": "Date: 11/11/17",
+   "note": "Golden is 13.11.2025; 11/11/17 is the PPAP form revision date and the prompt example's date."
+  },
+  "H6": {
+   "verdict": "MATCH",
+   "evidence": "UNIT-3 / BRACKET ASSY,ACCELERATOR PEDAL MTG",
+   "note": ""
+  },
+  "H7": {
+   "verdict": "MATCH",
+   "evidence": "1",
+   "note": ""
+  },
+  "H8": {
+   "verdict": "MATCH",
+   "evidence": "BRACKET ASSY,ACCELERATOR PEDAL MTG",
+   "note": ""
+  },
+  "H9": {
+   "verdict": "MATCH",
+   "evidence": "Shearing Machine",
+   "note": "Tooling list only."
+  },
+  "H10": {
+   "verdict": "MATCH",
+   "evidence": "Press Machine",
+   "note": ""
+  },
+  "H11": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Projection welding named, machine never named."
+  },
+  "H12": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No welding machine named."
+  },
+  "H13": {
+   "verdict": "MATCH",
+   "evidence": "`511830100101",
+   "note": "Stray backtick."
+  },
+  "H14": {
+   "verdict": "MATCH",
+   "evidence": null,
+   "note": "Blank in both."
+  },
+  "H15": {
+   "verdict": "MATCH",
+   "evidence": "BRACKET ASSY,ACCELERATOR PEDAL MTG",
+   "note": ""
+  },
+  "H16": {
+   "verdict": "MATCH",
+   "evidence": "`511830100101",
+   "note": "Stray backtick."
+  },
+  "H17": {
+   "verdict": "CONTRADICTED",
+   "evidence": "01",
+   "note": "Golden is 02."
+  },
+  "H18": {
+   "verdict": "CONTRADICTED",
+   "evidence": "11/11/17",
+   "note": "Golden is 13.11.2025."
+  },
+  "H19": {
+   "verdict": "MATCH",
+   "evidence": null,
+   "note": "'—' in both."
+  },
+  "H20": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "Part-list table empty."
+  },
+  "H21": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "H22": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S1a": {
+   "verdict": "PARTIAL",
+   "evidence": "Collect all loose parts and place them together.",
+   "note": "'Loose parts' (assembly wording from the prompt example) instead of receiving raw material."
+  },
+  "S1b": {
+   "verdict": "MATCH",
+   "evidence": "Inspect surface condition for rust, scale, crack, black patches, and pitting.",
+   "note": ""
+  },
+  "S2": {
+   "verdict": "PARTIAL",
+   "evidence": "Measure sheet thickness using a micrometer.",
+   "note": "Value 3 mm missing."
+  },
+  "S3": {
+   "verdict": "MATCH",
+   "evidence": "Check material specification for Fe410.",
+   "note": ""
+  },
+  "S4": {
+   "verdict": "PARTIAL",
+   "evidence": "Perform raw material parameters checks as per F-QAD/SI/RMQP.",
+   "note": "Chemical/mechanical/physical and lab report not named."
+  },
+  "S5a": {
+   "verdict": "PARTIAL",
+   "evidence": "Check length, width, and thickness as per specifications.",
+   "note": "No 1270 ±3 value."
+  },
+  "S5b": {
+   "verdict": "PARTIAL",
+   "evidence": "Check length, width, and thickness as per specifications.",
+   "note": "No 304 ±3 value."
+  },
+  "S6a": {
+   "verdict": "PARTIAL",
+   "evidence": "Perform blanking operation on press machine.",
+   "note": "Tonnage not in the step; only press in tooling is 200 Ton."
+  },
+  "S6b": {
+   "verdict": "PARTIAL",
+   "evidence": "Set shut height and check max and min shut heights.",
+   "note": "Generic settings block credited to blanking; no value."
+  },
+  "S7a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No blanking dimensions."
+  },
+  "S7b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S7c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S7d": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S7e": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S7f": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S8a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No piercing operation."
+  },
+  "S8b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S9a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S9b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S10a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No forming operations."
+  },
+  "S10b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S10c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S10d": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S11a": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S11b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S11c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S11d": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S11e": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S11f": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S11g": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S12a": {
+   "verdict": "PARTIAL",
+   "evidence": "Perform projection welding and check hex weld.",
+   "note": "M6 nut and machine not named."
+  },
+  "S12b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S12c": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S13": {
+   "verdict": "PARTIAL",
+   "evidence": "Conduct torque checks.",
+   "note": "Value 1.55 missing."
+  },
+  "S14": {
+   "verdict": "PARTIAL",
+   "evidence": "Perform CO2 tack welding and ensure proper tack.",
+   "note": "Tack count 3 missing."
+  },
+  "S15": {
+   "verdict": "MATCH",
+   "evidence": "Conduct final inspection as per quality plan.",
+   "note": ""
+  },
+  "S16": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No coating."
+  },
+  "S17": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "S18": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No packing."
+  },
+  "T1": {
+   "verdict": "MATCH",
+   "evidence": "Shearing Machine",
+   "note": ""
+  },
+  "T2": {
+   "verdict": "MATCH",
+   "evidence": "Press Machine on 200 Ton (Machine-06)",
+   "note": ""
+  },
+  "T3": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T4": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T5": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T6": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T8": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T9a": {
+   "verdict": "MATCH",
+   "evidence": "Measure sheet thickness using a micrometer.",
+   "note": "Step 6."
+  },
+  "T9b": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "T10": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QI1": {
+   "verdict": "MATCH",
+   "evidence": "Inspect surface condition for rust, scale, crack, black patches, and pitting.",
+   "note": "Step 5; QI 1 lists only cracks, damage, rust."
+  },
+  "QI2": {
+   "verdict": "PARTIAL",
+   "evidence": "Measure sheet thickness using a micrometer.",
+   "note": "No value."
+  },
+  "QI3": {
+   "verdict": "MATCH",
+   "evidence": "Check material specification for Fe410.",
+   "note": ""
+  },
+  "QI4": {
+   "verdict": "PARTIAL",
+   "evidence": "Perform raw material parameters checks as per F-QAD/SI/RMQP.",
+   "note": "Lab test report not named."
+  },
+  "QF1a": {
+   "verdict": "PARTIAL",
+   "evidence": "Total dimensions must meet specifications.",
+   "note": "Generic."
+  },
+  "QF1b": {
+   "verdict": "PARTIAL",
+   "evidence": "Total dimensions must meet specifications.",
+   "note": "Generic."
+  },
+  "QF1c": {
+   "verdict": "PARTIAL",
+   "evidence": "Total dimensions must meet specifications.",
+   "note": "Generic."
+  },
+  "QF1d": {
+   "verdict": "PARTIAL",
+   "evidence": "Total dimensions must meet specifications.",
+   "note": "Generic."
+  },
+  "QF1e": {
+   "verdict": "PARTIAL",
+   "evidence": "Total dimensions must meet specifications.",
+   "note": "Generic."
+  },
+  "QF1f": {
+   "verdict": "PARTIAL",
+   "evidence": "Total dimensions must meet specifications.",
+   "note": "Generic."
+  },
+  "QF1g": {
+   "verdict": "PARTIAL",
+   "evidence": "Total dimensions must meet specifications.",
+   "note": "Generic."
+  },
+  "QF1h": {
+   "verdict": "PARTIAL",
+   "evidence": "Total dimensions must meet specifications.",
+   "note": "Generic."
+  },
+  "QF2a": {
+   "verdict": "PARTIAL",
+   "evidence": "Total dimensions must meet specifications.",
+   "note": "Generic."
+  },
+  "QF2b": {
+   "verdict": "PARTIAL",
+   "evidence": "Total dimensions must meet specifications.",
+   "note": "Generic."
+  },
+  "QF3": {
+   "verdict": "PARTIAL",
+   "evidence": "All welds must be visually inspected.",
+   "note": "M6 nut not named."
+  },
+  "QF4": {
+   "verdict": "PARTIAL",
+   "evidence": "Conduct torque checks.",
+   "note": "No value."
+  },
+  "QF5": {
+   "verdict": "PARTIAL",
+   "evidence": "Perform CO2 tack welding and ensure proper tack.",
+   "note": "No tack count."
+  },
+  "QF6": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QF7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "QF8": {
+   "verdict": "PARTIAL",
+   "evidence": "Assembly must have no cracks, damage, or rust anywhere.",
+   "note": "Listed under incoming; dent not named."
+  },
+  "R1": {
+   "verdict": "PARTIAL",
+   "evidence": "Surface Condition | Clean rusted areas and ensure no cracks or damages.",
+   "note": "Clean only; no rust remover or rust preventive; scale not named."
+  },
+  "R2": {
+   "verdict": "PARTIAL",
+   "evidence": "Surface Condition | ... ensure no cracks or damages.",
+   "note": "Vague; no repair action."
+  },
+  "R3": {
+   "verdict": "PARTIAL",
+   "evidence": "Dimension Mismatch | Adjust dimensions as per specifications.",
+   "note": "Vague."
+  },
+  "R4": {
+   "verdict": "PARTIAL",
+   "evidence": "Weld Missing | Ensure all welds are completed as per standards.",
+   "note": "Re-weld only; no parameter setting."
+  },
+  "R5": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": "No coating row."
+  },
+  "R6": {
+   "verdict": "PARTIAL",
+   "evidence": "Weld Missing | Ensure all welds are completed as per standards.",
+   "note": "Nut not named; no torque recheck."
+  },
+  "R7": {
+   "verdict": "MISSING",
+   "evidence": null,
+   "note": ""
+  },
+  "L1": {
+   "verdict": "MATCH",
+   "evidence": "🚫 Don't Twist",
+   "note": ""
+  },
+  "L2": {
+   "verdict": "MATCH",
+   "evidence": "🔩 Spec. Torque",
+   "note": ""
+  },
+  "L3": {
+   "verdict": "MATCH",
+   "evidence": "⚠️ Important",
+   "note": ""
+  },
+  "L4": {
+   "verdict": "MATCH",
+   "evidence": "🔧 Adjustment",
+   "note": ""
+  },
+  "L5": {
+   "verdict": "MATCH",
+   "evidence": "🧴 Apply Adhesive",
+   "note": ""
+  },
+  "L6": {
+   "verdict": "MATCH",
+   "evidence": "🛢️ Lubricate Oil",
+   "note": ""
+  },
+  "L7": {
+   "verdict": "MATCH",
+   "evidence": "🟡 Lub. Grease",
+   "note": ""
+  },
+  "L8": {
+   "verdict": "MATCH",
+   "evidence": "🔵 Apply Sealant",
+   "note": ""
+  },
+  "L9": {
+   "verdict": "MATCH",
+   "evidence": "⭐ Vital Parts",
+   "note": ""
+  }
+ },
+ "extra_content": [
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Verify all assembly parts are loaded on fixture.",
+   "note": "New fixture-loading and clamping steps (steps 2–3, 'Clamp the fixture.') from the prompt's welding example.",
+   "in_ppap": false
+  },
+  {
+   "type": "CRITICAL_HALLUCINATION",
+   "evidence": "Perform raw material parameters checks as per F-QAD/SI/RMQP.",
+   "note": "New document reference.",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "Set shut height and check max and min shut heights.",
+   "note": "Extra press-setting checks without values: max/min shut height, stroke, counter-balance, clutch-brake, liner and tool size (steps 12–15).",
+   "in_ppap": true
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "No wrinkles on pressed parts.",
+   "note": "Extra criterion.",
+   "in_ppap": false
+  },
+  {
+   "type": "MINOR_HALLUCINATION",
+   "evidence": "No burrs at cut edges.",
+   "note": "Extra cut-edge criterion (also step 16).",
+   "in_ppap": true
+  }
+ ],
+ "sequence_issues": [],
+ "language": {
+  "verdict": "NON_COMPLIANT",
+  "note": "Body text is English although the run language was Hindi."
+ },
+ "summary": "The header carries the wrong revision (01) and date (11/11/17) for both the document and the drawing, and the part list is empty. The steps are an outline without values: no piercing, forming, coating or packing, and no shut heights, dimensions, weld settings, torque value or tack count, so the operator has nothing to set or check against. It opens with fixture-loading steps copied from the prompt's welding example."
+}

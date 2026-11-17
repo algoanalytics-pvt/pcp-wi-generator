@@ -135,23 +135,7 @@ pcp-wi-generator/
 | POST | `/api/generate` | Generate WIs for the selected stages |
 | POST | `/api/add-non-pcp-as-wi/{session_id}/{sheet_name}` | Treat a non-PCP sheet as a stage |
 
----
 
-## 📋 PCP Excel Format
-Common column-name variants are detected automatically.
-
-| Column | Also accepted |
-|--------|---------------|
-| Process Name | Process, Operation |
-| Machine | Equipment, Machine / Device |
-| Tool | Tooling |
-| Specification | Spec, Tolerance |
-| Control Method | Method, Inspection Method |
-| Reaction Plan | Corrective Action, Reaction |
-| Product Characteristic | Product Char |
-| Process Characteristic | Process Char |
-| Sample Size | — |
-| Frequency | — |
 
 
 

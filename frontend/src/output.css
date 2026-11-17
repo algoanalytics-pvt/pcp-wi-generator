@@ -24,6 +24,8 @@
     --text-xl--line-height: calc(1.75 / 1.25);
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
@@ -505,9 +507,6 @@
   .max-h-72 {
     max-height: calc(var(--spacing) * 72);
   }
-  .min-h-0 {
-    min-height: 0;
-  }
   .min-h-\[180px\] {
     min-height: 180px;
   }
@@ -639,6 +638,9 @@
   }
   .shrink-0 {
     flex-shrink: 0;
+  }
+  .grow {
+    flex-grow: 1;
   }
   .basis-\[240px\] {
     flex-basis: 240px;
@@ -814,6 +816,9 @@
   }
   .overflow-x-auto {
     overflow-x: auto;
+  }
+  .overflow-x-hidden {
+    overflow-x: hidden;
   }
   .overflow-y-auto {
     overflow-y: auto;
@@ -1775,6 +1780,63 @@
     @media (width >= 64rem) {
       font-size: var(--text-6xl);
       line-height: var(--tw-leading, var(--text-6xl--line-height));
+    }
+  }
+  .short\:mt-3 {
+    @media (max-height: 800px) {
+      margin-top: calc(var(--spacing) * 3);
+    }
+  }
+  .short\:mt-5 {
+    @media (max-height: 800px) {
+      margin-top: calc(var(--spacing) * 5);
+    }
+  }
+  .short\:mb-5 {
+    @media (max-height: 800px) {
+      margin-bottom: calc(var(--spacing) * 5);
+    }
+  }
+  .short\:gap-8 {
+    @media (max-height: 800px) {
+      gap: calc(var(--spacing) * 8);
+    }
+  }
+  .short\:py-2 {
+    @media (max-height: 800px) {
+      padding-block: calc(var(--spacing) * 2);
+    }
+  }
+  .short\:py-3 {
+    @media (max-height: 800px) {
+      padding-block: calc(var(--spacing) * 3);
+    }
+  }
+  .short\:py-6 {
+    @media (max-height: 800px) {
+      padding-block: calc(var(--spacing) * 6);
+    }
+  }
+  .short\:text-3xl {
+    @media (max-height: 800px) {
+      font-size: var(--text-3xl);
+      line-height: var(--tw-leading, var(--text-3xl--line-height));
+    }
+  }
+  .short\:md\:text-4xl {
+    @media (max-height: 800px) {
+      @media (width >= 48rem) {
+        font-size: var(--text-4xl);
+        line-height: var(--tw-leading, var(--text-4xl--line-height));
+      }
+    }
+  }
+  .short\:lg\:text-5xl {
+    @media (max-height: 800px) {
+      @media (width >= 64rem) {
+        font-size: var(--text-5xl);
+        line-height: var(--tw-leading, var(--text-5xl--line-height));
+      }
     }
   }
 }

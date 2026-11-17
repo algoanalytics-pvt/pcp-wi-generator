@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
 @import "tailwindcss";
 
+/* Short laptop screens (e.g. 1366x768, or 125-150% zoom): tighter hero so the
+   "Upload PCP Excel" button stays visible without scrolling. */
+@custom-variant short (@media (max-height: 800px));
+
 @theme {
   /* Warm espresso/sienna brand palette — see theme.md */
   --color-navy: #2c1a0e;        /* sidebar bg (brand-dark) */

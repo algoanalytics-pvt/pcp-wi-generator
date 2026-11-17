@@ -7,7 +7,7 @@ pydantic==2.10.4
 # Config
 python-dotenv==1.0.1
 
-# LLM calls — llm_client.py talks to Mistral/Groq/OpenAI/Together over HTTP
+# LLM calls — llm_client.py calls OpenAI (gpt-5.6-luna) over HTTP
 requests==2.32.3
 
 # Spreadsheet / document I/O

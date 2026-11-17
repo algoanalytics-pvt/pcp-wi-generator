@@ -1,49 +1,158 @@
 # PCP → Work Instruction Generator
 
-FastAPI backend (`backend/`) + Vite/React SPA (`frontend/`). Upload a Process
-Control Plan workbook, pick the sheets, and generate Work Instructions via an
-LLM.
+## 📌 Overview
+Turns a **Process Control Plan (PCP)** Excel workbook into shop-floor **Work Instructions (WI)**.
+Upload the PCP, pick the stages and the language (English / Hindi / Marathi), and the app writes one WI per stage.
+Each WI can be downloaded as a formatted Excel file or as a CSV.
 
-## Local development
+- **Backend:** FastAPI (`backend/`)
+- **Frontend:** React + Vite + Tailwind (`frontend/`)
+- **AI model:** OpenAI **`gpt-5.6-luna`**
 
-Three terminals:
+---
 
+## 🤖 AI Model
+| Item | Value |
+|------|-------|
+| Provider | OpenAI |
+| Model | `gpt-5.6-luna` (only model used) |
+| API key | `OPENAI_API_KEY` |
+| Max tokens | 16000 per stage |
+| Avg usage | ~26k tokens per stage (~$0.0085) |
+
+- Chosen from the Nov 2026 model comparison (5 models, 40 WIs): best mean score (0.900) and Hindi on 5/5 parts.
+- Mistral (`mistral-large-latest`) was used earlier. It is kept in `backend/llm_client.py` as commented-out code only.
+- Every LLM call prints a check line in the backend console:
+  ```
+  [LLM] provider=OpenAI url=https://api.openai.com/v1/chat/completions model=gpt-5.6-luna (not Mistral)
+  ```
+- Token usage is returned by `/api/generate` under `usage` (per stage + total).
+
+---
+
+## 🚀 Quick Start (local)
+
+### 1. Set the API key
 ```bash
-# 1. backend — http://localhost:8000
+cp .env.example backend/.env
+# edit backend/.env and set OPENAI_API_KEY
+```
+
+### 2. Start the backend → http://localhost:8000
+```bash
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload --port 8000
+```
 
-# 2. frontend — http://localhost:3000, proxies /api to :8000
+### 3. Start the frontend → http://localhost:5173
+```bash
 cd frontend
 npm install
 npm run dev
+```
+The dev server proxies `/api` to port 8000.
 
-# 3. Tailwind watcher (only while editing styles)
+### 4. (Only while editing styles) Rebuild Tailwind
+```bash
 cd frontend
 npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
 ```
+`src/output.css` is committed, so rebuild it after any style change.
 
-Set at least one LLM provider key before generating — copy `.env.example` to
-`backend/.env` (or the repo root `.env`) and fill one in.
+---
 
-## Running the production container
-
+## 🐳 Docker / Production
 ```bash
-cp .env.example .env      # fill in a provider key
+cp .env.example .env      # set OPENAI_API_KEY
 docker compose up -d --build
 ```
+- Serves the built frontend from FastAPI on host port **9274** (container 8000).
+- Built for the `/pcp_wi_generator` subpath, so opening `http://localhost:9274/` directly shows a blank page. This is expected.
 
-The image builds the SPA and serves it from FastAPI on host port **9274**. It is
-built for the `/pcp_wi_generator` subpath, so browsing `http://localhost:9274/`
-directly shows a blank page — that's expected. See **[DEPLOYMENT.md](DEPLOYMENT.md)**
-for the nginx block, the EC2 steps, and the local prefix-stripping proxy recipe
-for browser-testing the built app.
+### CI/CD
+- A push to the `ui` branch runs `.github/workflows/deployment.yml`.
+- It SSHes into the EC2 host, pulls `ui`, writes `.env` from the GitHub repo secrets, and rebuilds the container.
+- `OPENAI_API_KEY` must be set as a repo secret.
 
-## Docs
+---
 
-- [DEPLOYMENT.md](DEPLOYMENT.md) — how this app is deployed, and why.
-- [Docker_Ngnix_Proxy.txt](Docker_Ngnix_Proxy.txt) — copy-paste recipe: docker build → local nginx proxy → browser test.
-- [MIGRATION_PLAYBOOK.md](MIGRATION_PLAYBOOK.md) — the generic runbook this followed.
-- [reference/](reference/) — the QuoteVault write-ups kept as reference.
-- [theme.md](theme.md) — design tokens.
+## 🔑 Environment Variables
+| Variable | Required | Purpose |
+|----------|----------|---------|
+| `OPENAI_API_KEY` | Yes | Calls `gpt-5.6-luna` |
+
+`.env` is git-ignored and never built into the image.
+
+---
+
+## 🔄 How It Works
+1. **Upload** the PCP Excel (`.xlsx`, `.xls`, `.csv`). The backend finds the PCP stage sheets.
+2. **Review** the detected stages and pick the language.
+3. **Generate:** one LLM call per stage, using a fixed one-shot example from `backend/training_data/`.
+4. The plan number and stage number are copied from the PCP over the model's values.
+5. **Download** each WI as Excel or CSV.
+
+If one stage fails, the other stages still complete, and the error is shown next to the results.
+
+---
+
+## 📂 Directory Structure
+```
+pcp-wi-generator/
+├── backend/
+│   ├── main.py                      # FastAPI app, all /api routes
+│   ├── llm_client.py                # OpenAI gpt-5.6-luna call + JSON clean-up
+│   ├── prompt_builder.py            # Builds the one-shot prompt
+│   ├── parser.py                    # Reads and normalises PCP Excel files
+│   ├── docx_reader.py               # Reads the example WI
+│   ├── generator.py                 # CSV output
+│   ├── Beautiful_excel_generator.py # Formatted Excel output
+│   ├── training_data/               # Fixed one-shot PCP + WI pair
+│   ├── examples/                    # Sample input/output files
+│   └── outputs/                     # Generated WIs (git-ignored)
+├── frontend/
+│   └── src/
+│       ├── App.jsx                  # Steps: Upload → Review → Generate → Results
+│       ├── components/              # landing/, layout/, steps/, ui/
+│       ├── input.css                # Tailwind source + theme tokens
+│       └── output.css               # Built Tailwind CSS (committed)
+├── Dockerfile
+├── docker-compose.yml
+├── .env.example
+└── .github/workflows/deployment.yml
+```
+
+---
+
+## 🔌 API Endpoints
+| Method | Path | Purpose |
+|--------|------|---------|
+| GET | `/api/health` | Health check |
+| GET | `/api/training-status` | Is the one-shot training pair loaded |
+| POST | `/api/upload-pcp` | Upload a PCP file, returns `session_id` and stages |
+| GET | `/api/sheet-preview/{session_id}/{sheet_key}` | Preview a stage sheet |
+| POST | `/api/generate` | Generate WIs for the selected stages |
+| POST | `/api/add-non-pcp-as-wi/{session_id}/{sheet_name}` | Treat a non-PCP sheet as a stage |
+
+---
+
+## 📋 PCP Excel Format
+Common column-name variants are detected automatically.
+
+| Column | Also accepted |
+|--------|---------------|
+| Process Name | Process, Operation |
+| Machine | Equipment, Machine / Device |
+| Tool | Tooling |
+| Specification | Spec, Tolerance |
+| Control Method | Method, Inspection Method |
+| Reaction Plan | Corrective Action, Reaction |
+| Product Characteristic | Product Char |
+| Process Characteristic | Process Char |
+| Sample Size | — |
+| Frequency | — |
+
+
+
+

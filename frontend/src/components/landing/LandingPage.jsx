@@ -241,9 +241,9 @@ export default function LandingPage({ onStart }) {
   }, []);
 
   return (
-    <div className="h-screen w-full overflow-hidden bg-canvas flex flex-col">
+    <div className="min-h-screen w-full overflow-x-hidden bg-canvas flex flex-col">
       {/* Nav */}
-      <header className="shrink-0 flex items-center justify-between gap-3 px-4 md:px-6 py-4 pl-6 md:pl-10">
+      <header className="shrink-0 flex items-center justify-between gap-3 px-4 md:px-6 py-4 short:py-2 pl-6 md:pl-10">
         <div className="relative w-[151px] h-12 overflow-hidden shrink-0">
           <img
             src={logo}
@@ -259,22 +259,22 @@ export default function LandingPage({ onStart }) {
       </header>
 
       {/* Hero */}
-      <main className="relative flex-1 min-h-0 flex items-center px-6 md:px-12 overflow-hidden">
+      <main className="relative grow shrink-0 flex items-center px-6 md:px-12 py-6 short:py-3 overflow-hidden">
         <HeroBackground />
-        <div className="relative z-10 max-w-7xl mx-auto w-full grid lg:grid-cols-2 gap-12 items-center">
+        <div className="relative z-10 max-w-7xl mx-auto w-full grid lg:grid-cols-2 gap-12 short:gap-8 items-center">
           <div>
             <div className="relative">
               <DocGearWatermark className="hidden lg:block absolute -top-10 -left-8 w-72 h-72 text-ink opacity-[0.06] -z-10" />
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-ink leading-[1.1] tracking-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl short:text-3xl short:md:text-4xl short:lg:text-5xl font-extrabold text-ink leading-[1.1] tracking-tight">
                 Transform Your PCP into{' '}
                 <span className="text-accent">Operator-Ready Work Instructions</span>
               </h1>
             </div>
-            <p className="text-justify mt-5 text-base md:text-lg text-muted leading-relaxed max-w-xl">
+            <p className="text-justify mt-5 short:mt-3 text-base md:text-lg text-muted leading-relaxed max-w-xl">
               Upload your Process Control Plan and let AI generate clear, step-by-step work instructions for the shop floor — in minutes, not hours.
             </p>
 
-            <div ref={useCasesRef} className="mt-8 grid grid-cols-3 gap-5 max-w-xl">
+            <div ref={useCasesRef} className="mt-8 short:mt-5 grid grid-cols-3 gap-5 max-w-xl">
               {FEATURES.map((f) => (
                 <div key={f.title}>
                   <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center text-accent mb-2.5">{f.icon}</div>
@@ -284,7 +284,7 @@ export default function LandingPage({ onStart }) {
               ))}
             </div>
 
-            <div className="mt-8 flex items-center gap-3">
+            <div className="mt-8 short:mt-5 flex items-center gap-3">
               <Button variant="accent" size="lg" onClick={onStart}>
                 <UploadIcon /> Upload PCP Excel
               </Button>
@@ -300,8 +300,8 @@ export default function LandingPage({ onStart }) {
 
       {/* How it works */}
       <section id="how-it-works" ref={howRef} className="shrink-0 border-t border-black/20 bg-ink">
-        <div className="max-w-7xl mx-auto w-full px-6 md:px-12 py-10">
-          <p className="text-center text-lg md:text-xl font-semibold text-white mb-8">
+        <div className="max-w-7xl mx-auto w-full px-6 md:px-12 py-10 short:py-6">
+          <p className="text-center text-lg md:text-xl font-semibold text-white mb-8 short:mb-5">
             Go from raw PCP sheet to shop-floor-ready instructions in{' '}
             <span className="text-accent">4 simple steps</span>.
           </p>

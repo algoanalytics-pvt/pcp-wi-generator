@@ -14,7 +14,6 @@ import json
 import tempfile
 from pathlib import Path
 from datetime import date
-from typing import Optional
 
 import openpyxl
 # pyrefly: ignore [missing-import]
@@ -40,7 +39,7 @@ load_dotenv(override=False)
 
 from parser import load_pcp, get_sheet_names, load_pcp_sheet, ensure_unique_columns
 from prompt_builder import dataframe_to_json, dataframe_to_text, build_prompt
-from llm_client import call_llm, parse_json_response, PROVIDERS
+from llm_client import call_llm, parse_json_response
 from docx_reader import read_wi_file
 from generator import generate_csv, generate_csv_bytes
 from Beautiful_excel_generator import generate_beautiful_wi
@@ -448,19 +447,6 @@ def health_bare():
     return {"status": "ok"}
 
 
-@app.get("/api/providers")
-def get_providers():
-    """Return all providers and their models."""
-    result = {}
-    for prov, cfg in PROVIDERS.items():
-        result[prov] = {
-            "models": list(cfg["models"].keys()),
-            "env_key": cfg["env_key"],
-            "key_set": bool(os.environ.get(cfg["env_key"], "")),
-        }
-    return result
-
-
 @app.get("/api/training-status")
 def training_status():
     """Check if training data files are present and valid."""
@@ -618,9 +604,7 @@ class GenerateRequest(BaseModel):
     session_id: str
     selected_sheets: list[str]   # list of sheet keys
     language: str = "english"    # english | hindi | marathi
-    model: Optional[str] = None  # auto-detected from env if None
-    temperature: float = 0.2
-    max_tokens: int = 4000
+    max_tokens: int = 16000  # GPT-5/6 reasoning tokens count toward this; 16000 matches the model eval
 
 
 @app.post("/api/generate")
@@ -646,23 +630,16 @@ def generate(req: GenerateRequest):
             detail=f"Training data not ready: {'; '.join(load_errors)}"
         )
 
-    # Resolve model + API key
-    model = req.model
-    if not model:
-        for prov, cfg in PROVIDERS.items():
-            if os.environ.get(cfg["env_key"], ""):
-                model = list(cfg["models"].keys())[0]
-                break
-    if not model:
-        raise HTTPException(
-            status_code=400,
-            detail="No API key found. Set GROQ_API_KEY, MISTRAL_API_KEY, or another provider key in .env"
-        )
+    if not os.environ.get("OPENAI_API_KEY"):
+        raise HTTPException(status_code=400, detail="OPENAI_API_KEY is not set in .env")
 
     ex_input_text = dataframe_to_json(ex_df)
     results       = {}
     errors        = []
     date_str      = date.today().strftime("%Y%m%d")
+    # Token usage per stage + total for this PCP (returned in the response as "usage")
+    usage_by_stage = {}
+    usage_total    = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
 
     for sheet_key in req.selected_sheets:
         if sheet_key not in pcp_sheets:
@@ -682,10 +659,14 @@ def generate(req: GenerateRequest):
 
         # Call LLM
         try:
-            raw_response = call_llm(prompt, model=model, temperature=req.temperature, max_tokens=req.max_tokens)
+            raw_response, usage = call_llm(prompt, max_tokens=req.max_tokens)
         except Exception as e:
             errors.append(f"LLM error on {stage_label}: {e}")
             continue
+
+        usage_by_stage[stage_label] = usage
+        for k in usage_total:
+            usage_total[k] += usage[k]
 
         # Parse response
         try:
@@ -738,6 +719,7 @@ def generate(req: GenerateRequest):
         "completed": len(results),
         "errors": errors,
         "results": results,
+        "usage": {"by_stage": usage_by_stage, "total": usage_total},
     }
 
 
